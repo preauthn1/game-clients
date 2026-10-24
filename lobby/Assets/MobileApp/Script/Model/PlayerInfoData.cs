@@ -1,0 +1,15 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using SimpleJSON;
+
+public class PlayerInfoData : MonoBehaviour {
+	public string name ="";
+	public string balance = "";
+
+	public void Init(JSONNode arr){
+		//[[20,"0c2e5e52-f80e-41d1-bf80-21cb8c5621c5",["Deposit Request Notification","Deposit request amount 10.000 has been cancelled."],null],[20,"07550367-0393-4542-95b5-1f4c75e56021",["Deposit Request Notification","Deposit request amount 10.000 has been cancelled."],null],[20,"8baa336a-054d-40ca-b570-8a82c4bc2e38",["Withdraw Request Notification","Withdraw request amount 10.000 has been cancelled."],null]]
+		this.name = arr [0];
+		this.balance = arr [1];
+	}
+}

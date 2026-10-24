@@ -1,0 +1,33 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/example.invalid/Example/SpriteSheet/sprites.tpsheet
+- Assets/Hall/UI/UICommon/UICommon.tpsheet
+- Assets/Hall/UI/UIGameClass/GameName.tpsheet
+- Assets/Hall/UI/UIGameClass/UIGameClass.tpsheet
+- Assets/Hall/UI/UIGameClass/UIGameClass2.tpsheet
+- Assets/Hall/UI/UIHall/UIHall.tpsheet
+- Assets/Hall/UI/UIHall/UIHall_GameName.tpsheet
+- Assets/Hall/UI/UILoading/UILoading.tpsheet
+- Assets/Hall/UI/UIPromo/UIPromo_WXD.tpsheet
+textureFileNames:
+- Assets/example.invalid/Example/SpriteSheet/sprites.png
+- Assets/Hall/UI/UICommon/UICommon.png
+- Assets/Hall/UI/UIGameClass/GameName.png
+- Assets/Hall/UI/UIGameClass/UIGameClass.png
+- Assets/Hall/UI/UIGameClass/UIGameClass2.png
+- Assets/Hall/UI/UIHall/UIHall.png
+- Assets/Hall/UI/UIHall/UIHall_GameName.png
+- Assets/Hall/UI/UILoading/UILoading.png
+- Assets/Hall/UI/UIPromo/UIPromo_WXD.png
+normalmapFileNames:
+- Assets/example.invalid/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+enableDebugOutput: 0

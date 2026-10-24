@@ -1,0 +1,20 @@
+
+sp_p3.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blur
+  rotate: false
+  xy: 2, 2
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+sp_p3
+  rotate: false
+  xy: 184, 2
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1

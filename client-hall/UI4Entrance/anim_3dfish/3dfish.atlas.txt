@@ -1,0 +1,48 @@
+
+3dfish.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 2
+  size: 209, 205
+  orig: 209, 205
+  offset: 0, 0
+  index: -1
+coin
+  rotate: false
+  xy: 411, 67
+  size: 194, 140
+  orig: 194, 140
+  offset: 0, 0
+  index: -1
+f
+  rotate: false
+  xy: 213, 58
+  size: 196, 149
+  orig: 196, 149
+  offset: 0, 0
+  index: -1
+fish01
+  rotate: true
+  xy: 899, 61
+  size: 146, 123
+  orig: 146, 123
+  offset: 0, 0
+  index: -1
+fish02
+  rotate: false
+  xy: 759, 64
+  size: 138, 143
+  orig: 138, 143
+  offset: 0, 0
+  index: -1
+net
+  rotate: true
+  xy: 607, 60
+  size: 147, 150
+  orig: 147, 150
+  offset: 0, 0
+  index: -1

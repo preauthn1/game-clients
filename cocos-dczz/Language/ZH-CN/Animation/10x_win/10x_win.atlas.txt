@@ -1,0 +1,55 @@
+
+10x_win.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10_x
+  rotate: false
+  xy: 137, 107
+  size: 97, 119
+  orig: 97, 119
+  offset: 0, 0
+  index: -1
+half_light
+  rotate: false
+  xy: 2, 2
+  size: 133, 90
+  orig: 133, 90
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 2, 94
+  size: 133, 132
+  orig: 133, 132
+  offset: 0, 0
+  index: -1
+lose_text
+  rotate: false
+  xy: 137, 71
+  size: 85, 34
+  orig: 85, 34
+  offset: 0, 0
+  index: -1
+rib_lose
+  rotate: false
+  xy: 236, 166
+  size: 152, 60
+  orig: 152, 60
+  offset: 0, 0
+  index: -1
+rib_p
+  rotate: false
+  xy: 236, 104
+  size: 152, 60
+  orig: 152, 60
+  offset: 0, 0
+  index: -1
+win_text
+  rotate: false
+  xy: 390, 191
+  size: 85, 35
+  orig: 85, 35
+  offset: 0, 0
+  index: -1

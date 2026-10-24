@@ -1,0 +1,506 @@
+{
+  "sprite_abandon": {
+    "spr": "sign_03_hdc",
+    "atlas": "sign_03_hdc",
+    "name": "sign_03_hdc",
+    "dir": "Word"
+  },
+  "sprite_card_0_2": {
+    "spr": "sprite_card_0_2",
+    "atlas": "sprite_card_0_2",
+    "name": "sprite_card_0_2",
+    "dir": "poker"
+  },
+  "sprite_card_0_3": {
+    "spr": "sprite_card_0_3",
+    "atlas": "sprite_card_0_3",
+    "name": "sprite_card_0_3",
+    "dir": "poker"
+  },
+  "sprite_card_0_4": {
+    "spr": "sprite_card_0_4",
+    "atlas": "sprite_card_0_4",
+    "name": "sprite_card_0_4",
+    "dir": "poker"
+  },
+  "sprite_card_0_5": {
+    "spr": "sprite_card_0_5",
+    "atlas": "sprite_card_0_5",
+    "name": "sprite_card_0_5",
+    "dir": "poker"
+  },
+  "sprite_card_0_6": {
+    "spr": "sprite_card_0_6",
+    "atlas": "sprite_card_0_6",
+    "name": "sprite_card_0_6",
+    "dir": "poker"
+  },
+  "sprite_card_0_7": {
+    "spr": "sprite_card_0_7",
+    "atlas": "sprite_card_0_7",
+    "name": "sprite_card_0_7",
+    "dir": "poker"
+  },
+  "sprite_card_0_8": {
+    "spr": "sprite_card_0_8",
+    "atlas": "sprite_card_0_8",
+    "name": "sprite_card_0_8",
+    "dir": "poker"
+  },
+  "sprite_card_0_9": {
+    "spr": "sprite_card_0_9",
+    "atlas": "sprite_card_0_9",
+    "name": "sprite_card_0_9",
+    "dir": "poker"
+  },
+  "sprite_card_0_10": {
+    "spr": "sprite_card_0_10",
+    "atlas": "sprite_card_0_10",
+    "name": "sprite_card_0_10",
+    "dir": "poker"
+  },
+  "sprite_card_0_11": {
+    "spr": "sprite_card_0_11",
+    "atlas": "sprite_card_0_11",
+    "name": "sprite_card_0_11",
+    "dir": "poker"
+  },
+  "sprite_card_0_12": {
+    "spr": "sprite_card_0_12",
+    "atlas": "sprite_card_0_12",
+    "name": "sprite_card_0_12",
+    "dir": "poker"
+  },
+  "sprite_card_0_13": {
+    "spr": "sprite_card_0_13",
+    "atlas": "sprite_card_0_13",
+    "name": "sprite_card_0_13",
+    "dir": "poker"
+  },
+  "sprite_card_1_1": {
+    "spr": "sprite_card_1_1",
+    "atlas": "sprite_card_1_1",
+    "name": "sprite_card_1_1",
+    "dir": "poker"
+  },
+  "sprite_card_1_2": {
+    "spr": "sprite_card_1_2",
+    "atlas": "sprite_card_1_2",
+    "name": "sprite_card_1_2",
+    "dir": "poker"
+  },
+  "sprite_card_1_3": {
+    "spr": "sprite_card_1_3",
+    "atlas": "sprite_card_1_3",
+    "name": "sprite_card_1_3",
+    "dir": "poker"
+  },
+  "sprite_card_1_4": {
+    "spr": "sprite_card_1_4",
+    "atlas": "sprite_card_1_4",
+    "name": "sprite_card_1_4",
+    "dir": "poker"
+  },
+  "sprite_card_1_5": {
+    "spr": "sprite_card_1_5",
+    "atlas": "sprite_card_1_5",
+    "name": "sprite_card_1_5",
+    "dir": "poker"
+  },
+  "sprite_card_1_6": {
+    "spr": "sprite_card_1_6",
+    "atlas": "sprite_card_1_6",
+    "name": "sprite_card_1_6",
+    "dir": "poker"
+  },
+  "sprite_card_1_7": {
+    "spr": "sprite_card_1_7",
+    "atlas": "sprite_card_1_7",
+    "name": "sprite_card_1_7",
+    "dir": "poker"
+  },
+  "sprite_card_1_8": {
+    "spr": "sprite_card_1_8",
+    "atlas": "sprite_card_1_8",
+    "name": "sprite_card_1_8",
+    "dir": "poker"
+  },
+  "sprite_card_1_9": {
+    "spr": "sprite_card_1_9",
+    "atlas": "sprite_card_1_9",
+    "name": "sprite_card_1_9",
+    "dir": "poker"
+  },
+  "sprite_card_1_10": {
+    "spr": "sprite_card_1_10",
+    "atlas": "sprite_card_1_10",
+    "name": "sprite_card_1_10",
+    "dir": "poker"
+  },
+  "sprite_card_1_11": {
+    "spr": "sprite_card_1_11",
+    "atlas": "sprite_card_1_11",
+    "name": "sprite_card_1_11",
+    "dir": "poker"
+  },
+  "sprite_card_1_12": {
+    "spr": "sprite_card_1_12",
+    "atlas": "sprite_card_1_12",
+    "name": "sprite_card_1_12",
+    "dir": "poker"
+  },
+  "sprite_card_1_13": {
+    "spr": "sprite_card_1_13",
+    "atlas": "sprite_card_1_13",
+    "name": "sprite_card_1_13",
+    "dir": "poker"
+  },
+  "sprite_card_2_1": {
+    "spr": "sprite_card_2_1",
+    "atlas": "sprite_card_2_1",
+    "name": "sprite_card_2_1",
+    "dir": "poker"
+  },
+  "sprite_card_2_2": {
+    "spr": "sprite_card_2_2",
+    "atlas": "sprite_card_2_2",
+    "name": "sprite_card_2_2",
+    "dir": "poker"
+  },
+  "sprite_card_2_3": {
+    "spr": "sprite_card_2_3",
+    "atlas": "sprite_card_2_3",
+    "name": "sprite_card_2_3",
+    "dir": "poker"
+  },
+  "sprite_card_2_4": {
+    "spr": "sprite_card_2_4",
+    "atlas": "sprite_card_2_4",
+    "name": "sprite_card_2_4",
+    "dir": "poker"
+  },
+  "sprite_card_2_5": {
+    "spr": "sprite_card_2_5",
+    "atlas": "sprite_card_2_5",
+    "name": "sprite_card_2_5",
+    "dir": "poker"
+  },
+  "sprite_card_2_6": {
+    "spr": "sprite_card_2_6",
+    "atlas": "sprite_card_2_6",
+    "name": "sprite_card_2_6",
+    "dir": "poker"
+  },
+  "sprite_card_2_7": {
+    "spr": "sprite_card_2_7",
+    "atlas": "sprite_card_2_7",
+    "name": "sprite_card_2_7",
+    "dir": "poker"
+  },
+  "sprite_card_2_8": {
+    "spr": "sprite_card_2_8",
+    "atlas": "sprite_card_2_8",
+    "name": "sprite_card_2_8",
+    "dir": "poker"
+  },
+  "sprite_card_2_9": {
+    "spr": "sprite_card_2_9",
+    "atlas": "sprite_card_2_9",
+    "name": "sprite_card_2_9",
+    "dir": "poker"
+  },
+  "sprite_card_2_10": {
+    "spr": "sprite_card_2_10",
+    "atlas": "sprite_card_2_10",
+    "name": "sprite_card_2_10",
+    "dir": "poker"
+  },
+  "sprite_card_2_11": {
+    "spr": "sprite_card_2_11",
+    "atlas": "sprite_card_2_11",
+    "name": "sprite_card_2_11",
+    "dir": "poker"
+  },
+  "sprite_card_2_12": {
+    "spr": "sprite_card_2_12",
+    "atlas": "sprite_card_2_12",
+    "name": "sprite_card_2_12",
+    "dir": "poker"
+  },
+  "sprite_card_2_13": {
+    "spr": "sprite_card_2_13",
+    "atlas": "sprite_card_2_13",
+    "name": "sprite_card_2_13",
+    "dir": "poker"
+  },
+  "sprite_card_3_1": {
+    "spr": "sprite_card_3_1",
+    "atlas": "sprite_card_3_1",
+    "name": "sprite_card_3_1",
+    "dir": "poker"
+  },
+  "sprite_card_3_2": {
+    "spr": "sprite_card_3_2",
+    "atlas": "sprite_card_3_2",
+    "name": "sprite_card_3_2",
+    "dir": "poker"
+  },
+  "sprite_card_3_3": {
+    "spr": "sprite_card_3_3",
+    "atlas": "sprite_card_3_3",
+    "name": "sprite_card_3_3",
+    "dir": "poker"
+  },
+  "sprite_card_3_4": {
+    "spr": "sprite_card_3_4",
+    "atlas": "sprite_card_3_4",
+    "name": "sprite_card_3_4",
+    "dir": "poker"
+  },
+  "sprite_card_3_5": {
+    "spr": "sprite_card_3_5",
+    "atlas": "sprite_card_3_5",
+    "name": "sprite_card_3_5",
+    "dir": "poker"
+  },
+  "sprite_card_3_6": {
+    "spr": "sprite_card_3_6",
+    "atlas": "sprite_card_3_6",
+    "name": "sprite_card_3_6",
+    "dir": "poker"
+  },
+  "sprite_card_3_7": {
+    "spr": "sprite_card_3_7",
+    "atlas": "sprite_card_3_7",
+    "name": "sprite_card_3_7",
+    "dir": "poker"
+  },
+  "sprite_card_3_8": {
+    "spr": "sprite_card_3_8",
+    "atlas": "sprite_card_3_8",
+    "name": "sprite_card_3_8",
+    "dir": "poker"
+  },
+  "sprite_card_3_9": {
+    "spr": "sprite_card_3_9",
+    "atlas": "sprite_card_3_9",
+    "name": "sprite_card_3_9",
+    "dir": "poker"
+  },
+  "sprite_card_3_10": {
+    "spr": "sprite_card_3_10",
+    "atlas": "sprite_card_3_10",
+    "name": "sprite_card_3_10",
+    "dir": "poker"
+  },
+  "sprite_card_3_11": {
+    "spr": "sprite_card_3_11",
+    "atlas": "sprite_card_3_11",
+    "name": "sprite_card_3_11",
+    "dir": "poker"
+  },
+  "sprite_card_3_12": {
+    "spr": "sprite_card_3_12",
+    "atlas": "sprite_card_3_12",
+    "name": "sprite_card_3_12",
+    "dir": "poker"
+  },
+  "sprite_card_3_13": {
+    "spr": "sprite_card_3_13",
+    "atlas": "sprite_card_3_13",
+    "name": "sprite_card_3_13",
+    "dir": "poker"
+  },
+  "sprite_card_4_17": {
+    "spr": "sprite_card_4_17",
+    "atlas": "sprite_card_4_17",
+    "name": "sprite_card_4_17",
+    "dir": "poker"
+  },
+  "sprite_chip_1": {
+    "spr": "chip_1",
+    "atlas": "chip_1",
+    "name": "chip_1",
+    "dir": "Jetton"
+  },
+  "sprite_chip_1_t": {
+    "spr": "TableJetton_1",
+    "atlas": "TableJetton_1",
+    "name": "TableJetton_1",
+    "dir": "Jetton"
+  },
+  "sprite_chip_2": {
+    "spr": "chip_2",
+    "atlas": "chip_2",
+    "name": "chip_2",
+    "dir": "Jetton"
+  },
+  "sprite_chip_2_t": {
+    "spr": "TableJetton_2",
+    "atlas": "TableJetton_2",
+    "name": "TableJetton_2",
+    "dir": "Jetton"
+  },
+  "sprite_chip_3": {
+    "spr": "chip_3",
+    "atlas": "chip_3",
+    "name": "chip_3",
+    "dir": "Jetton"
+  },
+  "sprite_chip_3_t": {
+    "spr": "TableJetton_3",
+    "atlas": "TableJetton_3",
+    "name": "TableJetton_3",
+    "dir": "Jetton"
+  },
+  "sprite_chip_4": {
+    "spr": "chip_4",
+    "atlas": "chip_4",
+    "name": "chip_4",
+    "dir": "Jetton"
+  },
+  "sprite_chip_4_t": {
+    "spr": "TableJetton_4",
+    "atlas": "TableJetton_4",
+    "name": "TableJetton_4",
+    "dir": "Jetton"
+  },
+  "sprite_chip_5": {
+    "spr": "chip_5",
+    "atlas": "chip_5",
+    "name": "chip_5",
+    "dir": "Jetton"
+  },
+  "sprite_chip_5_t": {
+    "spr": "TableJetton_5",
+    "atlas": "TableJetton_5",
+    "name": "TableJetton_5",
+    "dir": "Jetton"
+  },
+  "sprite_chip_6": {
+    "spr": "chip_6",
+    "atlas": "chip_6",
+    "name": "chip_6",
+    "dir": "Jetton"
+  },
+  "sprite_chip_6_t": {
+    "spr": "TableJetton_6",
+    "atlas": "TableJetton_6",
+    "name": "TableJetton_6",
+    "dir": "Jetton"
+  },
+  "sprite_chip_7": {
+    "spr": "chip_7",
+    "atlas": "chip_7",
+    "name": "chip_7",
+    "dir": "Jetton"
+  },
+  "sprite_chip_7_t": {
+    "spr": "TableJetton_7",
+    "atlas": "TableJetton_7",
+    "name": "TableJetton_7",
+    "dir": "Jetton"
+  },
+  "sprite_chip_8": {
+    "spr": "chip_8",
+    "atlas": "chip_8",
+    "name": "chip_8",
+    "dir": "Jetton"
+  },
+  "sprite_chip_8_t": {
+    "spr": "TableJetton_8",
+    "atlas": "TableJetton_8",
+    "name": "TableJetton_8",
+    "dir": "Jetton"
+  },
+  "sprite_double": {
+    "spr": "sign_02_hdc",
+    "atlas": "sign_02_hdc",
+    "name": "sign_02_hdc",
+    "dir": "Word"
+  },
+  "sprite_face_0": {
+    "spr": "img_01_hdc",
+    "atlas": "hdc",
+    "name": "hdc",
+    "dir": ""
+  },
+  "sprite_face_1": {
+    "spr": "img_02_hdc",
+    "atlas": "hdc",
+    "name": "hdc",
+    "dir": ""
+  },
+  "sprite_pattern_0": {
+    "spr": "font_15_hdc",
+    "atlas": "font_15_hdc",
+    "name": "font_15_hdc",
+    "dir": "Word"
+  },
+  "sprite_pattern_1": {
+    "spr": "font_06_hdc",
+    "atlas": "font_06_hdc",
+    "name": "font_06_hdc",
+    "dir": "Word"
+  },
+  "sprite_pattern_2": {
+    "spr": "font_07_hdc",
+    "atlas": "font_07_hdc",
+    "name": "font_07_hdc",
+    "dir": "Word"
+  },
+  "sprite_pattern_3": {
+    "spr": "font_08_hdc",
+    "atlas": "font_08_hdc",
+    "name": "font_08_hdc",
+    "dir": "Word"
+  },
+  "sprite_pattern_4": {
+    "spr": "font_09_hdc",
+    "atlas": "font_09_hdc",
+    "name": "font_09_hdc",
+    "dir": "Word"
+  },
+  "sprite_pattern_5": {
+    "spr": "font_11_hdc",
+    "atlas": "font_11_hdc",
+    "name": "font_11_hdc",
+    "dir": "Word"
+  },
+  "sprite_pattern_6": {
+    "spr": "font_12_hdc",
+    "atlas": "font_12_hdc",
+    "name": "font_12_hdc",
+    "dir": "Word"
+  },
+  "sprite_pattern_7": {
+    "spr": "font_22_hdc",
+    "atlas": "font_22_hdc",
+    "name": "font_22_hdc",
+    "dir": "Word"
+  },
+  "sprite_pattern_8": {
+    "spr": "font_10_hdc",
+    "atlas": "font_10_hdc",
+    "name": "font_10_hdc",
+    "dir": "Word"
+  },
+  "sprite_pattern_9": {
+    "spr": "font_13_hdc",
+    "atlas": "font_13_hdc",
+    "name": "font_13_hdc",
+    "dir": "Word"
+  },
+  "sprite_pattern_10": {
+    "spr": "font_14_hdc",
+    "atlas": "font_14_hdc",
+    "name": "font_14_hdc",
+    "dir": "Word"
+  },
+  "sprite_card_0_1": {
+    "spr": "sprite_card_0_1",
+    "atlas": "sprite_card_0_1",
+    "name": "sprite_card_0_1",
+    "dir": "poker"
+  }
+}

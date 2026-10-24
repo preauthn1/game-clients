@@ -1,0 +1,48 @@
+
+2majong.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 2
+  size: 209, 205
+  orig: 209, 205
+  offset: 0, 0
+  index: -1
+chip01
+  rotate: false
+  xy: 426, 39
+  size: 73, 105
+  orig: 73, 105
+  offset: 0, 0
+  index: -1
+chip02
+  rotate: false
+  xy: 417, 146
+  size: 65, 61
+  orig: 65, 61
+  offset: 0, 0
+  index: -1
+ff
+  rotate: false
+  xy: 213, 139
+  size: 202, 68
+  orig: 202, 68
+  offset: 0, 0
+  index: -1
+t
+  rotate: true
+  xy: 213, 20
+  size: 117, 148
+  orig: 117, 148
+  offset: 0, 0
+  index: -1
+t2
+  rotate: false
+  xy: 363, 29
+  size: 61, 108
+  orig: 61, 108
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,83 @@
+
+texas.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 49
+  size: 209, 205
+  orig: 209, 205
+  offset: 0, 0
+  index: -1
+c
+  rotate: false
+  xy: 213, 55
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+chip
+  rotate: false
+  xy: 213, 90
+  size: 171, 164
+  orig: 171, 164
+  offset: 0, 0
+  index: -1
+d
+  rotate: false
+  xy: 2, 2
+  size: 43, 45
+  orig: 43, 45
+  offset: 0, 0
+  index: -1
+f1
+  rotate: false
+  xy: 47, 3
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+f2
+  rotate: false
+  xy: 958, 157
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+f3
+  rotate: false
+  xy: 386, 99
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 386, 131
+  size: 211, 123
+  orig: 211, 123
+  offset: 0, 0
+  index: -1
+r
+  rotate: true
+  xy: 958, 186
+  size: 68, 56
+  orig: 68, 56
+  offset: 0, 0
+  index: -1
+s
+  rotate: false
+  xy: 599, 114
+  size: 192, 140
+  orig: 192, 140
+  offset: 0, 0
+  index: -1
+table
+  rotate: false
+  xy: 793, 132
+  size: 163, 122
+  orig: 163, 122
+  offset: 0, 0
+  index: -1

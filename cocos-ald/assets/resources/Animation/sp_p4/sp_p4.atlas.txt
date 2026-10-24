@@ -1,0 +1,83 @@
+
+sp_p4.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blur
+  rotate: false
+  xy: 171, 108
+  size: 154, 146
+  orig: 154, 146
+  offset: 0, 0
+  index: -1
+shine
+  rotate: false
+  xy: 2, 87
+  size: 167, 167
+  orig: 167, 167
+  offset: 0, 0
+  index: -1
+sp_p4
+  rotate: false
+  xy: 327, 123
+  size: 158, 131
+  orig: 158, 131
+  offset: 0, 0
+  index: -1
+symbol_p4_00
+  rotate: false
+  xy: 87, 2
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+symbol_p4_02
+  rotate: false
+  xy: 487, 171
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+symbol_p4_04
+  rotate: false
+  xy: 572, 171
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+symbol_p4_06
+  rotate: false
+  xy: 657, 171
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+symbol_p4_08
+  rotate: false
+  xy: 742, 171
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+symbol_p4_10
+  rotate: false
+  xy: 827, 171
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+symbol_p4_12
+  rotate: false
+  xy: 912, 171
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+symbol_p4_14
+  rotate: false
+  xy: 2, 2
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,12 @@
+自製h5游戏在safari多标签时横屏显示不全
+
+在 CCView.js 中 _initFrameSize 內加上
+C:\Program Files (x86)\CocosCreator_2.2.2\resources\engine\cocos2d\core\platform\CCView.js
+    _initFrameSize: function () {
+        if (__BrowserGetter.adaptationType === cc.sys.BROWSER_TYPE_SAFARI) {
+            var w = window.innerWidth;
+            var h = window.innerHeight;
+        } else {
+            var w = __BrowserGetter.availWidth(cc.game.frame);
+            var h = __BrowserGetter.availHeight(cc.game.frame);
+        }

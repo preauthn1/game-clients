@@ -1,0 +1,889 @@
+require("Module")
+mmodule(...)
+
+local G = require("Global")
+
+local showMessageBox = G.Util.async_to_sync(CS.UIMessageBox.Show)
+
+
+local yield_return_HallConnect = G.Util.async_to_sync
+(
+function(to_to_yield, cb)
+    CS.TimeManager.Instance:YieldAndCallback("HallConnect", to_to_yield, cb)
+end
+)
+
+-- 服务器IP
+local serverIP = ""
+-- 服务器端口
+local serverPort = 0
+-- 服务器模式 0 直连 1 转发
+local serverMode = 0
+local co_connectHall    -- 连接大厅服务器协程
+local str_StopCo = "StopCoroutine"  -- 退出协程关键字符串
+local serverArea = "" -- 伺服器位置
+
+-- 清理服务器地址
+local function clearServerAddr()
+    serverIP = ""
+    serverPort = 0
+	serverArea = ""
+end
+
+-- 发送Token给大廳服务器
+function SendTokenMsg()
+	local TokenData = G.User.GetFullToken()
+	G.NetQ.SendHallMsg(G.Proto.BClass.Common, G.Proto.Common.ConnTokenID, { token = [REDACTED] })
+end
+
+-- 发送本地IP给服务器 0 大厅服务器　1游戏服务器
+function SendLocalIPMsg(serverType)
+    local localIP = G.GetLocalIP()
+    if (localIP ~= nil and localIP ~= "" and serverMode == 1) then
+        if (serverType == 0) then
+            print("ServerInfo : 发送IP地址 : " .. localIP .. "给大厅服务器")
+            G.NetQ.SendHallMsg(G.Proto.BClass.Common, G.Proto.Common.IPReportID, { IPAddress =G.GetLocalIP() })
+        else
+            print("ServerInfo : 发送IP地址 : " .. G.GetLocalIP() .. "给游戏服务器")
+            G.NetQ.SendGameMsg(G.Proto.BClass.Common, G.Proto.Common.IPReportID, { IPAddress = G.GetLocalIP() })
+        end
+    end
+end
+
+-- 设置服务器信息
+function SetServerInfo(ip, port, mode, area)
+    serverIP = ip
+    serverPort = port
+    serverMode = G.Tool.Math.ParseInt(mode)
+	serverArea = area
+	
+	print("ServerInfo.SetServerInfo : ", ip, port, mode, area)
+	
+	-- IOS美國IP直接設成送審階段
+	-- if G.Env.IsIOS() == true then
+		-- serverArea = string.upper(serverArea)
+		-- if serverArea == "US" then
+			-- G.GameConfig.Submission = true
+		-- end
+	-- end
+end
+
+-- 获取大厅服务器信息
+function GetHallServerAddr()
+    if serverIP == "" or serverPort == 0 then
+        return nil, nil
+    end
+
+    return serverIP, serverPort
+end
+
+local AddrIP
+local AddrPort
+local AddrCallback
+
+-- 获取游戏服务器地址
+function GetGameServerAddrCallback(ip, port, callback)
+    -- 直连模式 - 用server給的IP
+    if serverMode == 0 then
+		print("直连模式")
+		-- 无IP资料,直接使用大厅IP
+		if ip == "" then
+			callback(0, serverIP, port)		
+		else
+			callback(0, ip, port)
+		end
+		return
+    end
+	
+	print("转发模式")
+	AddrIP = ip
+	AddrPort = port
+	AddrCallback = callback	
+	
+    -- 转发模式 - 用hall IP
+
+	-- 使用超级盾
+	if G.Platform.getUseQsu() == true then
+		print("GetGameServerAddrCallback 使用超级盾")
+		local use = G.Tool.Qsu.GetNowUse()
+		if use == 1 then
+			local res, QsuIp, QsuPort = G.Tool.Qsu.GetIP(port)
+			if res == 0 then
+				callback(res, QsuIp, QsuPort)
+			else
+				G.Tool.Qsu.DownloadQsuFile(ServerDownloadQsuSuccess, ServerDownloadQsuError)		
+			
+				callback(0, serverIP, port)		
+			end
+		else
+			callback(0, serverIP, port)		
+		end
+		return
+	end
+	
+	-- 使用游戏盾
+	callback(0, serverIP, port)
+end
+
+function ServerDownloadQsuError(errorCode)
+	AddrCallback(1, serverIP, port)
+end
+
+function ServerDownloadQsuSuccess()
+	local res, QsuIp, QsuPort = G.Tool.Qsu.GetIP(port)
+	AddrCallback(res, QsuIp, QsuPort)
+end
+
+
+-- 获取游戏服务器地址
+--[[
+function GetGameServerAddr(ip, port)
+    -- 直连模式 - 用server給的IP
+    if serverMode == 0 then
+        returnip, port
+    end
+
+    -- 转发模式 - 用hall IP
+	return serverIP, port
+end
+]]--
+
+-- 获取游戏服务器所在地區
+function GetGameServerArea()
+    return serverArea
+end
+
+-- TF連線錯誤
+local IsTfDataError = false
+function GetIsTfDataError()
+	return IsTfDataError
+end
+-- TP連限逾時
+local IsTfError = 0
+function GetIsTfError()
+	return IsTfError
+end
+-- TP連限逾時
+local IsTfTimeOut = 0
+function GetIsTfTimeOut()
+	return IsTfTimeOut
+end
+-- 無法連線到大廳
+local IsConnectError = 0
+function GetIsConnectError()
+	return IsConnectError
+end
+-- 無法連線到大廳(直接取得)
+local IsDirConnectError = 0
+function GetIsDirConnectError()
+	return IsDirConnectError
+end
+-- 抓取TF txt資料錯誤
+local IsTfFileError = 0
+function GetIsTfFileError()
+	return IsTfFileError
+end
+
+function ClearFlag()
+	print("ServerInfo.ClearFlag : Clear server info flag")
+	IsTfError = 0
+	IsTfTimeOut = 0
+	IsConnectError = 0
+	IsDirConnectError = 0
+	IsTfDataError = 0
+	IsTfFileError = 0
+	
+	idx = 0
+end
+
+-- 取得錯誤訊息
+function GetErrorCode()
+	local errorValue = ""
+	-- TF連線錯誤
+	errorValue = errorValue .. tostring(GetIsTfError())
+	
+	-- TP連限逾時
+	errorValue = errorValue .. tostring(GetIsTfTimeOut())
+	
+	-- 無法連線到大廳
+	errorValue = errorValue .. tostring(GetIsConnectError())
+	
+	-- 無法連線到大廳(直接取得)
+	errorValue = errorValue .. tostring(GetIsDirConnectError())
+	
+	-- TF資料錯誤
+	errorValue = errorValue .. tostring(GetIsTfDataError())
+	
+	-- 抓取TF txt資料錯誤
+	errorValue = errorValue .. tostring(GetIsTfFileError())
+	
+	return errorValue
+end
+
+-- 加载服务器地址
+function LoadServerAddr(onSuccessCallback, onErrorCallback)	
+    if (co_connectHall ~= nil) then
+		coroutine.resume(co_connectHall, str_StopCo)
+	end
+
+    -- 成功回调
+    local onSuccess = function()
+        if onSuccessCallback ~= nil then
+            onSuccessCallback()
+        end
+    end
+
+    -- 失败回调
+    local onError = function()
+        if onErrorCallback ~= nil then
+            onErrorCallback()
+        end
+    end
+
+    -- 清理地址信息
+    clearServerAddr()
+
+    -- 本地环境和测试环境,使用默认的IP和端口,直连模式
+    if G.GameConfig.IsTestCtx() then
+	
+        StartUp.setTipMessage("载入资源中...", 0.3);
+
+        local localaddr = G.GameConfig.DefaultServerIP .. ":" .. G.GameConfig.DefaultServerPort
+
+        co_connectHall = coroutine.create( function()
+            print("尝试连接大厅服务器." .. localaddr)
+            local co_val = yield_return_HallConnect(CS.NetworkManager.Instance:SendHallConnect(G.GameConfig.DefaultServerIP, G.GameConfig.DefaultServerPort))
+            if (co_val == str_StopCo) then return end
+            if CS.NetworkManager.Instance.HallSocket.MyConnectState == CS.ConnectState.Connect then
+                print("连接到大厅服务器成功." .. localaddr)
+                SetServerInfo(G.GameConfig.DefaultServerIP, G.GameConfig.DefaultServerPort, 0, "nil")
+				-- 上報token
+				SendTokenMsg()
+                -- 发送本地IP给大厅服务器
+                SendLocalIPMsg(0)
+                onSuccess()
+            else
+                print("无法连接到大厅服务器." .. localaddr)
+                onError()
+            end
+        end )
+		coroutine.resume(co_connectHall)
+	-- 非直連模式
+    else
+	
+        StartUp.setTipMessage("载入资源中...", 0.2);
+
+		--Edit by Cobain
+		--改輪尋
+		InitSuccessCallback(onSuccessCallback, onErrorCallback)
+		DoLoadServerAddr(G.GameConfig.ServerListDomain)
+	end
+end
+
+-- ****************************************************************************
+-- add by Rayon
+-- 重試次數
+local m_TryAccCount = 12
+-- 重試間隔
+local m_TryAccTime = 5
+-- 判斷是否重間隔
+local m_InvokeTime = 0.1
+-- 累計重試次數
+local m_AccCount = 0
+-- 累計時間
+local m_AccTime = 0
+-- 抓取完成callback
+local m_onSuccessCallback
+-- 抓取失敗callback
+local m_onErrorCallback
+-- 下載WWW
+local m_servelFile_www
+-- add by Cobain 是否已經試過ServerListFile
+local m_servelFile_www_flag = false
+
+local idx = 0
+
+function ShowLog(str)
+	print(str)
+end
+
+function InitSuccessCallback(onSuccessCallback, onErrorCallback)
+	m_onSuccessCallback = onSuccessCallback
+	m_onErrorCallback = onErrorCallback
+end
+
+-- 成功回调
+local onSuccessCallback = function()
+	if m_onSuccessCallback ~= nil then
+		m_onSuccessCallback()
+	end
+end
+
+-- 失败回调
+local onErrorCallback = function()
+	if m_onErrorCallback ~= nil then
+		m_onErrorCallback()
+	end
+end
+
+function InitAndBeginLoadingWWW()
+	m_AccCount = 0
+	BeginLoadingWWW(0)
+end
+
+-- WWW加載和開始計時
+function BeginLoadingWWW(AddCount)
+	m_AccTime = 0
+	m_AccCount = m_AccCount + AddCount
+
+	-- 已達重新抓取次數上限
+	if m_AccCount >= m_TryAccCount then
+		-- IsTfFileError = IsTfFileError + 1
+		-- onErrorCallback()
+		CS.StartMyGame.StartXCodeGame();
+	-- 未達上限，重新抓取
+	else
+		-- 支援填完整路徑
+		serverFile_url = G.GameConfig.ServerListFile
+		f, p = string.find(serverFile_url, ".txt")
+		if f == nil then
+			serverFile_url = serverFile_url .. "/serverlistnew.txt"
+		end
+		serverFile_url = serverFile_url .. "?abc=" .. tostring(math.random(1, 100000))
+		ShowLog("取得连接服务器 " .. serverFile_url ..  " 次數 " .. tostring(m_AccCount + 1))
+
+		m_servelFile_www = CS.UnityEngine.WWW(serverFile_url)
+
+		DoLoadServerFile()
+	end
+end
+
+function DoLoadServerFile()
+
+	CS.TimeManager.Instance:StopAllDelayInvoke()
+				
+	CS.TimeManager.Instance:DelayInvoke(m_InvokeTime, function( )
+		
+		m_AccTime = m_AccTime + m_InvokeTime
+		
+		-- 超過重新抓取間隔，重新抓取
+		if m_AccTime > m_TryAccTime then
+			ShowLog("!!!!!!!!!!! 取得連接服務器檔案時間到")
+			BeginLoadingWWW(1)
+		else
+			-- 還未完成
+			if m_servelFile_www.isDone == false then
+				DoLoadServerFile()				
+				
+			-- 發生錯誤，重新加載
+			elseif m_servelFile_www.error ~= nil then
+				ShowLog("!!!!!!!!!!! 取得連接服務器檔案失敗:" .. m_servelFile_www.error)				
+				BeginLoadingWWW(1)
+			
+			-- 沒有資料
+			elseif m_servelFile_www.text == nil then
+				ShowLog("!!!!!!!!!!! 連接服務器檔案中無資料")
+				DoLoadServerAddr(nil)
+			
+			-- 有抓到資料
+			else
+				ShowLog("取得伺服器列表檔案內容\n" .. m_servelFile_www.text)
+				local ServerListDomain = G.Tool.StringHelper.NewSplit(m_servelFile_www.text, "\n")				
+				DoLoadServerAddr(ServerListDomain)				
+			end	
+		end
+	end)
+end
+
+-- ****************************************************************************
+function GetTransferData(localUserData, mode)
+	local data = ""
+	-- 一般未加密機制
+	if G.GameConfig.isUseNewTransfer() == false then
+		-- 連美服
+		if G.GameConfig.GetServerOption() == 3 then
+			data = "/Serverlist/AppleReview?" ..
+					"HDcode=" .. G.Env.GetHDCode() ..
+					"&areaid=" .. tostring(G.GameConfig.GamePlatformID)
+		else
+			data = "/serverlist/transfer?" ..
+					"gui=" .. G.Env.GetHDCode() ..
+					"&channel=" .. tostring(G.GameConfig.GamePlatformID) ..
+					"&simulation=" .. "0"
+		end
+		
+		if (localUserData ~= nil) then
+			data = data.. "&levelid=" .. localUserData.UserLevel ..
+							"&userid=" .. localUserData.UserID ..
+							"&key=" .. localUserData.LevelKey
+		else				
+			data = data .. "&levelid=" .. "0" ..
+							"&userid=" .. "0" ..
+							"&key=" .. "0"
+		end
+		
+	-- 使用加密機制
+	else
+		logindata = {}
+		logindata.GUI = G.Env.GetHDCode()
+		logindata.Channel = tostring(G.GameConfig.GamePlatformID)
+		logindata.Simulation = "0"
+		logindata.time = "0"
+		logindata.Action = tostring(mode)		
+		logindata.BundleID = CS.Utility.GetbundleIdentifier()
+
+		if (localUserData ~= nil) then
+			logindata.UserID = localUserData.UserID
+			logindata.VIP = localUserData.UserLevel
+		else
+			logindata.UserID = "0"
+			logindata.VIP = "0"
+		end
+		--G.Tool.TableHelper.Print("########### logindata ", logindata)
+
+		data = "/ServerNode/"
+		if G.GameConfig.GetServerOption() == 3 then
+			data = data .. "AppleReview"
+		else
+			data = data .. "Transfer"
+		end
+		data = data .. "?data=" .. G.Tool.Aes.Encode(logindata)
+	end
+	
+	return data
+end
+
+-- get value from key by AZLDC
+function get_value_from_key( t, value )
+  for k,v in pairs(t) do
+    if k==value then return v end
+  end
+  return "[undefine]"
+end
+
+function ToData(receiveData)
+	local jasnData = G.Tool.Aes.Decode(receiveData)
+	local data = ""
+	if jasnData ~= nil then
+	   G.Tool.TableHelper.Print("############ jasnData ", jasnData)
+		if jasnData["result"] == 1 then
+			dataObject = jasnData["data"]
+			
+			-- add a value by AZLDC
+			data = dataObject["Addr"] .. ":" .. dataObject["TransferPort"] .. "|" ..
+					dataObject["GiveUserIP"] .. "|" ..
+					dataObject["From"] .. "|" ..
+					dataObject["UserIP"] .. "|" .. tostring(get_value_from_key(jasnData,"IsAppPatch"))
+			
+			CS.UnityEngine.PlayerPrefs.SetString("Token", receiveData)
+
+			ShowLog("****************** IsAppPatch="..tostring(jasnData["IsAppPatch"]))
+			if get_value_from_key(jasnData,"IsAppPatch") ~= true then
+				--[[
+				CS.UnityEngine.Screen.orientation = CS.UnityEngine.ScreenOrientation.AutoRotation;
+				CS.UnityEngine.Screen.autorotateToLandscapeLeft = false;
+				CS.UnityEngine.Screen.autorotateToLandscapeRight = false;
+				CS.UnityEngine.Screen.autorotateToPortrait = true;
+				CS.UnityEngine.Screen.autorotateToPortraitUpsideDown = false;
+				]]--
+				print("######################################### S.StartSDK.StartSDK")
+				CS.StartMyGame.StartXCodeGame();
+			end
+		end	
+	end
+	return data
+end
+
+local tempServerListDomain
+function DoLoadServerAddr(ServerListDomain)
+	
+    StartUp.setTipMessage("载入资源中...", 0.2);
+	
+	if ServerListDomain == nil then
+		ShowLog("******* ServerListDomain 資料是空的")
+		onErrorCallback()
+		return
+	end	
+	
+	tempServerListDomain = ServerListDomain
+	
+	-- 使用超级盾
+	if G.Platform.getUseQsu() == true then
+		if G.Tool.Qsu.IsQsuSDK() == true then
+			print("DoLoadServerAddr 使用超级盾")
+			if G.Tool.Qsu.IsInitSuccess() == true then
+				-- 取得遊戲盾IP資料
+				local res, ip, port = G.Tool.Qsu.GetIP(G.Tool.Qsu.GetPort())
+				-- 取IP成功
+				if res == 0 then
+					ConnectHallServer(ip, port)
+				-- 取IP失敗，直接抓檔案
+				elseif res == 1 then
+					G.Tool.Qsu.DownloadQsuFile(DownloadQsuSuccess, DownloadQsuError)
+				end
+			-- 初始化失敗，直接抓檔案
+			else
+				G.Tool.Qsu.DownloadQsuFile(DownloadQsuSuccess, DownloadQsuError)
+			end
+		else
+			DoTFServer(tempServerListDomain)
+		end
+		return
+	end
+	
+	-- 使用游戏盾
+	print("DoLoadServerAddr 使用游戏盾")
+	DoTFServer(tempServerListDomain)
+end
+
+
+function DownloadQsuSuccess()
+	local use = G.Tool.Qsu.GetDownloadUse()
+	-- 遊戲盾
+	if use == 1 then
+		-- 已經初始化成功，可以直接取IP
+		if G.Tool.Qsu.IsInitSuccess() == true then
+			-- 取得遊戲盾IP資料
+			local res, ip, port = G.Tool.Qsu.GetIP(G.Tool.Qsu.GetPort())
+			-- 取IP成功
+			if res == 0 then
+				ConnectHallServer(ip, port)
+			-- 取IP失敗
+			elseif res == 1 then
+				m_onErrorCallback()
+			end
+		-- 初始化失敗
+		else
+			m_onErrorCallback()
+		end
+	-- TF Server
+	elseif use == 2 then
+		DoTFServer(tempServerListDomain)
+	end
+end
+
+function DownloadQsuError(errorCode)
+	print("DownloadQsuError " .. tostring(errorCode))
+	-- 沒有新版本
+	if errorCode == 0 then
+		G.Util.coroutine_call( function()
+			local boxResult = showMessageBox(CS.MessageBoxStyle.OK, "", "游戏资源已更新，请重新启动游戏", "确定");
+			if boxResult == CS.MessageBoxResult.OK then
+				CS.UnityEngine.Application.Quit()
+			end
+		end )()
+	-- key不一樣,需要重啟
+	else
+		if errorCode == 1 then
+			IsTfError = 1
+		elseif errorCode == 2 then
+			IsTfTimeOut = 1
+		elseif errorCode == 3 then
+			IsConnectError = 1
+		elseif errorCode == 4 then
+			IsDirConnectError = 1
+		elseif errorCode == 5 then
+			IsTfDataError = 1
+		end
+
+		m_onErrorCallback()	
+	end
+end
+
+
+function ConnectHallServer(ip, port)
+	if G.Platform.getUseQsu() == true then
+		G.Tool.Qsu.SetNowUse(1)	
+	end
+
+	co_connectHall = coroutine.create( function()
+		print("ServerInfo.ConnectHallServer : 正在连接服务器...", 0.3)		
+		
+		local co_val = yield_return_HallConnect(CS.NetworkManager.Instance:SendHallConnect(ip, port))
+		if (co_val == str_StopCo) then 
+			return
+		end
+		
+		if CS.NetworkManager.Instance.HallSocket.MyConnectState == CS.ConnectState.Connect then
+			print("连接到大厅服务器成功," .. ip .. ":" .. port)
+		
+			--[[
+			userIP = G.Tool.Debug.CheckIP()
+			if userIP == "" then
+				userIP = "0.0.0.0"
+			end
+			]]--
+			
+			-- userIP = tostring(math.random(50,250)) .. "." ..
+			-- 	tostring(math.random(50,250)) .. "." ..
+			-- 	tostring(math.random(50,250)) .. "." ..
+			-- 	tostring(math.random(50,250)) 
+			--G.GameConfig.UserIP = userIP
+			--G.SetLocalIP(userIP)
+			G.GameConfig.UserIP=G.Tool.Debug.GetPublicIP()
+			G.SetLocalIP(G.Tool.Debug.GetPublicIP())
+			mode = 1
+			area = "CN"
+			
+			-- 清除登入錯誤訊息
+			CS.WindowManager.Instance:CloseWindow("UILoginMessageBox", false);
+			-- 设置服务器信息
+			SetServerInfo(ip, port, mode, area)
+			-- 上報token
+			SendTokenMsg()
+			-- 发送本地IP给大厅服务器
+			SendLocalIPMsg(0)
+			-- 连接服务器成功回调
+			onSuccessCallback()
+		else													
+			IsConnectError = IsConnectError + 1
+			
+			onErrorCallback()
+			print("连接到大厅服务器失败," .. ip .. ":" .. tostring(port))
+		end
+	end )
+    coroutine.resume(co_connectHall)
+end
+
+function DoTFServer(ServerListDomain)
+	if G.Platform.getUseQsu() == true then
+		G.Tool.Qsu.SetNowUse(2)	
+	end
+	
+	co_connectHall = coroutine.create( function()
+					
+		print('ServerInfo.DoTFServer : 準備加载serverlist')
+		local localUserData = G.User.GetLocalUserInfo()
+		
+		for _, url in pairs(ServerListDomain) do
+
+			idx = idx + 1
+
+			-- url decode
+			url = "http://" .. G.Tool.Base64.decodeBase64(url)
+			
+			-- step1一般流程
+			-- step2直接取IP
+			-- 紀錄step1是否連線失敗，連線失敗時step2直接再取一次IP
+			local ConnectError = false
+			for step = 1, 2 do			
+			
+				local urlPath = url
+				
+				local IsDo = true
+				if step == 2 then
+					IsDo = ConnectError
+					StartUp.setTipMessage("载入资源中("..tostring(idx).."-"..tostring(step)..")...", 0.2)
+				else
+					StartUp.setTipMessage("载入资源中("..tostring(idx)..")...", 0.2)				
+				end
+				
+				if IsDo == true then
+					local transferData = GetTransferData(localUserData, step)
+					--print("transferData\n" .. transferData)
+					urlPath = urlPath .. transferData .. "&r=" .. tostring(math.random(1, 100000))
+					
+					local www = CS.UnityEngine.WWW(urlPath)
+					print("ServerInfo : 开始加载serverlist " .. tostring(idx) .. " " .. urlPath)
+					local co_val = yield_return_HallConnect(CS.TimeManager.Instance:TimeOutReturn( function() return www.isDone end, 5))
+					
+					if (co_val == str_StopCo) then
+						return
+					end
+					
+					if (www.isDone) then
+						-- 加载url成功
+						if www.error == nil then
+							-- 获得文本数据
+							local data = www.text
+							
+							-- 加密資料，需解密產生同樣結構
+							if G.GameConfig.isUseNewTransfer() == true then
+								data = ToData(data)
+							end
+							
+							if data == "" then
+								if step == 1 then
+									IsTfDataError = IsTfDataError + 1
+								end
+								print("ServerInfo : 加载serverlist成功,解析数据錯誤")
+							else
+								print("ServerInfo : 加载serverlist成功,获取到数据 " .. data)
+								
+								-- 解析数据
+								local arr1 = G.Tool.StringHelper.Split(data, "|")
+
+								if #arr1 < 3 then
+									print("ServerInfo : 数据结构错误 : " .. data .. "," .. urlPath)
+								
+								-- 檢查資料格式是否正確
+								elseif CheckData(data) then
+									local ipstr = arr1[1]
+									local mode = arr1[2]
+									local area = "nil"
+									local userIP = "nil"
+									if #arr1 >= 3 then
+										area = arr1[3]
+									end
+
+									--Add by Cobain
+									if #arr1 >= 4 then
+										userIP = arr1[4]
+									end
+
+									local arr2 = G.Tool.StringHelper.Split(ipstr, ",")
+									for _, addr in pairs(arr2) do
+										if addr ~= nil and addr ~= "" then
+											local arr3 = G.Tool.StringHelper.Split(addr, ":")
+											if #arr3 == 2 and arr3[1] ~= "" and arr3[2] ~= "" then
+
+												-- ip
+												local ip = tostring(arr3[1])
+												-- 端口
+												local port = tonumber(arr3[2])
+												
+												-- Edit by Cobain x-forward取得UserIP
+												G.GameConfig.UserIP = userIP
+												G.SetLocalIP(userIP)
+												
+												local co_val = yield_return_HallConnect(CS.NetworkManager.Instance:SendHallConnect(ip, port))
+												if (co_val == str_StopCo) then 
+													return
+												end
+												
+												if CS.NetworkManager.Instance.HallSocket.MyConnectState == CS.ConnectState.Connect then
+													print("ServerInfo : 连接到大厅服务器成功," .. addr)
+
+													-- 清除登入錯誤訊息
+													CS.WindowManager.Instance:CloseWindow("UILoginMessageBox", false);
+													-- 设置服务器信息
+													SetServerInfo(ip, port, mode,area)
+													-- 上報token
+													SendTokenMsg()
+													-- 发送本地IP给大厅服务器
+													SendLocalIPMsg(0)
+													-- 连接服务器成功回调
+													onSuccessCallback()
+													
+													return
+													
+												else													
+													if step == 1 then
+														ConnectError = true
+														IsConnectError = IsConnectError + 1
+													else
+														IsDirConnectError = IsDirConnectError + 1
+													end
+													print("ServerInfo : 连接到大厅服务器失败," .. addr)
+												end
+											end
+										end
+									end
+								end
+							end
+						else
+							if step == 1 then
+								IsTfError = IsTfError + 1
+							end
+							print("ServerInfo : 加载serverlist失败," .. www.error)
+						end
+					else
+						if step == 1 then
+							IsTfTimeOut = IsTfTimeOut + 1
+						end
+						print("ServerInfo : 加载serverlist超时," .. url)
+					end
+				end
+			end
+		end
+
+		print("ServerInfo : 加载所有serverlist失败...")
+		-- 连接服务器失败回调
+		-- Edit by Cobain
+		-- 如果ServerListDomain都失效,訪問ServerListFile
+		if m_servelFile_www_flag == false then
+			m_servelFile_www_flag = true
+			BeginLoadingWWW(0)
+		else 
+			onErrorCallback()
+		end
+	end )
+    coroutine.resume(co_connectHall)
+end
+
+function CheckData(data)
+	local arr1 = G.Tool.StringHelper.Split(data, "|")
+	if #arr1 < 3 then
+		return false
+	else
+		-- 檢查IP格式(包含port)
+		-- local ipstr = arr1[1]
+		-- if GetIPType(ipstr, true) ~= 1 then
+			-- print("ip error")
+			-- return false
+		-- end
+
+		-- 檢查模式，必須是數字
+		local mode = arr1[2]
+		local n = tonumber(mode);
+		if n ==  nil then
+			print("mode error")
+			return false
+		end
+
+		-- 檢查自己的IP格式(不包含port)
+		if #arr1 >= 4 then
+			local userIP = arr1[4] 
+			if GetIPType(userIP, false) ~= 1 then
+				print("self ip error")
+				return false
+			end
+		end
+		--print("########## 資料檢驗通過")
+		return true
+	end 
+end
+
+--[[
+    [0] = "Error",
+    [1] = "IPv4",
+    [2] = "string",
+]]--
+function GetIPType(ip, hasPort)
+	-- must pass in a string value
+	if ip == nil or type(ip) ~= "string" then
+		return 0
+	end
+
+	-- check for format 0.0.0.0:10000 for ipv4
+	local chunks
+	if hasPort == false then
+		chunks = {ip:match("(%d+)%.(%d+)%.(%d+)%.(%d+)")}
+	else
+		chunks = {ip:match("(%d+)%.(%d+)%.(%d+)%.(%d+)%:(%d+)")}
+	end
+
+	if (#chunks == 4 or #chunks == 5) then
+	-- IP
+	for i = 1, 4 do
+		if (tonumber(chunks[i]) < 0 or tonumber(chunks[i]) > 255) then
+			return 0
+		end
+	end
+
+	-- port
+	if #chunks == 5 then
+		if (tonumber(chunks[5]) < 0 or tonumber(chunks[5]) > 65535) then
+			return 0
+		end  
+	end
+
+		return 1
+	else
+		return 0
+	end
+
+	-- if we get here, assume we've been given a random string
+	return 2
+end
+

@@ -1,0 +1,8 @@
+使用npm功能下載圖片壓縮工具、自動化壓縮
+使用需要Node.js工具套件以及npm套件
+npm 在 Node.js v0.6.x 版本之後，就變成Node.js內建的系統之一
+因此下載安裝Node.js最新版後即可使用
+Node.JS官方下載網址：https://example.invalid/zh-tw/download/
+
+批次檔放置在遊戲專案檔根目錄，執行批次檔即可進行圖片壓縮
+放置位置(根目錄)搞不清楚的話看一下[檔案放置示意圖.png]

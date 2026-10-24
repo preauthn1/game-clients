@@ -1,0 +1,19 @@
+{
+  "name": "setblenders",
+  "version": "0.0.1",
+  "description": "自動批量修正渲染設定",
+  "author": "Cocos Creator",
+  "main": "main.js",
+  "scene-script": "setBlenders.js",
+  "main-menu": {
+    "i18n:MAIN_MENU.package.title/渲染設定測試": {
+      "message": "setblenders:blendTest"
+    },
+    "i18n:MAIN_MENU.package.title/渲染設定修正": {
+      "message": "setblenders:fixblend"
+    },
+    "i18n:MAIN_MENU.package.title/渲染設定全部修改": {
+      "message": "setblenders:fixblend2"
+    }
+  }
+}

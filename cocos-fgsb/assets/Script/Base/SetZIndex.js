@@ -1,0 +1,36 @@
+/**
+*SetZIndex.js 控制组件
+**/
+cc.Class({
+    extends: cc.Component,    
+    //编辑器属性定义
+    properties: {
+        zIndex: {
+            type: cc.Integer, //使用整型定义
+            default: 0,            
+            //使用notify函数监听属性变化
+            notify(oldValue) {                
+                //减少无效赋值
+                if (oldValue === this.zIndex) {               
+                    return;
+                }
+                this.node.zIndex = this.zIndex;
+            }
+        },
+        RaycastTarget: {
+            type: cc.Boolean,
+            default: true,
+            notify(value) {
+            }            
+        }      
+    },
+    onLoad () {        
+        this.node.zIndex = this.zIndex;
+
+        if (this.RaycastTarget == true)
+            if (this.node.zIndex >= 1){
+                //console.log("********************** ", this.node.name)
+                this.addComponent(cc.Button)
+            }
+    }
+});

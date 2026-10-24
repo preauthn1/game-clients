@@ -1,0 +1,20 @@
+var Global = {
+        verifyGlobalUrl : "http://0.0.0.0:8480/func/jsx/multi_check_mobile_version",
+        verifyGlobalThaiUrl:"https://verify.blogcity.city/func/jsx/multi_check_mobile_version",
+        verifyGlobalIndoUrl:"http://example.invalid/func/jsx/multi_check_mobile_version",
+        verifyTexasUrl : "http://0.0.0.0:8080/func/jsx/texaspoker_tc_check_mobile_version",
+        verifySixPokerUrl : "http://0.0.0.0:8080/func/jsx/sixflower_check_mobile_version",
+        verifyEightPokerUrl : "http://0.0.0.0:8080/func/jsx/sixflower_check_mobile_version",
+        verifyPokDengURL : "http://0.0.0.0:8380/func/jsx/pokdeng_check_mobile_version",
+        verifyGoalPokerUrl : "http://0.0.0.0:8480/func/jsx/between_check_mobile_version",
+        verifyFourPokerUrl : "http://0.0.0.0:8780/func/jsx/bobo_check_mobile_version",
+        verifyThreePictureUrl : "http://0.0.0.0:8080/func/jsx/threepic_check_mobile_version",
+        suffix : "@p8id",
+        loginUrl : "",
+        login : "",
+        password : "",
+        gameId : 0,
+        gameType:0,
+        lobbyMessage:"",
+}
+module.exports = Global;

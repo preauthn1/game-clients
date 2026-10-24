@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\user02\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_PlatformRouteGen.1375673770.00" t="ExcludeRecursive" />
+    <e p="C:\Users\user02\Desktop\PlatformRouteGen\PlatformRouteGen" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive">
+        <e p="example.invalid.Compilers.1.0.0\tools\csc.exe" t="Include" />
+        <e p="example.invalid.Compilers.1.0.0\tools\Microsoft.Build.Tasks.CodeAnalysis.dll" t="Include" />
+        <e p="example.invalid.Compilers.1.0.0\tools\Microsoft.CodeAnalysis.CSharp.dll" t="Include" />
+        <e p="example.invalid.Compilers.1.0.0\tools\Microsoft.CodeAnalysis.dll" t="Include" />
+        <e p="example.invalid.Compilers.1.0.0\tools\Microsoft.CodeAnalysis.VisualBasic.dll" t="Include" />
+        <e p="example.invalid.Compilers.1.0.0\tools\Microsoft.CSharp.Core.targets" t="Include" />
+        <e p="example.invalid.Compilers.1.0.0\tools\Microsoft.VisualBasic.Core.targets" t="Include" />
+        <e p="example.invalid.Compilers.1.0.0\tools\System.Collections.Immutable.dll" t="Include" />
+        <e p="example.invalid.Compilers.1.0.0\tools\System.Reflection.Metadata.dll" t="Include" />
+        <e p="example.invalid.Compilers.1.0.0\tools\vbc.exe" t="Include" />
+        <e p="example.invalid.Compilers.1.0.0\tools\VBCSCompiler.exe" t="Include" />
+        <e p="example.invalid.Compilers.1.0.0\tools\VBCSCompiler.exe.config" t="Include" />
+      </e>
+      <e p="PlatformRouteGen" t="IncludeRecursive">
+        <e p="App_Data" t="Include" />
+        <e p="App_Start" t="Include">
+          <e p="BundleConfig.cs" t="Include" />
+          <e p="FilterConfig.cs" t="Include" />
+          <e p="RouteConfig.cs" t="Include" />
+          <e p="WebApiConfig.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Content" t="Include">
+          <e p="bootstrap.css" t="Include" />
+          <e p="bootstrap.min.css" t="Include" />
+          <e p="Site.css" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+          <e p="PlatformRouteController.cs" t="Include" />
+        </e>
+        <e p="favicon.ico" t="Include" />
+        <e p="fonts" t="Include">
+          <e p="glyphicons-halflings-regular.eot" t="Include" />
+          <e p="glyphicons-halflings-regular.svg" t="Include" />
+          <e p="glyphicons-halflings-regular.ttf" t="Include" />
+          <e p="glyphicons-halflings-regular.woff" t="Include" />
+        </e>
+        <e p="Global" t="Include">
+          <e p="PlatformMode.cs" t="Include" />
+          <e p="PublicConfig.cs" t="Include" />
+        </e>
+        <e p="Global.asax" t="Include" />
+        <e p="Global.asax.cs" t="Include" />
+        <e p="Interface" t="Include">
+          <e p="IPlatformRouteRepository.cs" t="Include" />
+          <e p="IRepository.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="TBData.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="PlatformRoute.cs" t="Include" />
+        <e p="PlatformRouteGen.csproj" t="IncludeRecursive" />
+        <e p="Project_Readme.html" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="PublishProfiles" t="Include">
+            <e p="PRG.pubxml" t="Include" />
+          </e>
+        </e>
+        <e p="Repository" t="Include">
+          <e p="GenericRepository.cs" t="Include" />
+          <e p="PlatformRouteRepository.cs" t="Include" />
+        </e>
+        <e p="roslyn" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="_references.js" t="Include" />
+          <e p="bootstrap.js" t="Include" />
+          <e p="bootstrap.min.js" t="Include" />
+          <e p="jquery-1.10.2.intellisense.js" t="Include" />
+          <e p="jquery-1.10.2.js" t="Include" />
+          <e p="jquery-1.10.2.min.js" t="Include" />
+          <e p="jquery-1.10.2.min.map" t="Include" />
+          <e p="jquery.validate-vsdoc.js" t="Include" />
+          <e p="jquery.validate.js" t="Include" />
+          <e p="jquery.validate.min.js" t="Include" />
+          <e p="jquery.validate.unobtrusive.js" t="Include" />
+          <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+          <e p="modernizr-2.6.2.js" t="Include" />
+          <e p="respond.js" t="Include" />
+          <e p="respond.min.js" t="Include" />
+        </e>
+        <e p="UnityGame.Context.cs" t="Include" />
+        <e p="UnityGame.Context.tt" t="Include" />
+        <e p="UnityGame.cs" t="Include" />
+        <e p="UnityGame.Designer.cs" t="Include" />
+        <e p="UnityGame.edmx" t="Include" />
+        <e p="UnityGame.edmx.diagram" t="Include" />
+        <e p="UnityGame.tt" t="Include" />
+        <e p="Views" t="Include">
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Home" t="Include">
+            <e p="About.cshtml" t="Include" />
+            <e p="Contact.cshtml" t="Include" />
+            <e p="Create.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="Update.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+          </e>
+          <e p="Web.config" t="Include" />
+        </e>
+        <e p="Web.config" t="Include" />
+        <e p="Web.Debug.config" t="Include" />
+        <e p="Web.Release.config" t="Include" />
+      </e>
+      <e p="PlatformRouteGen.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

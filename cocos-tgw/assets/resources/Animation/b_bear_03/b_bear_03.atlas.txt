@@ -1,0 +1,48 @@
+
+b_bear_03.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bear_b_03
+  rotate: false
+  xy: 399, 129
+  size: 157, 122
+  orig: 157, 122
+  offset: 0, 0
+  index: -1
+bonus_bear03_grey
+  rotate: false
+  xy: 558, 131
+  size: 155, 120
+  orig: 155, 120
+  offset: 0, 0
+  index: -1
+circle_glow
+  rotate: false
+  xy: 2, 62
+  size: 189, 189
+  orig: 189, 189
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 193, 86
+  size: 204, 165
+  orig: 204, 165
+  offset: 0, 0
+  index: -1
+sparkle
+  rotate: false
+  xy: 399, 97
+  size: 28, 30
+  orig: 28, 30
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 2, 2
+  size: 60, 58
+  orig: 60, 58
+  offset: 0, 0
+  index: -1

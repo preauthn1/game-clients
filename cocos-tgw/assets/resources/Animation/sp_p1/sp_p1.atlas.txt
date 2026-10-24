@@ -1,0 +1,48 @@
+
+sp_p1.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+berry
+  rotate: false
+  xy: 400, 134
+  size: 92, 91
+  orig: 92, 91
+  offset: 0, 0
+  index: -1
+blur
+  rotate: false
+  xy: 2, 90
+  size: 143, 135
+  orig: 143, 135
+  offset: 0, 0
+  index: -1
+icecream
+  rotate: false
+  xy: 292, 117
+  size: 106, 108
+  orig: 106, 108
+  offset: 0, 0
+  index: -1
+orange
+  rotate: false
+  xy: 292, 85
+  size: 68, 30
+  orig: 68, 30
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 147, 98
+  size: 143, 127
+  orig: 143, 127
+  offset: 0, 0
+  index: -1
+waffle
+  rotate: false
+  xy: 2, 2
+  size: 135, 86
+  orig: 135, 86
+  offset: 0, 0
+  index: -1

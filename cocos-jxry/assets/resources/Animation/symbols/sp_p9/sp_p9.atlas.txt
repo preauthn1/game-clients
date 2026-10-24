@@ -1,0 +1,76 @@
+
+sp_p9.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+rope
+  rotate: true
+  xy: 2, 2
+  size: 214, 347
+  orig: 214, 347
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 811, 340
+  size: 156, 282
+  orig: 156, 282
+  offset: 0, 0
+  index: -1
+symbol_b_p9
+  rotate: false
+  xy: 969, 472
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+text
+  rotate: false
+  xy: 2, 577
+  size: 420, 404
+  orig: 420, 404
+  offset: 0, 0
+  index: -1
+text_00000
+  rotate: false
+  xy: 2, 218
+  size: 385, 357
+  orig: 385, 357
+  offset: 0, 0
+  index: -1
+text_00001
+  rotate: false
+  xy: 424, 624
+  size: 385, 357
+  orig: 385, 357
+  offset: 0, 0
+  index: -1
+text_00002
+  rotate: false
+  xy: 811, 624
+  size: 385, 357
+  orig: 385, 357
+  offset: 0, 0
+  index: -1
+text_00003
+  rotate: false
+  xy: 1198, 624
+  size: 385, 357
+  orig: 385, 357
+  offset: 0, 0
+  index: -1
+text_00004
+  rotate: false
+  xy: 1585, 624
+  size: 385, 357
+  orig: 385, 357
+  offset: 0, 0
+  index: -1
+text_00005
+  rotate: false
+  xy: 424, 265
+  size: 385, 357
+  orig: 385, 357
+  offset: 0, 0
+  index: -1

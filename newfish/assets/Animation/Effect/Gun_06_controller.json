@@ -1,0 +1,1 @@
+{"__type__":"controller","name":"Gun_06","layer":{"Base Layer":{"defaultState":"move","state":[{"name":"move","motion":"Gun_06_Move"},{"name":"fire","motion":"Gun_06_Shot","trans":[{"desState":"move","exitTime":1.0}]}]}},"clip":["Gun_06_Move","Gun_06_Shot"]}

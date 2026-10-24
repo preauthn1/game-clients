@@ -1,0 +1,76 @@
+
+sp_p6.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 853, 469
+  size: 136, 158
+  orig: 136, 158
+  offset: 0, 0
+  index: -1
+symbol_b_p6
+  rotate: false
+  xy: 199, 95
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+text
+  rotate: false
+  xy: 2, 594
+  size: 447, 380
+  orig: 447, 380
+  offset: 0, 0
+  index: -1
+text_00000
+  rotate: false
+  xy: 2, 247
+  size: 400, 345
+  orig: 400, 345
+  offset: 0, 0
+  index: -1
+text_00001
+  rotate: false
+  xy: 451, 629
+  size: 400, 345
+  orig: 400, 345
+  offset: 0, 0
+  index: -1
+text_00002
+  rotate: false
+  xy: 853, 629
+  size: 400, 345
+  orig: 400, 345
+  offset: 0, 0
+  index: -1
+text_00003
+  rotate: false
+  xy: 1255, 629
+  size: 400, 345
+  orig: 400, 345
+  offset: 0, 0
+  index: -1
+text_00004
+  rotate: true
+  xy: 1657, 574
+  size: 400, 345
+  orig: 400, 345
+  offset: 0, 0
+  index: -1
+text_00005
+  rotate: false
+  xy: 451, 282
+  size: 400, 345
+  orig: 400, 345
+  offset: 0, 0
+  index: -1
+wulu
+  rotate: false
+  xy: 2, 2
+  size: 195, 243
+  orig: 195, 243
+  offset: 0, 0
+  index: -1

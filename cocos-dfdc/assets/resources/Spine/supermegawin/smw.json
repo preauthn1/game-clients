@@ -1,0 +1,185 @@
+{
+"skeleton": { "hash": "yNgS+vt+pVUB1R5hGZ7I5jZ0nP0", "spine": "3.6.53", "width": 2000, "height": 962, "images": "./images/" },
+"bones": [
+	{ "name": "root", "x": 801.78, "y": -273.9 },
+	{ "name": "main", "parent": "root", "length": 252.6, "rotation": 88.83, "x": -796.53, "y": 283.76 },
+	{ "name": "SUPER MEGA WIN", "parent": "main", "length": 137.91, "rotation": 1.45, "x": 5.45, "y": 4.43, "color": "ff2020ff" },
+	{
+		"name": "fx",
+		"parent": "SUPER MEGA WIN",
+		"length": 102.77,
+		"rotation": -1.41,
+		"x": 4.56,
+		"y": -8.76,
+		"scaleX": 0.973,
+		"scaleY": 1.044
+	}
+],
+"slots": [
+	{ "name": "SUPER MEGA WIN", "bone": "SUPER MEGA WIN", "attachment": "smw" },
+	{ "name": "xxx_00", "bone": "fx", "attachment": "xxx_00", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"SUPER MEGA WIN": {
+			"smw": { "rotation": -90.28, "width": 2000, "height": 962 }
+		},
+		"xxx_00": {
+			"xxx_00": { "x": 10.67, "y": -3.7, "scaleX": 9.581, "scaleY": 10.172, "rotation": -88.87, "width": 187, "height": 39 },
+			"xxx_02": { "x": 10.67, "y": -3.7, "scaleX": 9.581, "scaleY": 10.172, "rotation": -88.87, "width": 187, "height": 39 },
+			"xxx_04": { "x": 10.67, "y": -3.7, "scaleX": 9.581, "scaleY": 10.172, "rotation": -88.87, "width": 187, "height": 39 },
+			"xxx_06": { "x": 10.67, "y": -3.7, "scaleX": 9.581, "scaleY": 10.172, "rotation": -88.87, "width": 187, "height": 39 },
+			"xxx_08": { "x": 10.67, "y": -3.7, "scaleX": 9.581, "scaleY": 10.172, "rotation": -88.87, "width": 187, "height": 39 },
+			"xxx_10": { "x": 10.67, "y": -3.7, "scaleX": 9.581, "scaleY": 10.172, "rotation": -88.87, "width": 187, "height": 39 },
+			"xxx_12": { "x": 10.67, "y": -3.7, "scaleX": 9.581, "scaleY": 10.172, "rotation": -88.87, "width": 187, "height": 39 },
+			"xxx_14": { "x": 10.67, "y": -3.7, "scaleX": 9.581, "scaleY": 10.172, "rotation": -88.87, "width": 187, "height": 39 },
+			"xxx_16": { "x": 10.67, "y": -3.7, "scaleX": 9.581, "scaleY": 10.172, "rotation": -88.87, "width": 187, "height": 39 },
+			"xxx_18": { "x": 10.67, "y": -3.7, "scaleX": 9.581, "scaleY": 10.172, "rotation": -88.87, "width": 187, "height": 39 },
+			"xxx_20": { "x": 10.67, "y": -3.7, "scaleX": 9.581, "scaleY": 10.172, "rotation": -88.87, "width": 187, "height": 39 },
+			"xxx_22": { "x": 10.67, "y": -3.7, "scaleX": 9.581, "scaleY": 10.172, "rotation": -88.87, "width": 187, "height": 39 },
+			"xxx_24": { "x": 10.67, "y": -3.7, "scaleX": 9.581, "scaleY": 10.172, "rotation": -88.87, "width": 187, "height": 39 },
+			"xxx_26": { "x": 10.67, "y": -3.7, "scaleX": 9.581, "scaleY": 10.172, "rotation": -88.87, "width": 187, "height": 39 },
+			"xxx_28": { "x": 10.67, "y": -3.7, "scaleX": 9.581, "scaleY": 10.172, "rotation": -88.87, "width": 187, "height": 39 },
+			"xxx_30": { "x": 10.67, "y": -3.7, "scaleX": 9.581, "scaleY": 10.172, "rotation": -88.87, "width": 187, "height": 39 }
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"slots": {
+			"xxx_00": {
+				"attachment": [
+					{ "time": 0, "name": "xxx_00" },
+					{ "time": 0.0667, "name": "xxx_02" },
+					{ "time": 0.1333, "name": "xxx_04" },
+					{ "time": 0.2, "name": "xxx_06" },
+					{ "time": 0.2667, "name": "xxx_08" },
+					{ "time": 0.3333, "name": "xxx_10" },
+					{ "time": 0.4, "name": "xxx_12" },
+					{ "time": 0.4667, "name": "xxx_14" },
+					{ "time": 0.5333, "name": "xxx_16" },
+					{ "time": 0.6, "name": "xxx_18" },
+					{ "time": 0.6667, "name": "xxx_20" },
+					{ "time": 0.7333, "name": "xxx_22" },
+					{ "time": 0.8, "name": "xxx_24" },
+					{ "time": 0.8667, "name": "xxx_26" },
+					{ "time": 0.9333, "name": "xxx_28" },
+					{ "time": 1, "name": "xxx_30" }
+				]
+			}
+		},
+		"bones": {
+			"fx": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"SUPER MEGA WIN": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 1.137, "y": 1.137 },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.5 },
+			{ "time": 1 }
+		]
+	},
+	"start": {
+		"slots": {
+			"xxx_00": {
+				"attachment": [
+					{ "time": 0, "name": "xxx_00" },
+					{ "time": 0.0667, "name": "xxx_02" },
+					{ "time": 0.1, "name": "xxx_04" },
+					{ "time": 0.1667, "name": "xxx_06" },
+					{ "time": 0.2, "name": "xxx_08" },
+					{ "time": 0.2667, "name": "xxx_10" },
+					{ "time": 0.3333, "name": "xxx_12" },
+					{ "time": 0.3667, "name": "xxx_14" },
+					{ "time": 0.4333, "name": "xxx_16" },
+					{ "time": 0.5, "name": "xxx_18" },
+					{ "time": 0.5333, "name": "xxx_20" },
+					{ "time": 0.6, "name": "xxx_22" },
+					{ "time": 0.6333, "name": "xxx_24" },
+					{ "time": 0.7, "name": "xxx_26" },
+					{ "time": 0.7667, "name": "xxx_28" },
+					{ "time": 0.8, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"fx": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"SUPER MEGA WIN": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"main": {
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 1.4, "y": 1.4 },
+					{ "time": 0.2667, "x": 0.8, "y": 0.8 },
+					{ "time": 0.3333, "x": 1.1, "y": 1.1 },
+					{ "time": 0.4, "x": 0.9, "y": 0.9 },
+					{ "time": 0.4667, "x": 1.05, "y": 1.05 },
+					{ "time": 0.5333, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.3333 },
+			{ "time": 1 }
+		]
+	}
+}
+}

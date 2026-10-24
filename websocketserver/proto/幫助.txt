@@ -1,0 +1,29 @@
+vs安裝protobuf lib
+工具 -> NuGet套件管理員 -> 套件管理器主控台
+輸入 Install-Package Google.Protobuf
+
+1.
+若是有import其他檔案
+import "GameMsg.proto";
+import "HttpMsg_BJL.proto";
+將多個proto檔案合併到同一個中
+
+2.
+移除proto中
+required
+optional
+
+3.
+syntax = "proto2"; 改成
+syntax = "proto3";
+
+4.
+若是遊戲為百家樂
+將
+package netproto;
+修改成
+package bjl;
+
+5.
+將proto檔案轉換成cs
+D:\Test\Cocos\websocketserver\proto\protoc --csharp_out=./ msg.proto

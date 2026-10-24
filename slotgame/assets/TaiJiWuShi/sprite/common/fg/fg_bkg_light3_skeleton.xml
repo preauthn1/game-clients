@@ -1,0 +1,153 @@
+<dragonBones name="fg_bkg_light3" frameRate="30" version="2.3">
+ <armature name="fg_bkg_light3_mov">
+  <bone name="fg_ex">
+   <transform x="360" y="-1028" skX="0" skY="0" scX="4" scY="4"/>
+  </bone>
+  <skin name="default">
+   <slot name="fg_ex" parent="fg_ex" z="0">
+    <display name="_pic/fg_bkg_ex_001" type="image">
+     <transform x="-90" y="-63" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_ex_003" type="image">
+     <transform x="-90" y="-63" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_ex_005" type="image">
+     <transform x="-90" y="-63" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_ex_007" type="image">
+     <transform x="-90" y="-63" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_ex_009" type="image">
+     <transform x="-90" y="-63" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_ex_011" type="image">
+     <transform x="-90" y="-63" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_ex_013" type="image">
+     <transform x="-90" y="-63" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_ex_015" type="image">
+     <transform x="-90" y="-63" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_ex_017" type="image">
+     <transform x="-90" y="-63" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_ex_019" type="image">
+     <transform x="-90" y="-63" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_ex_021" type="image">
+     <transform x="-90" y="-63" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_ex_023" type="image">
+     <transform x="-90" y="-63" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_ex_025" type="image">
+     <transform x="-90" y="-63" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_ex_027" type="image">
+     <transform x="-90" y="-63" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_ex_029" type="image">
+     <transform x="-90" y="-63" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_ex_031" type="image">
+     <transform x="-90" y="-63" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_ex_033" type="image">
+     <transform x="-90" y="-63" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_ex_035" type="image">
+     <transform x="-90" y="-63" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_ex_037" type="image">
+     <transform x="-90" y="-63" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_ex_039" type="image">
+     <transform x="-90" y="-63" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_ex_041" type="image">
+     <transform x="-90" y="-63" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_ex_043" type="image">
+     <transform x="-90" y="-63" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_ex_045" type="image">
+     <transform x="-90" y="-63" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="fg_bkg_light3" fadeInTime="0" duration="45" scale="1" loop="0" autoTween="1" tweenEasing="NaN">
+   <timeline name="fg_ex" scale="1" offset="0">
+    <frame z="0" tweenEasing="NaN" duration="2">
+     <transform x="360" y="-1028" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" tweenEasing="NaN" duration="2">
+     <transform x="360" y="-1028" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" tweenEasing="NaN" duration="2">
+     <transform x="360" y="-1028" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" tweenEasing="NaN" duration="2">
+     <transform x="360" y="-1028" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" tweenEasing="NaN" duration="2">
+     <transform x="360" y="-1028" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" tweenEasing="NaN" duration="2">
+     <transform x="360" y="-1028" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" tweenEasing="NaN" duration="2">
+     <transform x="360" y="-1028" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="7" tweenEasing="NaN" duration="2">
+     <transform x="360" y="-1028" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="8" tweenEasing="NaN" duration="2">
+     <transform x="360" y="-1028" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="9" tweenEasing="NaN" duration="2">
+     <transform x="360" y="-1028" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="10" tweenEasing="NaN" duration="2">
+     <transform x="360" y="-1028" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="11" tweenEasing="NaN" duration="2">
+     <transform x="360" y="-1028" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="12" tweenEasing="NaN" duration="2">
+     <transform x="360" y="-1028" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="13" tweenEasing="NaN" duration="2">
+     <transform x="360" y="-1028" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="14" tweenEasing="NaN" duration="2">
+     <transform x="360" y="-1028" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="15" tweenEasing="NaN" duration="2">
+     <transform x="360" y="-1028" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="16" tweenEasing="NaN" duration="2">
+     <transform x="360" y="-1028" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="17" tweenEasing="NaN" duration="2">
+     <transform x="360" y="-1028" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="18" tweenEasing="NaN" duration="2">
+     <transform x="360" y="-1028" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="19" tweenEasing="NaN" duration="2">
+     <transform x="360" y="-1028" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="20" tweenEasing="NaN" duration="2">
+     <transform x="360" y="-1028" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="21" tweenEasing="NaN" duration="2">
+     <transform x="360" y="-1028" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="22" tweenEasing="NaN" duration="1">
+     <transform x="360" y="-1028" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

@@ -1,0 +1,27 @@
+
+弃牌.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di_xiao
+  rotate: true
+  xy: 177, 72
+  size: 174, 56
+  orig: 174, 56
+  offset: 0, 0
+  index: -1
+qipai_wenzi
+  rotate: false
+  xy: 2, 2
+  size: 66, 52
+  orig: 66, 52
+  offset: 0, 0
+  index: -1
+xingguang1
+  rotate: false
+  xy: 2, 56
+  size: 173, 190
+  orig: 173, 190
+  offset: 0, 0
+  index: -1

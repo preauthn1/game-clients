@@ -1,0 +1,48 @@
+
+sp_p3.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blur
+  rotate: true
+  xy: 2, 2
+  size: 124, 135
+  orig: 124, 135
+  offset: 0, 0
+  index: -1
+cherry
+  rotate: false
+  xy: 464, 88
+  size: 44, 38
+  orig: 44, 38
+  offset: 0, 0
+  index: -1
+cream
+  rotate: false
+  xy: 267, 58
+  size: 104, 68
+  orig: 104, 68
+  offset: 0, 0
+  index: -1
+cup
+  rotate: false
+  xy: 373, 62
+  size: 89, 64
+  orig: 89, 64
+  offset: 0, 0
+  index: -1
+pancake
+  rotate: false
+  xy: 267, 11
+  size: 38, 45
+  orig: 38, 45
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 139, 2
+  size: 124, 126
+  orig: 124, 126
+  offset: 0, 0
+  index: -1

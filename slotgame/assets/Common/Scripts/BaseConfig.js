@@ -1,0 +1,165 @@
+var SCRIPT_PREFIX = "";
+
+/*
+var PROGRESSIVE_JP_AMOUNT = {
+  GRAND: 25000,
+  MAJOR: 15000,
+  MINOR: 10020,
+
+};
+*/
+
+var SYMBOLCODE = {
+  SYMBOL_SCATTER: "c1",
+  SYMBOL_WILD: "w1",
+};
+
+var SYMBOLCODEARR = [
+  "s1",
+  "s2",
+  "s3",
+  "s4",
+  "s5",
+  "s6",
+  "s7",
+  "s8",
+  "s9",
+  "s10",
+  "s11",
+  "c1",
+  "w1",
+];
+
+var ANIMSTRINGARR = [
+  "GreatBlueS1Anim",
+  "GreatBlueS2Anim",
+  "GreatBlueS3Anim",
+  "GreatBlueS4Anim",
+  "GreatBlueS5Anim",
+  "GreatBlueScaleAnim",
+  "GreatBlueScaleAnim",
+  "GreatBlueScaleAnim",
+  "GreatBlueScaleAnim",
+  "GreatBlueScaleAnim",
+  "GreatBlueScaleAnim",
+  "GreatBlueC1Anim",
+  "GreatBlueW1Anim",
+];
+
+var WHEEL_WIN_DETAILS = {
+};
+
+var SLOTDETAILS = {
+  MAX_PAYLINE: 25,
+  DENOMINATION_PREFIX: "",
+  RESULT_SYMBOL_COUNT: 15,
+  MULTIPLY_CAL: [25, 25, 15, 10, 5, 3, 2, 1],
+  /*
+  SERVER_NORMAL_SPIN_MODE: 0,
+  SERVER_BONUS_GAME_MODE: 2,
+  SERVER_FREESPIN_MODE: 1,
+  */
+};
+
+var REELDETAILS = {
+  REEL_WIDTH: 170,
+  SLOT_MACHINE_WIDTH: 870,//870
+  SLOT_MACHINE_HEIGHT: 490,//490
+  REEL_DELAY_TIME: 0.1,
+  NUM_REEL: 5,
+  NUM_ROW: 3,
+  SYMBOL_HEIGHT_OFFSET: 0,
+  SYMBOL_WIDTH: 170,//170
+  SYMBOL_HEIGHT: 160,//160
+  FRAME_WIDTH: 170,//185
+  FRAME_HEIGHT: 160,//175
+  SYMBOL_HEIGHT_PADDING: 0,
+  SYMBOL_WIDTH_PADDING: 5,
+  PER_CYCLE_SPIN_DURATION: 0.1,
+  ALL_PAYLINE_SHOW_DURATION: 4,
+  SINGLE_PAYLINE_SHOW_DURATION: 1,
+  STARTING_PREPARE_TO_STOP_TIME: 1,
+  NORMAL_PREPARE_TO_STOP_TIME: 0,
+  CLIMAX_PREPARE_TO_STOP_TIME: 1,
+  BONUS_TITLE_END_TIME: 2,
+  DEFAULT_BONUS_FREESPIN: 8,
+  DEFAULT_BONUS_MULTIPLIER: 2,
+  REELPOS_NEUTRAL_Y: 0,
+  REELPOS_DOWN_Y: -50,
+  REELPOS_UP_Y: 50,
+};
+
+var PAYLINEARR = [
+  [2, 2, 2, 2, 2],//0
+  [2, 2, 2, 2, 2],//1
+  [1, 1, 1, 1, 1],//2
+  [3, 3, 3, 3, 3],//3
+  [1, 2, 3, 2, 1],//4
+  [3, 2, 1, 2, 3],//5
+  [2, 1, 1, 1, 2],//6
+  [2, 3, 3, 3, 2],//7
+  [1, 1, 2, 3, 3],//8
+  [3, 3, 2, 1, 1],//9
+  [2, 3, 2, 1, 2],//10
+  [2, 1, 2, 3, 2],//11
+  [1, 2, 2, 2, 1],//12
+  [3, 2, 2, 2, 3],//13
+  [1, 2, 1, 2, 1],//14
+  [3, 2, 3, 2, 3],//15
+  [2, 2, 1, 2, 2],//16
+  [2, 2, 3, 2, 2],//17
+  [1, 1, 3, 1, 1],//18
+  [3, 3, 1, 3, 3],//19
+  [1, 3, 3, 3, 1],//20
+  [3, 1, 1, 1, 3],//21
+  [2, 3, 1, 3, 2],//22
+  [2, 1, 3, 1, 2],//23
+  [1, 3, 1, 3, 1],//24
+  [3, 1, 3, 1, 3]//25*/
+];
+
+
+var SPINSTATE_CONSTANTS = {
+  SPINSTATE_INIT: "Init",
+  SPINSTATE_IDLE: "Idle",
+  SPINSTATE_SPIN: "Spin",
+  SPINSTATE_RESULT: "Result",
+};
+
+var SPINSTATE_TRANS_CONSTANTS = {
+  SPINTRANS_INIT_TO_IDLE: "InitToIdle",
+  SPINTRANS_IDLE_TO_SPIN: "IdleToSpin",
+  SPINTRANS_SPIN_TO_RESULT: "SpinToResult",
+  SPINTRANS_RESULT_TO_IDLE: "ResultToIdle",
+};
+
+var GAMESTATE_CONSTANTS = {
+  GAMESTATE_INIT: "Init",
+  GAMESTATE_NORMAL: "NormalSpin",
+  GAMESTATE_BONUS: "Bonus",
+  GAMESTATE_FREESPIN: "FreeSpin",
+};
+
+var GAMESTATE_TRANS_CONSTANTS = {
+  GAMETRANS_INIT_TO_NORMAL: "InitToNormalSpin",
+  GAMETRANS_NORMAL_TO_BONUS: "NormalSpinToBonus",
+  GAMETRANS_BONUS_TO_FREESPIN: "BonusToFreeSpin",
+  GAMETRANS_FREESPIN_TO_NORMAL: "FreeSpinToNormal",
+
+  GAMETRANS_NORMAL_TO_FREESPIN: "NormalSpinToFreeSpin",
+};
+
+module.exports = {
+  //PROGRESSIVE_JP_AMOUNT: PROGRESSIVE_JP_AMOUNT, 
+  SYMBOLCODE: SYMBOLCODE,
+  SYMBOLCODEARR: SYMBOLCODEARR,
+  SLOTDETAILS: SLOTDETAILS,
+  REELDETAILS: REELDETAILS,
+  PAYLINEARR: PAYLINEARR,
+  ANIMSTRINGARR: ANIMSTRINGARR,
+  SPINSTATE_CONSTANTS: SPINSTATE_CONSTANTS,
+  GAMESTATE_CONSTANTS: GAMESTATE_CONSTANTS,
+  SPINSTATE_TRANS_CONSTANTS: SPINSTATE_TRANS_CONSTANTS,
+  GAMESTATE_TRANS_CONSTANTS: GAMESTATE_TRANS_CONSTANTS,
+  WHEEL_WIN_DETAILS: WHEEL_WIN_DETAILS,
+};

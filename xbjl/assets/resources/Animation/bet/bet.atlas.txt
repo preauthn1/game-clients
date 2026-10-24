@@ -1,0 +1,83 @@
+
+bet.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_s
+  rotate: false
+  xy: 2, 2
+  size: 700, 124
+  orig: 700, 124
+  offset: 0, 0
+  index: -1
+card_s
+  rotate: false
+  xy: 1854, 42
+  size: 80, 84
+  orig: 80, 84
+  offset: 0, 0
+  index: -1
+chip_s
+  rotate: false
+  xy: 1936, 51
+  size: 78, 75
+  orig: 78, 75
+  offset: 0, 0
+  index: -1
+line_start
+  rotate: false
+  xy: 704, 19
+  size: 559, 5
+  orig: 559, 5
+  offset: 0, 0
+  index: -1
+s1
+  rotate: false
+  xy: 1777, 77
+  size: 75, 49
+  orig: 75, 49
+  offset: 0, 0
+  index: -1
+s2
+  rotate: false
+  xy: 1067, 75
+  size: 147, 51
+  orig: 147, 51
+  offset: 0, 0
+  index: -1
+s3
+  rotate: false
+  xy: 1626, 76
+  size: 149, 50
+  orig: 149, 50
+  offset: 0, 0
+  index: -1
+s4
+  rotate: false
+  xy: 1626, 23
+  size: 111, 51
+  orig: 111, 51
+  offset: 0, 0
+  index: -1
+s5
+  rotate: false
+  xy: 1739, 23
+  size: 76, 51
+  orig: 76, 51
+  offset: 0, 0
+  index: -1
+text_end
+  rotate: false
+  xy: 704, 26
+  size: 361, 100
+  orig: 361, 100
+  offset: 0, 0
+  index: -1
+text_start
+  rotate: false
+  xy: 1265, 27
+  size: 359, 99
+  orig: 359, 99
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,83 @@
+
+sp_p7.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blur
+  rotate: false
+  xy: 171, 86
+  size: 128, 167
+  orig: 128, 167
+  offset: 0, 0
+  index: -1
+p7_00
+  rotate: false
+  xy: 435, 171
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: -1
+p7_02
+  rotate: false
+  xy: 86, 2
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: -1
+p7_04
+  rotate: false
+  xy: 519, 171
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: -1
+p7_06
+  rotate: false
+  xy: 170, 2
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: -1
+p7_08
+  rotate: false
+  xy: 603, 171
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: -1
+p7_10
+  rotate: false
+  xy: 687, 171
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: -1
+p7_12
+  rotate: false
+  xy: 771, 171
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: -1
+p7_14
+  rotate: false
+  xy: 2, 2
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: -1
+shine
+  rotate: false
+  xy: 2, 86
+  size: 167, 167
+  orig: 167, 167
+  offset: 0, 0
+  index: -1
+sp_p7
+  rotate: false
+  xy: 301, 94
+  size: 132, 159
+  orig: 132, 159
+  offset: 0, 0
+  index: -1

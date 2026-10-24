@@ -1,0 +1,11 @@
+1.build_ 為單一遊戲
+2.build_thread 為可以同時好幾個不同遊戲
+3.Sloat88_Build_ 為slot88專用，build完後會將圖壓縮
+
+可以指定複製到DEV、QA
+
+1、2可指定要build哪一種語言
+
+pngquant.exe 為壓圖軟體
+
+compress.bat 會將此資料夾下所有圖片壓縮

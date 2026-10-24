@@ -1,0 +1,19 @@
+{
+  "name": "language",
+  "version": "0.0.1",
+  "description": "资源包语言切换",
+  "author": "Cocos Creator",
+  "main": "main.js",
+  "scene-script": "language.js",
+  "main-menu": {
+    "Language/en-us": {
+      "message": "language:en-us"
+    },
+    "Language/zh-cn": {
+      "message": "language:zh-cn"
+    },
+    "Language/Reset Picture Size": {
+      "message": "language:resize"
+    }
+  }
+}

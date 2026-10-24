@@ -1,0 +1,1 @@
+{"__type__":"controller","name":"BulbFish01_movement","layer":{"Base Layer":{"defaultState":"appear","state":[{"name":"appear","motion":"BulbFish01_appear"},{"name":"null"},{"name":"death"}]}},"clip":["BulbFish01_appear"]}

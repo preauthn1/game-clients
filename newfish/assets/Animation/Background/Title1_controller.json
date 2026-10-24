@@ -1,0 +1,1 @@
+{"__type__":"controller","name":"Title1","layer":{"Base Layer":{"defaultState":"TitleAnimation","state":[{"name":"TitleAnimation","motion":"TitleAnimation"},{"name":"start","motion":"TitleAnimation","trans":[{"desState":"TitleAnimation","exitTime":1.0}]}]}},"clip":["TitleAnimation","TitleAnimation"]}

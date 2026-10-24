@@ -1,0 +1,48 @@
+
+win.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Basecircle
+  rotate: false
+  xy: 233, 43
+  size: 117, 118
+  orig: 117, 118
+  offset: 0, 0
+  index: -1
+WIN
+  rotate: false
+  xy: 416, 438
+  size: 87, 61
+  orig: 87, 61
+  offset: 0, 0
+  index: -1
+lenz flare
+  rotate: false
+  xy: 233, 16
+  size: 88, 25
+  orig: 88, 25
+  offset: 0, 0
+  index: -1
+light_glass
+  rotate: true
+  xy: 2, 2
+  size: 159, 229
+  orig: 159, 229
+  offset: 0, 0
+  index: -1
+strip yellow
+  rotate: true
+  xy: 330, 313
+  size: 186, 84
+  orig: 186, 84
+  offset: 0, 0
+  index: -1
+yuan
+  rotate: false
+  xy: 2, 163
+  size: 326, 336
+  orig: 326, 336
+  offset: 0, 0
+  index: -1

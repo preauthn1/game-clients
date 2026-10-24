@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Test | dfdc</title>
+	<div align="center">
+	  <form id="form1">
+        <table border="0">
+            <tr>
+                <td>
+                    请输入连线IP：
+                </td>
+                <td>
+                    <input id="name" name="name" type="text" />
+                </td>
+            </tr>
+        </table>
+		<button type="button" onclick="displayDate()">连线</button>
+	  </form>
+	</div>
+</head>
+<body>
+
+<script src="md5.js"></script>
+<script type="text/javascript">
+	function displayDate()
+	{
+		var ip = document.getElementById("name").value;
+		console.log("ip", ip);
+		doHref(ip)
+	}
+    var gameUrl = "http://0.0.0.0:2148/UpdateFiles/web-mobile/dfdc/h5/";
+    //var gameUrl=window.location.origin + window.location.pathname + "h5/";
+    var APIUrl='http://0.0.0.0:3109/v1/game/launch/';
+	
+	function doHref(ip){
+		let datasFromeUrl=window.location.search.substring(1);
+		console.log("datasFromeUrl",datasFromeUrl)
+		let GameDataObj={};
+		if (datasFromeUrl) {
+			let arr=datasFromeUrl.split("&");
+			let v;
+			for (const i in arr) {
+				v=arr[i].split("=");
+				GameDataObj[v[0].toLowerCase()]=decodeURI(v[1]);
+			}
+			if (GameDataObj["playname"] !== undefined)//似乎網頁會給錯資料欄位，這邊強制補齊
+				GameDataObj["playername"]=GameDataObj["playname"];
+			GameDataObj["ts"]=Math.floor(Date.now() / 1000);
+			GameDataObj["signkey"]=md5(GameDataObj["playername"] + "_" + GameDataObj["ts"] + "_" + GameDataObj["merchantid"]);
+		}
+		let uri=APIUrl
+			+ '?MerchantID=' + GameDataObj['merchantid']
+			+ '&PlayerName=' + GameDataObj['playername']
+			+ '&PlayerValidateSession=' + GameDataObj['playervalidatesession']
+			+ '&Lang=' + GameDataObj['lang']
+			+ '&GameID=' + GameDataObj['gameid']
+			+ '&Ts=' + GameDataObj['ts']
+			+ '&SignKey=' + GameDataObj['signkey']
+			+ '&RoomLevelFlagID=' + (GameDataObj['roomlevelflagid'] || 1);
+
+		fetch(uri, {
+			method : 'GET',
+			mode : 'cors',
+			headers : {
+				'Accept' : 'application/json'
+			}
+		}).then(function (response) {
+			if (response.status>=200 && response.status<300) {
+				return response.json()
+			} else {
+				var error=new Error(response.statusText);
+				error.response=response;
+				throw error;
+			}
+		}).then(function (rdata) {
+			rdata.data.serverConnection = ip
+			rdata.data.referrer = document.referrer
+			let nurl=gameUrl + "?" + window.btoa(JSON.stringify(rdata));
+			console.log("goto:", nurl);
+			window.location.href=nurl;
+		}).catch(function (error) {
+			if (error)
+				console.log("error =", error);
+			return error.response.json();
+		}).then(function (errorData) {
+			if (errorData) {
+				console.log("errorData =", errorData);
+				document.write(errorData['message']);
+			}
+		});
+	}
+</script>
+</body>
+</html>

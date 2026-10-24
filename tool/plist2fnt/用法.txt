@@ -1,0 +1,10 @@
+安裝
+到此資料夾下
+npm install
+
+轉檔
+將plist加到此目錄下
+plist2fnt example.plist
+
+切圖可用unity切
+然後特過coscos轉出工具轉出plist檔案

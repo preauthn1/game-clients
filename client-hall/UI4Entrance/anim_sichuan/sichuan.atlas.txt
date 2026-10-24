@@ -1,0 +1,55 @@
+
+sichuan.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 40
+  size: 209, 205
+  orig: 209, 205
+  offset: 0, 0
+  index: -1
+chip
+  rotate: false
+  xy: 763, 147
+  size: 127, 98
+  orig: 127, 98
+  offset: 0, 0
+  index: -1
+f1
+  rotate: false
+  xy: 424, 132
+  size: 198, 113
+  orig: 198, 113
+  offset: 0, 0
+  index: -1
+f2
+  rotate: false
+  xy: 2, 2
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+m1
+  rotate: true
+  xy: 624, 131
+  size: 114, 137
+  orig: 114, 137
+  offset: 0, 0
+  index: -1
+m2
+  rotate: true
+  xy: 892, 149
+  size: 96, 126
+  orig: 96, 126
+  offset: 0, 0
+  index: -1
+t
+  rotate: false
+  xy: 213, 118
+  size: 209, 127
+  orig: 209, 127
+  offset: 0, 0
+  index: -1

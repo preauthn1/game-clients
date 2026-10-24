@@ -1,0 +1,20 @@
+
+number_light.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: false
+  xy: 2, 2
+  size: 590, 202
+  orig: 590, 202
+  offset: 0, 0
+  index: -1
+ray
+  rotate: false
+  xy: 2, 206
+  size: 605, 278
+  orig: 605, 278
+  offset: 0, 0
+  index: -1

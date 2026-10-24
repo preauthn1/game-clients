@@ -1,0 +1,587 @@
+{
+"skeleton": { "hash": "+TQYOdCnLxiQYOwyJmVLzqf41Ms", "spine": "3.6.53", "width": 148, "height": 133, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "plate", "parent": "root", "length": 46.57, "rotation": 88.03, "x": 1.55, "y": -41.33 },
+	{ "name": "berries", "parent": "plate", "length": 22.17, "rotation": 4.46, "x": 14.89, "y": 15.29 },
+	{ "name": "blur", "parent": "root", "length": 49.45, "rotation": 88.51, "x": 3.8, "y": -23.99 },
+	{ "name": "caramel", "parent": "root", "length": 19.98, "rotation": 113.68, "x": 50.67, "y": -10.51 },
+	{ "name": "cookies01", "parent": "plate", "length": 31.84, "rotation": 39.19, "x": 26.7, "y": 35.93 },
+	{ "name": "cookies02", "parent": "plate", "length": 37.76, "rotation": 16.25, "x": 42.92, "y": 31.35 },
+	{ "name": "pudding", "parent": "plate", "length": 48.17, "rotation": 3.5, "x": 32.06, "y": -7.57 },
+	{ "name": "shadow", "parent": "plate", "length": 57.15, "rotation": 0.69, "x": -9.77, "y": -5.48 }
+],
+"slots": [
+	{ "name": "shadow", "bone": "shadow", "attachment": "shadow" },
+	{ "name": "plate", "bone": "plate", "attachment": "plate" },
+	{ "name": "caramel", "bone": "caramel", "attachment": "caramel" },
+	{ "name": "cookies02", "bone": "cookies02", "attachment": "cookies02" },
+	{ "name": "cookies01", "bone": "cookies01", "attachment": "cookies01" },
+	{ "name": "pudding", "bone": "pudding", "attachment": "pudding" },
+	{ "name": "berries", "bone": "berries", "attachment": "berries" },
+	{ "name": "blur", "bone": "blur", "attachment": "blur" }
+],
+"skins": {
+	"default": {
+		"berries": {
+			"berries": { "x": 10.67, "y": -13.22, "rotation": -92.49, "width": 116, "height": 45 }
+		},
+		"blur": {
+			"blur": { "x": 22.18, "y": 5.35, "rotation": -88.51, "width": 147, "height": 133 }
+		},
+		"caramel": {
+			"caramel": { "x": 9.8, "y": -0.88, "rotation": -113.68, "width": 22, "height": 36 }
+		},
+		"cookies01": {
+			"cookies01": { "x": 21.1, "y": 0.97, "rotation": -127.22, "width": 53, "height": 56 }
+		},
+		"cookies02": {
+			"cookies02": { "x": 18.03, "y": 1.26, "rotation": -104.27, "width": 39, "height": 64 }
+		},
+		"plate": {
+			"plate": { "x": 20.2, "y": -1.28, "rotation": -88.03, "width": 130, "height": 60 }
+		},
+		"pudding": {
+			"pudding": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -23.7, -39.69, -21.33, 49.27, 62.64, 47.03, 60.27, -41.93 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 89,
+				"height": 84
+			}
+		},
+		"shadow": {
+			"shadow": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -9.42, -66.07, -12.75, 81.89, 99.22, 84.41, 102.55, -63.56 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 148,
+				"height": 112
+			}
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"slots": {
+			"berries": {
+				"attachment": [
+					{ "time": 0, "name": "berries" }
+				]
+			},
+			"blur": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"caramel": {
+				"attachment": [
+					{ "time": 0, "name": "caramel" }
+				]
+			},
+			"cookies01": {
+				"attachment": [
+					{ "time": 0, "name": "cookies01" }
+				]
+			},
+			"cookies02": {
+				"attachment": [
+					{ "time": 0, "name": "cookies02" }
+				]
+			},
+			"plate": {
+				"attachment": [
+					{ "time": 0, "name": "plate" }
+				]
+			},
+			"pudding": {
+				"attachment": [
+					{ "time": 0, "name": "pudding" }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": "shadow" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"pudding": {
+					"pudding": [
+						{ "time": 0 }
+					]
+				},
+				"shadow": {
+					"shadow": [
+						{ "time": 0 }
+					]
+				}
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"spin": {
+		"slots": {
+			"berries": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"blur": {
+				"attachment": [
+					{ "time": 0, "name": "blur" }
+				]
+			},
+			"caramel": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cookies01": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cookies02": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"plate": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"pudding": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pudding": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"cookies02": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"cookies01": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"berries": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"plate": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"caramel": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"blur": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"stop": {
+		"slots": {
+			"berries": {
+				"attachment": [
+					{ "time": 0, "name": "berries" }
+				]
+			},
+			"blur": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"caramel": {
+				"attachment": [
+					{ "time": 0, "name": "caramel" }
+				]
+			},
+			"cookies01": {
+				"attachment": [
+					{ "time": 0, "name": "cookies01" }
+				]
+			},
+			"cookies02": {
+				"attachment": [
+					{ "time": 0, "name": "cookies02" }
+				]
+			},
+			"plate": {
+				"attachment": [
+					{ "time": 0, "name": "plate" }
+				]
+			},
+			"pudding": {
+				"attachment": [
+					{ "time": 0, "name": "pudding" }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": "shadow" }
+				]
+			}
+		},
+		"bones": {
+			"shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"pudding": {
+					"pudding": [
+						{ "time": 0 }
+					]
+				},
+				"shadow": {
+					"shadow": [
+						{ "time": 0 }
+					]
+				}
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"win": {
+		"slots": {
+			"berries": {
+				"attachment": [
+					{ "time": 0, "name": "berries" },
+					{ "time": 1, "name": "berries" }
+				]
+			},
+			"blur": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1, "name": null }
+				]
+			},
+			"caramel": {
+				"attachment": [
+					{ "time": 0, "name": "caramel" },
+					{ "time": 1, "name": "caramel" }
+				]
+			},
+			"cookies01": {
+				"attachment": [
+					{ "time": 0, "name": "cookies01" },
+					{ "time": 1, "name": "cookies01" }
+				]
+			},
+			"cookies02": {
+				"attachment": [
+					{ "time": 0, "name": "cookies02" },
+					{ "time": 1, "name": "cookies02" }
+				]
+			},
+			"plate": {
+				"attachment": [
+					{ "time": 0, "name": "plate" },
+					{ "time": 1, "name": "plate" }
+				]
+			},
+			"pudding": {
+				"attachment": [
+					{ "time": 0, "name": "pudding" },
+					{ "time": 1, "name": "pudding" }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": "shadow" },
+					{ "time": 1, "name": "shadow" }
+				]
+			}
+		},
+		"bones": {
+			"blur": {
+				"rotate": [
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			},
+			"caramel": {
+				"rotate": [
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			},
+			"plate": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.3333, "x": 1, "y": 0.921 },
+					{ "time": 0.5, "x": 1, "y": 1.028 },
+					{ "time": 0.6667, "x": 1, "y": 0.933 },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"berries": {
+				"rotate": [
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 1.128, "y": 1.071 },
+					{ "time": 0.6667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"cookies01": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": -6.01 },
+					{ "time": 0.5, "angle": 3.9 },
+					{ "time": 0.6667, "angle": -6.01 },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			},
+			"cookies02": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0 },
+					{ "time": 0.5, "angle": -4.73 },
+					{ "time": 0.6667, "angle": 3.84 },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 1.046, "y": 1.155 },
+					{ "time": 0.6667, "x": 1, "y": 1 }
+				]
+			},
+			"pudding": {
+				"rotate": [
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.3333, "x": 0.864, "y": 1.19 },
+					{ "time": 0.5, "x": 1.339, "y": 1.018 },
+					{ "time": 0.6667, "x": 0.937, "y": 1.258 },
+					{ "time": 0.8, "x": 1.023, "y": 1.066 },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"shadow": {
+				"rotate": [
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.3333, "x": 0.96, "y": 1 },
+					{ "time": 0.5, "x": 1.015, "y": 1 },
+					{ "time": 0.6667, "x": 0.964, "y": 1 },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"pudding": {
+					"pudding": [
+						{ "time": 0, "curve": "stepped" },
+						{ "time": 1 }
+					]
+				},
+				"shadow": {
+					"shadow": [
+						{ "time": 0 }
+					]
+				}
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 1 }
+		]
+	}
+}
+}

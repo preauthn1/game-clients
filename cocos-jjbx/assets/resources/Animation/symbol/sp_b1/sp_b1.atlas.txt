@@ -1,0 +1,20 @@
+
+sp_b1.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blur
+  rotate: false
+  xy: 2, 2
+  size: 220, 228
+  orig: 220, 228
+  offset: 0, 0
+  index: -1
+sp_b1
+  rotate: false
+  xy: 224, 2
+  size: 220, 228
+  orig: 220, 228
+  offset: 0, 0
+  index: -1

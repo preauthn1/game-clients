@@ -1,0 +1,5 @@
+The game is played with six decks. Cards are ranked as in poker, except aces are always high. The suit does not matter.
+After the players have made a wager each player and the dealer shall get one card.
+Each player's card shall be compared with the dealer's card. If the player's card is higher he wins even money. If the dealer's card is higher the player loses.
+In the event of a tie the player shall have two choices: (1)Surrender and forfeit half the bet or (2) go to war. 
+If the player selects to go to war he must raise his bet by an amount equal to his original wager. The dealer will do the same but this is just for show. The dealer will then burn three cards and give the player and dealer another card each. If the player's second card equals or beats the dealer then the player shall win even money on the raise only and the original wager shall push. If the dealer's second card is greater the player shall lose both bets.

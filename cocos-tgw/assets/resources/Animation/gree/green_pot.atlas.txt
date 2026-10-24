@@ -1,0 +1,62 @@
+
+green_pot.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bubble
+  rotate: true
+  xy: 270, 48
+  size: 100, 67
+  orig: 100, 67
+  offset: 0, 0
+  index: -1
+goo1
+  rotate: false
+  xy: 2, 2
+  size: 266, 146
+  orig: 266, 146
+  offset: 0, 0
+  index: -1
+goo2
+  rotate: false
+  xy: 341, 213
+  size: 349, 289
+  orig: 349, 289
+  offset: 0, 0
+  index: -1
+greenglow
+  rotate: false
+  xy: 692, 317
+  size: 321, 185
+  orig: 321, 185
+  offset: 0, 0
+  index: -1
+inside
+  rotate: false
+  xy: 692, 240
+  size: 238, 75
+  orig: 238, 75
+  offset: 0, 0
+  index: -1
+pot
+  rotate: false
+  xy: 2, 150
+  size: 337, 352
+  orig: 337, 352
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 341, 25
+  size: 412, 186
+  orig: 412, 186
+  offset: 0, 0
+  index: -1
+stick
+  rotate: false
+  xy: 755, 130
+  size: 76, 108
+  orig: 76, 108
+  offset: 0, 0
+  index: -1

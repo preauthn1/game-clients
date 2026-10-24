@@ -1,0 +1,544 @@
+syntax = "proto3";
+
+package brnn;
+
+//下注设置
+message BRNN_Setting {
+    repeated int32 BetCount = 1;     // 一次下注的数量
+    required int32 BetMoney = 2;     // 一次下注的钱
+    required int64 ZhuangLimit = 3;  // 上庄钱限制
+    required int32 MaxZhuang = 4;    // 当庄局数
+    required int32 OnceFapei = 5;    // true一次開獎結果 或 false分次發牌開獎
+    optional int64 betlimitmoney=6;//下注攜帶金額限制
+};
+
+//状态消息
+message BRNN_Sate {
+    required int32 State = 1;   // 状态
+    required int32 Time = 2;    // 此状态的剩余时间
+    required bool IsScene = 3;  // 是否來自場景
+};
+
+//用户断线重连下注消息
+message BRNN_UserBetInfo {
+    required int64 UserMoney = 1;
+    repeated BRNN_BroadCastBet BetInfo = 2;
+};
+
+//廣播發牌給所有(莊*1 , 閒*4)
+message BRNN_BrodcastPokerCard {
+    repeated BRNN_BrodcastUserPokerCard UserPokerCard = 1;
+}
+
+//每個座位上的亮牌
+message BRNN_BrodcastUserPokerCard {
+    required int32 SitNo = 1;
+    repeated PokerCard CardGroup = 2;
+}
+
+//广播用户下注的数组, 廣播下注消息
+message BRNN_BroadCastBetArr {
+    required int32 UserID = 1;
+    repeated BRNN_BroadCastBet BroadCastBetArr = 2;
+};
+
+//广播用户下注内容数据结构
+message BRNN_BroadCastBet {
+    required int32 Type = 1;
+    required int64 Money = 2;
+    optional int32 UserID = 3;  //此下注籌碼的UserID
+    required bool LuckyStar = 4;
+};
+
+//廣播已下注和還可下注
+message BRNN_BroadCastTotal {
+    required int64 AlreadyTotalBet = 1;  //已下注
+    required int64 AbleTotalBet = 2;     //還可下注
+}
+
+//用户下注数组, 用户下注
+message BRNN_BetArr {
+    repeated BRNN_Bet BetArr = 1;
+};
+
+//用户下注数据结构
+message BRNN_Bet {
+    required int32 BetType = 1;
+    required int32 Count = 2;
+};
+
+//下注的结果
+message BRNN_BetRet {
+    required RetType Ret = 1 [default = UNKNOWN];
+    required int64 Money = 2;      //用户的钱，下注以后的金额。
+    optional int32 Type = 3;       //下注超过限制的下注类型
+    repeated BRNN_Bet BetArr = 4;  //用户下注数据
+}
+
+enum RetType {
+    UNKNOWN = 0;
+    SUCCESS = 1;         //下注成功
+    NOMONEY = 2;         //用户金额不足
+    NONTYPE = 3;         //下注的类型未找到
+    ISZHUANG = 4;        //庄家不能下注
+    BETOUTOFRANGE = 5;   //此类下注已达到上限
+    MONEYLESSLIMIT = 6;  //用戶金幣低於最低限制
+}
+
+//游戏撲克结果
+message BRNN_GameResultPoker {
+    required int32 SitNo = 1;         //座位的編號
+    repeated PokerCard SitPoker = 2;  //座位上的撲克牌
+    required int32 NiuNiuRet = 3;     //牛牛類型: 0 五小牛; 1四炸; 2 五花牛; 3 牛牛; 4 有牛; 5 無牛;
+    required int32 NiuNiuNumber = 4;  //牛幾
+    required int32 WinLoss = 5;       // 0 輸 , 1 贏
+};
+
+//游戏用户赢钱结果
+message BRNN_GameResultUserMoney {
+    required int64 ZhuangWin = 1;
+    required int64 SelfWin = 2;
+    repeated BRNN_WinUerInfo WinUserInfo = 3;     //赢钱前三名的人信息
+    repeated BRNN_StageUerInfo StageUerInfo = 4;  //標誌玩家赢钱信息
+};
+//赢钱玩家信息
+message BRNN_WinUerInfo {
+    required string UserName = 1;
+    required int64 Win = 2;
+};
+
+//上庄结果
+message BRNN_ShangzhuangRet {
+    required int32 ret = 1;  //值为1时下庄成功，值为0表示上庄成功，值为-1时上庄失败资金不足，值为-2时已经在上庄列表中。
+};
+
+//是否上庄
+message BRNN_ShangZhuang {
+    required bool IsShangZhuang = 1;
+};
+
+//庄家信息
+message BRNN_ZhuangInfo {
+    required int32 UserID = 1;
+    required int32 LastTurn = 2;
+    repeated GameUser UserInfo = 3;
+};
+
+//上庄列表
+message BRNN_ZhuangList {
+    repeated GameUser UserInfo = 1;
+};
+
+//清除结果回应消息
+message BRNN_BetClearRet {
+    required int64 Money = 1;  //当前的钱
+    required int32 Ret = 2;    //清除结果-1，清理失败，达到清理上限，0清理成功
+};
+
+//大富豪列表消息
+message BRNN_RichestList {
+    repeated BRNN_Richest RichestList = 1;  //富豪的排行榜
+};
+
+//大富豪的玩家資訊
+message BRNN_Richest {
+    required int32 Ranking = 1;        //富豪排名
+    required int32 UserID = 2;         //富豪ID
+    required int32 UserFaceID = 3;     //富豪頭像ID
+    required int64 Money = 4;          //富豪当前身上的钱
+    optional int32 AvatarFrameID = 5;  // VIP頭框像ID
+};
+
+//幸運星玩家資訊
+message BRNN_LuckyStar {
+    required int32 UserID = 1;         //幸運星ID
+    required int32 UserFaceID = 2;     //幸運星頭像ID
+    optional int32 AvatarFrameID = 3;  // VIP頭框像ID
+};
+
+//標誌玩家赢钱信息
+message BRNN_StageUerInfo {
+    required int32 UserID = 1;
+    required int64 Win = 2;
+};
+
+
+message TestGameChat {
+    required string Message = 1;
+};
+
+message TestGameScore {
+    required int32 Score = 1;
+};
+
+message TestGameEnd {};
+
+message UserEnter {
+    required GameUser User = 1;
+};
+
+message UserLeave {
+    required GameUser User = 1;
+};
+
+message UserStateChange {
+    required GameUser User = 1;
+};
+
+message GameUser {
+    required int32 UserID = 1;
+    required string NickName = 2;
+    required int32 Sex = 3;
+    required int32 FaceID = 4;
+    required int64 Score = 5;
+    required int32 WinCount = 6;
+    required int32 LoseCount = 7;
+    required int32 DrawCount = 8;
+    required int32 StateValue = 9;
+    required int32 TableNo = 10;
+    required int32 SeatNo = 11;
+    optional int32 LastWinLose = 12;
+};
+
+message GamePoker {
+    repeated UserPoker Poker = 1;
+};
+
+message UserPoker {
+    required int32 UserID = 1;
+    required int32 SeatNo = 2;
+    repeated PokerCard Cards = 3;
+};
+
+message PokerCard {
+    required int32 Color = 1;
+    required int32 CardNumber = 2;
+};
+message UserActionCommited {
+    required string ActionName = 1;
+};
+message AllUserActionCommited {
+    required string ActionName = 1;
+};
+message LookOnUserNotify {
+    repeated int32 UserID = 1;
+};
+message UserLuckScore {
+    required int32 UserID = 1;
+    required int64 Score = 2;
+};
+message UserLuckScoreRet {
+    required int32 UserID = 1;
+    required string Value = 2;
+};
+
+message GameBeginCountDown {
+    required int32 Time = 1;
+};
+
+message SuperToolAddChangeLog {
+    required int32 GameID = 1;
+    required int32 TableNo = 3;
+    required int32 Type = 4;
+    required string Result = 5;
+    required string Operator = 6;
+}
+
+message SuperToolAddAssignReward {
+    required int32 GameID = 1;
+    required int32 FlagID = 2;
+    required int32 TableNo = 3;
+    required string Result = 4;
+    required string Operator = 5;
+    repeated SuperToolAddAssignRewardDetail DetailList = 6;
+}
+
+message SuperToolGetAssignRewardDetail {
+    required int32 GameID = 1;
+    required int32 FlagID = 2;
+    required int32 TableNo = 3;
+}
+
+message SuperToolAddAssignRewardDetail {
+    required int32 Idx = 1;
+    required string Description = 2;
+    required string Reward = 3;
+    required int32 Status = 4;
+}
+
+message SuperToolAssignRewardDetail {
+    required int32 LogID = 1;
+    required int32 Idx = 2;
+    required string Description = 3;
+    required string Reward = 4;
+    required int32 Status = 5;
+}
+
+message SuperToolGetVipUserRequest {
+    required int32 GameID = 1;
+}
+
+message SuperToolVipUserDataList {
+    repeated SuperToolVipUserData DataList = 1;
+}
+
+message SuperToolVipUserData {
+    required int32 UserID = 1;
+    required int64 AssignAmount = 2;
+    required int32 AssignRate = 3;
+    required int64 CompleteAmount = 4;
+    required int32 Complete = 5;
+    required int32 Status = 6;
+    required int32 TotalAll = 7;
+    required int32 TotalUserWinLose = 8;
+    required int32 TodayUserWinLose = 9;
+}
+
+message SuperToolFishGetSystemRewardDetail {
+    repeated FishSystemRewardDataList FishRewardList = 1;
+}
+
+message FishSystemRewardDataList {
+    required int32 FishID = 1;
+    required int64 Amount = 2;
+    required int64 FinishAmount = 3;
+    required int32 Rate = 4;
+    required int32 Status = 5;
+}
+
+message SuperToolFishGetVIPUserRewardDetail {
+    repeated FishVIPUserRewardDataList FishVIPUserList = 1;
+}
+
+message FishVIPUserRewardDataList {
+    required int32 UserID = 1;
+    required int64 AssignAmount = 2;
+    required int32 Rate = 3;
+    required int64 FinishAmount = 4;
+    required int32 Status = 5;
+    required int64 SumAssignAmount = 6;
+}
+
+message SuperToolFishUpdSystemRewardDetail {
+    required int32 FlagID = 1;
+    repeated SuperToolFishUpdSystemRewardDataList FishRewardList = 2;
+}
+
+message SuperToolFishUpdSystemRewardDataList {
+    required int32 FishID = 1;
+    required int64 FinishAmount = 2;
+}
+
+message SuperToolfishUpdVIPUserRewardDetail {
+    required int32 GameID = 1;
+    repeated SuperToolFishUpdVIPUserRewardDataList FishUserRewardList = 2;
+}
+
+message SuperToolFishUpdVIPUserRewardDataList {
+    required int32 UserID = 1;
+    required int64 FinishAmount = 2;
+}
+
+message SuperToolZjhVipUserDataList {
+    repeated SuperToolZjhVipUserData DataList = 1;
+}
+
+message SuperToolZjhVipUserData {
+    required int32 UserID = 1;
+    required int64 NextType = 2;
+    required int64 NextWinLose = 3;
+    required int64 NextWinLoseNum = 4;
+    required int64 Finish = 5;
+    required int64 FinishNextWinLoseNum = 6;
+    required int32 NextTable = 7;
+    required int32 Status = 8;
+    required int64 TodaySumcharge = 9;
+    required int64 TodaySumConvert = 10;
+    required int64 TodayUserWinLose = 11;
+}
+
+message SuperToolZjhUpdVipUserData {
+    required int32 UserID = 1;
+    optional int64 Finish = 2;
+    optional int64 FinishNextWinLoseNum = 3;
+    optional int32 NextTable = 4;
+    optional int64 NextType = 5;
+}
+
+message FishSysPoolData {
+    required int32 FlagID = 1;
+    required int64 SumBetMoney = 2;
+    required int64 SumBullet = 3;
+    required int64 SysSumWinLoss = 4;
+    optional int64 AfterAdjustSyspoolWinLoss = 5;  //系統水池贏錢抽水後水池
+    optional int64 PoolAmount = 6;                 //調控水池
+}
+
+message FishPlayerPoolDetail {
+    optional int32 FlagID = 1;
+    repeated FishPlayerPoolDetailList FishRewardList = 2;
+}
+
+message FishPlayerPoolDetailList {
+    required int32 UserID = 1;
+    required int64 HitMoney = 2;
+    required int64 SpendMoney = 3;
+}
+
+message FindFishBeginnerOfferByUserID {
+    required int32 UserID = 1;
+    optional int32 NewPlayerAdjustSyspool = 2;
+}
+
+message FishBeginnerOfferDetail {
+    repeated FishBeginnerOffer NewPlayerList = 1;
+    optional int32 NewPlayerAdjustSyspool = 2;
+}
+
+message FishBeginnerOffer {
+    required int32 UserID = 1;
+    required int32 Bullet = 2;
+    required int32 Score = 3;
+    required int32 Status = 4;
+}
+
+message Cd21SysPoolData {
+    required int32 FlagID = 1;
+    required int64 SumBetMoney = 2;
+    required int64 SumBetCount = 3;
+    required int64 PoolAmount = 4;
+}
+
+message UserJackpotToBox {
+    required int32 UserID = 1;
+    required int64 UpdateAmount = 2;
+}
+
+// jackpot資料
+message JackpotData {
+    required int32 GameID = 1;             // GameID
+    required int32 FlagID = 2;             // FlagID
+    required int32 TableNo = 3;            // 桌子編號
+    required int64 Contribution = 4;       // 玩家貢獻值
+    required int64 TotalContribution = 5;  // 總貢獻值
+    required int64 AwardTotal = 6;         // 已發送獎金總和
+    required int32 Level = 7;              // Jackpot層級
+    required int64 JackpotPool = 8;        // 彩金池
+}
+
+// jackpot資料
+message JackpotAllData {
+    repeated JackpotData AllData = 1;  // 各池異動值
+}
+
+// 要求 水線控制遊戲輸贏結果
+message SuperTool_Msg_GetSysPoolWinLose {
+    required int32 GameID = 1;          // 遊戲編號
+    required int32 FlagID = 2;          // 房間編號
+};
+
+// 回傳 水線控制遊戲輸贏結果
+message SuperTool_Msg_GetSysPoolWinLoseRet {
+    required int32 GameID = 1;          // 遊戲編號
+    required int32 FlagID = 2;          // 房間編號
+    required int64 PoolAmount = 3;      // 水線
+    required int64 WinLine = 4;         // 贏錢線
+	required string WinLoseData = 5;    // 遊戲輸贏結果
+};
+
+// 更新 水線控制遊戲輸贏結果
+message SuperTool_Msg_UpdateSysPoolWinLose {
+    required int32 GameID = 1;          // 遊戲編號
+    required int32 FlagID = 2;          // 房間編號
+    required int64 PoolAmount = 3;      // 水線
+    required int64 WinLine = 4;         // 贏錢線
+	required string WinLoseData = 5;    // 遊戲輸贏結果
+};
+
+message Http_BRNN_GameInfo {
+    repeated Http_BRNN_TableList TableList = 1;  //桌子信息
+};
+
+message Http_BRNN_TableList {
+    required int32 TableNo = 1;            //桌子号
+    required int32 Status = 2;             //当前状态 0 下注中 1 开奖中 2开奖动画 3结算动画 4等待开始游戏
+    required int32 GameUserCount = 3;      //玩家人数(包含未下注玩家)
+    required int32 RobotCount = 4;         //机器人数(包含未下注机器人)
+    required int64 SumEarnAmount = 5;      //系统从开服到现在的总收益
+    required int32 LastEarnAmount = 6;     //最后一局收益
+    required int64 PoolCurrentAmount = 7;  //当前水池金币数
+};
+
+message Http_BRNN_BetBlackDetail {
+    required string BlackUserList = 1;  //黑名單UserId
+};
+
+message Http_BRNN_TableDetail {
+    required int32 TableNo = 1;            //桌子号
+    required int32 Status = 2;             //当前状态 0 下注中 1 开奖中 2开奖动画 3结算动画 4等待开始游戏
+    required int64 SumEarnAmount = 3;      //系统从开服到现在的总收益
+    required int32 LastEarnAmount = 4;     //最后一局收益
+    required int64 PoolCurrentAmount = 5;  //当前水池金币数
+    required int32 GameUserCount = 6;      //游戏玩家人数(包含未下注玩家)
+    required int32 RobotCount = 7;         //机器人数(包含未下注机器人)
+    required int32 PopWaterRate = 8;       //当前注水率
+
+    required int32 ZhuangType = 9;                 //庄家类型	0系统 1机器人当庄 2玩家上庄
+    required string ZhuangNickName = 10;           //庄家昵称
+    required int32 ZhuangUserID = 11;              //庄家用户ID
+    required int32 ZhuangSurplusTotal = 12;        //庄家剩余局数
+    required int64 ZhuangCurrentMoneyAmount = 13;  //庄家当前金币数 系统或机器人坐庄则表示水池金币数量
+    required int64 ZhuangInitMoneyAmount = 14;     //庄家初始上庄金币数 系统或机器人坐庄则用0表示
+
+    required int64 OpenResultZhuang = 15;     //当前开奖结果为庄的收益数量
+    required int64 OpenResultChingLong = 16;  //当前开奖结果为青龍的收益数量
+    required int64 OpenResultBaiHu = 17;      //当前开奖结果为白虎的收益数量
+    required int64 OpenResultChuChueh = 18;   //当前开奖结果为朱雀的收益数量
+    required int64 OpenResultHsuanWu = 19;    //当前开奖结果为玄武的收益数量
+    required int64 SysTaxIncome = 21;         //系統稅收
+
+    required string CurentOpenResult = 23;     //当前开奖结果,只有在开奖动画状态下有值
+    required int64 CurentOpenResultEarn = 24;  //当前开奖收益,只有在开奖动画状态下有值
+
+    repeated Http_BRNN_UserInfo UserInfo = 25;  //玩家信息
+
+    required int32 BetTime = 26;  //下注時間
+
+    required int64 WinLine = 27;                       //平衡金額
+    required int64 RobotBetAmount = 28;                //機器人下注量
+    repeated Http_BRNN_UserInfo LastGameUserBet = 29;  //上局下注玩家信息
+    required int32 ChingLongWinRate = 30;
+    required int32 BaiHuWinRate = 31;
+    required int32 ChuChuehWinRate = 32;
+    required int32 HsuanWuWinRate = 33;
+    required int64 FanFengTarget = 34;
+    required int64 FanFengComplete = 35;
+};
+
+message Http_BRNN_UserInfo {
+    required int32 UserID = 1;            //玩家ID
+    required int32 UserType = 2;          //玩家类型 0机器人 1玩家
+    required string NickName = 3;         //玩家昵称
+    required int64 GameScore = 4;         //游戏总输赢
+    required int64 InitMoney = 5;         //初始金币
+    required int64 CurrentMoney = 6;      //当前金币
+    required int64 BetInfoChingLong = 7;  //下注青龍的金币数量
+    required int64 BetInfoBaiHu = 8;      //下注白虎的金币数量
+    required int64 BetInfoChuChueh = 9;   //下注朱雀的金币数量
+    required int64 BetInfoHsuanWu = 10;   //下注玄武的金币数量
+    required int64 SumCharge = 11;        //總充值
+    required int64 SumConvert = 12;       //總兌換
+    required int64 WinRate = 13;          // 9局勝率
+    required int64 BetTotal = 14;
+    required bool IsVIP = 15;
+};
+
+//前20次开出的牌
+message BRNN_ResultCardList {
+    repeated BRNN_Poker PokerList = 1;
+};
+
+//一局的
+message BRNN_Poker {
+    repeated int32 RetType = 1;  //开奖结果
+};

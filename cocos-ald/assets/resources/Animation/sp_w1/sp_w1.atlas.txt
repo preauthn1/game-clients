@@ -1,0 +1,125 @@
+
+sp_w1.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 453, 117
+  size: 140, 137
+  orig: 140, 137
+  offset: 0, 0
+  index: -1
+blur
+  rotate: false
+  xy: 2, 90
+  size: 150, 164
+  orig: 150, 164
+  offset: 0, 0
+  index: -1
+frame
+  rotate: false
+  xy: 305, 111
+  size: 146, 143
+  orig: 146, 143
+  offset: 0, 0
+  index: -1
+lamp
+  rotate: false
+  xy: 729, 146
+  size: 140, 108
+  orig: 140, 108
+  offset: 0, 0
+  index: -1
+lamp_00
+  rotate: false
+  xy: 2, 34
+  size: 70, 54
+  orig: 70, 54
+  offset: 0, 0
+  index: -1
+lamp_02
+  rotate: false
+  xy: 74, 34
+  size: 70, 54
+  orig: 70, 54
+  offset: 0, 0
+  index: -1
+lamp_04
+  rotate: false
+  xy: 154, 53
+  size: 70, 54
+  orig: 70, 54
+  offset: 0, 0
+  index: -1
+lamp_06
+  rotate: false
+  xy: 226, 53
+  size: 70, 54
+  orig: 70, 54
+  offset: 0, 0
+  index: -1
+lamp_08
+  rotate: false
+  xy: 595, 76
+  size: 70, 54
+  orig: 70, 54
+  offset: 0, 0
+  index: -1
+lamp_10
+  rotate: false
+  xy: 667, 76
+  size: 70, 54
+  orig: 70, 54
+  offset: 0, 0
+  index: -1
+lamp_12
+  rotate: false
+  xy: 739, 90
+  size: 70, 54
+  orig: 70, 54
+  offset: 0, 0
+  index: -1
+lamp_14
+  rotate: false
+  xy: 811, 90
+  size: 70, 54
+  orig: 70, 54
+  offset: 0, 0
+  index: -1
+lamp_16
+  rotate: false
+  xy: 883, 95
+  size: 70, 54
+  orig: 70, 54
+  offset: 0, 0
+  index: -1
+smoke
+  rotate: false
+  xy: 871, 151
+  size: 122, 103
+  orig: 122, 103
+  offset: 0, 0
+  index: -1
+spark
+  rotate: false
+  xy: 2, 2
+  size: 28, 30
+  orig: 28, 30
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 154, 109
+  size: 149, 145
+  orig: 149, 145
+  offset: 0, 0
+  index: -1
+star02
+  rotate: false
+  xy: 595, 132
+  size: 132, 122
+  orig: 132, 122
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,146 @@
+
+start_end_bet.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+board01
+  rotate: false
+  xy: 2, 599
+  size: 731, 141
+  orig: 731, 141
+  offset: 0, 0
+  index: -1
+e_b2
+  rotate: false
+  xy: 2, 742
+  size: 731, 262
+  orig: 731, 262
+  offset: 0, 0
+  index: -1
+e_chip
+  rotate: false
+  xy: 365, 10
+  size: 122, 108
+  orig: 122, 108
+  offset: 0, 0
+  index: -1
+e_flash
+  rotate: false
+  xy: 2, 61
+  size: 361, 57
+  orig: 361, 57
+  offset: 0, 0
+  index: -1
+flash
+  rotate: false
+  xy: 2, 61
+  size: 361, 57
+  orig: 361, 57
+  offset: 0, 0
+  index: -1
+e_money
+  rotate: false
+  xy: 489, 26
+  size: 120, 111
+  orig: 120, 111
+  offset: 0, 0
+  index: -1
+e_text
+  rotate: true
+  xy: 665, 285
+  size: 312, 154
+  orig: 312, 154
+  offset: 0, 0
+  index: -1
+money
+  rotate: false
+  xy: 2, 120
+  size: 468, 142
+  orig: 468, 142
+  offset: 0, 0
+  index: -1
+ray1
+  rotate: false
+  xy: 334, 271
+  size: 329, 326
+  orig: 329, 326
+  offset: 0, 0
+  index: -1
+ray2
+  rotate: false
+  xy: 2, 264
+  size: 330, 333
+  orig: 330, 333
+  offset: 0, 0
+  index: -1
+spark01
+  rotate: false
+  xy: 2, 2
+  size: 135, 57
+  orig: 135, 57
+  offset: 0, 0
+  index: -1
+spark02
+  rotate: false
+  xy: 2, 2
+  size: 135, 57
+  orig: 135, 57
+  offset: 0, 0
+  index: -1
+star
+  rotate: true
+  xy: 735, 689
+  size: 315, 233
+  orig: 315, 233
+  offset: 0, 0
+  index: -1
+t01
+  rotate: true
+  xy: 611, 26
+  size: 111, 85
+  orig: 111, 85
+  offset: 0, 0
+  index: -1
+t02
+  rotate: false
+  xy: 472, 139
+  size: 111, 130
+  orig: 111, 130
+  offset: 0, 0
+  index: -1
+t03
+  rotate: true
+  xy: 821, 262
+  size: 111, 130
+  orig: 111, 130
+  offset: 0, 0
+  index: -1
+t04
+  rotate: false
+  xy: 585, 139
+  size: 111, 130
+  orig: 111, 130
+  offset: 0, 0
+  index: -1
+t05
+  rotate: false
+  xy: 698, 153
+  size: 111, 130
+  orig: 111, 130
+  offset: 0, 0
+  index: -1
+t06
+  rotate: true
+  xy: 811, 149
+  size: 111, 130
+  orig: 111, 130
+  offset: 0, 0
+  index: -1
+text
+  rotate: true
+  xy: 821, 375
+  size: 312, 154
+  orig: 312, 154
+  offset: 0, 0
+  index: -1

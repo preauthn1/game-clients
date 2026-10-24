@@ -1,0 +1,62 @@
+
+win.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+win
+  rotate: false
+  xy: 2, 54
+  size: 460, 181
+  orig: 460, 181
+  offset: 0, 0
+  index: -1
+win_00
+  rotate: false
+  xy: 464, 185
+  size: 128, 50
+  orig: 128, 50
+  offset: 0, 0
+  index: -1
+win_02
+  rotate: false
+  xy: 132, 2
+  size: 128, 50
+  orig: 128, 50
+  offset: 0, 0
+  index: -1
+win_04
+  rotate: false
+  xy: 464, 133
+  size: 128, 50
+  orig: 128, 50
+  offset: 0, 0
+  index: -1
+win_06
+  rotate: false
+  xy: 594, 185
+  size: 128, 50
+  orig: 128, 50
+  offset: 0, 0
+  index: -1
+win_08
+  rotate: false
+  xy: 262, 2
+  size: 128, 50
+  orig: 128, 50
+  offset: 0, 0
+  index: -1
+win_10
+  rotate: false
+  xy: 464, 81
+  size: 128, 50
+  orig: 128, 50
+  offset: 0, 0
+  index: -1
+win_12
+  rotate: false
+  xy: 2, 2
+  size: 128, 50
+  orig: 128, 50
+  offset: 0, 0
+  index: -1

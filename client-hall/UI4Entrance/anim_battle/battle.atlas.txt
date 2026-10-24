@@ -1,0 +1,62 @@
+
+battle.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ball
+  rotate: false
+  xy: 405, 103
+  size: 181, 114
+  orig: 181, 114
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 12
+  size: 209, 205
+  orig: 209, 205
+  offset: 0, 0
+  index: -1
+c1
+  rotate: true
+  xy: 588, 95
+  size: 122, 155
+  orig: 122, 155
+  offset: 0, 0
+  index: -1
+c2
+  rotate: false
+  xy: 901, 76
+  size: 97, 141
+  orig: 97, 141
+  offset: 0, 0
+  index: -1
+c3
+  rotate: true
+  xy: 745, 96
+  size: 121, 154
+  orig: 121, 154
+  offset: 0, 0
+  index: -1
+coin
+  rotate: true
+  xy: 213, 2
+  size: 63, 87
+  orig: 63, 87
+  offset: 0, 0
+  index: -1
+f0
+  rotate: false
+  xy: 405, 71
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+f1
+  rotate: false
+  xy: 213, 67
+  size: 190, 150
+  orig: 190, 150
+  offset: 0, 0
+  index: -1

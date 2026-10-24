@@ -1,0 +1,88 @@
+{
+"skeleton": { "hash": "rCKh3nnWOfKmxpBeN9iv+XjpyAE", "spine": "3.6.53", "width": 646, "height": 278, "images": "./images/" },
+"bones": [
+	{ "name": "root", "x": 3.22, "y": 9.2 },
+	{ "name": "glow", "parent": "root", "length": 31.74, "rotation": 90.95, "x": -1.92, "y": -11.5 },
+	{ "name": "ray", "parent": "root", "length": 48.74, "rotation": 86.89, "x": 4.96, "y": -16.26 }
+],
+"slots": [
+	{ "name": "ray", "bone": "ray", "attachment": "ray", "blend": "additive" },
+	{ "name": "glow", "bone": "glow", "attachment": "glow", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"glow": {
+			"glow": { "x": 6.22, "y": -50.28, "rotation": -90.95, "width": 590, "height": 202 }
+		},
+		"ray": {
+			"ray": { "x": 17.51, "y": 6.17, "rotation": -86.89, "width": 605, "height": 278 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"glow": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffffa1" },
+					{ "time": 1, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "glow" },
+					{ "time": 0.5, "name": "glow" },
+					{ "time": 1, "name": "glow" }
+				]
+			},
+			"ray": {
+				"attachment": [
+					{ "time": 0, "name": "ray" },
+					{ "time": 0.5, "name": "ray" },
+					{ "time": 1, "name": "ray" }
+				]
+			}
+		},
+		"bones": {
+			"ray": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.058, "y": 1.089 },
+					{ "time": 0.5, "x": 0.8, "y": 0.8 },
+					{ "time": 1, "x": 1.058, "y": 1.089 }
+				]
+			},
+			"glow": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1.275 },
+					{ "time": 0.5, "x": 0.487, "y": 1.066 },
+					{ "time": 1, "x": 1, "y": 1.275 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.5 },
+			{ "time": 1 }
+		]
+	}
+}
+}

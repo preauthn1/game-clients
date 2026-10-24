@@ -1,0 +1,14 @@
+{
+  "splash-setting": {
+    "totalTime": 2000,
+    "url": "D:\\01.WorkData\\10.Cocos2d\\04.SourcesCode\\Roulette3D\\assets\\artSources/splash.png",
+    "displayWatermark": false,
+    "displayRatio": 1,
+    "clearColor": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    }
+  }
+}

@@ -1,0 +1,55 @@
+
+mw.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 747, 783
+  size: 49, 47
+  orig: 49, 47
+  offset: 0, 0
+  index: -1
+02
+  rotate: false
+  xy: 2, 2
+  size: 113, 47
+  orig: 113, 47
+  offset: 0, 0
+  index: -1
+03
+  rotate: false
+  xy: 747, 832
+  size: 130, 49
+  orig: 130, 49
+  offset: 0, 0
+  index: -1
+04
+  rotate: false
+  xy: 386, 121
+  size: 85, 49
+  orig: 85, 49
+  offset: 0, 0
+  index: -1
+05
+  rotate: false
+  xy: 879, 840
+  size: 46, 41
+  orig: 46, 41
+  offset: 0, 0
+  index: -1
+gold_light
+  rotate: false
+  xy: 2, 172
+  size: 743, 709
+  orig: 743, 709
+  offset: 0, 0
+  index: -1
+mega
+  rotate: false
+  xy: 2, 51
+  size: 382, 119
+  orig: 382, 119
+  offset: 0, 0
+  index: -1

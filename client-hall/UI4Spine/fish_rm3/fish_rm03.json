@@ -1,0 +1,302 @@
+{
+"skeleton": { "hash": "JLqr/kjm6scfzD2PzQ1cG9h3U0A", "spine": "3.6.53", "width": 196, "height": 246, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "F coin", "parent": "root", "length": 25.44, "rotation": -73.56, "x": 54.74, "y": -49.38 },
+	{ "name": "body", "parent": "root", "length": 33.21, "rotation": 91.38, "x": 17.14, "y": -11.78 },
+	{ "name": "L", "parent": "body", "length": 30.1, "rotation": 93.19, "x": 26.22, "y": 58.59 },
+	{ "name": "L coin", "parent": "body", "length": 23.36, "rotation": 126.67, "x": 12.4, "y": 32.91 },
+	{ "name": "R", "parent": "body", "length": 31.05, "rotation": -143.18, "x": 32.57, "y": -59.6 },
+	{ "name": "T coin", "parent": "root", "length": 35.26, "rotation": 86.75, "x": 85.54, "y": 99.42 },
+	{ "name": "body2", "parent": "body", "length": 30.73, "rotation": 139.96, "x": -10.22, "y": 7.45 },
+	{ "name": "body3", "parent": "body2", "length": 36.87, "rotation": -36.25, "x": 39.29, "y": -4.94 },
+	{ "name": "body4", "parent": "body", "length": 54.38, "rotation": 25.75, "x": 45.23, "y": 0.51 },
+	{ "name": "eye", "parent": "body4", "length": 16.64, "rotation": -17.44, "x": 22.67, "y": -41.73 },
+	{ "name": "eye 2", "parent": "body4", "length": 15.58, "rotation": -26.05, "x": 32.89, "y": -45.9 },
+	{ "name": "eyeb", "parent": "body4", "length": 18.4, "rotation": -28.38, "x": 80.48, "y": -2.58 },
+	{ "name": "eyew", "parent": "body4", "length": 23.48, "rotation": -18.31, "x": 12.48, "y": -40.55 },
+	{ "name": "mouth", "parent": "body4", "length": 19.38, "rotation": 162.47, "x": 17.42, "y": 38.01 }
+],
+"slots": [
+	{ "name": "T coin", "bone": "T coin", "attachment": "T coin" },
+	{ "name": "L", "bone": "L", "attachment": "L" },
+	{ "name": "body", "bone": "body", "attachment": "body" },
+	{ "name": "eyew", "bone": "eyew", "attachment": "eyew" },
+	{ "name": "eye", "bone": "eye", "attachment": "eye" },
+	{ "name": "eye 2", "bone": "eye 2", "attachment": "eye 2" },
+	{ "name": "L coin", "bone": "L coin", "attachment": "L coin" },
+	{ "name": "mouth", "bone": "mouth", "attachment": "mouth" },
+	{ "name": "eyeb", "bone": "eyeb", "attachment": "eyeb" },
+	{ "name": "R", "bone": "R", "attachment": "R" },
+	{ "name": "F coin", "bone": "F coin", "attachment": "F coin" }
+],
+"skins": {
+	"default": {
+		"F coin": {
+			"F coin": { "x": 18.22, "y": 0.05, "rotation": 73.56, "width": 92, "height": 83 }
+		},
+		"L": {
+			"L": { "x": 16.05, "y": 0.09, "rotation": 175.43, "width": 58, "height": 50 }
+		},
+		"L coin": {
+			"L coin": { "x": 13.13, "y": 1.37, "rotation": 141.95, "width": 65, "height": 48 }
+		},
+		"R": {
+			"R": { "x": 18.53, "y": -5.67, "rotation": 51.8, "width": 50, "height": 61 }
+		},
+		"T coin": {
+			"T coin": { "x": 8.57, "y": 3.09, "rotation": -86.75, "width": 52, "height": 59 }
+		},
+		"body": {
+			"body": {
+				"type": "mesh",
+				"uvs": [ 0.3597, 0, 0.14006, 0.05653, 0, 0.14437, 0, 0.38469, 0.10053, 0.54215, 0.1796, 0.60347, 0, 0.65485, 0, 0.82059, 0.09174, 0.99628, 0.30479, 1, 0.41021, 0.88026, 0.38166, 0.84545, 0.70803, 0.77926, 0.93733, 0.73275, 1, 0.57695, 1, 0.51397, 1, 0.2521, 0.93074, 0.04824, 0.8319, 0, 0.62765, 0, 0.28502, 0.27696, 0.41241, 0.70126, 0.67157, 0.46094 ],
+				"triangles": [ 21, 20, 22, 19, 20, 0, 20, 19, 22, 5, 4, 20, 4, 3, 20, 16, 18, 17, 16, 22, 18, 22, 19, 18, 20, 2, 1, 20, 3, 2, 20, 1, 0, 12, 22, 13, 13, 22, 14, 22, 15, 14, 22, 16, 15, 11, 21, 12, 11, 5, 21, 21, 22, 12, 5, 20, 21, 9, 11, 10, 9, 8, 11, 8, 7, 11, 7, 5, 11, 7, 6, 5 ],
+				"vertices": [ 2, 7, -90.22, -104.66, 1.0E-5, 9, 85.53, -9.03, 0.99999, 4, 8, -7.74, -154.54, 0.00541, 7, -58.33, -124.99, 0.00873, 2, 114.84, 65.62, 7.9E-4, 9, 90.99, 28.4, 0.98508, 4, 8, 19.24, -142.16, 0.0184, 7, -29.25, -130.96, 0.02633, 2, 96.42, 88.9, 0.01101, 9, 84.51, 57.37, 0.94427, 4, 8, 32.76, -92.04, 0.1016, 7, 11.29, -98.54, 0.11732, 2, 44.52, 90.15, 0.08889, 9, 38.31, 81.04, 0.69219, 4, 8, 25.79, -54.94, 0.28335, 7, 27.61, -64.49, 0.23008, 2, 10.13, 74.59, 0.13407, 9, 0.57, 81.97, 0.35249, 4, 8, 16.8, -38.8, 0.57732, 7, 29.9, -46.16, 0.22602, 2, -3.42, 62.02, 0.07378, 9, -17.09, 76.54, 0.12288, 4, 8, 47.95, -35.7, 0.97624, 7, 56.85, -62.08, 0.01451, 2, -13.81, 91.55, 0.00163, 9, -13.62, 107.65, 0.00761, 1, 8, 57.27, -1.14, 1, 1, 8, 52.72, 39.39, 1, 2, 8, 19.4, 49.21, 0.99961, 7, 84.04, 23.28, 3.9E-4, 2, 8, -3.93, 28.71, 0.89582, 7, 53.1, 20.54, 0.10418, 2, 8, -1.39, 20.24, 0.74591, 7, 50.14, 12.21, 0.25409, 2, 7, 5.74, 44.82, 0.62001, 2, -43.46, -23.17, 0.37999, 3, 7, -25.45, 67.73, 0.24491, 2, -34.31, -60.78, 0.74261, 9, -98.27, -20.65, 0.01248, 3, 7, -58.11, 54.69, 0.08126, 2, -0.92, -71.8, 0.80427, 9, -72.98, -45.09, 0.11447, 3, 7, -68.73, 46.19, 0.03848, 2, 12.68, -72.13, 0.75948, 9, -60.87, -51.29, 0.20204, 2, 2, 69.23, -73.49, 0.23074, 9, -10.53, -77.08, 0.76926, 2, 2, 113.52, -63.27, 0.0229, 9, 33.81, -87.12, 0.9771, 2, 2, 124.33, -47.41, 0.00539, 9, 50.43, -77.53, 0.99461, 1, 9, 65.61, -47.9, 1, 4, 8, -18.15, -102.42, 0.02509, 7, -35.91, -76.79, 0.038, 2, 66.67, 43.14, 0.05327, 9, 37.84, 29.08, 0.88364, 4, 8, -14.34, -8.52, 0.05027, 7, 22.69, -3.33, 0.94764, 2, -25.45, 24.59, 6.4E-4, 9, -53.2, 52.4, 0.00144, 2, 2, 25.42, -18.89, 0.83848, 9, -26.26, -8.87, 0.16152 ],
+				"hull": 20,
+				"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 26, 28, 32, 34, 34, 36, 36, 38, 0, 38, 22, 24, 24, 26, 28, 30, 30, 32 ],
+				"width": 163,
+				"height": 216
+			}
+		},
+		"eye": {
+			"eye": { "x": 2.89, "y": -1.11, "rotation": -99.69, "width": 22, "height": 22 }
+		},
+		"eye 2": {
+			"eye 2": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -14.32, -18.29, -13.56, 21.7, 10.43, 21.25, 9.68, -18.74 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 40,
+				"height": 24
+			}
+		},
+		"eyeb": {
+			"eyeb": { "x": 1.73, "y": -13.77, "rotation": -88.75, "width": 140, "height": 46 }
+		},
+		"eyew": {
+			"eyew": { "x": 11.35, "y": 3.8, "rotation": -98.82, "width": 31, "height": 32 }
+		},
+		"mouth": {
+			"mouth": { "x": 13.8, "y": 10.02, "rotation": 80.39, "width": 110, "height": 46 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"F coin": {
+				"attachment": [
+					{ "time": 0, "name": "F coin" },
+					{ "time": 1, "name": "F coin" },
+					{ "time": 2, "name": "F coin" }
+				]
+			},
+			"L": {
+				"attachment": [
+					{ "time": 0, "name": "L" },
+					{ "time": 1, "name": "L" },
+					{ "time": 2, "name": "L" }
+				]
+			},
+			"L coin": {
+				"attachment": [
+					{ "time": 0, "name": "L coin" },
+					{ "time": 1, "name": "L coin" },
+					{ "time": 2, "name": "L coin" }
+				]
+			},
+			"R": {
+				"attachment": [
+					{ "time": 0, "name": "R" },
+					{ "time": 1, "name": "R" },
+					{ "time": 2, "name": "R" }
+				]
+			},
+			"T coin": {
+				"attachment": [
+					{ "time": 0, "name": "T coin" },
+					{ "time": 1, "name": "T coin" },
+					{ "time": 2, "name": "T coin" }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body" },
+					{ "time": 1, "name": "body" },
+					{ "time": 2, "name": "body" }
+				]
+			},
+			"eye": {
+				"attachment": [
+					{ "time": 0, "name": "eye" },
+					{ "time": 1, "name": "eye" },
+					{ "time": 2, "name": "eye" }
+				]
+			},
+			"eye 2": {
+				"attachment": [
+					{ "time": 0, "name": "eye 2" },
+					{ "time": 1, "name": "eye 2" },
+					{ "time": 2, "name": "eye 2" }
+				]
+			},
+			"eyeb": {
+				"attachment": [
+					{ "time": 0, "name": "eyeb" },
+					{ "time": 1, "name": "eyeb" },
+					{ "time": 2, "name": "eyeb" }
+				]
+			},
+			"eyew": {
+				"attachment": [
+					{ "time": 0, "name": "eyew" },
+					{ "time": 1, "name": "eyew" },
+					{ "time": 2, "name": "eyew" }
+				]
+			},
+			"mouth": {
+				"attachment": [
+					{ "time": 0, "name": "mouth" },
+					{ "time": 1, "name": "mouth" },
+					{ "time": 2, "name": "mouth" }
+				]
+			}
+		},
+		"bones": {
+			"L coin": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1, "angle": -6.73 },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			},
+			"mouth": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1, "x": -0.63, "y": -1.99 },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"eyeb": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1, "x": -3.36, "y": 1.81 },
+					{ "time": 1.2, "x": -5.04, "y": 2.72 },
+					{ "time": 1.5, "x": 1.22, "y": -0.66 },
+					{ "time": 1.8333, "x": -5.04, "y": 2.72 },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"eye": {
+				"translate": [
+					{ "time": 0, "x": 0.66, "y": 2.09 },
+					{ "time": 1, "x": -0.87, "y": -2.76 },
+					{ "time": 2, "x": 0.66, "y": 2.09 }
+				]
+			},
+			"R": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1, "angle": 19.18 },
+					{ "time": 2, "angle": 0 }
+				]
+			},
+			"L": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1, "angle": -10.46 },
+					{ "time": 2, "angle": 0 }
+				]
+			},
+			"body": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1, "x": -0.13, "y": 5.34 },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"T coin": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1, "x": -0.34, "y": -5.99 },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"F coin": {
+				"translate": [
+					{ "time": 0, "x": -2.88, "y": 9.77 },
+					{ "time": 1, "x": -3.69, "y": 12.51 },
+					{ "time": 2, "x": -2.88, "y": 9.77 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			},
+			"body2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				]
+			},
+			"body3": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				]
+			},
+			"body4": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1, "angle": 1.72 },
+					{ "time": 1.5, "angle": -5.28 },
+					{ "time": 2, "angle": 0 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"body": {
+					"body": [
+						{ "time": 0, "curve": "stepped" },
+						{ "time": 1, "curve": "stepped" },
+						{ "time": 2 }
+					]
+				}
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 1 },
+			{ "time": 2 }
+		]
+	}
+}
+}

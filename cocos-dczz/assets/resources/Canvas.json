@@ -1,0 +1,4786 @@
+{
+  "name": "Canvas",
+  "pos": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "scale": {
+    "x": 1.22,
+    "y": 1.22
+  },
+  "rotation": 0.0,
+  "active": true,
+  "canvas": true,
+  "canvasRenderOrder": 1,
+  "rect": {
+    "AnchorMinX": 0.0,
+    "AnchorMinY": 0.0,
+    "AnchorMaxX": 0.0,
+    "AnchorMaxY": 0.0,
+    "PivotX": 0.5,
+    "PivotY": 0.5,
+    "Left": -667.0,
+    "Botton": -375.0,
+    "Right": -667.0,
+    "Top": -375.0,
+    "AnchoredPositionX": 0.0,
+    "AnchoredPositionY": 0.0,
+    "SizeDeltaX": 1334.0,
+    "SizeDeltaY": 750.0,
+    "x": -667.0,
+    "y": -375.0,
+    "width": 1334.0,
+    "height": 750.0
+  },
+  "size": {
+    "width": 1334.0,
+    "height": 750.0
+  },
+  "children": [
+    {
+      "name": "Camera",
+      "pos": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "rotation": 0.0,
+      "active": true
+    },
+    {
+      "name": "GameLayer",
+      "pos": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "rotation": 0.0,
+      "active": true,
+      "rect": {
+        "AnchorMinX": 0.0,
+        "AnchorMinY": 0.0,
+        "AnchorMaxX": 1.0,
+        "AnchorMaxY": 1.0,
+        "PivotX": 0.5,
+        "PivotY": 0.5,
+        "Left": 0.0,
+        "Botton": 0.0,
+        "Right": 0.0,
+        "Top": 0.0,
+        "AnchoredPositionX": 0.0,
+        "AnchoredPositionY": 0.0,
+        "SizeDeltaX": 0.0,
+        "SizeDeltaY": 0.0,
+        "x": -667.0,
+        "y": -375.0,
+        "width": 1334.0,
+        "height": 750.0
+      },
+      "size": {
+        "width": 1334.0,
+        "height": 750.0
+      },
+      "children": [
+        {
+          "name": "BetPrefab",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 0.4,
+            "y": 0.4
+          },
+          "rotation": 0.0,
+          "active": false,
+          "components": [
+            {
+              "type": "UnityEngine.UI.Image",
+              "size": {
+                "width": 140.0,
+                "height": 140.0
+              },
+              "depth": -1,
+              "spType": "Simple",
+              "spName": "chip_0",
+              "atlas": "chip_0"
+            }
+          ],
+          "size": {
+            "width": 140.0,
+            "height": 140.0
+          },
+          "children": [
+            {
+              "name": "Text",
+              "pos": {
+                "x": 0.0,
+                "y": 5.14
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "components": [
+                {
+                  "type": "UnityEngine.UI.Text",
+                  "size": {
+                    "width": 140.0,
+                    "height": 62.2
+                  },
+                  "depth": -1,
+                  "text": "1",
+                  "fontSize": 36,
+                  "overflowH": 0,
+                  "overflowV": 0,
+                  "bestFit": false,
+                  "spacingY": 1.0,
+                  "alignment": 4
+                }
+              ],
+              "size": {
+                "width": 140.0,
+                "height": 62.2
+              }
+            }
+          ]
+        },
+        {
+          "name": "RecoverCardPosition",
+          "pos": {
+            "x": -226.3,
+            "y": 189.5
+          },
+          "scale": {
+            "x": 0.77,
+            "y": 0.77
+          },
+          "rotation": 355.0,
+          "active": false,
+          "components": [
+            {
+              "type": "UnityEngine.UI.Image",
+              "size": {
+                "width": 88.0,
+                "height": 119.5
+              },
+              "depth": -1,
+              "spType": "Simple",
+              "spName": "sprite_card_4_17",
+              "atlas": "sprite_card_4_17"
+            }
+          ],
+          "size": {
+            "width": 88.0,
+            "height": 119.5
+          }
+        },
+        {
+          "name": "Background1",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "rotation": 0.0,
+          "active": true,
+          "components": [
+            {
+              "type": "UnityEngine.UI.RawImage",
+              "size": {
+                "width": 0.0,
+                "height": 0.0
+              },
+              "depth": 0,
+              "spName": "bg_01_dczz"
+            }
+          ],
+          "rect": {
+            "AnchorMinX": 0.0,
+            "AnchorMinY": 0.0,
+            "AnchorMaxX": 1.0,
+            "AnchorMaxY": 1.0,
+            "PivotX": 0.5,
+            "PivotY": 0.5,
+            "Left": 0.0,
+            "Botton": 0.0,
+            "Right": 0.0,
+            "Top": 0.0,
+            "AnchoredPositionX": 0.0,
+            "AnchoredPositionY": 0.0,
+            "SizeDeltaX": 0.0,
+            "SizeDeltaY": 0.0,
+            "x": -667.0,
+            "y": -375.0,
+            "width": 1334.0,
+            "height": 750.0
+          },
+          "size": {
+            "width": 1334.0,
+            "height": 750.0
+          }
+        },
+        {
+          "name": "Background2",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "rotation": 0.0,
+          "active": true,
+          "components": [
+            {
+              "type": "UnityEngine.UI.RawImage",
+              "size": {
+                "width": 1336.0,
+                "height": 736.0
+              },
+              "depth": 1,
+              "spName": "bg_02_dczz"
+            }
+          ],
+          "size": {
+            "width": 1336.0,
+            "height": 736.0
+          }
+        },
+        {
+          "name": "CardPrefab",
+          "pos": {
+            "x": 238.2,
+            "y": 158.9
+          },
+          "scale": {
+            "x": 0.65,
+            "y": 0.65
+          },
+          "rotation": 65.0,
+          "active": true,
+          "components": [
+            {
+              "type": "UnityEngine.UI.Image",
+              "size": {
+                "width": 88.0,
+                "height": 119.5
+              },
+              "depth": 2,
+              "spType": "Simple",
+              "spName": "sprite_card_4_17",
+              "atlas": "sprite_card_4_17"
+            }
+          ],
+          "size": {
+            "width": 88.0,
+            "height": 119.5
+          }
+        },
+        {
+          "name": "UIDealer",
+          "pos": {
+            "x": 0.0,
+            "y": 209.5
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "rotation": 0.0,
+          "active": true,
+          "size": {
+            "width": 208.0,
+            "height": 140.0
+          },
+          "children": [
+            {
+              "name": "DealerSkeleton",
+              "pos": {
+                "x": 0.0,
+                "y": -52.9
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "components": [
+                {
+                  "type": "Spine.Unity.SkeletonGraphic",
+                  "size": {
+                    "width": 100.0,
+                    "height": 100.0
+                  },
+                  "depth": 3
+                }
+              ],
+              "sg": {
+                "startanimation": "idle",
+                "loop": true,
+                "timescale": 1.0,
+                "initialSkinName": "default",
+                "SkeletonDataAsset": "dealer_SkeletonData"
+              },
+              "size": {
+                "width": 100.0,
+                "height": 100.0
+              }
+            },
+            {
+              "name": "CardRoot",
+              "pos": {
+                "x": 0.0,
+                "y": -152.2
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "size": {
+                "width": 88.0,
+                "height": 119.5
+              }
+            }
+          ]
+        },
+        {
+          "name": "UIPlayer",
+          "pos": {
+            "x": 0.0,
+            "y": -14.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "rotation": 0.0,
+          "active": true,
+          "size": {
+            "width": 1334.0,
+            "height": 750.0
+          },
+          "children": [
+            {
+              "name": "Player1",
+              "pos": {
+                "x": 396.2,
+                "y": -202.33
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "size": {
+                "width": 198.0,
+                "height": 79.0
+              },
+              "children": [
+                {
+                  "name": "PlayerInfo",
+                  "pos": {
+                    "x": 0.0,
+                    "y": -6.1
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "size": {
+                    "width": 198.0,
+                    "height": 80.0
+                  },
+                  "children": [
+                    {
+                      "name": "PlayerBackground",
+                      "pos": {
+                        "x": 0.0,
+                        "y": -6.8
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 198.0,
+                            "height": 80.0
+                          },
+                          "depth": 5,
+                          "spType": "Sliced",
+                          "spName": "bar_02_dczz",
+                          "atlas": "dczz",
+                          "border": {
+                            "left": 0.0,
+                            "right": 0.0,
+                            "top": 53.0,
+                            "bottom": 19.0
+                          }
+                        }
+                      ],
+                      "size": {
+                        "width": 198.0,
+                        "height": 80.0
+                      }
+                    },
+                    {
+                      "name": "OwnBackground",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 198.0,
+                            "height": 96.0
+                          },
+                          "depth": 6,
+                          "spType": "Sliced",
+                          "spName": "bar_01_dczz",
+                          "atlas": "dczz",
+                          "border": {
+                            "left": 0.0,
+                            "right": 0.0,
+                            "top": 78.0,
+                            "bottom": 17.0
+                          }
+                        }
+                      ],
+                      "size": {
+                        "width": 198.0,
+                        "height": 96.0
+                      }
+                    },
+                    {
+                      "name": "IDText",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 8.9
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Text",
+                          "size": {
+                            "width": 173.9,
+                            "height": 36.0
+                          },
+                          "depth": 7,
+                          "text": "ID:12345678",
+                          "fontSize": 22,
+                          "overflowH": 0,
+                          "overflowV": 0,
+                          "bestFit": false,
+                          "spacingY": 1.0,
+                          "alignment": 4
+                        }
+                      ],
+                      "size": {
+                        "width": 173.9,
+                        "height": 36.0
+                      }
+                    },
+                    {
+                      "name": "MoneyImage",
+                      "pos": {
+                        "x": -69.5,
+                        "y": -22.6
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 28.0,
+                            "height": 28.0
+                          },
+                          "depth": 8,
+                          "spType": "Simple",
+                          "spName": "icon_01_dczz",
+                          "atlas": "dczz"
+                        }
+                      ],
+                      "size": {
+                        "width": 28.0,
+                        "height": 28.0
+                      }
+                    },
+                    {
+                      "name": "MoneyText",
+                      "pos": {
+                        "x": 11.1,
+                        "y": -21.2
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Text",
+                          "size": {
+                            "width": 140.6,
+                            "height": 36.0
+                          },
+                          "depth": 9,
+                          "text": "123456789.99",
+                          "fontSize": 22,
+                          "overflowH": 0,
+                          "overflowV": 0,
+                          "bestFit": false,
+                          "spacingY": 1.0,
+                          "alignment": 4
+                        }
+                      ],
+                      "size": {
+                        "width": 140.6,
+                        "height": 36.0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "BetPoolButton0",
+                  "pos": {
+                    "x": -69.5,
+                    "y": 124.5
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 110.0,
+                        "height": 110.0
+                      },
+                      "alpha": 0,
+                      "depth": 10,
+                      "spType": "Sliced"
+                    }
+                  ],
+                  "button": {
+                    "interactable": true,
+                    "Transition": "ColorTint"
+                  },
+                  "size": {
+                    "width": 110.0,
+                    "height": 110.0
+                  },
+                  "children": [
+                    {
+                      "name": "FocusImage",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 110.0,
+                            "height": 110.0
+                          },
+                          "depth": 11,
+                          "spType": "Simple",
+                          "spName": "sing_02_dczz",
+                          "atlas": "dczz"
+                        }
+                      ],
+                      "size": {
+                        "width": 110.0,
+                        "height": 110.0
+                      }
+                    },
+                    {
+                      "name": "Range",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "size": {
+                        "width": 80.0,
+                        "height": 80.0
+                      }
+                    },
+                    {
+                      "name": "TotalText",
+                      "pos": {
+                        "x": 0.0,
+                        "y": -67.3
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Text",
+                          "size": {
+                            "width": 131.3,
+                            "height": 29.4
+                          },
+                          "depth": 13,
+                          "text": "0",
+                          "fontSize": 22,
+                          "overflowH": 1,
+                          "overflowV": 0,
+                          "bestFit": false,
+                          "spacingY": 1.0,
+                          "alignment": 4
+                        }
+                      ],
+                      "size": {
+                        "width": 131.3,
+                        "height": 29.4
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "BetPoolButton1",
+                  "pos": {
+                    "x": 70.4,
+                    "y": 124.5
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 110.0,
+                        "height": 110.0
+                      },
+                      "alpha": 0,
+                      "depth": 14,
+                      "spType": "Sliced"
+                    }
+                  ],
+                  "button": {
+                    "interactable": true,
+                    "Transition": "ColorTint"
+                  },
+                  "size": {
+                    "width": 110.0,
+                    "height": 110.0
+                  },
+                  "children": [
+                    {
+                      "name": "FocusImage",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 110.0,
+                            "height": 110.0
+                          },
+                          "depth": 15,
+                          "spType": "Simple",
+                          "spName": "sing_02_dczz",
+                          "atlas": "dczz"
+                        }
+                      ],
+                      "size": {
+                        "width": 110.0,
+                        "height": 110.0
+                      }
+                    },
+                    {
+                      "name": "Range",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "size": {
+                        "width": 80.0,
+                        "height": 80.0
+                      }
+                    },
+                    {
+                      "name": "TotalText",
+                      "pos": {
+                        "x": 0.0,
+                        "y": -67.3
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Text",
+                          "size": {
+                            "width": 131.3,
+                            "height": 29.4
+                          },
+                          "depth": 17,
+                          "text": "0",
+                          "fontSize": 22,
+                          "overflowH": 1,
+                          "overflowV": 0,
+                          "bestFit": false,
+                          "spacingY": 1.0,
+                          "alignment": 4
+                        }
+                      ],
+                      "size": {
+                        "width": 131.3,
+                        "height": 29.4
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "CardRoot",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 130.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "size": {
+                    "width": 111.4,
+                    "height": 116.2
+                  }
+                },
+                {
+                  "name": "AbandonImage",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 76.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 94.0,
+                        "height": 42.0
+                      },
+                      "depth": 18,
+                      "spType": "Simple",
+                      "spName": "font_08_dczz",
+                      "atlas": "dczz"
+                    }
+                  ],
+                  "rect": {
+                    "AnchorMinX": 0.5,
+                    "AnchorMinY": 0.5,
+                    "AnchorMaxX": 0.5,
+                    "AnchorMaxY": 0.5,
+                    "PivotX": 0.5,
+                    "PivotY": 0.0,
+                    "Left": -47.0,
+                    "Botton": 76.0,
+                    "Right": -47.0,
+                    "Top": -118.0,
+                    "AnchoredPositionX": 0.0,
+                    "AnchoredPositionY": 76.0,
+                    "SizeDeltaX": 94.0,
+                    "SizeDeltaY": 42.0,
+                    "x": -47.0,
+                    "y": 0.0,
+                    "width": 94.0,
+                    "height": 42.0
+                  },
+                  "size": {
+                    "width": 94.0,
+                    "height": 42.0
+                  }
+                },
+                {
+                  "name": "WinMoneyText",
+                  "pos": {
+                    "x": 0.0,
+                    "y": -91.6
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 127.2,
+                        "height": 26.8
+                      },
+                      "depth": 19,
+                      "fontName": "font_win_artfont",
+                      "text": "+13245",
+                      "fontSize": 0,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 1
+                    }
+                  ],
+                  "size": {
+                    "width": 127.2,
+                    "height": 26.8
+                  }
+                },
+                {
+                  "name": "LoseMoneyText",
+                  "pos": {
+                    "x": 0.0,
+                    "y": -91.6
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 127.2,
+                        "height": 26.8
+                      },
+                      "depth": 20,
+                      "fontName": "font_lose_artfont",
+                      "text": "-12345",
+                      "fontSize": 0,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 1
+                    }
+                  ],
+                  "size": {
+                    "width": 127.2,
+                    "height": 26.8
+                  }
+                },
+                {
+                  "name": "SeatStateText",
+                  "pos": {
+                    "x": 0.0,
+                    "y": -15.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 160.0,
+                        "height": 30.0
+                      },
+                      "color": "C0AF71",
+                      "depth": 21,
+                      "text": "\u7B49\u5F85\u5165\u684C...",
+                      "fontSize": 26,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 4
+                    }
+                  ],
+                  "size": {
+                    "width": 160.0,
+                    "height": 30.0
+                  }
+                },
+                {
+                  "name": "WinLoseSkeleton",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 93.8
+                  },
+                  "scale": {
+                    "x": 1.1,
+                    "y": 1.1
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "Spine.Unity.SkeletonGraphic",
+                      "size": {
+                        "width": 100.0,
+                        "height": 100.0
+                      },
+                      "depth": 22
+                    }
+                  ],
+                  "sg": {
+                    "startanimation": "win",
+                    "loop": false,
+                    "timescale": 1.0,
+                    "initialSkinName": "default",
+                    "SkeletonDataAsset": "10x_win_SkeletonData"
+                  },
+                  "size": {
+                    "width": 100.0,
+                    "height": 100.0
+                  }
+                },
+                {
+                  "name": "TieSkeleton",
+                  "pos": {
+                    "x": 40.0,
+                    "y": 173.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "Spine.Unity.SkeletonGraphic",
+                      "size": {
+                        "width": 100.0,
+                        "height": 100.0
+                      },
+                      "depth": 23
+                    }
+                  ],
+                  "sg": {
+                    "startanimation": "10x_win",
+                    "loop": false,
+                    "timescale": 1.0,
+                    "initialSkinName": "default",
+                    "SkeletonDataAsset": "10x_win_SkeletonData"
+                  },
+                  "size": {
+                    "width": 100.0,
+                    "height": 100.0
+                  }
+                },
+                {
+                  "name": "SeatSign",
+                  "pos": {
+                    "x": -142.0,
+                    "y": -47.3
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "size": {
+                    "width": 100.0,
+                    "height": 100.0
+                  },
+                  "children": [
+                    {
+                      "name": "Arrow",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 46.4
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 90.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 36.0,
+                            "height": 36.0
+                          },
+                          "depth": 24,
+                          "spType": "Simple",
+                          "spName": "sing_01_dczz",
+                          "atlas": "dczz"
+                        }
+                      ],
+                      "size": {
+                        "width": 36.0,
+                        "height": 36.0
+                      }
+                    },
+                    {
+                      "name": "Text",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 12.9
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Text",
+                          "size": {
+                            "width": 100.0,
+                            "height": 46.6
+                          },
+                          "depth": 25,
+                          "text": "\u60A8\u7684\u5EA7\u4F4D",
+                          "fontSize": 20,
+                          "overflowH": 1,
+                          "overflowV": 0,
+                          "bestFit": false,
+                          "spacingY": 1.0,
+                          "alignment": 4
+                        }
+                      ],
+                      "size": {
+                        "width": 100.0,
+                        "height": 46.6
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Player2",
+              "pos": {
+                "x": 0.0,
+                "y": -202.33
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "size": {
+                "width": 198.0,
+                "height": 79.0
+              },
+              "children": [
+                {
+                  "name": "PlayerInfo",
+                  "pos": {
+                    "x": 0.0,
+                    "y": -6.1
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "size": {
+                    "width": 198.0,
+                    "height": 80.0
+                  },
+                  "children": [
+                    {
+                      "name": "PlayerBackground",
+                      "pos": {
+                        "x": 0.0,
+                        "y": -6.8
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 198.0,
+                            "height": 80.0
+                          },
+                          "depth": 27,
+                          "spType": "Sliced",
+                          "spName": "bar_02_dczz",
+                          "atlas": "dczz",
+                          "border": {
+                            "left": 0.0,
+                            "right": 0.0,
+                            "top": 53.0,
+                            "bottom": 19.0
+                          }
+                        }
+                      ],
+                      "size": {
+                        "width": 198.0,
+                        "height": 80.0
+                      }
+                    },
+                    {
+                      "name": "OwnBackground",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 198.0,
+                            "height": 96.0
+                          },
+                          "depth": 28,
+                          "spType": "Sliced",
+                          "spName": "bar_01_dczz",
+                          "atlas": "dczz",
+                          "border": {
+                            "left": 0.0,
+                            "right": 0.0,
+                            "top": 78.0,
+                            "bottom": 17.0
+                          }
+                        }
+                      ],
+                      "size": {
+                        "width": 198.0,
+                        "height": 96.0
+                      }
+                    },
+                    {
+                      "name": "IDText",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 8.9
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Text",
+                          "size": {
+                            "width": 173.9,
+                            "height": 36.0
+                          },
+                          "depth": 29,
+                          "text": "ID:12345678",
+                          "fontSize": 22,
+                          "overflowH": 0,
+                          "overflowV": 0,
+                          "bestFit": false,
+                          "spacingY": 1.0,
+                          "alignment": 4
+                        }
+                      ],
+                      "size": {
+                        "width": 173.9,
+                        "height": 36.0
+                      }
+                    },
+                    {
+                      "name": "MoneyImage",
+                      "pos": {
+                        "x": -69.5,
+                        "y": -22.6
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 28.0,
+                            "height": 28.0
+                          },
+                          "depth": 30,
+                          "spType": "Simple",
+                          "spName": "icon_01_dczz",
+                          "atlas": "dczz"
+                        }
+                      ],
+                      "size": {
+                        "width": 28.0,
+                        "height": 28.0
+                      }
+                    },
+                    {
+                      "name": "MoneyText",
+                      "pos": {
+                        "x": 11.1,
+                        "y": -21.2
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Text",
+                          "size": {
+                            "width": 140.6,
+                            "height": 36.0
+                          },
+                          "depth": 31,
+                          "text": "123456789.99",
+                          "fontSize": 22,
+                          "overflowH": 0,
+                          "overflowV": 0,
+                          "bestFit": false,
+                          "spacingY": 1.0,
+                          "alignment": 4
+                        }
+                      ],
+                      "size": {
+                        "width": 140.6,
+                        "height": 36.0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "BetPoolButton0",
+                  "pos": {
+                    "x": -69.5,
+                    "y": 124.5
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 110.0,
+                        "height": 110.0
+                      },
+                      "alpha": 0,
+                      "depth": 32,
+                      "spType": "Sliced"
+                    }
+                  ],
+                  "button": {
+                    "interactable": true,
+                    "Transition": "ColorTint"
+                  },
+                  "size": {
+                    "width": 110.0,
+                    "height": 110.0
+                  },
+                  "children": [
+                    {
+                      "name": "FocusImage",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 110.0,
+                            "height": 110.0
+                          },
+                          "depth": 33,
+                          "spType": "Simple",
+                          "spName": "sing_02_dczz",
+                          "atlas": "dczz"
+                        }
+                      ],
+                      "size": {
+                        "width": 110.0,
+                        "height": 110.0
+                      }
+                    },
+                    {
+                      "name": "Range",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "size": {
+                        "width": 80.0,
+                        "height": 80.0
+                      }
+                    },
+                    {
+                      "name": "TotalText",
+                      "pos": {
+                        "x": 0.0,
+                        "y": -67.3
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Text",
+                          "size": {
+                            "width": 131.3,
+                            "height": 29.4
+                          },
+                          "depth": 35,
+                          "text": "0",
+                          "fontSize": 22,
+                          "overflowH": 1,
+                          "overflowV": 0,
+                          "bestFit": false,
+                          "spacingY": 1.0,
+                          "alignment": 4
+                        }
+                      ],
+                      "size": {
+                        "width": 131.3,
+                        "height": 29.4
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "BetPoolButton1",
+                  "pos": {
+                    "x": 70.4,
+                    "y": 124.5
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 110.0,
+                        "height": 110.0
+                      },
+                      "alpha": 0,
+                      "depth": 36,
+                      "spType": "Sliced"
+                    }
+                  ],
+                  "button": {
+                    "interactable": true,
+                    "Transition": "ColorTint"
+                  },
+                  "size": {
+                    "width": 110.0,
+                    "height": 110.0
+                  },
+                  "children": [
+                    {
+                      "name": "FocusImage",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 110.0,
+                            "height": 110.0
+                          },
+                          "depth": 37,
+                          "spType": "Simple",
+                          "spName": "sing_02_dczz",
+                          "atlas": "dczz"
+                        }
+                      ],
+                      "size": {
+                        "width": 110.0,
+                        "height": 110.0
+                      }
+                    },
+                    {
+                      "name": "Range",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "size": {
+                        "width": 80.0,
+                        "height": 80.0
+                      }
+                    },
+                    {
+                      "name": "TotalText",
+                      "pos": {
+                        "x": 0.0,
+                        "y": -67.3
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Text",
+                          "size": {
+                            "width": 131.3,
+                            "height": 29.4
+                          },
+                          "depth": 39,
+                          "text": "0",
+                          "fontSize": 22,
+                          "overflowH": 1,
+                          "overflowV": 0,
+                          "bestFit": false,
+                          "spacingY": 1.0,
+                          "alignment": 4
+                        }
+                      ],
+                      "size": {
+                        "width": 131.3,
+                        "height": 29.4
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "CardRoot",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 130.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "size": {
+                    "width": 111.4,
+                    "height": 116.2
+                  }
+                },
+                {
+                  "name": "AbandonImage",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 76.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 94.0,
+                        "height": 42.0
+                      },
+                      "depth": 40,
+                      "spType": "Simple",
+                      "spName": "font_08_dczz",
+                      "atlas": "dczz"
+                    }
+                  ],
+                  "rect": {
+                    "AnchorMinX": 0.5,
+                    "AnchorMinY": 0.5,
+                    "AnchorMaxX": 0.5,
+                    "AnchorMaxY": 0.5,
+                    "PivotX": 0.5,
+                    "PivotY": 0.0,
+                    "Left": -47.0,
+                    "Botton": 76.0,
+                    "Right": -47.0,
+                    "Top": -118.0,
+                    "AnchoredPositionX": 0.0,
+                    "AnchoredPositionY": 76.0,
+                    "SizeDeltaX": 94.0,
+                    "SizeDeltaY": 42.0,
+                    "x": -47.0,
+                    "y": 0.0,
+                    "width": 94.0,
+                    "height": 42.0
+                  },
+                  "size": {
+                    "width": 94.0,
+                    "height": 42.0
+                  }
+                },
+                {
+                  "name": "WinMoneyText",
+                  "pos": {
+                    "x": 0.0,
+                    "y": -91.6
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 127.2,
+                        "height": 26.8
+                      },
+                      "depth": 41,
+                      "fontName": "font_win_artfont",
+                      "text": "+13245",
+                      "fontSize": 0,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 1
+                    }
+                  ],
+                  "size": {
+                    "width": 127.2,
+                    "height": 26.8
+                  }
+                },
+                {
+                  "name": "LoseMoneyText",
+                  "pos": {
+                    "x": 0.0,
+                    "y": -91.6
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 127.2,
+                        "height": 26.8
+                      },
+                      "depth": 42,
+                      "fontName": "font_lose_artfont",
+                      "text": "-12345",
+                      "fontSize": 0,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 1
+                    }
+                  ],
+                  "size": {
+                    "width": 127.2,
+                    "height": 26.8
+                  }
+                },
+                {
+                  "name": "SeatStateText",
+                  "pos": {
+                    "x": 0.0,
+                    "y": -15.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 160.0,
+                        "height": 30.0
+                      },
+                      "color": "C0AF71",
+                      "depth": 43,
+                      "text": "\u7B49\u5F85\u5165\u684C...",
+                      "fontSize": 26,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 4
+                    }
+                  ],
+                  "size": {
+                    "width": 160.0,
+                    "height": 30.0
+                  }
+                },
+                {
+                  "name": "WinLoseSkeleton",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 93.8
+                  },
+                  "scale": {
+                    "x": 1.1,
+                    "y": 1.1
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "Spine.Unity.SkeletonGraphic",
+                      "size": {
+                        "width": 100.0,
+                        "height": 100.0
+                      },
+                      "depth": 44
+                    }
+                  ],
+                  "sg": {
+                    "startanimation": "win",
+                    "loop": false,
+                    "timescale": 1.0,
+                    "initialSkinName": "default",
+                    "SkeletonDataAsset": "10x_win_SkeletonData"
+                  },
+                  "size": {
+                    "width": 100.0,
+                    "height": 100.0
+                  }
+                },
+                {
+                  "name": "TieSkeleton",
+                  "pos": {
+                    "x": 40.0,
+                    "y": 173.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "Spine.Unity.SkeletonGraphic",
+                      "size": {
+                        "width": 100.0,
+                        "height": 100.0
+                      },
+                      "depth": 45
+                    }
+                  ],
+                  "sg": {
+                    "startanimation": "10x_win",
+                    "loop": false,
+                    "timescale": 1.0,
+                    "initialSkinName": "default",
+                    "SkeletonDataAsset": "10x_win_SkeletonData"
+                  },
+                  "size": {
+                    "width": 100.0,
+                    "height": 100.0
+                  }
+                },
+                {
+                  "name": "SeatSign",
+                  "pos": {
+                    "x": -142.0,
+                    "y": -47.3
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "size": {
+                    "width": 100.0,
+                    "height": 100.0
+                  },
+                  "children": [
+                    {
+                      "name": "Arrow",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 46.4
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 90.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 36.0,
+                            "height": 36.0
+                          },
+                          "depth": 46,
+                          "spType": "Simple",
+                          "spName": "sing_01_dczz",
+                          "atlas": "dczz"
+                        }
+                      ],
+                      "size": {
+                        "width": 36.0,
+                        "height": 36.0
+                      }
+                    },
+                    {
+                      "name": "Text",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 12.9
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Text",
+                          "size": {
+                            "width": 100.0,
+                            "height": 46.6
+                          },
+                          "depth": 47,
+                          "text": "\u60A8\u7684\u5EA7\u4F4D",
+                          "fontSize": 20,
+                          "overflowH": 1,
+                          "overflowV": 0,
+                          "bestFit": false,
+                          "spacingY": 1.0,
+                          "alignment": 4
+                        }
+                      ],
+                      "size": {
+                        "width": 100.0,
+                        "height": 46.6
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Player3",
+              "pos": {
+                "x": -403.2,
+                "y": -202.33
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "size": {
+                "width": 198.0,
+                "height": 79.0
+              },
+              "children": [
+                {
+                  "name": "PlayerInfo",
+                  "pos": {
+                    "x": 0.0,
+                    "y": -6.1
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "size": {
+                    "width": 198.0,
+                    "height": 80.0
+                  },
+                  "children": [
+                    {
+                      "name": "PlayerBackground",
+                      "pos": {
+                        "x": 0.0,
+                        "y": -6.8
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 198.0,
+                            "height": 80.0
+                          },
+                          "depth": 49,
+                          "spType": "Sliced",
+                          "spName": "bar_02_dczz",
+                          "atlas": "dczz",
+                          "border": {
+                            "left": 0.0,
+                            "right": 0.0,
+                            "top": 53.0,
+                            "bottom": 19.0
+                          }
+                        }
+                      ],
+                      "size": {
+                        "width": 198.0,
+                        "height": 80.0
+                      }
+                    },
+                    {
+                      "name": "OwnBackground",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 198.0,
+                            "height": 96.0
+                          },
+                          "depth": 50,
+                          "spType": "Sliced",
+                          "spName": "bar_01_dczz",
+                          "atlas": "dczz",
+                          "border": {
+                            "left": 0.0,
+                            "right": 0.0,
+                            "top": 78.0,
+                            "bottom": 17.0
+                          }
+                        }
+                      ],
+                      "size": {
+                        "width": 198.0,
+                        "height": 96.0
+                      }
+                    },
+                    {
+                      "name": "IDText",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 8.9
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Text",
+                          "size": {
+                            "width": 173.9,
+                            "height": 36.0
+                          },
+                          "depth": 51,
+                          "text": "ID:12345678",
+                          "fontSize": 22,
+                          "overflowH": 0,
+                          "overflowV": 0,
+                          "bestFit": false,
+                          "spacingY": 1.0,
+                          "alignment": 4
+                        }
+                      ],
+                      "size": {
+                        "width": 173.9,
+                        "height": 36.0
+                      }
+                    },
+                    {
+                      "name": "MoneyImage",
+                      "pos": {
+                        "x": -69.5,
+                        "y": -22.6
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 28.0,
+                            "height": 28.0
+                          },
+                          "depth": 52,
+                          "spType": "Simple",
+                          "spName": "icon_01_dczz",
+                          "atlas": "dczz"
+                        }
+                      ],
+                      "size": {
+                        "width": 28.0,
+                        "height": 28.0
+                      }
+                    },
+                    {
+                      "name": "MoneyText",
+                      "pos": {
+                        "x": 11.1,
+                        "y": -21.2
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Text",
+                          "size": {
+                            "width": 140.6,
+                            "height": 36.0
+                          },
+                          "depth": 53,
+                          "text": "123456789.99",
+                          "fontSize": 22,
+                          "overflowH": 0,
+                          "overflowV": 0,
+                          "bestFit": false,
+                          "spacingY": 1.0,
+                          "alignment": 4
+                        }
+                      ],
+                      "size": {
+                        "width": 140.6,
+                        "height": 36.0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "BetPoolButton0",
+                  "pos": {
+                    "x": -69.5,
+                    "y": 124.5
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 110.0,
+                        "height": 110.0
+                      },
+                      "alpha": 0,
+                      "depth": 54,
+                      "spType": "Sliced"
+                    }
+                  ],
+                  "button": {
+                    "interactable": true,
+                    "Transition": "ColorTint"
+                  },
+                  "size": {
+                    "width": 110.0,
+                    "height": 110.0
+                  },
+                  "children": [
+                    {
+                      "name": "FocusImage",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 110.0,
+                            "height": 110.0
+                          },
+                          "depth": 55,
+                          "spType": "Simple",
+                          "spName": "sing_02_dczz",
+                          "atlas": "dczz"
+                        }
+                      ],
+                      "size": {
+                        "width": 110.0,
+                        "height": 110.0
+                      }
+                    },
+                    {
+                      "name": "Range",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "size": {
+                        "width": 80.0,
+                        "height": 80.0
+                      }
+                    },
+                    {
+                      "name": "TotalText",
+                      "pos": {
+                        "x": 0.0,
+                        "y": -67.3
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Text",
+                          "size": {
+                            "width": 131.3,
+                            "height": 29.4
+                          },
+                          "depth": 57,
+                          "text": "0",
+                          "fontSize": 22,
+                          "overflowH": 1,
+                          "overflowV": 0,
+                          "bestFit": false,
+                          "spacingY": 1.0,
+                          "alignment": 4
+                        }
+                      ],
+                      "size": {
+                        "width": 131.3,
+                        "height": 29.4
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "BetPoolButton1",
+                  "pos": {
+                    "x": 70.4,
+                    "y": 124.5
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 110.0,
+                        "height": 110.0
+                      },
+                      "alpha": 0,
+                      "depth": 58,
+                      "spType": "Sliced"
+                    }
+                  ],
+                  "button": {
+                    "interactable": true,
+                    "Transition": "ColorTint"
+                  },
+                  "size": {
+                    "width": 110.0,
+                    "height": 110.0
+                  },
+                  "children": [
+                    {
+                      "name": "FocusImage",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 110.0,
+                            "height": 110.0
+                          },
+                          "depth": 59,
+                          "spType": "Simple",
+                          "spName": "sing_02_dczz",
+                          "atlas": "dczz"
+                        }
+                      ],
+                      "size": {
+                        "width": 110.0,
+                        "height": 110.0
+                      }
+                    },
+                    {
+                      "name": "Range",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "size": {
+                        "width": 80.0,
+                        "height": 80.0
+                      }
+                    },
+                    {
+                      "name": "TotalText",
+                      "pos": {
+                        "x": 0.0,
+                        "y": -67.3
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Text",
+                          "size": {
+                            "width": 131.3,
+                            "height": 29.4
+                          },
+                          "depth": 61,
+                          "text": "0",
+                          "fontSize": 22,
+                          "overflowH": 1,
+                          "overflowV": 0,
+                          "bestFit": false,
+                          "spacingY": 1.0,
+                          "alignment": 4
+                        }
+                      ],
+                      "size": {
+                        "width": 131.3,
+                        "height": 29.4
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "CardRoot",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 130.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "size": {
+                    "width": 111.4,
+                    "height": 116.2
+                  }
+                },
+                {
+                  "name": "AbandonImage",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 76.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 94.0,
+                        "height": 42.0
+                      },
+                      "depth": 62,
+                      "spType": "Simple",
+                      "spName": "font_08_dczz",
+                      "atlas": "dczz"
+                    }
+                  ],
+                  "rect": {
+                    "AnchorMinX": 0.5,
+                    "AnchorMinY": 0.5,
+                    "AnchorMaxX": 0.5,
+                    "AnchorMaxY": 0.5,
+                    "PivotX": 0.5,
+                    "PivotY": 0.0,
+                    "Left": -47.0,
+                    "Botton": 76.0,
+                    "Right": -47.0,
+                    "Top": -118.0,
+                    "AnchoredPositionX": 0.0,
+                    "AnchoredPositionY": 76.0,
+                    "SizeDeltaX": 94.0,
+                    "SizeDeltaY": 42.0,
+                    "x": -47.0,
+                    "y": 0.0,
+                    "width": 94.0,
+                    "height": 42.0
+                  },
+                  "size": {
+                    "width": 94.0,
+                    "height": 42.0
+                  }
+                },
+                {
+                  "name": "WinMoneyText",
+                  "pos": {
+                    "x": 0.0,
+                    "y": -91.6
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 127.2,
+                        "height": 26.8
+                      },
+                      "depth": 63,
+                      "fontName": "font_win_artfont",
+                      "text": "+13245",
+                      "fontSize": 0,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 1
+                    }
+                  ],
+                  "size": {
+                    "width": 127.2,
+                    "height": 26.8
+                  }
+                },
+                {
+                  "name": "LoseMoneyText",
+                  "pos": {
+                    "x": 0.0,
+                    "y": -91.6
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 127.2,
+                        "height": 26.8
+                      },
+                      "depth": 64,
+                      "fontName": "font_lose_artfont",
+                      "text": "-12345",
+                      "fontSize": 0,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 1
+                    }
+                  ],
+                  "size": {
+                    "width": 127.2,
+                    "height": 26.8
+                  }
+                },
+                {
+                  "name": "SeatStateText",
+                  "pos": {
+                    "x": 0.0,
+                    "y": -15.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 160.0,
+                        "height": 30.0
+                      },
+                      "color": "C0AF71",
+                      "depth": 65,
+                      "text": "\u7B49\u5F85\u5165\u684C...",
+                      "fontSize": 26,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 4
+                    }
+                  ],
+                  "size": {
+                    "width": 160.0,
+                    "height": 30.0
+                  }
+                },
+                {
+                  "name": "WinLoseSkeleton",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 93.8
+                  },
+                  "scale": {
+                    "x": 1.1,
+                    "y": 1.1
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "Spine.Unity.SkeletonGraphic",
+                      "size": {
+                        "width": 100.0,
+                        "height": 100.0
+                      },
+                      "depth": 66
+                    }
+                  ],
+                  "sg": {
+                    "startanimation": "win",
+                    "loop": false,
+                    "timescale": 1.0,
+                    "initialSkinName": "default",
+                    "SkeletonDataAsset": "10x_win_SkeletonData"
+                  },
+                  "size": {
+                    "width": 100.0,
+                    "height": 100.0
+                  }
+                },
+                {
+                  "name": "TieSkeleton",
+                  "pos": {
+                    "x": 40.0,
+                    "y": 173.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "Spine.Unity.SkeletonGraphic",
+                      "size": {
+                        "width": 100.0,
+                        "height": 100.0
+                      },
+                      "depth": 67
+                    }
+                  ],
+                  "sg": {
+                    "startanimation": "10x_win",
+                    "loop": false,
+                    "timescale": 1.0,
+                    "initialSkinName": "default",
+                    "SkeletonDataAsset": "10x_win_SkeletonData"
+                  },
+                  "size": {
+                    "width": 100.0,
+                    "height": 100.0
+                  }
+                },
+                {
+                  "name": "SeatSign",
+                  "pos": {
+                    "x": -142.0,
+                    "y": -47.3
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "size": {
+                    "width": 100.0,
+                    "height": 100.0
+                  },
+                  "children": [
+                    {
+                      "name": "Arrow",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 46.4
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 90.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 36.0,
+                            "height": 36.0
+                          },
+                          "depth": 68,
+                          "spType": "Simple",
+                          "spName": "sing_01_dczz",
+                          "atlas": "dczz"
+                        }
+                      ],
+                      "size": {
+                        "width": 36.0,
+                        "height": 36.0
+                      }
+                    },
+                    {
+                      "name": "Text",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 12.9
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Text",
+                          "size": {
+                            "width": 100.0,
+                            "height": 46.6
+                          },
+                          "depth": 69,
+                          "text": "\u60A8\u7684\u5EA7\u4F4D",
+                          "fontSize": 20,
+                          "overflowH": 1,
+                          "overflowV": 0,
+                          "bestFit": false,
+                          "spacingY": 1.0,
+                          "alignment": 4
+                        }
+                      ],
+                      "size": {
+                        "width": 100.0,
+                        "height": 46.6
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UIBottomBar",
+          "pos": {
+            "x": 0.0,
+            "y": -317.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "rotation": 0.0,
+          "active": true,
+          "rect": {
+            "AnchorMinX": 0.0,
+            "AnchorMinY": 0.0,
+            "AnchorMaxX": 1.0,
+            "AnchorMaxY": 0.0,
+            "PivotX": 0.5,
+            "PivotY": 0.5,
+            "Left": 0.0,
+            "Botton": 0.0,
+            "Right": 0.0,
+            "Top": -116.0,
+            "AnchoredPositionX": 0.0,
+            "AnchoredPositionY": 58.0,
+            "SizeDeltaX": 0.0,
+            "SizeDeltaY": 116.0,
+            "x": -667.0,
+            "y": -58.0,
+            "width": 1334.0,
+            "height": 116.0
+          },
+          "size": {
+            "width": 1334.0,
+            "height": 116.0
+          },
+          "children": [
+            {
+              "name": "Chips",
+              "pos": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "size": {
+                "width": 835.0,
+                "height": 117.0
+              },
+              "hlg": {
+                "width": 835.0,
+                "height": 117.0,
+                "spacing": -15.6
+              },
+              "children": [
+                {
+                  "name": "ChipPrefab",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 0.9,
+                    "y": 0.9
+                  },
+                  "rotation": 0.0,
+                  "active": false,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 140.0,
+                        "height": 140.0
+                      },
+                      "depth": -1,
+                      "spType": "Simple",
+                      "spName": "chip_0",
+                      "atlas": "chip_0"
+                    }
+                  ],
+                  "button": {
+                    "interactable": true,
+                    "Transition": "ColorTint"
+                  },
+                  "rect": {
+                    "AnchorMinX": 0.0,
+                    "AnchorMinY": 1.0,
+                    "AnchorMaxX": 0.0,
+                    "AnchorMaxY": 1.0,
+                    "PivotX": 0.5,
+                    "PivotY": 0.5,
+                    "Left": 347.5,
+                    "Botton": -128.5,
+                    "Right": -487.5,
+                    "Top": -11.5,
+                    "AnchoredPositionX": 417.5,
+                    "AnchoredPositionY": -58.5,
+                    "SizeDeltaX": 140.0,
+                    "SizeDeltaY": 140.0,
+                    "x": -70.0,
+                    "y": -70.0,
+                    "width": 140.0,
+                    "height": 140.0
+                  },
+                  "size": {
+                    "width": 140.0,
+                    "height": 140.0
+                  },
+                  "children": [
+                    {
+                      "name": "Text",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 5.14
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Text",
+                          "size": {
+                            "width": 140.0,
+                            "height": 62.2
+                          },
+                          "depth": -1,
+                          "text": "999",
+                          "fontSize": 35,
+                          "overflowH": 0,
+                          "overflowV": 0,
+                          "bestFit": false,
+                          "spacingY": 1.0,
+                          "alignment": 4
+                        }
+                      ],
+                      "size": {
+                        "width": 140.0,
+                        "height": 62.2
+                      }
+                    },
+                    {
+                      "name": "Select",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 140.0,
+                            "height": 140.0
+                          },
+                          "depth": -1,
+                          "spType": "Simple",
+                          "spName": "chip_sign",
+                          "atlas": "chip_sign"
+                        }
+                      ],
+                      "size": {
+                        "width": 140.0,
+                        "height": 140.0
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "WarArea",
+              "pos": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "size": {
+                "width": 425.0,
+                "height": 108.0
+              },
+              "hlg": {
+                "width": 425.0,
+                "height": 108.0,
+                "spacing": 0.0
+              },
+              "children": [
+                {
+                  "name": "WarButton",
+                  "pos": {
+                    "x": -106.25,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 156.0,
+                        "height": 68.0
+                      },
+                      "depth": 70,
+                      "spType": "Simple",
+                      "spName": "btn_04_dczz",
+                      "atlas": "dczz"
+                    }
+                  ],
+                  "button": {
+                    "interactable": true,
+                    "Transition": "ColorTint"
+                  },
+                  "rect": {
+                    "AnchorMinX": 0.0,
+                    "AnchorMinY": 1.0,
+                    "AnchorMaxX": 0.0,
+                    "AnchorMaxY": 1.0,
+                    "PivotX": 0.5,
+                    "PivotY": 0.5,
+                    "Left": 28.25,
+                    "Botton": -88.0,
+                    "Right": -184.25,
+                    "Top": 20.0,
+                    "AnchoredPositionX": 106.25,
+                    "AnchoredPositionY": -54.0,
+                    "SizeDeltaX": 156.0,
+                    "SizeDeltaY": 68.0,
+                    "x": -78.0,
+                    "y": -34.0,
+                    "width": 156.0,
+                    "height": 68.0
+                  },
+                  "size": {
+                    "width": 156.0,
+                    "height": 68.0
+                  }
+                },
+                {
+                  "name": "AbandonButton",
+                  "pos": {
+                    "x": 106.25,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 156.0,
+                        "height": 68.0
+                      },
+                      "depth": 71,
+                      "spType": "Simple",
+                      "spName": "btn_05_dczz",
+                      "atlas": "dczz"
+                    }
+                  ],
+                  "button": {
+                    "interactable": true,
+                    "Transition": "ColorTint"
+                  },
+                  "rect": {
+                    "AnchorMinX": 0.0,
+                    "AnchorMinY": 1.0,
+                    "AnchorMaxX": 0.0,
+                    "AnchorMaxY": 1.0,
+                    "PivotX": 0.5,
+                    "PivotY": 0.5,
+                    "Left": 240.75,
+                    "Botton": -88.0,
+                    "Right": -396.75,
+                    "Top": 20.0,
+                    "AnchoredPositionX": 318.75,
+                    "AnchoredPositionY": -54.0,
+                    "SizeDeltaX": 156.0,
+                    "SizeDeltaY": 68.0,
+                    "x": -78.0,
+                    "y": -34.0,
+                    "width": 156.0,
+                    "height": 68.0
+                  },
+                  "size": {
+                    "width": 156.0,
+                    "height": 68.0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UIMain",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "rotation": 0.0,
+          "active": true,
+          "rect": {
+            "AnchorMinX": 0.0,
+            "AnchorMinY": 0.0,
+            "AnchorMaxX": 1.0,
+            "AnchorMaxY": 1.0,
+            "PivotX": 0.5,
+            "PivotY": 0.5,
+            "Left": 0.0,
+            "Botton": 0.0,
+            "Right": 0.0,
+            "Top": 0.0,
+            "AnchoredPositionX": 0.0,
+            "AnchoredPositionY": 0.0,
+            "SizeDeltaX": 0.0,
+            "SizeDeltaY": 0.0,
+            "x": -667.0,
+            "y": -375.0,
+            "width": 1334.0,
+            "height": 750.0
+          },
+          "size": {
+            "width": 1334.0,
+            "height": 750.0
+          },
+          "children": [
+            {
+              "name": "SquareCountdown",
+              "pos": {
+                "x": 0.0,
+                "y": 47.1
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "size": {
+                "width": 732.0,
+                "height": 105.5
+              },
+              "children": [
+                {
+                  "name": "bg1",
+                  "pos": {
+                    "x": -195.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 390.0,
+                        "height": 108.0
+                      },
+                      "depth": 73,
+                      "spType": "Simple",
+                      "spName": "bk_01_dczz",
+                      "atlas": "dczz"
+                    }
+                  ],
+                  "size": {
+                    "width": 390.0,
+                    "height": 108.0
+                  }
+                },
+                {
+                  "name": "bg2",
+                  "pos": {
+                    "x": 195.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": -1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 390.0,
+                        "height": 108.0
+                      },
+                      "depth": 74,
+                      "spType": "Simple",
+                      "spName": "bk_01_dczz",
+                      "atlas": "dczz"
+                    }
+                  ],
+                  "size": {
+                    "width": 390.0,
+                    "height": 108.0
+                  }
+                },
+                {
+                  "name": "Image",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 17.2
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 124.0,
+                        "height": 42.0
+                      },
+                      "depth": 75,
+                      "spType": "Simple",
+                      "spName": "font_02_dczz",
+                      "atlas": "dczz"
+                    }
+                  ],
+                  "size": {
+                    "width": 124.0,
+                    "height": 42.0
+                  }
+                },
+                {
+                  "name": "Text",
+                  "pos": {
+                    "x": -1.1,
+                    "y": -27.5
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 263.3,
+                        "height": 32.0
+                      },
+                      "depth": 76,
+                      "fontName": "font_time_artfont",
+                      "text": "999",
+                      "fontSize": 0,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 1
+                    }
+                  ],
+                  "size": {
+                    "width": 263.3,
+                    "height": 32.0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "StartBetParticle",
+              "pos": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "children": [
+                {
+                  "name": "DCZZ_ball (1)",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "children": [
+                    {
+                      "name": "star",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 180.0,
+                      "active": true
+                    },
+                    {
+                      "name": "DCZZ_ball (2)",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true
+                    },
+                    {
+                      "name": "star2",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true
+                    }
+                  ]
+                },
+                {
+                  "name": "DCZZ_ball (2)",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "children": [
+                    {
+                      "name": "star",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 180.0,
+                      "active": true
+                    },
+                    {
+                      "name": "DCZZ_ball (2)",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true
+                    },
+                    {
+                      "name": "star2",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "BetSkeleton",
+              "pos": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "components": [
+                {
+                  "type": "Spine.Unity.SkeletonGraphic",
+                  "size": {
+                    "width": 100.0,
+                    "height": 100.0
+                  },
+                  "depth": 77
+                }
+              ],
+              "sg": {
+                "startanimation": "start_bet",
+                "loop": false,
+                "timescale": 1.0,
+                "initialSkinName": "default",
+                "SkeletonDataAsset": "bet_SkeletonData"
+              },
+              "size": {
+                "width": 100.0,
+                "height": 100.0
+              }
+            },
+            {
+              "name": "TieSkeleton",
+              "pos": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "components": [
+                {
+                  "type": "Spine.Unity.SkeletonGraphic",
+                  "size": {
+                    "width": 100.0,
+                    "height": 100.0
+                  },
+                  "depth": 78
+                }
+              ],
+              "sg": {
+                "startanimation": "animation",
+                "loop": false,
+                "timescale": 1.0,
+                "initialSkinName": "default",
+                "SkeletonDataAsset": "big10x_win_SkeletonData"
+              },
+              "size": {
+                "width": 100.0,
+                "height": 100.0
+              }
+            },
+            {
+              "name": "VSSkeleton",
+              "pos": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "components": [
+                {
+                  "type": "Spine.Unity.SkeletonGraphic",
+                  "size": {
+                    "width": 100.0,
+                    "height": 100.0
+                  },
+                  "depth": 79
+                }
+              ],
+              "sg": {
+                "startanimation": "animation",
+                "loop": false,
+                "timescale": 1.0,
+                "initialSkinName": "default",
+                "SkeletonDataAsset": "vs_SkeletonData"
+              },
+              "size": {
+                "width": 100.0,
+                "height": 100.0
+              }
+            },
+            {
+              "name": "ShuffleSkeleton",
+              "pos": {
+                "x": 0.0,
+                "y": 41.9
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "components": [
+                {
+                  "type": "Spine.Unity.SkeletonGraphic",
+                  "size": {
+                    "width": 100.0,
+                    "height": 100.0
+                  },
+                  "depth": 80
+                }
+              ],
+              "sg": {
+                "startanimation": "animation",
+                "loop": false,
+                "timescale": 1.0,
+                "initialSkinName": "default",
+                "SkeletonDataAsset": "shuffle_card_SkeletonData"
+              },
+              "size": {
+                "width": 100.0,
+                "height": 100.0
+              }
+            },
+            {
+              "name": "Message",
+              "pos": {
+                "x": 0.0,
+                "y": 163.8
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "size": {
+                "width": 732.0,
+                "height": 111.7
+              },
+              "children": [
+                {
+                  "name": "Background1",
+                  "pos": {
+                    "x": -195.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 390.0,
+                        "height": 108.0
+                      },
+                      "depth": 81,
+                      "spType": "Simple",
+                      "spName": "bk_01_dczz",
+                      "atlas": "dczz"
+                    }
+                  ],
+                  "size": {
+                    "width": 390.0,
+                    "height": 108.0
+                  }
+                },
+                {
+                  "name": "Background2",
+                  "pos": {
+                    "x": 195.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": -1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 390.0,
+                        "height": 108.0
+                      },
+                      "depth": 82,
+                      "spType": "Simple",
+                      "spName": "bk_01_dczz",
+                      "atlas": "dczz"
+                    }
+                  ],
+                  "size": {
+                    "width": 390.0,
+                    "height": 108.0
+                  }
+                },
+                {
+                  "name": "Text",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 370.0,
+                        "height": 57.0
+                      },
+                      "depth": 83,
+                      "text": "\u5DF2\u505C\u6B62\u4E0B\u6CE8",
+                      "fontSize": 30,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 4
+                    }
+                  ],
+                  "size": {
+                    "width": 370.0,
+                    "height": 57.0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Options",
+              "pos": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "canvas": true,
+              "canvasRenderOrder": 0,
+              "rect": {
+                "AnchorMinX": 0.0,
+                "AnchorMinY": 0.0,
+                "AnchorMaxX": 1.0,
+                "AnchorMaxY": 1.0,
+                "PivotX": 0.5,
+                "PivotY": 0.5,
+                "Left": 0.0,
+                "Botton": 0.0,
+                "Right": 0.0,
+                "Top": 0.0,
+                "AnchoredPositionX": 0.0,
+                "AnchoredPositionY": 0.0,
+                "SizeDeltaX": 0.0,
+                "SizeDeltaY": 0.0,
+                "x": -667.0,
+                "y": -375.0,
+                "width": 1334.0,
+                "height": 750.0
+              },
+              "size": {
+                "width": 1334.0,
+                "height": 750.0
+              },
+              "children": [
+                {
+                  "name": "ExitGameButton",
+                  "pos": {
+                    "x": -564.0,
+                    "y": 325.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 68.0,
+                        "height": 68.0
+                      },
+                      "depth": 0,
+                      "spType": "Simple",
+                      "spName": "btn_01_dczz",
+                      "atlas": "dczz"
+                    }
+                  ],
+                  "button": {
+                    "interactable": true,
+                    "Transition": "ColorTint"
+                  },
+                  "rect": {
+                    "AnchorMinX": 0.0,
+                    "AnchorMinY": 1.0,
+                    "AnchorMaxX": 0.0,
+                    "AnchorMaxY": 1.0,
+                    "PivotX": 0.5,
+                    "PivotY": 0.5,
+                    "Left": 69.0,
+                    "Botton": -84.0,
+                    "Right": -137.0,
+                    "Top": 16.0,
+                    "AnchoredPositionX": 103.0,
+                    "AnchoredPositionY": -50.0,
+                    "SizeDeltaX": 68.0,
+                    "SizeDeltaY": 68.0,
+                    "x": -34.0,
+                    "y": -34.0,
+                    "width": 68.0,
+                    "height": 68.0
+                  },
+                  "size": {
+                    "width": 68.0,
+                    "height": 68.0
+                  }
+                },
+                {
+                  "name": "SettingButton",
+                  "pos": {
+                    "x": -564.0,
+                    "y": 245.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 68.0,
+                        "height": 68.0
+                      },
+                      "depth": 1,
+                      "spType": "Simple",
+                      "spName": "btn_02_dczz",
+                      "atlas": "dczz"
+                    }
+                  ],
+                  "button": {
+                    "interactable": true,
+                    "Transition": "ColorTint"
+                  },
+                  "rect": {
+                    "AnchorMinX": 0.0,
+                    "AnchorMinY": 1.0,
+                    "AnchorMaxX": 0.0,
+                    "AnchorMaxY": 1.0,
+                    "PivotX": 0.5,
+                    "PivotY": 0.5,
+                    "Left": 69.0,
+                    "Botton": -164.0,
+                    "Right": -137.0,
+                    "Top": 96.0,
+                    "AnchoredPositionX": 103.0,
+                    "AnchoredPositionY": -130.0,
+                    "SizeDeltaX": 68.0,
+                    "SizeDeltaY": 68.0,
+                    "x": -34.0,
+                    "y": -34.0,
+                    "width": 68.0,
+                    "height": 68.0
+                  },
+                  "size": {
+                    "width": 68.0,
+                    "height": 68.0
+                  }
+                },
+                {
+                  "name": "DescriptionButton",
+                  "pos": {
+                    "x": -564.0,
+                    "y": 165.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 68.0,
+                        "height": 68.0
+                      },
+                      "depth": 2,
+                      "spType": "Simple",
+                      "spName": "btn_03_dczz",
+                      "atlas": "dczz"
+                    }
+                  ],
+                  "button": {
+                    "interactable": true,
+                    "Transition": "ColorTint"
+                  },
+                  "rect": {
+                    "AnchorMinX": 0.0,
+                    "AnchorMinY": 1.0,
+                    "AnchorMaxX": 0.0,
+                    "AnchorMaxY": 1.0,
+                    "PivotX": 0.5,
+                    "PivotY": 0.5,
+                    "Left": 69.0,
+                    "Botton": -244.0,
+                    "Right": -137.0,
+                    "Top": 176.0,
+                    "AnchoredPositionX": 103.0,
+                    "AnchoredPositionY": -210.0,
+                    "SizeDeltaX": 68.0,
+                    "SizeDeltaY": 68.0,
+                    "x": -34.0,
+                    "y": -34.0,
+                    "width": 68.0,
+                    "height": 68.0
+                  },
+                  "size": {
+                    "width": 68.0,
+                    "height": 68.0
+                  }
+                },
+                {
+                  "name": "DescriptionWindow",
+                  "pos": {
+                    "x": 30.4,
+                    "y": -1.82
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": false,
+                  "size": {
+                    "width": 1044.0,
+                    "height": 620.0
+                  },
+                  "children": [
+                    {
+                      "name": "Background1",
+                      "pos": {
+                        "x": -261.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 522.0,
+                            "height": 618.0
+                          },
+                          "depth": -1,
+                          "spType": "Simple",
+                          "spName": "bk_03_dczz",
+                          "atlas": "bk_03_dczz"
+                        }
+                      ],
+                      "size": {
+                        "width": 522.0,
+                        "height": 618.0
+                      }
+                    },
+                    {
+                      "name": "Background2",
+                      "pos": {
+                        "x": 261.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": -1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 522.0,
+                            "height": 618.0
+                          },
+                          "depth": -1,
+                          "spType": "Simple",
+                          "spName": "bk_03_dczz",
+                          "atlas": "bk_03_dczz"
+                        }
+                      ],
+                      "size": {
+                        "width": 522.0,
+                        "height": 618.0
+                      }
+                    },
+                    {
+                      "name": "TitleImage",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 258.5
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 230.0,
+                            "height": 70.0
+                          },
+                          "depth": -1,
+                          "spType": "Simple",
+                          "spName": "title_01_dczz",
+                          "atlas": "dczz"
+                        }
+                      ],
+                      "size": {
+                        "width": 230.0,
+                        "height": 70.0
+                      }
+                    },
+                    {
+                      "name": "ScrollRect",
+                      "pos": {
+                        "x": 0.0,
+                        "y": -41.8
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 1044.0,
+                            "height": 485.4
+                          },
+                          "alpha": 0,
+                          "depth": -1,
+                          "spType": "Simple"
+                        }
+                      ],
+                      "size": {
+                        "width": 1044.0,
+                        "height": 485.4
+                      },
+                      "scrollView": {
+                        "horizontal": false,
+                        "vertical": true,
+                        "content": "Text",
+                        "movementType": 1
+                      },
+                      "children": [
+                        {
+                          "name": "Text",
+                          "pos": {
+                            "x": 0.0,
+                            "y": 242.7
+                          },
+                          "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "rotation": 0.0,
+                          "active": true,
+                          "components": [
+                            {
+                              "type": "UnityEngine.UI.Text",
+                              "size": {
+                                "width": 954.0,
+                                "height": 470.0
+                              },
+                              "color": "AE7D59",
+                              "depth": -1,
+                              "text": "",
+                              "fontSize": 25,
+                              "overflowH": 0,
+                              "overflowV": 1,
+                              "bestFit": false,
+                              "spacingY": 1.0,
+                              "alignment": 0
+                            }
+                          ],
+                          "rect": {
+                            "AnchorMinX": 0.5,
+                            "AnchorMinY": 1.0,
+                            "AnchorMaxX": 0.5,
+                            "AnchorMaxY": 1.0,
+                            "PivotX": 0.5,
+                            "PivotY": 1.0,
+                            "Left": -477.0,
+                            "Botton": -470.0,
+                            "Right": -477.0,
+                            "Top": 0.0,
+                            "AnchoredPositionX": 0.0,
+                            "AnchoredPositionY": 0.0,
+                            "SizeDeltaX": 954.0,
+                            "SizeDeltaY": 470.0,
+                            "x": -477.0,
+                            "y": -470.0,
+                            "width": 954.0,
+                            "height": 470.0
+                          },
+                          "size": {
+                            "width": 954.0,
+                            "height": 470.0
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "CloseButton",
+                      "pos": {
+                        "x": 507.0,
+                        "y": 253.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 68.0,
+                            "height": 68.0
+                          },
+                          "depth": -1,
+                          "spType": "Simple",
+                          "spName": "btn_00_dczz",
+                          "atlas": "dczz"
+                        }
+                      ],
+                      "button": {
+                        "interactable": true,
+                        "Transition": "ColorTint"
+                      },
+                      "size": {
+                        "width": 68.0,
+                        "height": 68.0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "SettingImage",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": false,
+                  "size": {
+                    "width": 596.0,
+                    "height": 342.0
+                  },
+                  "children": [
+                    {
+                      "name": "Background1",
+                      "pos": {
+                        "x": -149.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 298.0,
+                            "height": 342.0
+                          },
+                          "depth": -1,
+                          "spType": "Simple",
+                          "spName": "bk_02_dczz",
+                          "atlas": "dczz"
+                        }
+                      ],
+                      "size": {
+                        "width": 298.0,
+                        "height": 342.0
+                      }
+                    },
+                    {
+                      "name": "Background2",
+                      "pos": {
+                        "x": 149.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": -1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 298.0,
+                            "height": 342.0
+                          },
+                          "depth": -1,
+                          "spType": "Simple",
+                          "spName": "bk_02_dczz",
+                          "atlas": "dczz"
+                        }
+                      ],
+                      "size": {
+                        "width": 298.0,
+                        "height": 342.0
+                      }
+                    },
+                    {
+                      "name": "TitleImage",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 137.5
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 126.0,
+                            "height": 70.0
+                          },
+                          "depth": -1,
+                          "spType": "Simple",
+                          "spName": "title_02_dczz",
+                          "atlas": "dczz"
+                        }
+                      ],
+                      "size": {
+                        "width": 126.0,
+                        "height": 70.0
+                      }
+                    },
+                    {
+                      "name": "Bgm",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 26.1
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "togglegroup": true,
+                      "size": {
+                        "width": 459.0,
+                        "height": 42.0
+                      },
+                      "children": [
+                        {
+                          "name": "Image",
+                          "pos": {
+                            "x": -112.9,
+                            "y": 0.0
+                          },
+                          "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "rotation": 0.0,
+                          "active": true,
+                          "components": [
+                            {
+                              "type": "UnityEngine.UI.Image",
+                              "size": {
+                                "width": 70.0,
+                                "height": 34.0
+                              },
+                              "depth": -1,
+                              "spType": "Simple",
+                              "spName": "font_04_dczz",
+                              "atlas": "dczz"
+                            }
+                          ],
+                          "size": {
+                            "width": 70.0,
+                            "height": 34.0
+                          }
+                        },
+                        {
+                          "name": "OpenToggle",
+                          "pos": {
+                            "x": 130.0,
+                            "y": 0.0
+                          },
+                          "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "rotation": 0.0,
+                          "active": true,
+                          "components": [
+                            {
+                              "type": "UnityEngine.UI.Image",
+                              "size": {
+                                "width": 86.5,
+                                "height": 42.0
+                              },
+                              "alpha": 0,
+                              "depth": -1,
+                              "spType": "Simple"
+                            }
+                          ],
+                          "toggle": {
+                            "Transition": "ColorTint",
+                            "checkmark": "Open"
+                          },
+                          "size": {
+                            "width": 86.5,
+                            "height": 42.0
+                          },
+                          "children": [
+                            {
+                              "name": "Background",
+                              "pos": {
+                                "x": -22.0,
+                                "y": 0.0
+                              },
+                              "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "rotation": 0.0,
+                              "active": true,
+                              "components": [
+                                {
+                                  "type": "UnityEngine.UI.Image",
+                                  "size": {
+                                    "width": 42.0,
+                                    "height": 42.0
+                                  },
+                                  "depth": -1,
+                                  "spType": "Simple",
+                                  "spName": "btn_06_dczz",
+                                  "atlas": "dczz"
+                                }
+                              ],
+                              "size": {
+                                "width": 42.0,
+                                "height": 42.0
+                              },
+                              "children": [
+                                {
+                                  "name": "Open",
+                                  "pos": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "rotation": 0.0,
+                                  "active": true,
+                                  "components": [
+                                    {
+                                      "type": "UnityEngine.UI.Image",
+                                      "size": {
+                                        "width": 42.0,
+                                        "height": 42.0
+                                      },
+                                      "depth": -1,
+                                      "spType": "Simple",
+                                      "spName": "btn_06_on_dczz",
+                                      "atlas": "dczz"
+                                    }
+                                  ],
+                                  "size": {
+                                    "width": 42.0,
+                                    "height": 42.0
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Image",
+                              "pos": {
+                                "x": 25.0,
+                                "y": 0.0
+                              },
+                              "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "rotation": 0.0,
+                              "active": true,
+                              "components": [
+                                {
+                                  "type": "UnityEngine.UI.Image",
+                                  "size": {
+                                    "width": 36.0,
+                                    "height": 34.0
+                                  },
+                                  "depth": -1,
+                                  "spType": "Simple",
+                                  "spName": "font_06_dczz",
+                                  "atlas": "dczz"
+                                }
+                              ],
+                              "size": {
+                                "width": 36.0,
+                                "height": 34.0
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "name": "CloseToggle",
+                          "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "rotation": 0.0,
+                          "active": true,
+                          "components": [
+                            {
+                              "type": "UnityEngine.UI.Image",
+                              "size": {
+                                "width": 86.5,
+                                "height": 42.0
+                              },
+                              "alpha": 0,
+                              "depth": -1,
+                              "spType": "Simple"
+                            }
+                          ],
+                          "toggle": {
+                            "Transition": "ColorTint",
+                            "checkmark": "Open"
+                          },
+                          "size": {
+                            "width": 86.5,
+                            "height": 42.0
+                          },
+                          "children": [
+                            {
+                              "name": "Background",
+                              "pos": {
+                                "x": -22.0,
+                                "y": 0.0
+                              },
+                              "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "rotation": 0.0,
+                              "active": true,
+                              "components": [
+                                {
+                                  "type": "UnityEngine.UI.Image",
+                                  "size": {
+                                    "width": 42.0,
+                                    "height": 42.0
+                                  },
+                                  "depth": -1,
+                                  "spType": "Simple",
+                                  "spName": "btn_06_dczz",
+                                  "atlas": "dczz"
+                                }
+                              ],
+                              "size": {
+                                "width": 42.0,
+                                "height": 42.0
+                              },
+                              "children": [
+                                {
+                                  "name": "Open",
+                                  "pos": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "rotation": 0.0,
+                                  "active": true,
+                                  "components": [
+                                    {
+                                      "type": "UnityEngine.UI.Image",
+                                      "size": {
+                                        "width": 42.0,
+                                        "height": 42.0
+                                      },
+                                      "depth": -1,
+                                      "spType": "Simple",
+                                      "spName": "btn_06_on_dczz",
+                                      "atlas": "dczz"
+                                    }
+                                  ],
+                                  "size": {
+                                    "width": 42.0,
+                                    "height": 42.0
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Image",
+                              "pos": {
+                                "x": 25.0,
+                                "y": 0.0
+                              },
+                              "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "rotation": 0.0,
+                              "active": true,
+                              "components": [
+                                {
+                                  "type": "UnityEngine.UI.Image",
+                                  "size": {
+                                    "width": 36.0,
+                                    "height": 34.0
+                                  },
+                                  "depth": -1,
+                                  "spType": "Simple",
+                                  "spName": "font_07_dczz",
+                                  "atlas": "dczz"
+                                }
+                              ],
+                              "size": {
+                                "width": 36.0,
+                                "height": 34.0
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Sound",
+                      "pos": {
+                        "x": 0.0,
+                        "y": -65.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "togglegroup": true,
+                      "size": {
+                        "width": 459.0,
+                        "height": 42.0
+                      },
+                      "children": [
+                        {
+                          "name": "Image",
+                          "pos": {
+                            "x": -112.9,
+                            "y": 0.0
+                          },
+                          "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "rotation": 0.0,
+                          "active": true,
+                          "components": [
+                            {
+                              "type": "UnityEngine.UI.Image",
+                              "size": {
+                                "width": 70.0,
+                                "height": 34.0
+                              },
+                              "depth": -1,
+                              "spType": "Simple",
+                              "spName": "font_05_dczz",
+                              "atlas": "dczz"
+                            }
+                          ],
+                          "size": {
+                            "width": 70.0,
+                            "height": 34.0
+                          }
+                        },
+                        {
+                          "name": "OpenToggle",
+                          "pos": {
+                            "x": 130.0,
+                            "y": 0.0
+                          },
+                          "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "rotation": 0.0,
+                          "active": true,
+                          "components": [
+                            {
+                              "type": "UnityEngine.UI.Image",
+                              "size": {
+                                "width": 86.5,
+                                "height": 42.0
+                              },
+                              "alpha": 0,
+                              "depth": -1,
+                              "spType": "Simple"
+                            }
+                          ],
+                          "toggle": {
+                            "Transition": "ColorTint",
+                            "checkmark": "Open"
+                          },
+                          "size": {
+                            "width": 86.5,
+                            "height": 42.0
+                          },
+                          "children": [
+                            {
+                              "name": "Background",
+                              "pos": {
+                                "x": -22.0,
+                                "y": 0.0
+                              },
+                              "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "rotation": 0.0,
+                              "active": true,
+                              "components": [
+                                {
+                                  "type": "UnityEngine.UI.Image",
+                                  "size": {
+                                    "width": 42.0,
+                                    "height": 42.0
+                                  },
+                                  "depth": -1,
+                                  "spType": "Simple",
+                                  "spName": "btn_06_dczz",
+                                  "atlas": "dczz"
+                                }
+                              ],
+                              "size": {
+                                "width": 42.0,
+                                "height": 42.0
+                              },
+                              "children": [
+                                {
+                                  "name": "Open",
+                                  "pos": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "rotation": 0.0,
+                                  "active": true,
+                                  "components": [
+                                    {
+                                      "type": "UnityEngine.UI.Image",
+                                      "size": {
+                                        "width": 42.0,
+                                        "height": 42.0
+                                      },
+                                      "depth": -1,
+                                      "spType": "Simple",
+                                      "spName": "btn_06_on_dczz",
+                                      "atlas": "dczz"
+                                    }
+                                  ],
+                                  "size": {
+                                    "width": 42.0,
+                                    "height": 42.0
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Image",
+                              "pos": {
+                                "x": 25.0,
+                                "y": 0.0
+                              },
+                              "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "rotation": 0.0,
+                              "active": true,
+                              "components": [
+                                {
+                                  "type": "UnityEngine.UI.Image",
+                                  "size": {
+                                    "width": 36.0,
+                                    "height": 34.0
+                                  },
+                                  "depth": -1,
+                                  "spType": "Simple",
+                                  "spName": "font_06_dczz",
+                                  "atlas": "dczz"
+                                }
+                              ],
+                              "size": {
+                                "width": 36.0,
+                                "height": 34.0
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "name": "CloseToggle",
+                          "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "rotation": 0.0,
+                          "active": true,
+                          "components": [
+                            {
+                              "type": "UnityEngine.UI.Image",
+                              "size": {
+                                "width": 86.5,
+                                "height": 42.0
+                              },
+                              "alpha": 0,
+                              "depth": -1,
+                              "spType": "Simple"
+                            }
+                          ],
+                          "toggle": {
+                            "Transition": "ColorTint",
+                            "checkmark": "Open"
+                          },
+                          "size": {
+                            "width": 86.5,
+                            "height": 42.0
+                          },
+                          "children": [
+                            {
+                              "name": "Background",
+                              "pos": {
+                                "x": -22.0,
+                                "y": 0.0
+                              },
+                              "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "rotation": 0.0,
+                              "active": true,
+                              "components": [
+                                {
+                                  "type": "UnityEngine.UI.Image",
+                                  "size": {
+                                    "width": 42.0,
+                                    "height": 42.0
+                                  },
+                                  "depth": -1,
+                                  "spType": "Simple",
+                                  "spName": "btn_06_dczz",
+                                  "atlas": "dczz"
+                                }
+                              ],
+                              "size": {
+                                "width": 42.0,
+                                "height": 42.0
+                              },
+                              "children": [
+                                {
+                                  "name": "Open",
+                                  "pos": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "rotation": 0.0,
+                                  "active": true,
+                                  "components": [
+                                    {
+                                      "type": "UnityEngine.UI.Image",
+                                      "size": {
+                                        "width": 42.0,
+                                        "height": 42.0
+                                      },
+                                      "depth": -1,
+                                      "spType": "Simple",
+                                      "spName": "btn_06_on_dczz",
+                                      "atlas": "dczz"
+                                    }
+                                  ],
+                                  "size": {
+                                    "width": 42.0,
+                                    "height": 42.0
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Image",
+                              "pos": {
+                                "x": 25.0,
+                                "y": 0.0
+                              },
+                              "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "rotation": 0.0,
+                              "active": true,
+                              "components": [
+                                {
+                                  "type": "UnityEngine.UI.Image",
+                                  "size": {
+                                    "width": 36.0,
+                                    "height": 34.0
+                                  },
+                                  "depth": -1,
+                                  "spType": "Simple",
+                                  "spName": "font_07_dczz",
+                                  "atlas": "dczz"
+                                }
+                              ],
+                              "size": {
+                                "width": 36.0,
+                                "height": 34.0
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "CloseButton",
+                      "pos": {
+                        "x": 288.9,
+                        "y": 159.4
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 68.0,
+                            "height": 68.0
+                          },
+                          "depth": -1,
+                          "spType": "Simple",
+                          "spName": "btn_00_dczz",
+                          "atlas": "dczz"
+                        }
+                      ],
+                      "button": {
+                        "interactable": true,
+                        "Transition": "ColorTint"
+                      },
+                      "size": {
+                        "width": 68.0,
+                        "height": 68.0
+                      }
+                    },
+                    {
+                      "name": "VersionText",
+                      "pos": {
+                        "x": 232.0,
+                        "y": -150.6
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Text",
+                          "size": {
+                            "width": 100.0,
+                            "height": 29.7
+                          },
+                          "depth": -1,
+                          "text": "V1.0",
+                          "fontSize": 17,
+                          "overflowH": 1,
+                          "overflowV": 0,
+                          "bestFit": false,
+                          "spacingY": 1.0,
+                          "alignment": 5
+                        }
+                      ],
+                      "rect": {
+                        "AnchorMinX": 1.0,
+                        "AnchorMinY": 0.0,
+                        "AnchorMaxX": 1.0,
+                        "AnchorMaxY": 0.0,
+                        "PivotX": 0.5,
+                        "PivotY": 0.5,
+                        "Left": -116.0,
+                        "Botton": 5.55,
+                        "Right": 16.0,
+                        "Top": -35.25,
+                        "AnchoredPositionX": -66.0,
+                        "AnchoredPositionY": 20.4,
+                        "SizeDeltaX": 100.0,
+                        "SizeDeltaY": 29.7,
+                        "x": -50.0,
+                        "y": -14.85,
+                        "width": 100.0,
+                        "height": 29.7
+                      },
+                      "size": {
+                        "width": 100.0,
+                        "height": 29.7
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

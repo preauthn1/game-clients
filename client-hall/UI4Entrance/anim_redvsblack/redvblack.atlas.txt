@@ -1,0 +1,48 @@
+
+redvblack.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 2
+  size: 209, 205
+  orig: 209, 205
+  offset: 0, 0
+  index: -1
+black
+  rotate: false
+  xy: 701, 84
+  size: 106, 123
+  orig: 106, 123
+  offset: 0, 0
+  index: -1
+cc
+  rotate: false
+  xy: 213, 32
+  size: 206, 175
+  orig: 206, 175
+  offset: 0, 0
+  index: -1
+ff
+  rotate: false
+  xy: 421, 67
+  size: 168, 140
+  orig: 168, 140
+  offset: 0, 0
+  index: -1
+red
+  rotate: false
+  xy: 591, 83
+  size: 108, 124
+  orig: 108, 124
+  offset: 0, 0
+  index: -1
+vs
+  rotate: false
+  xy: 809, 120
+  size: 89, 87
+  orig: 89, 87
+  offset: 0, 0
+  index: -1

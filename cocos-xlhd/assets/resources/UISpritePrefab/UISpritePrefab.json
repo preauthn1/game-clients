@@ -1,0 +1,530 @@
+{
+    "sprite_card_5_0": {
+      "spr": "sprite_card_1_5",
+      "atlas": "sprite_card_1_5",
+      "name": "sprite_card_1_5",
+      "dir": "Cards"
+    },
+    "sprite_card_5_1": {
+      "spr": "sprite_card_0_5",
+      "atlas": "sprite_card_0_5",
+      "name": "sprite_card_0_5",
+      "dir": "Cards"
+    },
+    "sprite_card_5_2": {
+      "spr": "sprite_card_2_5",
+      "atlas": "sprite_card_2_5",
+      "name": "sprite_card_2_5",
+      "dir": "Cards"
+    },
+    "sprite_card_5_3": {
+      "spr": "sprite_card_3_5",
+      "atlas": "sprite_card_3_5",
+      "name": "sprite_card_3_5",
+      "dir": "Cards"
+    },
+    "sprite_card_8_3": {
+      "spr": "sprite_card_3_8",
+      "atlas": "sprite_card_3_8",
+      "name": "sprite_card_3_8",
+      "dir": "Cards"
+    },
+    "sprite_card_9_0": {
+      "spr": "sprite_card_1_9",
+      "atlas": "sprite_card_1_9",
+      "name": "sprite_card_1_9",
+      "dir": "Cards"
+    },
+    "sprite_card_3_1": {
+      "spr": "sprite_card_0_3",
+      "atlas": "sprite_card_0_3",
+      "name": "sprite_card_0_3",
+      "dir": "Cards"
+    },
+    "sprite_card_3_2": {
+      "spr": "sprite_card_2_3",
+      "atlas": "sprite_card_2_3",
+      "name": "sprite_card_2_3",
+      "dir": "Cards"
+    },
+    "sprite_card_13_2": {
+      "spr": "sprite_card_2_13",
+      "atlas": "sprite_card_2_13",
+      "name": "sprite_card_2_13",
+      "dir": "Cards"
+    },
+    "sprite_card_13_3": {
+      "spr": "sprite_card_3_13",
+      "atlas": "sprite_card_3_13",
+      "name": "sprite_card_3_13",
+      "dir": "Cards"
+    },
+    "sprite_card_h": {
+      "spr": "sprite_card_4_17",
+      "atlas": "sprite_card_4_17",
+      "name": "sprite_card_4_17",
+      "dir": "Cards"
+    },
+    "sprite_card_l": {
+      "spr": "sprite_card_4_17",
+      "atlas": "sprite_card_4_17",
+      "name": "sprite_card_4_17",
+      "dir": "Cards"
+    },
+    "sprite_card_1_1": {
+      "spr": "sprite_card_0_1",
+      "atlas": "sprite_card_0_1",
+      "name": "sprite_card_0_1",
+      "dir": "Cards"
+    },
+    "sprite_cast4_2": {
+      "spr": "TableJetton_4",
+      "atlas": "TableJetton_4",
+      "name": "TableJetton_4",
+      "dir": "Jetton"
+    },
+    "sprite_cast5_1": {
+      "spr": "chip_5",
+      "atlas": "chip_5",
+      "name": "chip_5",
+      "dir": "Jetton"
+    },
+    "sprite_cast5_2": {
+      "spr": "TableJetton_5",
+      "atlas": "TableJetton_5",
+      "name": "TableJetton_5",
+      "dir": "Jetton"
+    },
+    "sprite_cast6_2": {
+      "spr": "TableJetton_6",
+      "atlas": "TableJetton_6",
+      "name": "TableJetton_6",
+      "dir": "Jetton"
+    },
+    "sprite_cast7_1": {
+      "spr": "chip_7",
+      "atlas": "chip_7",
+      "name": "chip_7",
+      "dir": "Jetton"
+    },
+    "sprite_cast7_2": {
+      "spr": "TableJetton_7",
+      "atlas": "TableJetton_7",
+      "name": "TableJetton_7",
+      "dir": "Jetton"
+    },
+    "sprite_cast8_1": {
+      "spr": "chip_8",
+      "atlas": "chip_8",
+      "name": "chip_8",
+      "dir": "Jetton"
+    },
+    "sprite_card_10_0": {
+      "spr": "sprite_card_1_10",
+      "atlas": "sprite_card_1_10",
+      "name": "sprite_card_1_10",
+      "dir": "Cards"
+    },
+    "sprite_card_10_1": {
+      "spr": "sprite_card_0_10",
+      "atlas": "sprite_card_0_10",
+      "name": "sprite_card_0_10",
+      "dir": "Cards"
+    },
+    "sprite_card_4_2": {
+      "spr": "sprite_card_2_4",
+      "atlas": "sprite_card_2_4",
+      "name": "sprite_card_2_4",
+      "dir": "Cards"
+    },
+    "sprite_card_4_3": {
+      "spr": "sprite_card_3_4",
+      "atlas": "sprite_card_3_4",
+      "name": "sprite_card_3_4",
+      "dir": "Cards"
+    },
+    "sprite_card_1_3": {
+      "spr": "sprite_card_3_1",
+      "atlas": "sprite_card_3_1",
+      "name": "sprite_card_3_1",
+      "dir": "Cards"
+    },
+    "sprite_card_2_0": {
+      "spr": "sprite_card_1_2",
+      "atlas": "sprite_card_1_2",
+      "name": "sprite_card_1_2",
+      "dir": "Cards"
+    },
+    "sprite_cast3_1": {
+      "spr": "chip_3",
+      "atlas": "chip_3",
+      "name": "chip_3",
+      "dir": "Jetton"
+    },
+    "sprite_cast3_2": {
+      "spr": "TableJetton_3",
+      "atlas": "TableJetton_3",
+      "name": "TableJetton_3",
+      "dir": "Jetton"
+    },
+    "sprite_cast4_1": {
+      "spr": "chip_4",
+      "atlas": "chip_4",
+      "name": "chip_4",
+      "dir": "Jetton"
+    },
+    "sprite_card_10_2": {
+      "spr": "sprite_card_2_10",
+      "atlas": "sprite_card_2_10",
+      "name": "sprite_card_2_10",
+      "dir": "Cards"
+    },
+    "sprite_card_10_3": {
+      "spr": "sprite_card_3_10",
+      "atlas": "sprite_card_3_10",
+      "name": "sprite_card_3_10",
+      "dir": "Cards"
+    },
+    "sprite_card_11_0": {
+      "spr": "sprite_card_1_11",
+      "atlas": "sprite_card_1_11",
+      "name": "sprite_card_1_11",
+      "dir": "Cards"
+    },
+    "sprite_card_4_1": {
+      "spr": "sprite_card_0_4",
+      "atlas": "sprite_card_0_4",
+      "name": "sprite_card_0_4",
+      "dir": "Cards"
+    },
+    "sprite_card_1_2": {
+      "spr": "sprite_card_2_1",
+      "atlas": "sprite_card_2_1",
+      "name": "sprite_card_2_1",
+      "dir": "Cards"
+    },
+    "sprite_card_7_0": {
+      "spr": "sprite_card_1_7",
+      "atlas": "sprite_card_1_7",
+      "name": "sprite_card_1_7",
+      "dir": "Cards"
+    },
+    "sprite_card_7_1": {
+      "spr": "sprite_card_0_7",
+      "atlas": "sprite_card_0_7",
+      "name": "sprite_card_0_7",
+      "dir": "Cards"
+    },
+    "sprite_card_0_0": {
+      "spr": "sprite_card_4_17",
+      "atlas": "sprite_card_4_17",
+      "name": "sprite_card_4_17",
+      "dir": "Cards"
+    },
+    "sprite_cast6_1": {
+      "spr": "chip_6",
+      "atlas": "chip_6",
+      "name": "chip_6",
+      "dir": "Jetton"
+    },
+    "sprite_card_8_0": {
+      "spr": "sprite_card_1_8",
+      "atlas": "sprite_card_1_8",
+      "name": "sprite_card_1_8",
+      "dir": "Cards"
+    },
+    "sprite_card_8_1": {
+      "spr": "sprite_card_0_8",
+      "atlas": "sprite_card_0_8",
+      "name": "sprite_card_0_8",
+      "dir": "Cards"
+    },
+    "sprite_card_8_2": {
+      "spr": "sprite_card_2_8",
+      "atlas": "sprite_card_2_8",
+      "name": "sprite_card_2_8",
+      "dir": "Cards"
+    },
+    "sprite_card_3_0": {
+      "spr": "sprite_card_1_3",
+      "atlas": "sprite_card_1_3",
+      "name": "sprite_card_1_3",
+      "dir": "Cards"
+    },
+    "sprite_cast1_1": {
+      "spr": "chip_1",
+      "atlas": "chip_1",
+      "name": "chip_1",
+      "dir": "Jetton"
+    },
+    "sprite_cast1_2": {
+      "spr": "TableJetton_1",
+      "atlas": "TableJetton_1",
+      "name": "TableJetton_1",
+      "dir": "Jetton"
+    },
+    "sprite_cast2_1": {
+      "spr": "chip_2",
+      "atlas": "chip_2",
+      "name": "chip_2",
+      "dir": "Jetton"
+    },
+    "sprite_cast2_2": {
+      "spr": "TableJetton_2",
+      "atlas": "TableJetton_2",
+      "name": "TableJetton_2",
+      "dir": "Jetton"
+    },
+    "sprite_card_9_1": {
+      "spr": "sprite_card_0_9",
+      "atlas": "sprite_card_0_9",
+      "name": "sprite_card_0_9",
+      "dir": "Cards"
+    },
+    "sprite_card_9_2": {
+      "spr": "sprite_card_2_9",
+      "atlas": "sprite_card_2_9",
+      "name": "sprite_card_2_9",
+      "dir": "Cards"
+    },
+    "sprite_card_9_3": {
+      "spr": "sprite_card_3_9",
+      "atlas": "sprite_card_3_9",
+      "name": "sprite_card_3_9",
+      "dir": "Cards"
+    },
+    "sprite_card_6_2": {
+      "spr": "sprite_card_2_6",
+      "atlas": "sprite_card_2_6",
+      "name": "sprite_card_2_6",
+      "dir": "Cards"
+    },
+    "sprite_card_6_3": {
+      "spr": "sprite_card_3_6",
+      "atlas": "sprite_card_3_6",
+      "name": "sprite_card_3_6",
+      "dir": "Cards"
+    },
+    "sprite_card_3_3": {
+      "spr": "sprite_card_3_3",
+      "atlas": "sprite_card_3_3",
+      "name": "sprite_card_3_3",
+      "dir": "Cards"
+    },
+    "sprite_card_4_0": {
+      "spr": "sprite_card_1_4",
+      "atlas": "sprite_card_1_4",
+      "name": "sprite_card_1_4",
+      "dir": "Cards"
+    },
+    "sprite_card_1_0": {
+      "spr": "sprite_card_1_1",
+      "atlas": "sprite_card_1_1",
+      "name": "sprite_card_1_1",
+      "dir": "Cards"
+    },
+    "sprite_cast8_2": {
+      "spr": "TableJetton_8",
+      "atlas": "TableJetton_8",
+      "name": "TableJetton_8",
+      "dir": "Jetton"
+    },
+    "sprite_cast_btn_1": {
+      "spr": "chip_1",
+      "atlas": "chip_1",
+      "name": "chip_1",
+      "dir": "Jetton"
+    },
+    "sprite_cast_btn_2": {
+      "spr": "chip_2",
+      "atlas": "chip_2",
+      "name": "chip_2",
+      "dir": "Jetton"
+    },
+    "sprite_cast_btn_3": {
+      "spr": "chip_3",
+      "atlas": "chip_3",
+      "name": "chip_3",
+      "dir": "Jetton"
+    },
+    "sprite_cast_btn_4": {
+      "spr": "chip_4",
+      "atlas": "chip_4",
+      "name": "chip_4",
+      "dir": "Jetton"
+    },
+    "sprite_cast_btn_5": {
+      "spr": "chip_5",
+      "atlas": "chip_5",
+      "name": "chip_5",
+      "dir": "Jetton"
+    },
+    "sprite_cast_btn_6": {
+      "spr": "chip_6",
+      "atlas": "chip_6",
+      "name": "chip_6",
+      "dir": "Jetton"
+    },
+    "sprite_cast_btn_7": {
+      "spr": "chip_7",
+      "atlas": "chip_7",
+      "name": "chip_7",
+      "dir": "Jetton"
+    },
+    "sprite_eye_blue": {
+      "spr": "sign_08_xlhd",
+      "atlas": "xlhd",
+      "name": "xlhd",
+      "dir": ""
+    },
+    "sprite_eye_green": {
+      "spr": "sign_11_xlhd",
+      "atlas": "xlhd",
+      "name": "xlhd",
+      "dir": ""
+    },
+    "sprite_eye_red": {
+      "spr": "sign_09_xlhd",
+      "atlas": "xlhd",
+      "name": "xlhd",
+      "dir": ""
+    },
+    "sprite_roadmap_blue": {
+      "spr": "sign_07_xlhd",
+      "atlas": "sign_07_xlhd",
+      "name": "sign_07_xlhd",
+      "dir": "Word"
+    },
+    "sprite_roadmap_green": {
+      "spr": "sign_06_xlhd",
+      "atlas": "sign_06_xlhd",
+      "name": "sign_06_xlhd",
+      "dir": "Word"
+    },
+    "sprite_roadmap_red": {
+      "spr": "sign_05_xlhd",
+      "atlas": "sign_05_xlhd",
+      "name": "sign_05_xlhd",
+      "dir": "Word"
+    },
+    "sprite_xiaoyanlu_blue": {
+      "spr": "sign_14_xlhd",
+      "atlas": "xlhd",
+      "name": "xlhd",
+      "dir": ""
+    },
+    "sprite_xiaoyanlu_red": {
+      "spr": "sign_13_xlhd",
+      "atlas": "xlhd",
+      "name": "xlhd",
+      "dir": ""
+    },
+    "sprite_zhanglanglu_blue": {
+      "spr": "sign_12_xlhd",
+      "atlas": "xlhd",
+      "name": "xlhd",
+      "dir": ""
+    },
+    "sprite_zhanglanglu_red": {
+      "spr": "sign_10_xlhd",
+      "atlas": "xlhd",
+      "name": "xlhd",
+      "dir": ""
+    },
+    "sprite_card_2_2": {
+      "spr": "sprite_card_2_2",
+      "atlas": "sprite_card_2_2",
+      "name": "sprite_card_2_2",
+      "dir": "Cards"
+    },
+    "sprite_card_2_3": {
+      "spr": "sprite_card_3_2",
+      "atlas": "sprite_card_3_2",
+      "name": "sprite_card_3_2",
+      "dir": "Cards"
+    },
+    "sprite_card_11_1": {
+      "spr": "sprite_card_0_11",
+      "atlas": "sprite_card_0_11",
+      "name": "sprite_card_0_11",
+      "dir": "Cards"
+    },
+    "sprite_card_11_2": {
+      "spr": "sprite_card_2_11",
+      "atlas": "sprite_card_2_11",
+      "name": "sprite_card_2_11",
+      "dir": "Cards"
+    },
+    "sprite_card_11_3": {
+      "spr": "sprite_card_3_11",
+      "atlas": "sprite_card_3_11",
+      "name": "sprite_card_3_11",
+      "dir": "Cards"
+    },
+    "sprite_card_7_2": {
+      "spr": "sprite_card_2_7",
+      "atlas": "sprite_card_2_7",
+      "name": "sprite_card_2_7",
+      "dir": "Cards"
+    },
+    "sprite_card_7_3": {
+      "spr": "sprite_card_3_7",
+      "atlas": "sprite_card_3_7",
+      "name": "sprite_card_3_7",
+      "dir": "Cards"
+    },
+    "sprite_card_12_3": {
+      "spr": "sprite_card_3_12",
+      "atlas": "sprite_card_3_12",
+      "name": "sprite_card_3_12",
+      "dir": "Cards"
+    },
+    "sprite_card_13_0": {
+      "spr": "sprite_card_1_13",
+      "atlas": "sprite_card_1_13",
+      "name": "sprite_card_1_13",
+      "dir": "Cards"
+    },
+    "sprite_card_13_1": {
+      "spr": "sprite_card_0_13",
+      "atlas": "sprite_card_0_13",
+      "name": "sprite_card_0_13",
+      "dir": "Cards"
+    },
+    "sprite_card_12_0": {
+      "spr": "sprite_card_1_12",
+      "atlas": "sprite_card_1_12",
+      "name": "sprite_card_1_12",
+      "dir": "Cards"
+    },
+    "sprite_card_12_1": {
+      "spr": "sprite_card_0_12",
+      "atlas": "sprite_card_0_12",
+      "name": "sprite_card_0_12",
+      "dir": "Cards"
+    },
+    "sprite_card_12_2": {
+      "spr": "sprite_card_2_12",
+      "atlas": "sprite_card_2_12",
+      "name": "sprite_card_2_12",
+      "dir": "Cards"
+    },
+    "sprite_card_2_1": {
+      "spr": "sprite_card_0_2",
+      "atlas": "sprite_card_0_2",
+      "name": "sprite_card_0_2",
+      "dir": "Cards"
+    },
+    "sprite_card_6_0": {
+      "spr": "sprite_card_1_6",
+      "atlas": "sprite_card_1_6",
+      "name": "sprite_card_1_6",
+      "dir": "Cards"
+    },
+    "sprite_card_6_1": {
+      "spr": "sprite_card_0_6",
+      "atlas": "sprite_card_0_6",
+      "name": "sprite_card_0_6",
+      "dir": "Cards"
+    }
+  }

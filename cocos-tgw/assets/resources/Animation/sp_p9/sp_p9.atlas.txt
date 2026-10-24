@@ -1,0 +1,34 @@
+
+sp_p9.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blur
+  rotate: true
+  xy: 2, 2
+  size: 99, 128
+  orig: 99, 128
+  offset: 0, 0
+  index: -1
+circle
+  rotate: false
+  xy: 238, 6
+  size: 90, 95
+  orig: 90, 95
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 132, 2
+  size: 99, 104
+  orig: 99, 104
+  offset: 0, 0
+  index: -1
+spark
+  rotate: false
+  xy: 330, 63
+  size: 41, 38
+  orig: 41, 38
+  offset: 0, 0
+  index: -1

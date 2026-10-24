@@ -1,0 +1,196 @@
+{
+"skeleton": { "hash": "wpH34O983rYE1Pz49tJxnPng1O8", "spine": "3.6.53", "width": 246.02, "height": 89.32, "images": "./images/" },
+"bones": [
+	{ "name": "root", "x": 8.79, "y": 4.19 },
+	{ "name": "chip", "parent": "root", "length": 35.34, "rotation": 91.67, "x": -84.86, "y": -2.61 },
+	{ "name": "text01", "parent": "root", "length": 24.01, "rotation": 89.18, "x": -9.41, "y": -26.62 },
+	{ "name": "fx", "parent": "text01", "length": 17.24, "rotation": 1.94, "x": 1.62, "y": -6.19 },
+	{ "name": "text02", "parent": "root", "length": 25.39, "rotation": 88.45, "x": -5.29, "y": 15.23 },
+	{ "name": "fx01", "parent": "text02", "length": 27.44, "rotation": 1.55, "x": -2.03, "y": -1.08 },
+	{ "name": "star", "parent": "root", "length": 20, "rotation": 84.09, "x": 110.13, "y": 22.21, "scaleX": 0.6, "scaleY": 0.6 },
+	{ "name": "trophy", "parent": "root", "length": 26.05, "rotation": 69.18, "x": 66.74, "y": -9.47 },
+	{ "name": "trophy_fx", "parent": "trophy", "length": 27.58, "rotation": 8.73, "x": -1.14, "y": -2.75 }
+],
+"slots": [
+	{ "name": "chip", "bone": "chip", "attachment": "chip" },
+	{ "name": "text02", "bone": "text02", "attachment": "text02" },
+	{ "name": "trophy", "bone": "trophy", "attachment": "trophy" },
+	{ "name": "trophy_fx", "bone": "trophy_fx", "color": "fff8b0bd", "blend": "additive" },
+	{ "name": "text01", "bone": "text01", "attachment": "text01" },
+	{ "name": "text01_00", "bone": "fx", "color": "ffffffb5", "blend": "additive" },
+	{ "name": "text02_00", "bone": "fx01", "color": "c6f1ff86", "attachment": "text02_00", "blend": "additive" },
+	{ "name": "star_128", "bone": "star", "color": "ffffffed", "attachment": "star_128", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"chip": {
+			"chip": { "x": 11.41, "y": 0.55, "rotation": -91.67, "width": 75, "height": 67 }
+		},
+		"star_128": {
+			"star_128": { "scaleX": 0.3, "scaleY": 0.3, "width": 128, "height": 128 }
+		},
+		"text01": {
+			"text01": { "x": 5.93, "y": -2.08, "rotation": -89.18, "width": 162, "height": 50 }
+		},
+		"text01_00": {
+			"text01_00": { "x": 4.8, "y": 3.62, "scaleX": 1.958, "scaleY": 1.958, "rotation": -90.95, "width": 81, "height": 25 },
+			"text01_02": { "x": 4.8, "y": 3.62, "scaleX": 1.958, "scaleY": 1.958, "rotation": -90.95, "width": 81, "height": 25 },
+			"text01_04": { "x": 4.8, "y": 3.62, "scaleX": 1.958, "scaleY": 1.958, "rotation": -90.95, "width": 81, "height": 25 },
+			"text01_06": { "x": 4.8, "y": 3.62, "scaleX": 1.958, "scaleY": 1.958, "rotation": -90.95, "width": 81, "height": 25 },
+			"text01_08": { "x": 4.8, "y": 3.62, "scaleX": 1.958, "scaleY": 1.958, "rotation": -90.95, "width": 81, "height": 25 },
+			"text01_10": { "x": 4.8, "y": 3.62, "scaleX": 1.958, "scaleY": 1.958, "rotation": -90.95, "width": 81, "height": 25 },
+			"text01_12": { "x": 4.8, "y": 3.62, "scaleX": 1.958, "scaleY": 1.958, "rotation": -90.95, "width": 81, "height": 25 },
+			"text01_14": { "x": 4.8, "y": 3.62, "scaleX": 1.958, "scaleY": 1.958, "rotation": -90.95, "width": 81, "height": 25 }
+		},
+		"text02": {
+			"text02": { "x": 0.52, "y": 0.97, "rotation": -88.45, "width": 144, "height": 55 }
+		},
+		"text02_00": {
+			"text02_00": { "x": 2.74, "y": 2.06, "scaleX": 1.978, "scaleY": 1.978, "rotation": -90, "width": 72, "height": 28 },
+			"text02_02": { "x": 2.74, "y": 2.06, "scaleX": 1.978, "scaleY": 1.978, "rotation": -90, "width": 72, "height": 28 },
+			"text02_04": { "x": 2.74, "y": 2.06, "scaleX": 1.978, "scaleY": 1.978, "rotation": -90, "width": 72, "height": 28 },
+			"text02_06": { "x": 2.74, "y": 2.06, "scaleX": 1.978, "scaleY": 1.978, "rotation": -90, "width": 72, "height": 28 },
+			"text02_08": { "x": 2.74, "y": 2.06, "scaleX": 1.978, "scaleY": 1.978, "rotation": -90, "width": 72, "height": 28 },
+			"text02_10": { "x": 2.74, "y": 2.06, "scaleX": 1.978, "scaleY": 1.978, "rotation": -90, "width": 72, "height": 28 },
+			"text02_12": { "x": 2.74, "y": 2.06, "scaleX": 1.978, "scaleY": 1.978, "rotation": -90, "width": 72, "height": 28 }
+		},
+		"trophy": {
+			"trophy": { "x": 11.69, "y": -8.94, "rotation": -69.18, "width": 71, "height": 74 }
+		},
+		"trophy_fx": {
+			"trophy_00": { "x": 12.14, "y": -7.6, "scaleX": 1.998, "scaleY": 1.998, "rotation": -77.74, "width": 35, "height": 36 },
+			"trophy_02": { "x": 12.14, "y": -7.6, "scaleX": 1.998, "scaleY": 1.998, "rotation": -77.74, "width": 35, "height": 36 },
+			"trophy_04": { "x": 12.14, "y": -7.6, "scaleX": 1.998, "scaleY": 1.998, "rotation": -77.74, "width": 35, "height": 36 },
+			"trophy_06": { "x": 12.14, "y": -7.6, "scaleX": 1.998, "scaleY": 1.998, "rotation": -77.74, "width": 35, "height": 36 },
+			"trophy_08": { "x": 12.14, "y": -7.6, "scaleX": 1.998, "scaleY": 1.998, "rotation": -77.74, "width": 35, "height": 36 },
+			"trophy_10": { "x": 12.14, "y": -7.6, "scaleX": 1.998, "scaleY": 1.998, "rotation": -77.74, "width": 35, "height": 36 },
+			"trophy_12": { "x": 12.14, "y": -7.6, "scaleX": 1.998, "scaleY": 1.998, "rotation": -77.74, "width": 35, "height": 36 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"chip": {
+				"attachment": [
+					{ "time": 2.6667, "name": "chip" }
+				]
+			},
+			"star_128": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.3, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 2.6667, "name": "star_128" }
+				]
+			},
+			"text01": {
+				"attachment": [
+					{ "time": 2.6667, "name": "text01" }
+				]
+			},
+			"text01_00": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0667, "name": "text01_02" },
+					{ "time": 0.1333, "name": "text01_04" },
+					{ "time": 0.2, "name": "text01_06" },
+					{ "time": 0.2667, "name": "text01_08" },
+					{ "time": 0.3333, "name": "text01_10" },
+					{ "time": 0.4, "name": "text01_12" },
+					{ "time": 0.4667, "name": "text01_14" },
+					{ "time": 0.5333, "name": null },
+					{ "time": 2.6667, "name": null }
+				]
+			},
+			"text02_00": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0667, "name": "text02_00" },
+					{ "time": 0.1333, "name": "text02_02" },
+					{ "time": 0.2, "name": "text02_04" },
+					{ "time": 0.2667, "name": "text02_06" },
+					{ "time": 0.3333, "name": "text02_08" },
+					{ "time": 0.4, "name": "text02_10" },
+					{ "time": 0.4667, "name": "text02_12" },
+					{ "time": 0.5333, "name": null }
+				]
+			},
+			"trophy": {
+				"attachment": [
+					{ "time": 0, "name": "trophy" },
+					{ "time": 2.6667, "name": "trophy" }
+				]
+			},
+			"trophy_fx": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0667, "name": "trophy_00" },
+					{ "time": 0.1333, "name": "trophy_02" },
+					{ "time": 0.2, "name": "trophy_04" },
+					{ "time": 0.2667, "name": "trophy_06" },
+					{ "time": 0.3333, "name": "trophy_08" },
+					{ "time": 0.4, "name": "trophy_10" },
+					{ "time": 0.4667, "name": "trophy_12" },
+					{ "time": 0.5333, "name": null },
+					{ "time": 2.6667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"chip": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1.3333, "x": 1.027, "y": 1.029 },
+					{ "time": 2.6667, "x": 1, "y": 1 }
+				]
+			},
+			"trophy": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1.3333, "x": 1.028, "y": 1.025 },
+					{ "time": 2.6667, "x": 1, "y": 1 }
+				]
+			},
+			"text01": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1.3333, "x": 1.042, "y": 1.029 },
+					{ "time": 2.6667, "x": 1, "y": 1 }
+				]
+			},
+			"star": {
+				"rotate": [
+					{ "time": 0, "angle": 11.98 },
+					{ "time": 0.9, "angle": -62.11 }
+				],
+				"scale": [
+					{ "time": 0.3, "x": 1, "y": 1 },
+					{ "time": 0.4, "x": 1.263, "y": 1.364 },
+					{ "time": 0.5667, "x": 1.016, "y": 0.918 }
+				]
+			},
+			"text02": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1.3333, "x": 1.043, "y": 1.025 },
+					{ "time": 2.6667, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 2.6667 }
+		]
+	}
+}
+}

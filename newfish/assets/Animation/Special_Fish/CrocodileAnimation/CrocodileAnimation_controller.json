@@ -1,0 +1,1 @@
+{"__type__":"controller","name":"CrocodileAnimation","layer":{"Base Layer":{"defaultState":"appear","state":[{"name":"appear","motion":"crocodileAnimation"},{"name":"null"},{"name":"death"}]}},"clip":["crocodileAnimation"]}

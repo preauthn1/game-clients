@@ -1,0 +1,1 @@
+{"__type__":"controller","name":"FIsh_18","layer":{"Base Layer":{"defaultState":"move","state":[{"name":"move","motion":"Fish_18_move"},{"name":"death","motion":"Fish_18_death"},{"name":"bite","motion":"Fish_18_bite","trans":[{"desState":"move","exitTime":1.0}]}]}},"clip":["Fish_18_move","Fish_18_death","Fish_18_bite"]}

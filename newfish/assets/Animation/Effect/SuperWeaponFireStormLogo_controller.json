@@ -1,0 +1,1 @@
+{"__type__":"controller","name":"SuperWeaponFireStormLogo","layer":{"Base Layer":{"defaultState":"appear","state":[{"name":"appear","motion":"SWFireStormLogo_appear"},{"name":"end","motion":"SWFireStormLogo_end"}]}},"clip":["SWFireStormLogo_appear","SWFireStormLogo_end"]}

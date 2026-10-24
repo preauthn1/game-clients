@@ -1,0 +1,327 @@
+{
+"skeleton": { "hash": "haRxH3yun1HupDtus/eG2XdZjYc", "spine": "3.6.53", "width": 412, "height": 414, "images": "./images/" },
+"bones": [
+	{ "name": "root", "x": -3.77, "y": 47.15 },
+	{ "name": "bubble", "parent": "root", "length": 48.5, "rotation": 87.32, "x": -4.37, "y": 189.29 },
+	{ "name": "bubble2", "parent": "root", "length": 48.5, "rotation": 87.32, "x": -4.37, "y": 189.29 },
+	{ "name": "goo1", "parent": "root", "length": 41.66, "rotation": 92.08, "x": -3.62, "y": 111.32 },
+	{ "name": "pot", "parent": "root", "length": 108.26, "rotation": 89.2, "x": -5.89, "y": -46.89 },
+	{ "name": "goo2", "parent": "pot", "length": 45.3, "rotation": -8.82, "x": 42.58, "y": 40.72 },
+	{ "name": "greenglow", "parent": "root", "length": 37.09, "rotation": 90, "x": -29.36, "y": 186.26 },
+	{ "name": "inside", "parent": "pot", "length": 44.66, "rotation": 0.8, "x": 171.03, "y": 4.66 },
+	{ "name": "shadow", "parent": "pot", "length": 36.34, "rotation": -179.2, "x": -36.47, "y": 9.33 },
+	{ "name": "stick", "parent": "root", "length": 78.88, "rotation": 63.19, "x": 62.24, "y": 159.01 }
+],
+"slots": [
+	{ "name": "shadow", "bone": "shadow", "attachment": "shadow", "blend": "multiply" },
+	{ "name": "inside", "bone": "inside", "attachment": "inside" },
+	{ "name": "goo1", "bone": "goo1", "attachment": "goo1" },
+	{ "name": "greenglow", "bone": "greenglow", "attachment": "greenglow" },
+	{ "name": "pot", "bone": "pot", "attachment": "pot" },
+	{ "name": "stick", "bone": "stick", "attachment": "stick" },
+	{ "name": "bubble", "bone": "bubble", "attachment": "bubble" },
+	{ "name": "bubble2", "bone": "bubble2", "attachment": "bubble" },
+	{ "name": "goo2", "bone": "goo2", "attachment": "goo2" }
+],
+"skins": {
+	"default": {
+		"bubble": {
+			"bubble": { "x": 7.71, "y": -7.34, "rotation": -87.32, "width": 100, "height": 67 }
+		},
+		"bubble2": {
+			"bubble": { "x": 7.71, "y": -7.34, "rotation": -87.32, "width": 100, "height": 67 }
+		},
+		"goo1": {
+			"goo1": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0, 0.52258, 0.39965 ],
+				"triangles": [ 4, 2, 3, 1, 2, 4, 4, 3, 0, 1, 4, 0 ],
+				"vertices": [ -64.57, -119.67, -54.9, 146.15, 91, 140.85, 81.34, -124.98, 27.47, -0.63 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 266,
+				"height": 146
+			}
+		},
+		"goo2": {
+			"goo2": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0, 0.90471, 0.474, 0.19439, 0.80699 ],
+				"triangles": [ 4, 2, 3, 5, 2, 4, 1, 2, 5, 3, 0, 4, 5, 4, 0, 1, 5, 0 ],
+				"vertices": [ -120.22, -182.99, -178.54, 161.1, 106.39, 209.39, 164.71, -134.7, 24.1, -124.8, -112.21, 103.53 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 349,
+				"height": 289
+			}
+		},
+		"greenglow": {
+			"greenglow": { "x": -25.62, "y": -17.18, "rotation": -90, "width": 321, "height": 185 }
+		},
+		"inside": {
+			"inside": { "x": 19.46, "y": -1.48, "rotation": -90, "width": 238, "height": 75 }
+		},
+		"pot": {
+			"pot": { "x": 86.98, "y": 4.51, "rotation": -89.2, "width": 337, "height": 352 }
+		},
+		"shadow": {
+			"shadow": { "x": -15.37, "y": -14.95, "rotation": 90, "width": 412, "height": 186 }
+		},
+		"stick": {
+			"stick": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 1.31, -59.93, -32.97, 7.9, 63.42, 56.61, 97.7, -11.22 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 76,
+				"height": 108
+			}
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"bubble": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.5, "color": "ffffffff" },
+					{ "time": 1.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "bubble" }
+				]
+			},
+			"bubble2": {
+				"color": [
+					{ "time": 0, "color": "ffffffb3" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1.3, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.5333, "color": "ffffff00" },
+					{ "time": 2, "color": "ffffffb3" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "bubble" }
+				]
+			},
+			"goo1": {
+				"attachment": [
+					{ "time": 0, "name": "goo1" },
+					{ "time": 1, "name": "goo1" },
+					{ "time": 2, "name": "goo1" }
+				]
+			},
+			"goo2": {
+				"attachment": [
+					{ "time": 0, "name": "goo2" }
+				]
+			},
+			"greenglow": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "greenglow" }
+				]
+			},
+			"inside": {
+				"attachment": [
+					{ "time": 0, "name": "inside" }
+				]
+			},
+			"pot": {
+				"attachment": [
+					{ "time": 0, "name": "pot" }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": "shadow" }
+				]
+			},
+			"stick": {
+				"attachment": [
+					{ "time": 0, "name": "stick" },
+					{ "time": 2, "name": "stick" }
+				]
+			}
+		},
+		"bones": {
+			"bubble": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -1.42, "y": -30.31 },
+					{ "time": 1.9, "x": 0.55, "y": 11.67 },
+					{ "time": 2, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"goo1": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			},
+			"greenglow": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.8, "x": 0, "y": 12.24 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pot": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1, "x": 1, "y": 1.06 },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			},
+			"goo2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"inside": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"stick": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1, "angle": 31.99 },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1, "x": -89.88, "y": 3.64 },
+					{ "time": 2, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			},
+			"bubble2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -41.13, "y": -1.94 },
+					{ "time": 1.4667, "x": -39.07, "y": 42.03 },
+					{ "time": 1.6667, "x": -42.16, "y": -24.04 },
+					{ "time": 2, "x": -41.13, "y": -1.94 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"goo1": {
+					"goo1": [
+						{
+							"time": 0,
+							"offset": 6,
+							"vertices": [ -3.71381, 0.13505, -0.62029, -17.05969 ]
+						},
+						{
+							"time": 1,
+							"offset": 4,
+							"vertices": [ -16.33539, 0.59401, -7.48732, 0.2723, -12.68033, 18.68109 ]
+						},
+						{
+							"time": 2,
+							"offset": 6,
+							"vertices": [ -3.71381, 0.13505, -0.62029, -17.05969 ]
+						}
+					]
+				},
+				"goo2": {
+					"goo2": [
+						{ "time": 0 },
+						{
+							"time": 1,
+							"offset": 4,
+							"vertices": [ -8.80271, -1.49195, -4.84655, 4.31365, 41.98196, 7.1156, 2.77413, -16.36763 ]
+						},
+						{ "time": 2 }
+					]
+				},
+				"stick": {
+					"stick": [
+						{ "time": 0 },
+						{
+							"time": 1,
+							"offset": 4,
+							"vertices": [ -10.19246, -5.15101, -18.51924, -0.37723 ]
+						},
+						{ "time": 2 }
+					]
+				}
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 1 },
+			{ "time": 2 }
+		]
+	}
+}
+}

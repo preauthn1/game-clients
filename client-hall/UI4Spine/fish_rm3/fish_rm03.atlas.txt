@@ -1,0 +1,83 @@
+
+fish_rm03.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+F coin
+  rotate: false
+  xy: 167, 113
+  size: 92, 83
+  orig: 92, 83
+  offset: 0, 0
+  index: -1
+L
+  rotate: true
+  xy: 367, 138
+  size: 58, 50
+  orig: 58, 50
+  offset: 0, 0
+  index: -1
+L coin
+  rotate: false
+  xy: 167, 63
+  size: 65, 48
+  orig: 65, 48
+  offset: 0, 0
+  index: -1
+R
+  rotate: false
+  xy: 261, 135
+  size: 50, 61
+  orig: 50, 61
+  offset: 0, 0
+  index: -1
+T coin
+  rotate: false
+  xy: 313, 137
+  size: 52, 59
+  orig: 52, 59
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 28
+  size: 163, 216
+  orig: 163, 216
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 167, 39
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+eye 2
+  rotate: false
+  xy: 2, 2
+  size: 40, 24
+  orig: 40, 24
+  offset: 0, 0
+  index: -1
+eyeb
+  rotate: false
+  xy: 167, 198
+  size: 140, 46
+  orig: 140, 46
+  offset: 0, 0
+  index: -1
+eyew
+  rotate: false
+  xy: 421, 212
+  size: 31, 32
+  orig: 31, 32
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 309, 198
+  size: 110, 46
+  orig: 110, 46
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,69 @@
+
+bonus_text.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cc
+  rotate: false
+  xy: 2, 8
+  size: 630, 90
+  orig: 630, 90
+  offset: 0, 0
+  index: -1
+text_c_00
+  rotate: false
+  xy: 958, 51
+  size: 322, 47
+  orig: 322, 47
+  offset: 0, 0
+  index: -1
+text_c_02
+  rotate: false
+  xy: 1282, 51
+  size: 322, 47
+  orig: 322, 47
+  offset: 0, 0
+  index: -1
+text_c_04
+  rotate: false
+  xy: 1606, 51
+  size: 322, 47
+  orig: 322, 47
+  offset: 0, 0
+  index: -1
+text_c_06
+  rotate: false
+  xy: 634, 2
+  size: 322, 47
+  orig: 322, 47
+  offset: 0, 0
+  index: -1
+text_c_08
+  rotate: false
+  xy: 958, 2
+  size: 322, 47
+  orig: 322, 47
+  offset: 0, 0
+  index: -1
+text_c_10
+  rotate: false
+  xy: 1282, 2
+  size: 322, 47
+  orig: 322, 47
+  offset: 0, 0
+  index: -1
+text_c_12
+  rotate: false
+  xy: 1606, 2
+  size: 322, 47
+  orig: 322, 47
+  offset: 0, 0
+  index: -1
+text_c_14
+  rotate: false
+  xy: 634, 51
+  size: 322, 47
+  orig: 322, 47
+  offset: 0, 0
+  index: -1

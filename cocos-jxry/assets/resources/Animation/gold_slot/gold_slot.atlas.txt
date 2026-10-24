@@ -1,0 +1,174 @@
+
+gold_slot.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gold_light
+  rotate: false
+  xy: 2, 295
+  size: 743, 709
+  orig: 743, 709
+  offset: 0, 0
+  index: -1
+gold_s
+  rotate: false
+  xy: 1425, 469
+  size: 180, 535
+  orig: 180, 535
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 1235, 464
+  size: 188, 540
+  orig: 188, 540
+  offset: 0, 0
+  index: -1
+s_sparks_01
+  rotate: true
+  xy: 2, 173
+  size: 120, 698
+  orig: 120, 698
+  offset: 0, 0
+  index: -1
+s_sparks_03
+  rotate: false
+  xy: 747, 306
+  size: 120, 698
+  orig: 120, 698
+  offset: 0, 0
+  index: -1
+s_sparks_05
+  rotate: true
+  xy: 2, 51
+  size: 120, 698
+  orig: 120, 698
+  offset: 0, 0
+  index: -1
+s_sparks_07
+  rotate: false
+  xy: 869, 306
+  size: 120, 698
+  orig: 120, 698
+  offset: 0, 0
+  index: -1
+s_sparks_09
+  rotate: false
+  xy: 991, 306
+  size: 120, 698
+  orig: 120, 698
+  offset: 0, 0
+  index: -1
+s_sparks_11
+  rotate: false
+  xy: 1113, 306
+  size: 120, 698
+  orig: 120, 698
+  offset: 0, 0
+  index: -1
+spark_01
+  rotate: false
+  xy: 1607, 930
+  size: 295, 74
+  orig: 295, 74
+  offset: 0, 0
+  index: -1
+spark_03
+  rotate: false
+  xy: 1607, 854
+  size: 295, 74
+  orig: 295, 74
+  offset: 0, 0
+  index: -1
+spark_05
+  rotate: false
+  xy: 1607, 778
+  size: 295, 74
+  orig: 295, 74
+  offset: 0, 0
+  index: -1
+spark_07
+  rotate: false
+  xy: 1607, 702
+  size: 295, 74
+  orig: 295, 74
+  offset: 0, 0
+  index: -1
+spark_09
+  rotate: true
+  xy: 1904, 709
+  size: 295, 74
+  orig: 295, 74
+  offset: 0, 0
+  index: -1
+spark_11
+  rotate: false
+  xy: 1607, 626
+  size: 295, 74
+  orig: 295, 74
+  offset: 0, 0
+  index: -1
+spark_13
+  rotate: false
+  xy: 1607, 550
+  size: 295, 74
+  orig: 295, 74
+  offset: 0, 0
+  index: -1
+spark_15
+  rotate: false
+  xy: 1607, 474
+  size: 295, 74
+  orig: 295, 74
+  offset: 0, 0
+  index: -1
+spark_17
+  rotate: true
+  xy: 1904, 412
+  size: 295, 74
+  orig: 295, 74
+  offset: 0, 0
+  index: -1
+spark_19
+  rotate: false
+  xy: 1607, 398
+  size: 295, 74
+  orig: 295, 74
+  offset: 0, 0
+  index: -1
+spark_21
+  rotate: false
+  xy: 747, 230
+  size: 295, 74
+  orig: 295, 74
+  offset: 0, 0
+  index: -1
+spark_23
+  rotate: false
+  xy: 702, 154
+  size: 295, 74
+  orig: 295, 74
+  offset: 0, 0
+  index: -1
+spark_25
+  rotate: false
+  xy: 702, 78
+  size: 295, 74
+  orig: 295, 74
+  offset: 0, 0
+  index: -1
+spark_27
+  rotate: false
+  xy: 702, 2
+  size: 295, 74
+  orig: 295, 74
+  offset: 0, 0
+  index: -1
+spark_29
+  rotate: false
+  xy: 1044, 230
+  size: 295, 74
+  orig: 295, 74
+  offset: 0, 0
+  index: -1

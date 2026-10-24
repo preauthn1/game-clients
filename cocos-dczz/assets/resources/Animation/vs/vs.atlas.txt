@@ -1,0 +1,125 @@
+
+vs.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blow
+  rotate: false
+  xy: 2, 4
+  size: 477, 464
+  orig: 477, 464
+  offset: 0, 0
+  index: -1
+blue
+  rotate: false
+  xy: 760, 312
+  size: 451, 156
+  orig: 451, 156
+  offset: 0, 0
+  index: -1
+card01
+  rotate: false
+  xy: 615, 10
+  size: 120, 111
+  orig: 120, 111
+  offset: 0, 0
+  index: -1
+card02
+  rotate: false
+  xy: 481, 2
+  size: 132, 119
+  orig: 132, 119
+  offset: 0, 0
+  index: -1
+ex01
+  rotate: false
+  xy: 1264, 248
+  size: 73, 45
+  orig: 73, 45
+  offset: 0, 0
+  index: -1
+ex03
+  rotate: false
+  xy: 1264, 248
+  size: 73, 45
+  orig: 73, 45
+  offset: 0, 0
+  index: -1
+ex02
+  rotate: false
+  xy: 1264, 199
+  size: 70, 47
+  orig: 70, 47
+  offset: 0, 0
+  index: -1
+ex04
+  rotate: false
+  xy: 1264, 199
+  size: 70, 47
+  orig: 70, 47
+  offset: 0, 0
+  index: -1
+flas02
+  rotate: false
+  xy: 1775, 316
+  size: 129, 152
+  orig: 129, 152
+  offset: 0, 0
+  index: -1
+flash
+  rotate: false
+  xy: 1906, 312
+  size: 124, 156
+  orig: 124, 156
+  offset: 0, 0
+  index: -1
+fx0
+  rotate: true
+  xy: 1213, 295
+  size: 173, 195
+  orig: 173, 195
+  offset: 0, 0
+  index: -1
+fx01
+  rotate: false
+  xy: 481, 123
+  size: 277, 345
+  orig: 277, 345
+  offset: 0, 0
+  index: -1
+hos
+  rotate: false
+  xy: 1189, 159
+  size: 73, 65
+  orig: 73, 65
+  offset: 0, 0
+  index: -1
+pla
+  rotate: false
+  xy: 1189, 226
+  size: 73, 67
+  orig: 73, 67
+  offset: 0, 0
+  index: -1
+red
+  rotate: false
+  xy: 760, 154
+  size: 427, 156
+  orig: 427, 156
+  offset: 0, 0
+  index: -1
+s
+  rotate: false
+  xy: 1410, 308
+  size: 187, 160
+  orig: 187, 160
+  offset: 0, 0
+  index: -1
+v
+  rotate: true
+  xy: 1599, 301
+  size: 167, 174
+  orig: 167, 174
+  offset: 0, 0
+  index: -1

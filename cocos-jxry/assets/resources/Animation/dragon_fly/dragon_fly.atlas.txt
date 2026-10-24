@@ -1,0 +1,202 @@
+
+dragon_fly.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+b_leg1
+  rotate: false
+  xy: 1828, 866
+  size: 52, 28
+  orig: 52, 28
+  offset: 0, 0
+  index: -1
+lb_leg1
+  rotate: false
+  xy: 1828, 866
+  size: 52, 28
+  orig: 52, 28
+  offset: 0, 0
+  index: -1
+b_leg2
+  rotate: false
+  xy: 1764, 334
+  size: 47, 41
+  orig: 47, 41
+  offset: 0, 0
+  index: -1
+lb_leg2
+  rotate: false
+  xy: 1764, 334
+  size: 47, 41
+  orig: 47, 41
+  offset: 0, 0
+  index: -1
+b_leg3
+  rotate: false
+  xy: 115, 81
+  size: 39, 21
+  orig: 39, 21
+  offset: 0, 0
+  index: -1
+lb_leg3
+  rotate: false
+  xy: 115, 81
+  size: 39, 21
+  orig: 39, 21
+  offset: 0, 0
+  index: -1
+b_leg4
+  rotate: false
+  xy: 262, 155
+  size: 34, 35
+  orig: 34, 35
+  offset: 0, 0
+  index: -1
+lb_leg4
+  rotate: false
+  xy: 262, 155
+  size: 34, 35
+  orig: 34, 35
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 1764, 477
+  size: 544, 62
+  orig: 544, 62
+  offset: 0, 0
+  index: -1
+chin
+  rotate: false
+  xy: 1828, 942
+  size: 94, 79
+  orig: 94, 79
+  offset: 0, 0
+  index: -1
+d_head
+  rotate: false
+  xy: 2, 76
+  size: 111, 114
+  orig: 111, 114
+  offset: 0, 0
+  index: -1
+dp_00
+  rotate: false
+  xy: 2, 746
+  size: 879, 275
+  orig: 879, 275
+  offset: 0, 0
+  index: -1
+dp_01
+  rotate: false
+  xy: 2, 469
+  size: 879, 275
+  orig: 879, 275
+  offset: 0, 0
+  index: -1
+dp_02
+  rotate: false
+  xy: 883, 746
+  size: 879, 275
+  orig: 879, 275
+  offset: 0, 0
+  index: -1
+dp_03
+  rotate: false
+  xy: 2, 192
+  size: 879, 275
+  orig: 879, 275
+  offset: 0, 0
+  index: -1
+dp_04
+  rotate: false
+  xy: 883, 469
+  size: 879, 275
+  orig: 879, 275
+  offset: 0, 0
+  index: -1
+dp_05
+  rotate: false
+  xy: 883, 192
+  size: 879, 275
+  orig: 879, 275
+  offset: 0, 0
+  index: -1
+f_leg1
+  rotate: true
+  xy: 2002, 982
+  size: 39, 44
+  orig: 39, 44
+  offset: 0, 0
+  index: -1
+f_leg2
+  rotate: false
+  xy: 157, 108
+  size: 33, 38
+  orig: 33, 38
+  offset: 0, 0
+  index: -1
+f_leg3
+  rotate: false
+  xy: 115, 104
+  size: 40, 42
+  orig: 40, 42
+  offset: 0, 0
+  index: -1
+hair01
+  rotate: false
+  xy: 1828, 896
+  size: 75, 44
+  orig: 75, 44
+  offset: 0, 0
+  index: -1
+hair02
+  rotate: false
+  xy: 2, 2
+  size: 96, 72
+  orig: 96, 72
+  offset: 0, 0
+  index: -1
+hair03
+  rotate: false
+  xy: 115, 148
+  size: 97, 42
+  orig: 97, 42
+  offset: 0, 0
+  index: -1
+hair04
+  rotate: true
+  xy: 1764, 377
+  size: 98, 60
+  orig: 98, 60
+  offset: 0, 0
+  index: -1
+lf_leg1
+  rotate: false
+  xy: 214, 154
+  size: 46, 36
+  orig: 46, 36
+  offset: 0, 0
+  index: -1
+lf_leg2
+  rotate: false
+  xy: 1764, 302
+  size: 44, 30
+  orig: 44, 30
+  offset: 0, 0
+  index: -1
+lf_leg3
+  rotate: false
+  xy: 1924, 948
+  size: 28, 50
+  orig: 28, 50
+  offset: 0, 0
+  index: -1
+mustache
+  rotate: false
+  xy: 1924, 1000
+  size: 76, 21
+  orig: 76, 21
+  offset: 0, 0
+  index: -1

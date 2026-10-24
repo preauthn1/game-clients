@@ -1,0 +1,11 @@
+{
+  "Canvas/GameLayer/UIMain/StartBetParticle": "particles/StartBetParticle_Particle_0.plist",
+  "Canvas/GameLayer/UIMain/StartBetParticle/DCZZ_ball (1)": "particles/DCZZ_ball (1)_Particle_0.plist",
+  "Canvas/GameLayer/UIMain/StartBetParticle/DCZZ_ball (1)/star": "particles/star_Particle_0.plist",
+  "Canvas/GameLayer/UIMain/StartBetParticle/DCZZ_ball (1)/DCZZ_ball (2)": "particles/DCZZ_ball (2)_Particle_0.plist",
+  "Canvas/GameLayer/UIMain/StartBetParticle/DCZZ_ball (1)/star2": "particles/star2_Particle_0.plist",
+  "Canvas/GameLayer/UIMain/StartBetParticle/DCZZ_ball (2)": "particles/DCZZ_ball (2)_Particle_1.plist",
+  "Canvas/GameLayer/UIMain/StartBetParticle/DCZZ_ball (2)/star": "particles/star_Particle_1.plist",
+  "Canvas/GameLayer/UIMain/StartBetParticle/DCZZ_ball (2)/DCZZ_ball (2)": "particles/DCZZ_ball (2)_Particle_2.plist",
+  "Canvas/GameLayer/UIMain/StartBetParticle/DCZZ_ball (2)/star2": "particles/star2_Particle_1.plist"
+}

@@ -1,0 +1,77 @@
+syntax = "proto3";
+
+package netproto;
+
+//登录房间
+message LoginGameRoomInfo {
+     int32 UserID = 1;   //用户ID
+     string Cer = 2;     //用户证书
+     string HDCode = 3;  //设备码
+     int32 HDType = 4;   //设备类型
+};
+
+//登录房间结果
+message LoginGameRoomRet {
+     int32 Code = 1;                          //登录结果代码
+     string Message = 2;                      //提示消息
+     LoginGameRoomInfo LoginRequestData = 3;  //登录数据
+     UserRoomLogonData UserData = 4;          //用户数据
+     RoomInfo RoomInfo = 5;
+};
+
+//用户登录房间数据
+message UserRoomLogonData {
+     int32 UserID = 1;        //用户ID
+     int32 UserType = 2;      //用户类型
+     string NickName = 3;     //昵称
+     int32 FaceID = 4;        //头像
+     int32 Sex = 5;           //性别
+     int64 CashAmount = 6;    //现金数
+     int32 WinCount = 7;      //赢
+     int32 LoseCount = 8;     //输
+     int32 DrawCount = 9;     //平
+     string ServerAddr = 10;  //需要重连的房间地址信息
+     string GameBuff = 11;
+     int64 TradeId = 12;         //每次進入遊戲房間會獲取一個唯一的值
+     int32 LastWinLose = 13;     //上一次輸贏結果 0輸 1贏
+     int64 SumCharge = 14;       //充值金額
+     bool HasBindPay = 15;       //是否綁定支付寶或銀行卡之一
+     int64 SumConvert = 16;      //總兌換
+     int64 ExperienceCash = 17;  //體驗金幣
+     string LoginName = 18;      //手機號隱碼
+     string AlipayAccount = 19;  //支付寶帳號隱碼
+     int64 TimeSeq = 20;         //登入時間, 用於到帳金額判斷
+};
+
+//用户坐下
+message UserSit {
+     int32 TableNo = 1;
+     int32 SeatNo = 2;
+};
+
+//游戏版本号信息
+message GameVerInfo {
+     string AndroidVersion = 1;
+     string IOSVersion = 2;
+};
+
+//房间信息
+message RoomInfo {
+     int32 GameID = 1;
+     string GameName = 2;
+     string Flag = 3;
+     int32 BaseScore = 4;
+};
+
+//報名參加活動
+message GameStartMsg {
+     int32 GameID = 1;
+     int32 UserID = 2;
+     LoginGameRoomInfo LoginRequestData = 3;  //登录数据
+}
+//回傳參加活動結果
+message GameStartRetMsg {
+     string ErrMsg = 1;
+     int32 RtnCode = 2;
+     LoginGameRoomInfo LoginRequestData = 3;  //登录数据
+}

@@ -1,0 +1,5336 @@
+{
+  "name": "Canvas",
+  "pos": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "scale": {
+    "x": 1.22,
+    "y": 1.22
+  },
+  "rotation": 0.0,
+  "active": true,
+  "canvas": true,
+  "canvasRenderOrder": 0,
+  "rect": {
+    "AnchorMinX": 0.0,
+    "AnchorMinY": 0.0,
+    "AnchorMaxX": 0.0,
+    "AnchorMaxY": 0.0,
+    "PivotX": 0.5,
+    "PivotY": 0.5,
+    "Left": -667.0,
+    "Botton": -375.0,
+    "Right": -667.0,
+    "Top": -375.0,
+    "AnchoredPositionX": 0.0,
+    "AnchoredPositionY": 0.0,
+    "SizeDeltaX": 1334.0,
+    "SizeDeltaY": 750.0,
+    "x": -667.0,
+    "y": -375.0,
+    "width": 1334.0,
+    "height": 750.0
+  },
+  "size": {
+    "width": 1334.0,
+    "height": 750.0
+  },
+  "children": [
+    {
+      "name": "Camera",
+      "pos": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "rotation": 0.0,
+      "active": true
+    },
+    {
+      "name": "Background1",
+      "pos": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "rotation": 0.0,
+      "active": true,
+      "components": [
+        {
+          "type": "UnityEngine.UI.RawImage",
+          "size": {
+            "width": 0.0,
+            "height": 0.0
+          },
+          "depth": 0,
+          "spName": "bg_01_amwsz"
+        }
+      ],
+      "rect": {
+        "AnchorMinX": 0.0,
+        "AnchorMinY": 0.0,
+        "AnchorMaxX": 1.0,
+        "AnchorMaxY": 1.0,
+        "PivotX": 0.5,
+        "PivotY": 0.5,
+        "Left": 0.0,
+        "Botton": 0.0,
+        "Right": 0.0,
+        "Top": 0.0,
+        "AnchoredPositionX": 0.0,
+        "AnchoredPositionY": 0.0,
+        "SizeDeltaX": 0.0,
+        "SizeDeltaY": 0.0,
+        "x": -667.0,
+        "y": -375.0,
+        "width": 1334.0,
+        "height": 750.0
+      },
+      "size": {
+        "width": 1334.0,
+        "height": 750.0
+      }
+    },
+    {
+      "name": "Background2",
+      "pos": {
+        "x": 0.0,
+        "y": -17.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "rotation": 0.0,
+      "active": true,
+      "components": [
+        {
+          "type": "UnityEngine.UI.RawImage",
+          "size": {
+            "width": 1530.0,
+            "height": 694.0
+          },
+          "depth": 1,
+          "spName": "bg_02_amwsz"
+        }
+      ],
+      "size": {
+        "width": 1530.0,
+        "height": 694.0
+      },
+      "children": [
+        {
+          "name": "bet1",
+          "pos": {
+            "x": 493.02,
+            "y": -46.76
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "rotation": 14.3,
+          "active": true,
+          "components": [
+            {
+              "type": "UnityEngine.UI.Image",
+              "size": {
+                "width": 118.0,
+                "height": 115.0
+              },
+              "depth": 2,
+              "spType": "Simple",
+              "spName": "bk_07_amwsz",
+              "atlas": "amwsz"
+            }
+          ],
+          "size": {
+            "width": 118.0,
+            "height": 115.0
+          }
+        },
+        {
+          "name": "bet1",
+          "pos": {
+            "x": 254.08,
+            "y": -89.8
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "rotation": 7.7,
+          "active": true,
+          "components": [
+            {
+              "type": "UnityEngine.UI.Image",
+              "size": {
+                "width": 118.0,
+                "height": 115.0
+              },
+              "depth": 3,
+              "spType": "Simple",
+              "spName": "bk_07_amwsz",
+              "atlas": "amwsz"
+            }
+          ],
+          "size": {
+            "width": 118.0,
+            "height": 115.0
+          }
+        },
+        {
+          "name": "bet1",
+          "pos": {
+            "x": 0.0,
+            "y": -109.6
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "rotation": 0.0,
+          "active": true,
+          "components": [
+            {
+              "type": "UnityEngine.UI.Image",
+              "size": {
+                "width": 118.0,
+                "height": 115.0
+              },
+              "depth": 4,
+              "spType": "Simple",
+              "spName": "bk_07_amwsz",
+              "atlas": "amwsz"
+            }
+          ],
+          "size": {
+            "width": 118.0,
+            "height": 115.0
+          }
+        },
+        {
+          "name": "bet1",
+          "pos": {
+            "x": -254.08,
+            "y": -89.8
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "rotation": 352.3,
+          "active": true,
+          "components": [
+            {
+              "type": "UnityEngine.UI.Image",
+              "size": {
+                "width": 118.0,
+                "height": 115.0
+              },
+              "depth": 5,
+              "spType": "Simple",
+              "spName": "bk_07_amwsz",
+              "atlas": "amwsz"
+            }
+          ],
+          "size": {
+            "width": 118.0,
+            "height": 115.0
+          }
+        },
+        {
+          "name": "bet1",
+          "pos": {
+            "x": -493.02,
+            "y": -46.76
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "rotation": 345.7,
+          "active": true,
+          "components": [
+            {
+              "type": "UnityEngine.UI.Image",
+              "size": {
+                "width": 118.0,
+                "height": 115.0
+              },
+              "depth": 6,
+              "spType": "Simple",
+              "spName": "bk_07_amwsz",
+              "atlas": "amwsz"
+            }
+          ],
+          "size": {
+            "width": 118.0,
+            "height": 115.0
+          }
+        },
+        {
+          "name": "bet2",
+          "pos": {
+            "x": 464.22,
+            "y": 66.23
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "rotation": 14.3,
+          "active": true,
+          "components": [
+            {
+              "type": "UnityEngine.UI.Image",
+              "size": {
+                "width": 116.0,
+                "height": 98.0
+              },
+              "depth": 7,
+              "spType": "Simple",
+              "spName": "bk_06_amwsz",
+              "atlas": "amwsz"
+            }
+          ],
+          "size": {
+            "width": 116.0,
+            "height": 98.0
+          }
+        },
+        {
+          "name": "bet2",
+          "pos": {
+            "x": 238.45,
+            "y": 25.75
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "rotation": 7.7,
+          "active": true,
+          "components": [
+            {
+              "type": "UnityEngine.UI.Image",
+              "size": {
+                "width": 116.0,
+                "height": 98.0
+              },
+              "depth": 8,
+              "spType": "Simple",
+              "spName": "bk_06_amwsz",
+              "atlas": "amwsz"
+            }
+          ],
+          "size": {
+            "width": 116.0,
+            "height": 98.0
+          }
+        },
+        {
+          "name": "bet2",
+          "pos": {
+            "x": 0.0,
+            "y": 7.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "rotation": 0.0,
+          "active": true,
+          "components": [
+            {
+              "type": "UnityEngine.UI.Image",
+              "size": {
+                "width": 116.0,
+                "height": 98.0
+              },
+              "depth": 9,
+              "spType": "Simple",
+              "spName": "bk_06_amwsz",
+              "atlas": "amwsz"
+            }
+          ],
+          "size": {
+            "width": 116.0,
+            "height": 98.0
+          }
+        },
+        {
+          "name": "bet2",
+          "pos": {
+            "x": -238.45,
+            "y": 25.75
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "rotation": 352.3,
+          "active": true,
+          "components": [
+            {
+              "type": "UnityEngine.UI.Image",
+              "size": {
+                "width": 116.0,
+                "height": 98.0
+              },
+              "depth": 10,
+              "spType": "Simple",
+              "spName": "bk_06_amwsz",
+              "atlas": "amwsz"
+            }
+          ],
+          "size": {
+            "width": 116.0,
+            "height": 98.0
+          }
+        },
+        {
+          "name": "bet2",
+          "pos": {
+            "x": -464.22,
+            "y": 66.23
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "rotation": 345.7,
+          "active": true,
+          "components": [
+            {
+              "type": "UnityEngine.UI.Image",
+              "size": {
+                "width": 116.0,
+                "height": 98.0
+              },
+              "depth": 11,
+              "spType": "Simple",
+              "spName": "bk_06_amwsz",
+              "atlas": "amwsz"
+            }
+          ],
+          "size": {
+            "width": 116.0,
+            "height": 98.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "RubbishDump",
+      "pos": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "rotation": 0.0,
+      "active": true,
+      "size": {
+        "width": 100.0,
+        "height": 100.0
+      },
+      "children": [
+        {
+          "name": "BetPrefab",
+          "pos": {
+            "x": 303.2,
+            "y": -333.2
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "rotation": 0.0,
+          "active": false,
+          "components": [
+            {
+              "type": "UnityEngine.UI.Image",
+              "size": {
+                "width": 61.9,
+                "height": 51.3
+              },
+              "depth": -1,
+              "spType": "Simple",
+              "spName": "TableJetton_1",
+              "atlas": "TableJetton_1"
+            }
+          ],
+          "size": {
+            "width": 61.9,
+            "height": 51.3
+          },
+          "children": [
+            {
+              "name": "Text",
+              "pos": {
+                "x": 0.0,
+                "y": 7.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "components": [
+                {
+                  "type": "UnityEngine.UI.Text",
+                  "size": {
+                    "width": 47.0,
+                    "height": 39.0
+                  },
+                  "depth": -1,
+                  "fontName": "MicrosoftYaHei",
+                  "text": "5000",
+                  "fontSize": 16,
+                  "overflowH": 1,
+                  "overflowV": 0,
+                  "bestFit": false,
+                  "spacingY": 1.0,
+                  "alignment": 4
+                }
+              ],
+              "size": {
+                "width": 47.0,
+                "height": 39.0
+              }
+            }
+          ]
+        },
+        {
+          "name": "CardPrefab",
+          "pos": {
+            "x": 178.86,
+            "y": 151.64
+          },
+          "scale": {
+            "x": 0.4,
+            "y": 0.4
+          },
+          "rotation": 65.0,
+          "active": true,
+          "components": [
+            {
+              "type": "UnityEngine.UI.Image",
+              "size": {
+                "width": 80.0,
+                "height": 108.5
+              },
+              "depth": 12,
+              "spType": "Simple",
+              "spName": "sprite_card__7_0",
+              "atlas": "sprite_card__7_0"
+            }
+          ],
+          "size": {
+            "width": 80.0,
+            "height": 108.5
+          }
+        },
+        {
+          "name": "RecoverCard",
+          "pos": {
+            "x": -210.9,
+            "y": 177.5
+          },
+          "scale": {
+            "x": 0.49,
+            "y": 0.49
+          },
+          "rotation": 359.25,
+          "active": false,
+          "components": [
+            {
+              "type": "UnityEngine.UI.Image",
+              "size": {
+                "width": 80.0,
+                "height": 108.5
+              },
+              "depth": -1,
+              "spType": "Simple"
+            }
+          ],
+          "size": {
+            "width": 80.0,
+            "height": 108.5
+          }
+        },
+        {
+          "name": "RubbishBets",
+          "pos": {
+            "x": 1500.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "rotation": 0.0,
+          "active": true,
+          "size": {
+            "width": 100.0,
+            "height": 100.0
+          }
+        },
+        {
+          "name": "RubbishCards",
+          "pos": {
+            "x": 1500.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "rotation": 0.0,
+          "active": true,
+          "size": {
+            "width": 100.0,
+            "height": 100.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "GameLayer",
+      "pos": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "rotation": 0.0,
+      "active": true,
+      "rect": {
+        "AnchorMinX": 0.0,
+        "AnchorMinY": 0.0,
+        "AnchorMaxX": 1.0,
+        "AnchorMaxY": 1.0,
+        "PivotX": 0.5,
+        "PivotY": 0.5,
+        "Left": 0.0,
+        "Botton": 0.0,
+        "Right": 0.0,
+        "Top": 0.0,
+        "AnchoredPositionX": 0.0,
+        "AnchoredPositionY": 0.0,
+        "SizeDeltaX": 0.0,
+        "SizeDeltaY": 0.0,
+        "x": -667.0,
+        "y": -375.0,
+        "width": 1334.0,
+        "height": 750.0
+      },
+      "size": {
+        "width": 1334.0,
+        "height": 750.0
+      },
+      "children": [
+        {
+          "name": "UIDealer",
+          "pos": {
+            "x": 0.0,
+            "y": 238.1
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "rotation": 0.0,
+          "active": true,
+          "size": {
+            "width": 208.0,
+            "height": 113.0
+          },
+          "children": [
+            {
+              "name": "DealerSkeleton",
+              "pos": {
+                "x": 0.0,
+                "y": -14.4
+              },
+              "scale": {
+                "x": 0.8,
+                "y": 0.8
+              },
+              "rotation": 0.0,
+              "active": true,
+              "components": [
+                {
+                  "type": "Spine.Unity.SkeletonGraphic",
+                  "size": {
+                    "width": 100.0,
+                    "height": 100.0
+                  },
+                  "depth": 13
+                }
+              ],
+              "sg": {
+                "startanimation": "idle",
+                "loop": true,
+                "timescale": 1.0,
+                "initialSkinName": "default",
+                "SkeletonDataAsset": "dealer_fu_SkeletonData"
+              },
+              "size": {
+                "width": 100.0,
+                "height": 100.0
+              }
+            },
+            {
+              "name": "CardRoot",
+              "pos": {
+                "x": 161.0,
+                "y": 51.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "size": {
+                "width": 63.6,
+                "height": 85.7
+              }
+            },
+            {
+              "name": "PatternImage",
+              "pos": {
+                "x": 196.0,
+                "y": -2.5
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": false,
+              "components": [
+                {
+                  "type": "UnityEngine.UI.Image",
+                  "size": {
+                    "width": 164.0,
+                    "height": 44.0
+                  },
+                  "depth": -1,
+                  "spType": "Simple",
+                  "spName": "font_04_amwsz",
+                  "atlas": "amwsz"
+                }
+              ],
+              "rect": {
+                "AnchorMinX": 0.5,
+                "AnchorMinY": 0.0,
+                "AnchorMaxX": 0.5,
+                "AnchorMaxY": 0.0,
+                "PivotX": 0.5,
+                "PivotY": 0.0,
+                "Left": 114.0,
+                "Botton": 54.0,
+                "Right": -278.0,
+                "Top": -98.0,
+                "AnchoredPositionX": 196.0,
+                "AnchoredPositionY": 54.0,
+                "SizeDeltaX": 164.0,
+                "SizeDeltaY": 44.0,
+                "x": -82.0,
+                "y": 0.0,
+                "width": 164.0,
+                "height": 44.0
+              },
+              "size": {
+                "width": 164.0,
+                "height": 44.0
+              }
+            },
+            {
+              "name": "PatternSkeleton",
+              "pos": {
+                "x": 196.0,
+                "y": 18.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": false,
+              "components": [
+                {
+                  "type": "Spine.Unity.SkeletonGraphic",
+                  "size": {
+                    "width": 100.0,
+                    "height": 54.0
+                  },
+                  "depth": -1
+                }
+              ],
+              "sg": {
+                "startanimation": "",
+                "loop": false,
+                "timescale": 1.0,
+                "initialSkinName": "default",
+                "SkeletonDataAsset": "card_type_SkeletonData"
+              },
+              "size": {
+                "width": 100.0,
+                "height": 54.0
+              }
+            }
+          ]
+        },
+        {
+          "name": "UIUser",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "rotation": 0.0,
+          "active": true,
+          "rect": {
+            "AnchorMinX": 0.0,
+            "AnchorMinY": 0.0,
+            "AnchorMaxX": 1.0,
+            "AnchorMaxY": 1.0,
+            "PivotX": 0.5,
+            "PivotY": 0.5,
+            "Left": 0.0,
+            "Botton": 0.0,
+            "Right": 0.0,
+            "Top": 0.0,
+            "AnchoredPositionX": 0.0,
+            "AnchoredPositionY": 0.0,
+            "SizeDeltaX": 0.0,
+            "SizeDeltaY": 0.0,
+            "x": -667.0,
+            "y": -375.0,
+            "width": 1334.0,
+            "height": 750.0
+          },
+          "size": {
+            "width": 1334.0,
+            "height": 750.0
+          },
+          "children": [
+            {
+              "name": "UserPrefab",
+              "pos": {
+                "x": 0.0,
+                "y": -215.6
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "size": {
+                "width": 100.0,
+                "height": 100.0
+              },
+              "children": [
+                {
+                  "name": "UserInfo",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 5.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": false,
+                  "size": {
+                    "width": 188.4,
+                    "height": 59.4
+                  },
+                  "children": [
+                    {
+                      "name": "IDBackground",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 152.0,
+                            "height": 34.0
+                          },
+                          "depth": -1,
+                          "spType": "Simple",
+                          "spName": "bar_03_amwsz",
+                          "atlas": "amwsz"
+                        }
+                      ],
+                      "size": {
+                        "width": 152.0,
+                        "height": 34.0
+                      }
+                    },
+                    {
+                      "name": "OwnBackground",
+                      "pos": {
+                        "x": -7.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": false,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 176.0,
+                            "height": 34.0
+                          },
+                          "depth": -1,
+                          "spType": "Simple",
+                          "spName": "bar_05_amwsz",
+                          "atlas": "amwsz"
+                        }
+                      ],
+                      "size": {
+                        "width": 176.0,
+                        "height": 34.0
+                      }
+                    },
+                    {
+                      "name": "IDText",
+                      "pos": {
+                        "x": 0.0,
+                        "y": -0.26
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Text",
+                          "size": {
+                            "width": 172.0,
+                            "height": 40.0
+                          },
+                          "depth": -1,
+                          "fontName": "MicrosoftYaHei",
+                          "text": "ID:12345678",
+                          "fontSize": 20,
+                          "overflowH": 1,
+                          "overflowV": 0,
+                          "bestFit": false,
+                          "spacingY": 1.0,
+                          "alignment": 4
+                        }
+                      ],
+                      "size": {
+                        "width": 172.0,
+                        "height": 40.0
+                      }
+                    },
+                    {
+                      "name": "ProfileBg",
+                      "pos": {
+                        "x": -100.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 60.0,
+                            "height": 60.0
+                          },
+                          "depth": -1,
+                          "spType": "Simple",
+                          "spName": "bar_04_amwsz",
+                          "atlas": "amwsz"
+                        }
+                      ],
+                      "size": {
+                        "width": 60.0,
+                        "height": 60.0
+                      }
+                    },
+                    {
+                      "name": "ProfileImage",
+                      "pos": {
+                        "x": -100.0,
+                        "y": -0.08
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 46.21,
+                            "height": 46.21
+                          },
+                          "depth": -1,
+                          "spType": "Simple",
+                          "spName": "Transparent",
+                          "atlas": "Transparent"
+                        }
+                      ],
+                      "size": {
+                        "width": 46.21,
+                        "height": 46.21
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "BetPool4",
+                  "pos": {
+                    "x": 106.8,
+                    "y": 206.1
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 31.0,
+                        "height": 115.0
+                      },
+                      "alpha": 0,
+                      "depth": 14,
+                      "spType": "Simple"
+                    }
+                  ],
+                  "button": {
+                    "interactable": true,
+                    "Transition": "None"
+                  },
+                  "size": {
+                    "width": 31.0,
+                    "height": 115.0
+                  },
+                  "children": [
+                    {
+                      "name": "Range",
+                      "pos": {
+                        "x": 0.0,
+                        "y": -25.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "size": {
+                        "width": 61.9,
+                        "height": 51.3
+                      }
+                    },
+                    {
+                      "name": "TotalText",
+                      "pos": {
+                        "x": 0.0,
+                        "y": -58.1
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Text",
+                          "size": {
+                            "width": 104.1,
+                            "height": 27.2
+                          },
+                          "depth": 16,
+                          "fontName": "MicrosoftYaHei",
+                          "text": "",
+                          "fontSize": 20,
+                          "overflowH": 1,
+                          "overflowV": 1,
+                          "bestFit": false,
+                          "spacingY": 1.0,
+                          "alignment": 4
+                        }
+                      ],
+                      "size": {
+                        "width": 104.1,
+                        "height": 27.2
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "BetPool3",
+                  "pos": {
+                    "x": 106.8,
+                    "y": 103.95
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 31.0,
+                        "height": 104.88
+                      },
+                      "alpha": 0,
+                      "depth": 17,
+                      "spType": "Simple"
+                    }
+                  ],
+                  "button": {
+                    "interactable": true,
+                    "Transition": "None"
+                  },
+                  "size": {
+                    "width": 31.0,
+                    "height": 104.88
+                  },
+                  "children": [
+                    {
+                      "name": "Range",
+                      "pos": {
+                        "x": 0.0,
+                        "y": -25.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "size": {
+                        "width": 61.9,
+                        "height": 51.3
+                      }
+                    },
+                    {
+                      "name": "TotalText",
+                      "pos": {
+                        "x": 0.0,
+                        "y": -58.1
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Text",
+                          "size": {
+                            "width": 104.1,
+                            "height": 27.2
+                          },
+                          "depth": 19,
+                          "fontName": "MicrosoftYaHei",
+                          "text": "",
+                          "fontSize": 20,
+                          "overflowH": 1,
+                          "overflowV": 1,
+                          "bestFit": false,
+                          "spacingY": 1.0,
+                          "alignment": 4
+                        }
+                      ],
+                      "size": {
+                        "width": 104.1,
+                        "height": 27.2
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "BetPool2",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 206.1
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 116.0,
+                        "height": 98.0
+                      },
+                      "alpha": 0,
+                      "depth": 20,
+                      "spType": "Simple"
+                    }
+                  ],
+                  "button": {
+                    "interactable": true,
+                    "Transition": "None"
+                  },
+                  "size": {
+                    "width": 116.0,
+                    "height": 98.0
+                  },
+                  "children": [
+                    {
+                      "name": "LightImage",
+                      "pos": {
+                        "x": 0.0,
+                        "y": -0.5
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 116.0,
+                            "height": 98.0
+                          },
+                          "alpha": 0,
+                          "depth": 21,
+                          "spType": "Simple",
+                          "spName": "sing_01_amwsz",
+                          "atlas": "amwsz"
+                        }
+                      ],
+                      "size": {
+                        "width": 116.0,
+                        "height": 98.0
+                      }
+                    },
+                    {
+                      "name": "Range",
+                      "pos": {
+                        "x": 0.6,
+                        "y": 14.5
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "size": {
+                        "width": 61.9,
+                        "height": 51.3
+                      }
+                    },
+                    {
+                      "name": "TotalText",
+                      "pos": {
+                        "x": 1.2,
+                        "y": -31.5
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Text",
+                          "size": {
+                            "width": 104.1,
+                            "height": 26.0
+                          },
+                          "depth": 23,
+                          "fontName": "MicrosoftYaHei",
+                          "text": "0",
+                          "fontSize": 20,
+                          "overflowH": 1,
+                          "overflowV": 1,
+                          "bestFit": false,
+                          "spacingY": 1.0,
+                          "alignment": 4
+                        }
+                      ],
+                      "size": {
+                        "width": 104.1,
+                        "height": 26.0
+                      }
+                    },
+                    {
+                      "name": "Additional",
+                      "pos": {
+                        "x": 83.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "size": {
+                        "width": 50.0,
+                        "height": 98.0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "BetPool1",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 88.4
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 118.0,
+                        "height": 115.0
+                      },
+                      "alpha": 0,
+                      "depth": 24,
+                      "spType": "Simple"
+                    }
+                  ],
+                  "button": {
+                    "interactable": true,
+                    "Transition": "None"
+                  },
+                  "size": {
+                    "width": 118.0,
+                    "height": 115.0
+                  },
+                  "children": [
+                    {
+                      "name": "LightImage",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.6
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 118.0,
+                            "height": 115.0
+                          },
+                          "alpha": 0,
+                          "depth": 25,
+                          "spType": "Simple",
+                          "spName": "sing_02_amwsz",
+                          "atlas": "amwsz"
+                        }
+                      ],
+                      "size": {
+                        "width": 118.0,
+                        "height": 115.0
+                      }
+                    },
+                    {
+                      "name": "Range",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 1.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "size": {
+                        "width": 61.9,
+                        "height": 51.3
+                      }
+                    },
+                    {
+                      "name": "TotalText",
+                      "pos": {
+                        "x": 1.2,
+                        "y": -40.5
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Text",
+                          "size": {
+                            "width": 104.1,
+                            "height": 27.2
+                          },
+                          "depth": 27,
+                          "fontName": "MicrosoftYaHei",
+                          "text": "0",
+                          "fontSize": 20,
+                          "overflowH": 1,
+                          "overflowV": 1,
+                          "bestFit": false,
+                          "spacingY": 1.0,
+                          "alignment": 4
+                        }
+                      ],
+                      "size": {
+                        "width": 104.1,
+                        "height": 27.2
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "CardRoot",
+                  "pos": {
+                    "x": -35.0,
+                    "y": 199.7
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "size": {
+                    "width": 63.6,
+                    "height": 85.7
+                  }
+                },
+                {
+                  "name": "SpecialImage",
+                  "pos": {
+                    "x": 67.3,
+                    "y": 240.9
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": false,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 86.0,
+                        "height": 66.0
+                      },
+                      "depth": -1,
+                      "spType": "Simple",
+                      "spName": "icon_02_amwsz",
+                      "atlas": "amwsz"
+                    }
+                  ],
+                  "size": {
+                    "width": 86.0,
+                    "height": 66.0
+                  }
+                },
+                {
+                  "name": "PatternImage",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 146.3
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": false,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 168.0,
+                        "height": 43.0
+                      },
+                      "depth": -1,
+                      "spType": "Simple",
+                      "spName": "font_03_amwsz",
+                      "atlas": "amwsz"
+                    }
+                  ],
+                  "rect": {
+                    "AnchorMinX": 0.5,
+                    "AnchorMinY": 0.0,
+                    "AnchorMaxX": 0.5,
+                    "AnchorMaxY": 0.0,
+                    "PivotX": 0.5,
+                    "PivotY": 0.0,
+                    "Left": -84.0,
+                    "Botton": 196.3,
+                    "Right": -84.0,
+                    "Top": -239.3,
+                    "AnchoredPositionX": 0.0,
+                    "AnchoredPositionY": 196.3,
+                    "SizeDeltaX": 168.0,
+                    "SizeDeltaY": 43.0,
+                    "x": -84.0,
+                    "y": 0.0,
+                    "width": 168.0,
+                    "height": 43.0
+                  },
+                  "size": {
+                    "width": 168.0,
+                    "height": 43.0
+                  }
+                },
+                {
+                  "name": "PatternSkeleton",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 167.3
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": false,
+                  "components": [
+                    {
+                      "type": "Spine.Unity.SkeletonGraphic",
+                      "size": {
+                        "width": 100.0,
+                        "height": 54.0
+                      },
+                      "depth": -1
+                    }
+                  ],
+                  "sg": {
+                    "startanimation": "",
+                    "loop": false,
+                    "timescale": 1.0,
+                    "initialSkinName": "default",
+                    "SkeletonDataAsset": "card_type_SkeletonData"
+                  },
+                  "size": {
+                    "width": 100.0,
+                    "height": 54.0
+                  }
+                },
+                {
+                  "name": "ActionSignImage",
+                  "pos": {
+                    "x": 102.9,
+                    "y": -2.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": false,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 88.0,
+                        "height": 64.0
+                      },
+                      "depth": -1,
+                      "spType": "Simple",
+                      "spName": "sing_03_amwsz",
+                      "atlas": "amwsz"
+                    }
+                  ],
+                  "rect": {
+                    "AnchorMinX": 0.5,
+                    "AnchorMinY": 0.0,
+                    "AnchorMaxX": 0.5,
+                    "AnchorMaxY": 0.0,
+                    "PivotX": 0.5,
+                    "PivotY": 0.0,
+                    "Left": 58.9,
+                    "Botton": 48.0,
+                    "Right": -146.9,
+                    "Top": -112.0,
+                    "AnchoredPositionX": 102.9,
+                    "AnchoredPositionY": 48.0,
+                    "SizeDeltaX": 88.0,
+                    "SizeDeltaY": 64.0,
+                    "x": -44.0,
+                    "y": 0.0,
+                    "width": 88.0,
+                    "height": 64.0
+                  },
+                  "size": {
+                    "width": 88.0,
+                    "height": 64.0
+                  }
+                },
+                {
+                  "name": "TotalBG",
+                  "pos": {
+                    "x": 0.0,
+                    "y": -36.5
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 110.0,
+                        "height": 36.0
+                      },
+                      "depth": 28,
+                      "spType": "Simple",
+                      "spName": "bk_08_amwsz",
+                      "atlas": "amwsz"
+                    }
+                  ],
+                  "size": {
+                    "width": 110.0,
+                    "height": 36.0
+                  }
+                },
+                {
+                  "name": "BetTotalText",
+                  "pos": {
+                    "x": 0.0,
+                    "y": -36.5
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 107.2,
+                        "height": 36.2
+                      },
+                      "depth": 29,
+                      "fontName": "MicrosoftYaHei",
+                      "text": "",
+                      "fontSize": 22,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 4
+                    }
+                  ],
+                  "size": {
+                    "width": 107.2,
+                    "height": 36.2
+                  }
+                },
+                {
+                  "name": "SitDownButton",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 21.9
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 100.0,
+                        "height": 90.0
+                      },
+                      "depth": 30,
+                      "spType": "Simple",
+                      "spName": "btn_07_amwsz",
+                      "atlas": "amwsz"
+                    }
+                  ],
+                  "button": {
+                    "interactable": true,
+                    "Transition": "ColorTint"
+                  },
+                  "size": {
+                    "width": 100.0,
+                    "height": 90.0
+                  }
+                },
+                {
+                  "name": "WinMoneyText",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 34.6
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": false,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 165.0,
+                        "height": 30.0
+                      },
+                      "depth": -1,
+                      "fontName": "font_win_artfont",
+                      "text": "0",
+                      "fontSize": 0,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 1
+                    }
+                  ],
+                  "size": {
+                    "width": 165.0,
+                    "height": 30.0
+                  }
+                },
+                {
+                  "name": "LoseMoneyText",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 34.6
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": false,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 165.0,
+                        "height": 30.0
+                      },
+                      "depth": -1,
+                      "fontName": "font_lose_artfont",
+                      "text": "0",
+                      "fontSize": 0,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 1
+                    }
+                  ],
+                  "size": {
+                    "width": 165.0,
+                    "height": 30.0
+                  }
+                },
+                {
+                  "name": "SeatStateText",
+                  "pos": {
+                    "x": 0.0,
+                    "y": -36.5
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 107.2,
+                        "height": 36.2
+                      },
+                      "color": "EAD78F",
+                      "depth": 31,
+                      "fontName": "MicrosoftYaHei",
+                      "text": "\u7B49\u5F85\u5165\u684C",
+                      "fontSize": 22,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 4
+                    }
+                  ],
+                  "size": {
+                    "width": 107.2,
+                    "height": 36.2
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UIBottom",
+          "pos": {
+            "x": 0.0,
+            "y": -321.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "rotation": 0.0,
+          "active": true,
+          "rect": {
+            "AnchorMinX": 0.0,
+            "AnchorMinY": 0.0,
+            "AnchorMaxX": 1.0,
+            "AnchorMaxY": 0.0,
+            "PivotX": 0.5,
+            "PivotY": 0.5,
+            "Left": 0.0,
+            "Botton": 0.1,
+            "Right": 0.0,
+            "Top": -107.9,
+            "AnchoredPositionX": 0.0,
+            "AnchoredPositionY": 54.0,
+            "SizeDeltaX": 0.0,
+            "SizeDeltaY": 107.8,
+            "x": -667.0,
+            "y": -53.9,
+            "width": 1334.0,
+            "height": 107.8
+          },
+          "size": {
+            "width": 1334.0,
+            "height": 107.8
+          },
+          "children": [
+            {
+              "name": "UserInfo",
+              "pos": {
+                "x": -447.0,
+                "y": 2.1
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "components": [
+                {
+                  "type": "UnityEngine.UI.Image",
+                  "size": {
+                    "width": 440.0,
+                    "height": 112.0
+                  },
+                  "depth": 33,
+                  "spType": "Simple",
+                  "spName": "bk_01_amwsz",
+                  "atlas": "amwsz"
+                }
+              ],
+              "rect": {
+                "AnchorMinX": 0.0,
+                "AnchorMinY": 0.0,
+                "AnchorMaxX": 0.0,
+                "AnchorMaxY": 0.0,
+                "PivotX": 0.5,
+                "PivotY": 0.5,
+                "Left": 0.0,
+                "Botton": 0.0,
+                "Right": -440.0,
+                "Top": -112.0,
+                "AnchoredPositionX": 220.0,
+                "AnchoredPositionY": 56.0,
+                "SizeDeltaX": 440.0,
+                "SizeDeltaY": 112.0,
+                "x": -220.0,
+                "y": -56.0,
+                "width": 440.0,
+                "height": 112.0
+              },
+              "size": {
+                "width": 440.0,
+                "height": 112.0
+              },
+              "children": [
+                {
+                  "name": "IDText",
+                  "pos": {
+                    "x": -29.9,
+                    "y": 14.9
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 182.25,
+                        "height": 36.0
+                      },
+                      "color": "F95051",
+                      "depth": 34,
+                      "fontName": "MicrosoftYaHei",
+                      "text": "ID:12345678",
+                      "fontSize": 27,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 3
+                    }
+                  ],
+                  "size": {
+                    "width": 182.25,
+                    "height": 36.0
+                  }
+                },
+                {
+                  "name": "FaceFrame",
+                  "pos": {
+                    "x": -162.2,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 64.0,
+                        "height": 64.0
+                      },
+                      "depth": 35,
+                      "spType": "Simple",
+                      "spName": "bar_02_amwsz",
+                      "atlas": "amwsz"
+                    }
+                  ],
+                  "size": {
+                    "width": 64.0,
+                    "height": 64.0
+                  }
+                },
+                {
+                  "name": "FaceImage",
+                  "pos": {
+                    "x": -162.2,
+                    "y": -0.8
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 57.8,
+                        "height": 58.3
+                      },
+                      "depth": 36,
+                      "spType": "Simple",
+                      "spName": "Transparent",
+                      "atlas": "Transparent"
+                    }
+                  ],
+                  "size": {
+                    "width": 57.8,
+                    "height": 58.3
+                  }
+                },
+                {
+                  "name": "UserMoney",
+                  "pos": {
+                    "x": -14.4,
+                    "y": -25.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "size": {
+                    "width": 241.1,
+                    "height": 41.8
+                  },
+                  "children": [
+                    {
+                      "name": "Background",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 237.2,
+                            "height": 41.7
+                          },
+                          "depth": 38,
+                          "spType": "Simple",
+                          "spName": "bar_01_amwsz",
+                          "atlas": "amwsz"
+                        }
+                      ],
+                      "size": {
+                        "width": 237.2,
+                        "height": 41.7
+                      }
+                    },
+                    {
+                      "name": "Image",
+                      "pos": {
+                        "x": -92.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 40.0,
+                            "height": 40.0
+                          },
+                          "depth": 39,
+                          "spType": "Simple",
+                          "spName": "icon_01_amwsz",
+                          "atlas": "amwsz"
+                        }
+                      ],
+                      "size": {
+                        "width": 40.0,
+                        "height": 40.0
+                      }
+                    },
+                    {
+                      "name": "Text",
+                      "pos": {
+                        "x": 18.9,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Text",
+                          "size": {
+                            "width": 181.7,
+                            "height": 36.0
+                          },
+                          "depth": 40,
+                          "fontName": "MicrosoftYaHei",
+                          "text": "10032",
+                          "fontSize": 27,
+                          "overflowH": 1,
+                          "overflowV": 0,
+                          "bestFit": false,
+                          "spacingY": 1.0,
+                          "alignment": 4
+                        }
+                      ],
+                      "size": {
+                        "width": 181.7,
+                        "height": 36.0
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ActionArea",
+              "pos": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": false,
+              "size": {
+                "width": 469.0,
+                "height": 104.0
+              },
+              "children": [
+                {
+                  "name": "ActionButton0",
+                  "pos": {
+                    "x": -152.77,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 150.0,
+                        "height": 70.0
+                      },
+                      "depth": -1,
+                      "spType": "Simple",
+                      "spName": "btn_05_amwsz",
+                      "atlas": "amwsz"
+                    }
+                  ],
+                  "button": {
+                    "interactable": true,
+                    "Transition": "ColorTint"
+                  },
+                  "rect": {
+                    "AnchorMinX": 0.0,
+                    "AnchorMinY": 1.0,
+                    "AnchorMaxX": 0.0,
+                    "AnchorMaxY": 1.0,
+                    "PivotX": 0.5,
+                    "PivotY": 0.5,
+                    "Left": 6.73,
+                    "Botton": -87.0,
+                    "Right": -156.73,
+                    "Top": 17.0,
+                    "AnchoredPositionX": 81.73,
+                    "AnchoredPositionY": -52.0,
+                    "SizeDeltaX": 150.0,
+                    "SizeDeltaY": 70.0,
+                    "x": -75.0,
+                    "y": -35.0,
+                    "width": 150.0,
+                    "height": 70.0
+                  },
+                  "size": {
+                    "width": 150.0,
+                    "height": 70.0
+                  }
+                },
+                {
+                  "name": "ActionButton1",
+                  "pos": {
+                    "x": 144.5,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 150.0,
+                        "height": 70.0
+                      },
+                      "depth": -1,
+                      "spType": "Simple",
+                      "spName": "btn_04_amwsz",
+                      "atlas": "amwsz"
+                    }
+                  ],
+                  "button": {
+                    "interactable": true,
+                    "Transition": "ColorTint"
+                  },
+                  "rect": {
+                    "AnchorMinX": 0.0,
+                    "AnchorMinY": 1.0,
+                    "AnchorMaxX": 0.0,
+                    "AnchorMaxY": 1.0,
+                    "PivotX": 0.5,
+                    "PivotY": 0.5,
+                    "Left": 304.0,
+                    "Botton": -87.0,
+                    "Right": -454.0,
+                    "Top": 17.0,
+                    "AnchoredPositionX": 379.0,
+                    "AnchoredPositionY": -52.0,
+                    "SizeDeltaX": 150.0,
+                    "SizeDeltaY": 70.0,
+                    "x": -75.0,
+                    "y": -35.0,
+                    "width": 150.0,
+                    "height": 70.0
+                  },
+                  "size": {
+                    "width": 150.0,
+                    "height": 70.0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UIChip",
+          "pos": {
+            "x": 95.0,
+            "y": -316.5
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "rotation": 0.0,
+          "active": true,
+          "rect": {
+            "AnchorMinX": 0.5,
+            "AnchorMinY": 0.0,
+            "AnchorMaxX": 0.5,
+            "AnchorMaxY": 0.0,
+            "PivotX": 0.5,
+            "PivotY": 0.5,
+            "Left": -300.0,
+            "Botton": 0.0,
+            "Right": -490.0,
+            "Top": -117.0,
+            "AnchoredPositionX": 95.0,
+            "AnchoredPositionY": 58.5,
+            "SizeDeltaX": 790.0,
+            "SizeDeltaY": 117.0,
+            "x": -395.0,
+            "y": -58.5,
+            "width": 790.0,
+            "height": 117.0
+          },
+          "size": {
+            "width": 790.0,
+            "height": 117.0
+          },
+          "scrollView": {
+            "horizontal": true,
+            "vertical": false,
+            "content": "Chips",
+            "movementType": 2
+          },
+          "children": [
+            {
+              "name": "Chips",
+              "pos": {
+                "x": -395.0,
+                "y": -36.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "components": [
+                {
+                  "type": "UnityEngine.UI.Image",
+                  "size": {
+                    "width": -756.6,
+                    "height": 117.0
+                  },
+                  "alpha": 0,
+                  "depth": 42,
+                  "spType": "Simple"
+                }
+              ],
+              "rect": {
+                "AnchorMinX": 0.0,
+                "AnchorMinY": 0.5,
+                "AnchorMaxX": 1.0,
+                "AnchorMaxY": 0.5,
+                "PivotX": 0.0,
+                "PivotY": 0.5,
+                "Left": 0.0,
+                "Botton": -94.5,
+                "Right": 756.6,
+                "Top": -22.5,
+                "AnchoredPositionX": 0.0,
+                "AnchoredPositionY": -36.0,
+                "SizeDeltaX": -756.6,
+                "SizeDeltaY": 117.0,
+                "x": 0.0,
+                "y": -58.5,
+                "width": 33.4,
+                "height": 117.0
+              },
+              "size": {
+                "width": 33.4,
+                "height": 117.0
+              },
+              "children": [
+                {
+                  "name": "ChipPrefab",
+                  "pos": {
+                    "x": 86.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": false,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 112.0,
+                        "height": 115.0
+                      },
+                      "depth": -1,
+                      "spType": "Simple",
+                      "spName": "chip_1",
+                      "atlas": "chip_1"
+                    }
+                  ],
+                  "button": {
+                    "interactable": true,
+                    "Transition": "ColorTint"
+                  },
+                  "rect": {
+                    "AnchorMinX": 0.0,
+                    "AnchorMinY": 1.0,
+                    "AnchorMaxX": 0.0,
+                    "AnchorMaxY": 1.0,
+                    "PivotX": 0.5,
+                    "PivotY": 0.5,
+                    "Left": 30.0,
+                    "Botton": -116.0,
+                    "Right": -142.0,
+                    "Top": 1.0,
+                    "AnchoredPositionX": 86.0,
+                    "AnchoredPositionY": -58.5,
+                    "SizeDeltaX": 112.0,
+                    "SizeDeltaY": 115.0,
+                    "x": -56.0,
+                    "y": -57.5,
+                    "width": 112.0,
+                    "height": 115.0
+                  },
+                  "size": {
+                    "width": 112.0,
+                    "height": 115.0
+                  },
+                  "children": [
+                    {
+                      "name": "Text",
+                      "pos": {
+                        "x": 0.0,
+                        "y": -2.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Text",
+                          "size": {
+                            "width": 112.0,
+                            "height": 62.2
+                          },
+                          "depth": -1,
+                          "fontName": "MicrosoftYaHei",
+                          "text": "9999",
+                          "fontSize": 30,
+                          "overflowH": 1,
+                          "overflowV": 0,
+                          "bestFit": false,
+                          "spacingY": 1.0,
+                          "alignment": 4
+                        }
+                      ],
+                      "size": {
+                        "width": 112.0,
+                        "height": 62.2
+                      }
+                    },
+                    {
+                      "name": "Select",
+                      "pos": {
+                        "x": -0.4,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 133.2,
+                            "height": 133.2
+                          },
+                          "depth": -1,
+                          "spType": "Simple",
+                          "spName": "UI_chip_chip_sign",
+                          "atlas": "UI_chip_chip_sign"
+                        }
+                      ],
+                      "size": {
+                        "width": 133.2,
+                        "height": 133.2
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UIMain",
+          "pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "rotation": 0.0,
+          "active": true,
+          "rect": {
+            "AnchorMinX": 0.0,
+            "AnchorMinY": 0.0,
+            "AnchorMaxX": 1.0,
+            "AnchorMaxY": 1.0,
+            "PivotX": 0.5,
+            "PivotY": 0.5,
+            "Left": 0.0,
+            "Botton": 0.0,
+            "Right": 0.0,
+            "Top": 0.0,
+            "AnchoredPositionX": 0.0,
+            "AnchoredPositionY": 0.0,
+            "SizeDeltaX": 0.0,
+            "SizeDeltaY": 0.0,
+            "x": -667.0,
+            "y": -375.0,
+            "width": 1334.0,
+            "height": 750.0
+          },
+          "size": {
+            "width": 1334.0,
+            "height": 750.0
+          },
+          "children": [
+            {
+              "name": "Message",
+              "pos": {
+                "x": 0.0,
+                "y": 163.8
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": false,
+              "size": {
+                "width": 968.0,
+                "height": 112.0
+              },
+              "children": [
+                {
+                  "name": "Background1",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 900.0,
+                        "height": 80.0
+                      },
+                      "depth": -1,
+                      "spType": "Simple",
+                      "spName": "bk_09_amwsz",
+                      "atlas": "amwsz"
+                    }
+                  ],
+                  "size": {
+                    "width": 900.0,
+                    "height": 80.0
+                  }
+                },
+                {
+                  "name": "Background2",
+                  "pos": {
+                    "x": 242.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": -1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": false,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 484.0,
+                        "height": 108.0
+                      },
+                      "depth": -1,
+                      "spType": "Simple",
+                      "spName": "bk_09_amwsz",
+                      "atlas": "amwsz"
+                    }
+                  ],
+                  "size": {
+                    "width": 484.0,
+                    "height": 108.0
+                  }
+                },
+                {
+                  "name": "Text",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 370.0,
+                        "height": 57.0
+                      },
+                      "depth": -1,
+                      "fontName": "MicrosoftYaHei",
+                      "text": "\u5DF2\u505C\u6B62\u4E0B\u6CE8",
+                      "fontSize": 30,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 4
+                    }
+                  ],
+                  "size": {
+                    "width": 370.0,
+                    "height": 57.0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "OddsSheetToggle",
+              "pos": {
+                "x": 457.0,
+                "y": 460.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "components": [
+                {
+                  "type": "UnityEngine.UI.Image",
+                  "size": {
+                    "width": 406.0,
+                    "height": 260.0
+                  },
+                  "depth": 43,
+                  "spType": "Sliced",
+                  "spName": "bk_04_amwsz",
+                  "atlas": "amwsz",
+                  "border": {
+                    "left": 0.0,
+                    "right": 0.0,
+                    "top": 16.0,
+                    "bottom": 62.0
+                  }
+                }
+              ],
+              "toggle": {
+                "Transition": "ColorTint"
+              },
+              "rect": {
+                "AnchorMinX": 1.0,
+                "AnchorMinY": 1.0,
+                "AnchorMaxX": 1.0,
+                "AnchorMaxY": 1.0,
+                "PivotX": 0.5,
+                "PivotY": 0.5,
+                "Left": -413.0,
+                "Botton": -45.0,
+                "Right": 7.0,
+                "Top": -215.0,
+                "AnchoredPositionX": -210.0,
+                "AnchoredPositionY": 85.0,
+                "SizeDeltaX": 406.0,
+                "SizeDeltaY": 260.0,
+                "x": -203.0,
+                "y": -130.0,
+                "width": 406.0,
+                "height": 260.0
+              },
+              "size": {
+                "width": 406.0,
+                "height": 260.0
+              },
+              "children": [
+                {
+                  "name": "Odds1",
+                  "pos": {
+                    "x": -154.4,
+                    "y": 103.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 48.8,
+                        "height": 46.5
+                      },
+                      "color": "C0AF71",
+                      "depth": 44,
+                      "fontName": "MicrosoftYaHei",
+                      "text": "\u8FB9\u6CE8\u8D54\u7387",
+                      "fontSize": 23,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 3
+                    }
+                  ],
+                  "size": {
+                    "width": 48.8,
+                    "height": 46.5
+                  }
+                },
+                {
+                  "name": "Odds2",
+                  "pos": {
+                    "x": 52.6,
+                    "y": 103.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 63.2,
+                        "height": 46.5
+                      },
+                      "color": "C0AF71",
+                      "depth": 45,
+                      "fontName": "MicrosoftYaHei",
+                      "text": "\u7279\u6B8A\u724C\u8D54\u7387",
+                      "fontSize": 23,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 3
+                    }
+                  ],
+                  "size": {
+                    "width": 63.2,
+                    "height": 46.5
+                  }
+                },
+                {
+                  "name": "OddsText1-1",
+                  "pos": {
+                    "x": -154.4,
+                    "y": 0.3
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 45.0,
+                        "height": 145.0
+                      },
+                      "depth": 46,
+                      "fontName": "MicrosoftYaHei",
+                      "text": "",
+                      "fontSize": 20,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 0
+                    }
+                  ],
+                  "size": {
+                    "width": 45.0,
+                    "height": 145.0
+                  }
+                },
+                {
+                  "name": "OddsText1-2",
+                  "pos": {
+                    "x": -81.0,
+                    "y": 0.3
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 45.0,
+                        "height": 145.0
+                      },
+                      "depth": 47,
+                      "fontName": "MicrosoftYaHei",
+                      "text": "",
+                      "fontSize": 20,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 0
+                    }
+                  ],
+                  "size": {
+                    "width": 45.0,
+                    "height": 145.0
+                  }
+                },
+                {
+                  "name": "OddsText2-1",
+                  "pos": {
+                    "x": 46.8,
+                    "y": 0.3
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 45.0,
+                        "height": 145.0
+                      },
+                      "depth": 48,
+                      "fontName": "MicrosoftYaHei",
+                      "text": "",
+                      "fontSize": 20,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 0
+                    }
+                  ],
+                  "size": {
+                    "width": 45.0,
+                    "height": 145.0
+                  }
+                },
+                {
+                  "name": "OddsText2-2",
+                  "pos": {
+                    "x": 120.2,
+                    "y": 0.3
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 45.0,
+                        "height": 145.0
+                      },
+                      "depth": 49,
+                      "fontName": "MicrosoftYaHei",
+                      "text": "",
+                      "fontSize": 20,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 0
+                    }
+                  ],
+                  "size": {
+                    "width": 45.0,
+                    "height": 145.0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "GameInfo",
+              "pos": {
+                "x": -362.0,
+                "y": 273.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "components": [
+                {
+                  "type": "UnityEngine.UI.Image",
+                  "size": {
+                    "width": 280.0,
+                    "height": 170.0
+                  },
+                  "depth": 50,
+                  "spType": "Simple",
+                  "spName": "bk_05_amwsz",
+                  "atlas": "amwsz"
+                }
+              ],
+              "rect": {
+                "AnchorMinX": 0.0,
+                "AnchorMinY": 1.0,
+                "AnchorMaxX": 0.0,
+                "AnchorMaxY": 1.0,
+                "PivotX": 0.5,
+                "PivotY": 0.5,
+                "Left": 165.0,
+                "Botton": -187.0,
+                "Right": -445.0,
+                "Top": 17.0,
+                "AnchoredPositionX": 305.0,
+                "AnchoredPositionY": -102.0,
+                "SizeDeltaX": 280.0,
+                "SizeDeltaY": 170.0,
+                "x": -140.0,
+                "y": -85.0,
+                "width": 280.0,
+                "height": 170.0
+              },
+              "size": {
+                "width": 280.0,
+                "height": 170.0
+              },
+              "children": [
+                {
+                  "name": "Image",
+                  "pos": {
+                    "x": -62.4,
+                    "y": 46.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": false,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 104.0,
+                        "height": 34.0
+                      },
+                      "depth": -1,
+                      "spType": "Simple",
+                      "spName": "font_06_amwsz",
+                      "atlas": "amwsz"
+                    }
+                  ],
+                  "size": {
+                    "width": 104.0,
+                    "height": 34.0
+                  }
+                },
+                {
+                  "name": "RoundText",
+                  "pos": {
+                    "x": -62.8,
+                    "y": 47.7
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": false,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 43.8,
+                        "height": 33.4
+                      },
+                      "depth": -1,
+                      "fontName": "MicrosoftYaHei",
+                      "text": "0",
+                      "fontSize": 24,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 4
+                    }
+                  ],
+                  "size": {
+                    "width": 43.8,
+                    "height": 33.4
+                  }
+                },
+                {
+                  "name": "Text",
+                  "pos": {
+                    "x": -36.5,
+                    "y": 60.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 160.0,
+                        "height": 25.0
+                      },
+                      "depth": 51,
+                      "fontName": "MicrosoftYaHei",
+                      "text": "\u9650\u7EA2",
+                      "fontSize": 17,
+                      "overflowH": 1,
+                      "overflowV": 1,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 3
+                    }
+                  ],
+                  "size": {
+                    "width": 160.0,
+                    "height": 25.0
+                  }
+                },
+                {
+                  "name": "BaseLimitText",
+                  "pos": {
+                    "x": -36.5,
+                    "y": 32.4
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 160.0,
+                        "height": 25.0
+                      },
+                      "depth": 52,
+                      "fontName": "MicrosoftYaHei",
+                      "text": "\u5E95\u6CE8:1~1000000",
+                      "fontSize": 17,
+                      "overflowH": 1,
+                      "overflowV": 1,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 3
+                    }
+                  ],
+                  "size": {
+                    "width": 160.0,
+                    "height": 25.0
+                  }
+                },
+                {
+                  "name": "SideLimitText",
+                  "pos": {
+                    "x": -36.5,
+                    "y": 7.1
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 160.0,
+                        "height": 25.0
+                      },
+                      "depth": 53,
+                      "fontName": "MicrosoftYaHei",
+                      "text": "\u8FB9\u6CE8:1~1000000",
+                      "fontSize": 17,
+                      "overflowH": 1,
+                      "overflowV": 1,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 3
+                    }
+                  ],
+                  "size": {
+                    "width": 160.0,
+                    "height": 25.0
+                  }
+                },
+                {
+                  "name": "RoomIDText",
+                  "pos": {
+                    "x": -36.6,
+                    "y": -19.6
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 160.0,
+                        "height": 25.0
+                      },
+                      "color": "B1FAFF",
+                      "depth": 54,
+                      "fontName": "MicrosoftYaHei",
+                      "text": "\u623F\u95F4\u53F7:",
+                      "fontSize": 17,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 3
+                    }
+                  ],
+                  "size": {
+                    "width": 160.0,
+                    "height": 25.0
+                  }
+                },
+                {
+                  "name": "WatchText",
+                  "pos": {
+                    "x": -36.6,
+                    "y": -44.6
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 160.0,
+                        "height": 25.0
+                      },
+                      "color": "B1FAFF",
+                      "depth": 55,
+                      "fontName": "MicrosoftYaHei",
+                      "text": "\u89C2\u5C40\u4EBA\u6570:",
+                      "fontSize": 17,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 3
+                    }
+                  ],
+                  "size": {
+                    "width": 160.0,
+                    "height": 25.0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Countdown",
+              "pos": {
+                "x": -301.0,
+                "y": 272.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "rect": {
+                "AnchorMinX": 0.0,
+                "AnchorMinY": 1.0,
+                "AnchorMaxX": 0.0,
+                "AnchorMaxY": 1.0,
+                "PivotX": 0.5,
+                "PivotY": 0.5,
+                "Left": 301.42,
+                "Botton": -166.4,
+                "Right": -430.58,
+                "Top": 39.6,
+                "AnchoredPositionX": 366.0,
+                "AnchoredPositionY": -103.0,
+                "SizeDeltaX": 129.15,
+                "SizeDeltaY": 126.8,
+                "x": -64.58,
+                "y": -63.4,
+                "width": 129.15,
+                "height": 126.8
+              },
+              "size": {
+                "width": 129.15,
+                "height": 126.8
+              },
+              "children": [
+                {
+                  "name": "Frame",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 118.0,
+                        "height": 118.0
+                      },
+                      "depth": 57,
+                      "spType": "Simple",
+                      "spName": "prop_01_amwsz",
+                      "atlas": "amwsz"
+                    }
+                  ],
+                  "size": {
+                    "width": 118.0,
+                    "height": 118.0
+                  }
+                },
+                {
+                  "name": "Image",
+                  "pos": {
+                    "x": -0.5,
+                    "y": 0.62
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 115.0,
+                        "height": 117.0
+                      },
+                      "depth": 58,
+                      "spType": "Filled",
+                      "spName": "prop_02_amwsz",
+                      "atlas": "amwsz"
+                    }
+                  ],
+                  "size": {
+                    "width": 115.0,
+                    "height": 117.0
+                  }
+                },
+                {
+                  "name": "Text",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 0.8,
+                    "y": 0.8
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 139.2,
+                        "height": 44.0
+                      },
+                      "depth": 59,
+                      "fontName": "font_time_artfont",
+                      "text": "0",
+                      "fontSize": 0,
+                      "overflowH": 0,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 1
+                    }
+                  ],
+                  "size": {
+                    "width": 139.2,
+                    "height": 44.0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "GameState",
+              "pos": {
+                "x": 0.0,
+                "y": 99.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": false,
+              "size": {
+                "width": 1334.0,
+                "height": 100.0
+              },
+              "children": [
+                {
+                  "name": "BG",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 900.0,
+                        "height": 80.0
+                      },
+                      "depth": -1,
+                      "spType": "Simple",
+                      "spName": "bk_09_amwsz",
+                      "atlas": "amwsz"
+                    }
+                  ],
+                  "size": {
+                    "width": 900.0,
+                    "height": 80.0
+                  }
+                },
+                {
+                  "name": "BG",
+                  "pos": {
+                    "x": 192.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": -1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": false,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 384.0,
+                        "height": 102.0
+                      },
+                      "depth": -1,
+                      "spType": "Simple"
+                    }
+                  ],
+                  "size": {
+                    "width": 384.0,
+                    "height": 102.0
+                  }
+                },
+                {
+                  "name": "Image",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 124.0,
+                        "height": 42.0
+                      },
+                      "depth": -1,
+                      "spType": "Simple",
+                      "spName": "font_02_amwsz",
+                      "atlas": "amwsz"
+                    }
+                  ],
+                  "size": {
+                    "width": 124.0,
+                    "height": 42.0
+                  }
+                },
+                {
+                  "name": "Text",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Text",
+                      "size": {
+                        "width": 281.0,
+                        "height": 82.0
+                      },
+                      "depth": -1,
+                      "fontName": "MicrosoftYaHei",
+                      "text": "\u5373\u5C06\u56DE\u5230\u5927\u5385",
+                      "fontSize": 30,
+                      "overflowH": 1,
+                      "overflowV": 0,
+                      "bestFit": false,
+                      "spacingY": 1.0,
+                      "alignment": 4
+                    }
+                  ],
+                  "size": {
+                    "width": 281.0,
+                    "height": 82.0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "WaitStart",
+              "pos": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": false,
+              "rect": {
+                "AnchorMinX": 0.0,
+                "AnchorMinY": 0.5,
+                "AnchorMaxX": 1.0,
+                "AnchorMaxY": 0.5,
+                "PivotX": 0.5,
+                "PivotY": 0.5,
+                "Left": 0.0,
+                "Botton": -50.0,
+                "Right": 0.0,
+                "Top": -50.0,
+                "AnchoredPositionX": 0.0,
+                "AnchoredPositionY": 0.0,
+                "SizeDeltaX": 0.0,
+                "SizeDeltaY": 100.0,
+                "x": -667.0,
+                "y": -50.0,
+                "width": 1334.0,
+                "height": 100.0
+              },
+              "size": {
+                "width": 1334.0,
+                "height": 100.0
+              },
+              "children": [
+                {
+                  "name": "Bg",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 1000.0,
+                        "height": 120.0
+                      },
+                      "depth": -1,
+                      "spType": "Simple",
+                      "spName": "bk_09_amwsz",
+                      "atlas": "amwsz"
+                    }
+                  ],
+                  "size": {
+                    "width": 1000.0,
+                    "height": 120.0
+                  }
+                },
+                {
+                  "name": "Bg",
+                  "pos": {
+                    "x": 200.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": -1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": false,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 400.0,
+                        "height": 137.0
+                      },
+                      "depth": -1,
+                      "spType": "Sliced"
+                    }
+                  ],
+                  "size": {
+                    "width": 400.0,
+                    "height": 137.0
+                  }
+                },
+                {
+                  "name": "Image",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 0.7,
+                    "y": 0.7
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 530.0,
+                        "height": 88.0
+                      },
+                      "depth": -1,
+                      "spType": "Simple",
+                      "spName": "Wait",
+                      "atlas": "Wait"
+                    }
+                  ],
+                  "size": {
+                    "width": 530.0,
+                    "height": 88.0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Options",
+              "pos": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "rect": {
+                "AnchorMinX": 0.0,
+                "AnchorMinY": 0.0,
+                "AnchorMaxX": 1.0,
+                "AnchorMaxY": 1.0,
+                "PivotX": 0.5,
+                "PivotY": 0.5,
+                "Left": 0.0,
+                "Botton": 0.0,
+                "Right": 0.0,
+                "Top": 0.0,
+                "AnchoredPositionX": 0.0,
+                "AnchoredPositionY": 0.0,
+                "SizeDeltaX": 0.0,
+                "SizeDeltaY": 0.0,
+                "x": -667.0,
+                "y": -375.0,
+                "width": 1334.0,
+                "height": 750.0
+              },
+              "size": {
+                "width": 1334.0,
+                "height": 750.0
+              },
+              "children": [
+                {
+                  "name": "ExitGameButton",
+                  "pos": {
+                    "x": -567.0,
+                    "y": 325.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 68.0,
+                        "height": 68.0
+                      },
+                      "depth": 60,
+                      "spType": "Simple",
+                      "spName": "btn_01_amwsz",
+                      "atlas": "amwsz"
+                    }
+                  ],
+                  "button": {
+                    "interactable": true,
+                    "Transition": "ColorTint"
+                  },
+                  "rect": {
+                    "AnchorMinX": 0.0,
+                    "AnchorMinY": 1.0,
+                    "AnchorMaxX": 0.0,
+                    "AnchorMaxY": 1.0,
+                    "PivotX": 0.5,
+                    "PivotY": 0.5,
+                    "Left": 66.0,
+                    "Botton": -84.0,
+                    "Right": -134.0,
+                    "Top": 16.0,
+                    "AnchoredPositionX": 100.0,
+                    "AnchoredPositionY": -50.0,
+                    "SizeDeltaX": 68.0,
+                    "SizeDeltaY": 68.0,
+                    "x": -34.0,
+                    "y": -34.0,
+                    "width": 68.0,
+                    "height": 68.0
+                  },
+                  "size": {
+                    "width": 68.0,
+                    "height": 68.0
+                  }
+                },
+                {
+                  "name": "SettingButton",
+                  "pos": {
+                    "x": -567.0,
+                    "y": 245.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 68.0,
+                        "height": 68.0
+                      },
+                      "depth": 61,
+                      "spType": "Simple",
+                      "spName": "btn_02_amwsz",
+                      "atlas": "amwsz"
+                    }
+                  ],
+                  "button": {
+                    "interactable": true,
+                    "Transition": "ColorTint"
+                  },
+                  "rect": {
+                    "AnchorMinX": 0.0,
+                    "AnchorMinY": 1.0,
+                    "AnchorMaxX": 0.0,
+                    "AnchorMaxY": 1.0,
+                    "PivotX": 0.5,
+                    "PivotY": 0.5,
+                    "Left": 66.0,
+                    "Botton": -164.0,
+                    "Right": -134.0,
+                    "Top": 96.0,
+                    "AnchoredPositionX": 100.0,
+                    "AnchoredPositionY": -130.0,
+                    "SizeDeltaX": 68.0,
+                    "SizeDeltaY": 68.0,
+                    "x": -34.0,
+                    "y": -34.0,
+                    "width": 68.0,
+                    "height": 68.0
+                  },
+                  "size": {
+                    "width": 68.0,
+                    "height": 68.0
+                  }
+                },
+                {
+                  "name": "DescriptionButton",
+                  "pos": {
+                    "x": -567.0,
+                    "y": 165.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": true,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 68.0,
+                        "height": 68.0
+                      },
+                      "depth": 62,
+                      "spType": "Simple",
+                      "spName": "btn_03_amwsz",
+                      "atlas": "amwsz"
+                    }
+                  ],
+                  "button": {
+                    "interactable": true,
+                    "Transition": "ColorTint"
+                  },
+                  "rect": {
+                    "AnchorMinX": 0.0,
+                    "AnchorMinY": 1.0,
+                    "AnchorMaxX": 0.0,
+                    "AnchorMaxY": 1.0,
+                    "PivotX": 0.5,
+                    "PivotY": 0.5,
+                    "Left": 66.0,
+                    "Botton": -244.0,
+                    "Right": -134.0,
+                    "Top": 176.0,
+                    "AnchoredPositionX": 100.0,
+                    "AnchoredPositionY": -210.0,
+                    "SizeDeltaX": 68.0,
+                    "SizeDeltaY": 68.0,
+                    "x": -34.0,
+                    "y": -34.0,
+                    "width": 68.0,
+                    "height": 68.0
+                  },
+                  "size": {
+                    "width": 68.0,
+                    "height": 68.0
+                  }
+                },
+                {
+                  "name": "DescriptionWindow",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": false,
+                  "canvas": true,
+                  "canvasRenderOrder": 1,
+                  "rect": {
+                    "AnchorMinX": 0.0,
+                    "AnchorMinY": 0.0,
+                    "AnchorMaxX": 1.0,
+                    "AnchorMaxY": 1.0,
+                    "PivotX": 0.5,
+                    "PivotY": 0.5,
+                    "Left": 0.0,
+                    "Botton": 0.0,
+                    "Right": 0.0,
+                    "Top": 0.0,
+                    "AnchoredPositionX": 0.0,
+                    "AnchoredPositionY": 0.0,
+                    "SizeDeltaX": 0.0,
+                    "SizeDeltaY": 0.0,
+                    "x": -667.0,
+                    "y": -375.0,
+                    "width": 1334.0,
+                    "height": 750.0
+                  },
+                  "size": {
+                    "width": 1334.0,
+                    "height": 750.0
+                  },
+                  "children": [
+                    {
+                      "name": "CloseBG",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 0.0,
+                            "height": 0.0
+                          },
+                          "alpha": 0,
+                          "depth": -1,
+                          "spType": "Simple"
+                        }
+                      ],
+                      "button": {
+                        "interactable": true,
+                        "Transition": "None"
+                      },
+                      "rect": {
+                        "AnchorMinX": 0.0,
+                        "AnchorMinY": 0.0,
+                        "AnchorMaxX": 1.0,
+                        "AnchorMaxY": 1.0,
+                        "PivotX": 0.5,
+                        "PivotY": 0.5,
+                        "Left": 0.0,
+                        "Botton": 0.0,
+                        "Right": 0.0,
+                        "Top": 0.0,
+                        "AnchoredPositionX": 0.0,
+                        "AnchoredPositionY": 0.0,
+                        "SizeDeltaX": 0.0,
+                        "SizeDeltaY": 0.0,
+                        "x": -667.0,
+                        "y": -375.0,
+                        "width": 1334.0,
+                        "height": 750.0
+                      },
+                      "size": {
+                        "width": 1334.0,
+                        "height": 750.0
+                      }
+                    },
+                    {
+                      "name": "Background",
+                      "pos": {
+                        "x": -261.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 522.0,
+                            "height": 618.0
+                          },
+                          "depth": -1,
+                          "spType": "Simple",
+                          "spName": "bk_03_amwsz",
+                          "atlas": "bk_03_amwsz"
+                        }
+                      ],
+                      "size": {
+                        "width": 522.0,
+                        "height": 618.0
+                      }
+                    },
+                    {
+                      "name": "Background",
+                      "pos": {
+                        "x": 261.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": -1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 522.0,
+                            "height": 618.0
+                          },
+                          "depth": -1,
+                          "spType": "Simple",
+                          "spName": "bk_03_amwsz",
+                          "atlas": "bk_03_amwsz"
+                        }
+                      ],
+                      "size": {
+                        "width": 522.0,
+                        "height": 618.0
+                      }
+                    },
+                    {
+                      "name": "Title",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 260.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 224.0,
+                            "height": 60.0
+                          },
+                          "depth": -1,
+                          "spType": "Simple",
+                          "spName": "tittle_01_amwsz",
+                          "atlas": "amwsz"
+                        }
+                      ],
+                      "size": {
+                        "width": 224.0,
+                        "height": 60.0
+                      }
+                    },
+                    {
+                      "name": "ScrollRect",
+                      "pos": {
+                        "x": 1.0,
+                        "y": -42.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 986.0,
+                            "height": 489.0
+                          },
+                          "alpha": 0,
+                          "depth": -1,
+                          "spType": "Simple"
+                        }
+                      ],
+                      "size": {
+                        "width": 986.0,
+                        "height": 489.0
+                      },
+                      "scrollView": {
+                        "horizontal": false,
+                        "vertical": true,
+                        "content": "Text",
+                        "movementType": 1
+                      },
+                      "children": [
+                        {
+                          "name": "Text",
+                          "pos": {
+                            "x": 0.0,
+                            "y": 244.5
+                          },
+                          "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "rotation": 0.0,
+                          "active": true,
+                          "components": [
+                            {
+                              "type": "UnityEngine.UI.Text",
+                              "size": {
+                                "width": 900.0,
+                                "height": 489.0
+                              },
+                              "color": "AE7D59",
+                              "depth": -1,
+                              "text": "",
+                              "fontSize": 25,
+                              "overflowH": 0,
+                              "overflowV": 1,
+                              "bestFit": false,
+                              "spacingY": 1.0,
+                              "alignment": 0
+                            }
+                          ],
+                          "rect": {
+                            "AnchorMinX": 0.5,
+                            "AnchorMinY": 1.0,
+                            "AnchorMaxX": 0.5,
+                            "AnchorMaxY": 1.0,
+                            "PivotX": 0.5,
+                            "PivotY": 1.0,
+                            "Left": -450.0,
+                            "Botton": -489.0,
+                            "Right": -450.0,
+                            "Top": 0.0,
+                            "AnchoredPositionX": 0.0,
+                            "AnchoredPositionY": 0.0,
+                            "SizeDeltaX": 900.0,
+                            "SizeDeltaY": 489.0,
+                            "x": -450.0,
+                            "y": -489.0,
+                            "width": 900.0,
+                            "height": 489.0
+                          },
+                          "size": {
+                            "width": 900.0,
+                            "height": 489.0
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "CloseButton",
+                      "pos": {
+                        "x": 511.4,
+                        "y": 254.4
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 68.0,
+                            "height": 68.0
+                          },
+                          "depth": -1,
+                          "spType": "Simple",
+                          "spName": "btn_00_amwsz",
+                          "atlas": "amwsz"
+                        }
+                      ],
+                      "button": {
+                        "interactable": true,
+                        "Transition": "ColorTint"
+                      },
+                      "size": {
+                        "width": 68.0,
+                        "height": 68.0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "SettingWindow",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": false,
+                  "canvas": true,
+                  "canvasRenderOrder": 1,
+                  "rect": {
+                    "AnchorMinX": 0.0,
+                    "AnchorMinY": 0.0,
+                    "AnchorMaxX": 1.0,
+                    "AnchorMaxY": 1.0,
+                    "PivotX": 0.5,
+                    "PivotY": 0.5,
+                    "Left": 0.0,
+                    "Botton": 0.0,
+                    "Right": 0.0,
+                    "Top": 0.0,
+                    "AnchoredPositionX": 0.0,
+                    "AnchoredPositionY": 0.0,
+                    "SizeDeltaX": 0.0,
+                    "SizeDeltaY": 0.0,
+                    "x": -667.0,
+                    "y": -375.0,
+                    "width": 1334.0,
+                    "height": 750.0
+                  },
+                  "size": {
+                    "width": 1334.0,
+                    "height": 750.0
+                  },
+                  "children": [
+                    {
+                      "name": "CloseBG",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 0.0,
+                            "height": 0.0
+                          },
+                          "alpha": 0,
+                          "depth": -1,
+                          "spType": "Simple"
+                        }
+                      ],
+                      "button": {
+                        "interactable": true,
+                        "Transition": "None"
+                      },
+                      "rect": {
+                        "AnchorMinX": 0.0,
+                        "AnchorMinY": 0.0,
+                        "AnchorMaxX": 1.0,
+                        "AnchorMaxY": 1.0,
+                        "PivotX": 0.5,
+                        "PivotY": 0.5,
+                        "Left": 0.0,
+                        "Botton": 0.0,
+                        "Right": 0.0,
+                        "Top": 0.0,
+                        "AnchoredPositionX": 0.0,
+                        "AnchoredPositionY": 0.0,
+                        "SizeDeltaX": 0.0,
+                        "SizeDeltaY": 0.0,
+                        "x": -667.0,
+                        "y": -375.0,
+                        "width": 1334.0,
+                        "height": 750.0
+                      },
+                      "size": {
+                        "width": 1334.0,
+                        "height": 750.0
+                      }
+                    },
+                    {
+                      "name": "Background",
+                      "pos": {
+                        "x": -149.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 298.0,
+                            "height": 342.0
+                          },
+                          "depth": -1,
+                          "spType": "Simple",
+                          "spName": "bk_02_amwsz",
+                          "atlas": "amwsz"
+                        }
+                      ],
+                      "size": {
+                        "width": 298.0,
+                        "height": 342.0
+                      }
+                    },
+                    {
+                      "name": "Background",
+                      "pos": {
+                        "x": 149.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": -1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 298.0,
+                            "height": 342.0
+                          },
+                          "depth": -1,
+                          "spType": "Simple",
+                          "spName": "bk_02_amwsz",
+                          "atlas": "amwsz"
+                        }
+                      ],
+                      "size": {
+                        "width": 298.0,
+                        "height": 342.0
+                      }
+                    },
+                    {
+                      "name": "TitleImage",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 137.5
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 200.0,
+                            "height": 58.0
+                          },
+                          "depth": -1,
+                          "spType": "Simple",
+                          "spName": "tittle_02_amwsz",
+                          "atlas": "amwsz"
+                        }
+                      ],
+                      "size": {
+                        "width": 200.0,
+                        "height": 58.0
+                      }
+                    },
+                    {
+                      "name": "Bgm",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 26.1
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "togglegroup": true,
+                      "size": {
+                        "width": 459.0,
+                        "height": 42.0
+                      },
+                      "children": [
+                        {
+                          "name": "Image",
+                          "pos": {
+                            "x": -112.9,
+                            "y": 0.0
+                          },
+                          "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "rotation": 0.0,
+                          "active": true,
+                          "components": [
+                            {
+                              "type": "UnityEngine.UI.Image",
+                              "size": {
+                                "width": 66.0,
+                                "height": 32.0
+                              },
+                              "depth": -1,
+                              "spType": "Simple",
+                              "spName": "font_07_amwsz",
+                              "atlas": "amwsz"
+                            }
+                          ],
+                          "size": {
+                            "width": 66.0,
+                            "height": 32.0
+                          }
+                        },
+                        {
+                          "name": "OpenToggle",
+                          "pos": {
+                            "x": 130.0,
+                            "y": 0.0
+                          },
+                          "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "rotation": 0.0,
+                          "active": true,
+                          "components": [
+                            {
+                              "type": "UnityEngine.UI.Image",
+                              "size": {
+                                "width": 86.5,
+                                "height": 42.0
+                              },
+                              "alpha": 0,
+                              "depth": -1,
+                              "spType": "Simple"
+                            }
+                          ],
+                          "toggle": {
+                            "Transition": "ColorTint",
+                            "checkmark": "Open"
+                          },
+                          "size": {
+                            "width": 86.5,
+                            "height": 42.0
+                          },
+                          "children": [
+                            {
+                              "name": "Background",
+                              "pos": {
+                                "x": -22.0,
+                                "y": 0.0
+                              },
+                              "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "rotation": 0.0,
+                              "active": true,
+                              "components": [
+                                {
+                                  "type": "UnityEngine.UI.Image",
+                                  "size": {
+                                    "width": 42.0,
+                                    "height": 42.0
+                                  },
+                                  "depth": -1,
+                                  "spType": "Simple",
+                                  "spName": "btn_06_amwsz",
+                                  "atlas": "amwsz"
+                                }
+                              ],
+                              "size": {
+                                "width": 42.0,
+                                "height": 42.0
+                              },
+                              "children": [
+                                {
+                                  "name": "Open",
+                                  "pos": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "rotation": 0.0,
+                                  "active": true,
+                                  "components": [
+                                    {
+                                      "type": "UnityEngine.UI.Image",
+                                      "size": {
+                                        "width": 42.0,
+                                        "height": 42.0
+                                      },
+                                      "depth": -1,
+                                      "spType": "Simple",
+                                      "spName": "btn_06_on_amwsz",
+                                      "atlas": "amwsz"
+                                    }
+                                  ],
+                                  "size": {
+                                    "width": 42.0,
+                                    "height": 42.0
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Image",
+                              "pos": {
+                                "x": 25.0,
+                                "y": 0.0
+                              },
+                              "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "rotation": 0.0,
+                              "active": true,
+                              "components": [
+                                {
+                                  "type": "UnityEngine.UI.Image",
+                                  "size": {
+                                    "width": 32.0,
+                                    "height": 30.0
+                                  },
+                                  "depth": -1,
+                                  "spType": "Simple",
+                                  "spName": "font_10_amwsz",
+                                  "atlas": "amwsz"
+                                }
+                              ],
+                              "size": {
+                                "width": 32.0,
+                                "height": 30.0
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "name": "CloseToggle",
+                          "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "rotation": 0.0,
+                          "active": true,
+                          "components": [
+                            {
+                              "type": "UnityEngine.UI.Image",
+                              "size": {
+                                "width": 86.5,
+                                "height": 42.0
+                              },
+                              "alpha": 0,
+                              "depth": -1,
+                              "spType": "Simple"
+                            }
+                          ],
+                          "toggle": {
+                            "Transition": "ColorTint",
+                            "checkmark": "Open"
+                          },
+                          "size": {
+                            "width": 86.5,
+                            "height": 42.0
+                          },
+                          "children": [
+                            {
+                              "name": "Background",
+                              "pos": {
+                                "x": -22.0,
+                                "y": 0.0
+                              },
+                              "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "rotation": 0.0,
+                              "active": true,
+                              "components": [
+                                {
+                                  "type": "UnityEngine.UI.Image",
+                                  "size": {
+                                    "width": 42.0,
+                                    "height": 42.0
+                                  },
+                                  "depth": -1,
+                                  "spType": "Simple",
+                                  "spName": "btn_06_amwsz",
+                                  "atlas": "amwsz"
+                                }
+                              ],
+                              "size": {
+                                "width": 42.0,
+                                "height": 42.0
+                              },
+                              "children": [
+                                {
+                                  "name": "Open",
+                                  "pos": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "rotation": 0.0,
+                                  "active": true,
+                                  "components": [
+                                    {
+                                      "type": "UnityEngine.UI.Image",
+                                      "size": {
+                                        "width": 42.0,
+                                        "height": 42.0
+                                      },
+                                      "depth": -1,
+                                      "spType": "Simple",
+                                      "spName": "btn_06_on_amwsz",
+                                      "atlas": "amwsz"
+                                    }
+                                  ],
+                                  "size": {
+                                    "width": 42.0,
+                                    "height": 42.0
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Image",
+                              "pos": {
+                                "x": 25.0,
+                                "y": 0.0
+                              },
+                              "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "rotation": 0.0,
+                              "active": true,
+                              "components": [
+                                {
+                                  "type": "UnityEngine.UI.Image",
+                                  "size": {
+                                    "width": 32.0,
+                                    "height": 30.0
+                                  },
+                                  "depth": -1,
+                                  "spType": "Simple",
+                                  "spName": "font_09_amwsz",
+                                  "atlas": "amwsz"
+                                }
+                              ],
+                              "size": {
+                                "width": 32.0,
+                                "height": 30.0
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Sound",
+                      "pos": {
+                        "x": 0.0,
+                        "y": -65.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "togglegroup": true,
+                      "size": {
+                        "width": 459.0,
+                        "height": 42.0
+                      },
+                      "children": [
+                        {
+                          "name": "Image",
+                          "pos": {
+                            "x": -112.9,
+                            "y": 0.0
+                          },
+                          "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "rotation": 0.0,
+                          "active": true,
+                          "components": [
+                            {
+                              "type": "UnityEngine.UI.Image",
+                              "size": {
+                                "width": 66.0,
+                                "height": 32.0
+                              },
+                              "depth": -1,
+                              "spType": "Simple",
+                              "spName": "font_08_amwsz",
+                              "atlas": "amwsz"
+                            }
+                          ],
+                          "size": {
+                            "width": 66.0,
+                            "height": 32.0
+                          }
+                        },
+                        {
+                          "name": "OpenToggle",
+                          "pos": {
+                            "x": 130.0,
+                            "y": 0.0
+                          },
+                          "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "rotation": 0.0,
+                          "active": true,
+                          "components": [
+                            {
+                              "type": "UnityEngine.UI.Image",
+                              "size": {
+                                "width": 86.5,
+                                "height": 42.0
+                              },
+                              "alpha": 0,
+                              "depth": -1,
+                              "spType": "Simple"
+                            }
+                          ],
+                          "toggle": {
+                            "Transition": "ColorTint",
+                            "checkmark": "Open"
+                          },
+                          "size": {
+                            "width": 86.5,
+                            "height": 42.0
+                          },
+                          "children": [
+                            {
+                              "name": "Background",
+                              "pos": {
+                                "x": -22.0,
+                                "y": 0.0
+                              },
+                              "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "rotation": 0.0,
+                              "active": true,
+                              "components": [
+                                {
+                                  "type": "UnityEngine.UI.Image",
+                                  "size": {
+                                    "width": 42.0,
+                                    "height": 42.0
+                                  },
+                                  "depth": -1,
+                                  "spType": "Simple",
+                                  "spName": "btn_06_amwsz",
+                                  "atlas": "amwsz"
+                                }
+                              ],
+                              "size": {
+                                "width": 42.0,
+                                "height": 42.0
+                              },
+                              "children": [
+                                {
+                                  "name": "Open",
+                                  "pos": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "rotation": 0.0,
+                                  "active": true,
+                                  "components": [
+                                    {
+                                      "type": "UnityEngine.UI.Image",
+                                      "size": {
+                                        "width": 42.0,
+                                        "height": 42.0
+                                      },
+                                      "depth": -1,
+                                      "spType": "Simple",
+                                      "spName": "btn_06_on_amwsz",
+                                      "atlas": "amwsz"
+                                    }
+                                  ],
+                                  "size": {
+                                    "width": 42.0,
+                                    "height": 42.0
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Image",
+                              "pos": {
+                                "x": 25.0,
+                                "y": 0.0
+                              },
+                              "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "rotation": 0.0,
+                              "active": true,
+                              "components": [
+                                {
+                                  "type": "UnityEngine.UI.Image",
+                                  "size": {
+                                    "width": 32.0,
+                                    "height": 30.0
+                                  },
+                                  "depth": -1,
+                                  "spType": "Simple",
+                                  "spName": "font_10_amwsz",
+                                  "atlas": "amwsz"
+                                }
+                              ],
+                              "size": {
+                                "width": 32.0,
+                                "height": 30.0
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "name": "CloseToggle",
+                          "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "rotation": 0.0,
+                          "active": true,
+                          "components": [
+                            {
+                              "type": "UnityEngine.UI.Image",
+                              "size": {
+                                "width": 86.5,
+                                "height": 42.0
+                              },
+                              "alpha": 0,
+                              "depth": -1,
+                              "spType": "Simple"
+                            }
+                          ],
+                          "toggle": {
+                            "Transition": "ColorTint",
+                            "checkmark": "Open"
+                          },
+                          "size": {
+                            "width": 86.5,
+                            "height": 42.0
+                          },
+                          "children": [
+                            {
+                              "name": "Background",
+                              "pos": {
+                                "x": -22.0,
+                                "y": 0.0
+                              },
+                              "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "rotation": 0.0,
+                              "active": true,
+                              "components": [
+                                {
+                                  "type": "UnityEngine.UI.Image",
+                                  "size": {
+                                    "width": 42.0,
+                                    "height": 42.0
+                                  },
+                                  "depth": -1,
+                                  "spType": "Simple",
+                                  "spName": "btn_06_amwsz",
+                                  "atlas": "amwsz"
+                                }
+                              ],
+                              "size": {
+                                "width": 42.0,
+                                "height": 42.0
+                              },
+                              "children": [
+                                {
+                                  "name": "Open",
+                                  "pos": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                  },
+                                  "rotation": 0.0,
+                                  "active": true,
+                                  "components": [
+                                    {
+                                      "type": "UnityEngine.UI.Image",
+                                      "size": {
+                                        "width": 42.0,
+                                        "height": 42.0
+                                      },
+                                      "depth": -1,
+                                      "spType": "Simple",
+                                      "spName": "btn_06_on_amwsz",
+                                      "atlas": "amwsz"
+                                    }
+                                  ],
+                                  "size": {
+                                    "width": 42.0,
+                                    "height": 42.0
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Image",
+                              "pos": {
+                                "x": 25.0,
+                                "y": 0.0
+                              },
+                              "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                              },
+                              "rotation": 0.0,
+                              "active": true,
+                              "components": [
+                                {
+                                  "type": "UnityEngine.UI.Image",
+                                  "size": {
+                                    "width": 32.0,
+                                    "height": 30.0
+                                  },
+                                  "depth": -1,
+                                  "spType": "Simple",
+                                  "spName": "font_09_amwsz",
+                                  "atlas": "amwsz"
+                                }
+                              ],
+                              "size": {
+                                "width": 32.0,
+                                "height": 30.0
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "CloseButton",
+                      "pos": {
+                        "x": 287.3,
+                        "y": 154.3
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Image",
+                          "size": {
+                            "width": 68.0,
+                            "height": 68.0
+                          },
+                          "depth": -1,
+                          "spType": "Simple",
+                          "spName": "btn_00_amwsz",
+                          "atlas": "amwsz"
+                        }
+                      ],
+                      "button": {
+                        "interactable": true,
+                        "Transition": "ColorTint"
+                      },
+                      "size": {
+                        "width": 68.0,
+                        "height": 68.0
+                      }
+                    },
+                    {
+                      "name": "VersionText",
+                      "pos": {
+                        "x": 232.0,
+                        "y": -150.6
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "components": [
+                        {
+                          "type": "UnityEngine.UI.Text",
+                          "size": {
+                            "width": 100.0,
+                            "height": 29.7
+                          },
+                          "depth": -1,
+                          "fontName": "MicrosoftYaHei",
+                          "text": "V1.0",
+                          "fontSize": 17,
+                          "overflowH": 1,
+                          "overflowV": 0,
+                          "bestFit": false,
+                          "spacingY": 1.0,
+                          "alignment": 5
+                        }
+                      ],
+                      "size": {
+                        "width": 100.0,
+                        "height": 29.7
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Skeletons",
+              "pos": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "rotation": 0.0,
+              "active": true,
+              "rect": {
+                "AnchorMinX": 0.0,
+                "AnchorMinY": 0.0,
+                "AnchorMaxX": 1.0,
+                "AnchorMaxY": 1.0,
+                "PivotX": 0.5,
+                "PivotY": 0.5,
+                "Left": 0.0,
+                "Botton": 0.0,
+                "Right": 0.0,
+                "Top": 0.0,
+                "AnchoredPositionX": 0.0,
+                "AnchoredPositionY": 0.0,
+                "SizeDeltaX": 0.0,
+                "SizeDeltaY": 0.0,
+                "x": -667.0,
+                "y": -375.0,
+                "width": 1334.0,
+                "height": 750.0
+              },
+              "size": {
+                "width": 1334.0,
+                "height": 750.0
+              },
+              "children": [
+                {
+                  "name": "Mask",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": false,
+                  "components": [
+                    {
+                      "type": "UnityEngine.UI.Image",
+                      "size": {
+                        "width": 0.0,
+                        "height": 0.0
+                      },
+                      "color": "000000",
+                      "alpha": 100,
+                      "depth": -1,
+                      "spType": "Simple"
+                    }
+                  ],
+                  "rect": {
+                    "AnchorMinX": 0.0,
+                    "AnchorMinY": 0.0,
+                    "AnchorMaxX": 1.0,
+                    "AnchorMaxY": 1.0,
+                    "PivotX": 0.5,
+                    "PivotY": 0.5,
+                    "Left": 0.0,
+                    "Botton": 0.0,
+                    "Right": 0.0,
+                    "Top": 0.0,
+                    "AnchoredPositionX": 0.0,
+                    "AnchoredPositionY": 0.0,
+                    "SizeDeltaX": 0.0,
+                    "SizeDeltaY": 0.0,
+                    "x": -667.0,
+                    "y": -375.0,
+                    "width": 1334.0,
+                    "height": 750.0
+                  },
+                  "size": {
+                    "width": 1334.0,
+                    "height": 750.0
+                  }
+                },
+                {
+                  "name": "BetSkeleton",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": false,
+                  "components": [
+                    {
+                      "type": "Spine.Unity.SkeletonGraphic",
+                      "size": {
+                        "width": 100.0,
+                        "height": 100.0
+                      },
+                      "depth": -1
+                    }
+                  ],
+                  "sg": {
+                    "startanimation": "start_bet",
+                    "loop": false,
+                    "timescale": 1.0,
+                    "initialSkinName": "default",
+                    "SkeletonDataAsset": "bet_SkeletonData"
+                  },
+                  "size": {
+                    "width": 100.0,
+                    "height": 100.0
+                  }
+                },
+                {
+                  "name": "StartBetParticle",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": false,
+                  "children": [
+                    {
+                      "name": "DCZZ_ball (1)",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "children": [
+                        {
+                          "name": "star",
+                          "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "rotation": 180.0,
+                          "active": true
+                        },
+                        {
+                          "name": "DCZZ_ball (2)",
+                          "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "rotation": 0.0,
+                          "active": true
+                        },
+                        {
+                          "name": "star2",
+                          "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "rotation": 0.0,
+                          "active": true
+                        }
+                      ]
+                    },
+                    {
+                      "name": "DCZZ_ball (2)",
+                      "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      "rotation": 0.0,
+                      "active": true,
+                      "children": [
+                        {
+                          "name": "star",
+                          "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "rotation": 180.0,
+                          "active": true
+                        },
+                        {
+                          "name": "DCZZ_ball (2)",
+                          "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "rotation": 0.0,
+                          "active": true
+                        },
+                        {
+                          "name": "star2",
+                          "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                          },
+                          "rotation": 0.0,
+                          "active": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "DealerOpenSkeleton",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": false,
+                  "components": [
+                    {
+                      "type": "Spine.Unity.SkeletonGraphic",
+                      "size": {
+                        "width": 100.0,
+                        "height": 100.0
+                      },
+                      "depth": -1
+                    }
+                  ],
+                  "sg": {
+                    "startanimation": "animation",
+                    "loop": false,
+                    "timescale": 1.0,
+                    "initialSkinName": "default",
+                    "SkeletonDataAsset": "banker_open_SkeletonData"
+                  },
+                  "size": {
+                    "width": 100.0,
+                    "height": 100.0
+                  }
+                },
+                {
+                  "name": "UserWinSkeleton",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": false,
+                  "components": [
+                    {
+                      "type": "Spine.Unity.SkeletonGraphic",
+                      "size": {
+                        "width": 100.0,
+                        "height": 100.0
+                      },
+                      "depth": -1
+                    }
+                  ],
+                  "sg": {
+                    "startanimation": "start",
+                    "loop": false,
+                    "timescale": 1.0,
+                    "initialSkinName": "default",
+                    "SkeletonDataAsset": "player_win_SkeletonData"
+                  },
+                  "size": {
+                    "width": 100.0,
+                    "height": 100.0
+                  }
+                },
+                {
+                  "name": "SWinSkeleton",
+                  "pos": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                  },
+                  "rotation": 0.0,
+                  "active": false,
+                  "components": [
+                    {
+                      "type": "Spine.Unity.SkeletonGraphic",
+                      "size": {
+                        "width": 100.0,
+                        "height": 100.0
+                      },
+                      "depth": -1
+                    }
+                  ],
+                  "sg": {
+                    "startanimation": "animation",
+                    "loop": false,
+                    "timescale": 1.0,
+                    "initialSkinName": "default",
+                    "SkeletonDataAsset": "s_win_SkeletonData"
+                  },
+                  "size": {
+                    "width": 100.0,
+                    "height": 100.0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+
+fish_rm02.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L
+  rotate: false
+  xy: 182, 73
+  size: 79, 63
+  orig: 79, 63
+  offset: 0, 0
+  index: -1
+R
+  rotate: false
+  xy: 331, 192
+  size: 76, 59
+  orig: 76, 59
+  offset: 0, 0
+  index: -1
+T
+  rotate: false
+  xy: 182, 138
+  size: 147, 113
+  orig: 147, 113
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 2
+  size: 178, 249
+  orig: 178, 249
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 331, 165
+  size: 24, 25
+  orig: 24, 25
+  offset: 0, 0
+  index: -1
+eyeball
+  rotate: false
+  xy: 263, 103
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 182, 18
+  size: 48, 53
+  orig: 48, 53
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,142 @@
+{
+"skeleton": { "hash": "SvCp340f7WK2Fok/SR7CTL+mfWA", "spine": "3.6.53", "width": 779, "height": 422, "images": "./images/" },
+"bones": [
+	{ "name": "root", "x": 24.42, "y": 27.91 },
+	{ "name": "main", "parent": "root", "length": 155.11, "rotation": 92.17, "x": -12.79, "y": -25.9 },
+	{ "name": "superwin", "parent": "main", "length": 78.07, "rotation": -2.79, "x": -43.45, "y": -5.59 },
+	{ "name": "f", "parent": "superwin", "length": 69.44, "rotation": 1.62, "x": 26.17, "y": -3.16 }
+],
+"slots": [
+	{ "name": "superwin", "bone": "superwin", "attachment": "superwin" },
+	{ "name": "superwin_00", "bone": "f", "attachment": "superwin_30", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"superwin": {
+			"superwin": { "x": 61.31, "y": 17.07, "rotation": -89.38, "width": 779, "height": 422 }
+		},
+		"superwin_00": {
+			"superwin_00": { "x": 49.14, "y": 20.98, "scaleX": 4.009, "scaleY": 4.009, "rotation": -91.02, "width": 177, "height": 85 },
+			"superwin_02": { "x": 49.14, "y": 20.98, "scaleX": 4.009, "scaleY": 4.009, "rotation": -91.02, "width": 177, "height": 85 },
+			"superwin_04": { "x": 49.14, "y": 20.98, "scaleX": 4.009, "scaleY": 4.009, "rotation": -91.02, "width": 177, "height": 85 },
+			"superwin_06": { "x": 49.14, "y": 20.98, "scaleX": 4.009, "scaleY": 4.009, "rotation": -91.02, "width": 177, "height": 85 },
+			"superwin_08": { "x": 49.14, "y": 20.98, "scaleX": 4.009, "scaleY": 4.009, "rotation": -91.02, "width": 177, "height": 85 },
+			"superwin_10": { "x": 49.14, "y": 20.98, "scaleX": 4.009, "scaleY": 4.009, "rotation": -91.02, "width": 177, "height": 85 },
+			"superwin_12": { "x": 49.14, "y": 20.98, "scaleX": 4.009, "scaleY": 4.009, "rotation": -91.02, "width": 177, "height": 85 },
+			"superwin_14": { "x": 49.14, "y": 20.98, "scaleX": 4.009, "scaleY": 4.009, "rotation": -91.02, "width": 177, "height": 85 },
+			"superwin_16": { "x": 49.14, "y": 20.98, "scaleX": 4.009, "scaleY": 4.009, "rotation": -91.02, "width": 177, "height": 85 },
+			"superwin_18": { "x": 49.14, "y": 20.98, "scaleX": 4.009, "scaleY": 4.009, "rotation": -91.02, "width": 177, "height": 85 },
+			"superwin_20": { "x": 49.14, "y": 20.98, "scaleX": 4.009, "scaleY": 4.009, "rotation": -91.02, "width": 177, "height": 85 },
+			"superwin_22": { "x": 49.14, "y": 20.98, "scaleX": 4.009, "scaleY": 4.009, "rotation": -91.02, "width": 177, "height": 85 },
+			"superwin_24": { "x": 49.14, "y": 20.98, "scaleX": 4.009, "scaleY": 4.009, "rotation": -91.02, "width": 177, "height": 85 },
+			"superwin_26": { "x": 49.14, "y": 20.98, "scaleX": 4.009, "scaleY": 4.009, "rotation": -91.02, "width": 177, "height": 85 },
+			"superwin_28": { "x": 49.14, "y": 20.98, "scaleX": 4.009, "scaleY": 4.009, "rotation": -91.02, "width": 177, "height": 85 },
+			"superwin_30": { "x": 49.14, "y": 20.98, "scaleX": 4.009, "scaleY": 4.009, "rotation": -91.02, "width": 177, "height": 85 }
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"slots": {
+			"superwin": {
+				"attachment": [
+					{ "time": 0, "name": "superwin" },
+					{ "time": 1, "name": "superwin" }
+				]
+			},
+			"superwin_00": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0667, "name": "superwin_00" },
+					{ "time": 0.1333, "name": "superwin_02" },
+					{ "time": 0.1667, "name": "superwin_04" },
+					{ "time": 0.2333, "name": "superwin_06" },
+					{ "time": 0.3, "name": "superwin_08" },
+					{ "time": 0.3667, "name": "superwin_10" },
+					{ "time": 0.4, "name": "superwin_12" },
+					{ "time": 0.4667, "name": "superwin_14" },
+					{ "time": 0.5333, "name": "superwin_16" },
+					{ "time": 0.6, "name": "superwin_18" },
+					{ "time": 0.6333, "name": "superwin_20" },
+					{ "time": 0.7, "name": "superwin_22" },
+					{ "time": 0.7667, "name": "superwin_24" },
+					{ "time": 0.8333, "name": "superwin_26" },
+					{ "time": 0.8667, "name": "superwin_28" },
+					{ "time": 0.9333, "name": "superwin_30" },
+					{ "time": 1, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"superwin": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 1.21, "y": 1.21 },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"f": {
+				"translate": [
+					{ "time": 0, "x": -4.42, "y": -0.13 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 1 }
+		]
+	},
+	"start": {
+		"slots": {
+			"superwin": {
+				"attachment": [
+					{ "time": 0, "name": "superwin" },
+					{ "time": 1, "name": "superwin" }
+				]
+			},
+			"superwin_00": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0667, "name": "superwin_00" },
+					{ "time": 0.1, "name": "superwin_02" },
+					{ "time": 0.1333, "name": "superwin_04" },
+					{ "time": 0.2, "name": "superwin_06" },
+					{ "time": 0.2667, "name": "superwin_08" },
+					{ "time": 0.3, "name": "superwin_10" },
+					{ "time": 0.3333, "name": "superwin_12" },
+					{ "time": 0.4, "name": "superwin_14" },
+					{ "time": 0.4667, "name": "superwin_16" },
+					{ "time": 0.5333, "name": "superwin_18" },
+					{ "time": 0.6, "name": "superwin_22" },
+					{ "time": 0.6667, "name": "superwin_24" },
+					{ "time": 0.7333, "name": "superwin_28" },
+					{ "time": 0.8, "name": "superwin_30" },
+					{ "time": 1, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"f": {
+				"translate": [
+					{ "time": 0, "x": -4.42, "y": -0.13 }
+				]
+			},
+			"main": {
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 1.4, "y": 1.4 },
+					{ "time": 0.2667, "x": 0.8, "y": 0.8 },
+					{ "time": 0.3333, "x": 1.1, "y": 1.1 },
+					{ "time": 0.4, "x": 0.9, "y": 0.9 },
+					{ "time": 0.4667, "x": 1.05, "y": 1.05 },
+					{ "time": 0.5333, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 1 }
+		]
+	}
+}
+}

@@ -1,0 +1,27 @@
+
+sp_g3.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blur
+  rotate: false
+  xy: 239, 18
+  size: 196, 219
+  orig: 196, 219
+  offset: 0, 0
+  index: -1
+sp_g3
+  rotate: false
+  xy: 437, 35
+  size: 199, 202
+  orig: 199, 202
+  offset: 0, 0
+  index: -1
+tallyRingGreen
+  rotate: false
+  xy: 2, 2
+  size: 235, 235
+  orig: 235, 235
+  offset: 0, 0
+  index: -1

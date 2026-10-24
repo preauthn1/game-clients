@@ -1,0 +1,62 @@
+
+free_spin.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3x5
+  rotate: false
+  xy: 385, 4
+  size: 189, 108
+  orig: 189, 108
+  offset: 0, 0
+  index: -1
+4x5
+  rotate: false
+  xy: 2, 3
+  size: 190, 109
+  orig: 190, 109
+  offset: 0, 0
+  index: -1
+5x5
+  rotate: false
+  xy: 576, 5
+  size: 189, 107
+  orig: 189, 107
+  offset: 0, 0
+  index: -1
+6x5
+  rotate: false
+  xy: 194, 2
+  size: 189, 110
+  orig: 189, 110
+  offset: 0, 0
+  index: -1
+t_3x5
+  rotate: false
+  xy: 767, 68
+  size: 200, 44
+  orig: 200, 44
+  offset: 0, 0
+  index: -1
+t_4x5
+  rotate: false
+  xy: 767, 22
+  size: 200, 44
+  orig: 200, 44
+  offset: 0, 0
+  index: -1
+t_5x5
+  rotate: false
+  xy: 969, 68
+  size: 200, 44
+  orig: 200, 44
+  offset: 0, 0
+  index: -1
+t_6x5
+  rotate: false
+  xy: 969, 22
+  size: 200, 44
+  orig: 200, 44
+  offset: 0, 0
+  index: -1

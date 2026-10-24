@@ -1,0 +1,153 @@
+<dragonBones name="fg_bkg_light2" frameRate="30" version="2.3">
+ <armature name="fg_bkg_light2_mov">
+  <bone name="fg_light2">
+   <transform x="364" y="-1008" skX="0" skY="0" scX="4" scY="4"/>
+  </bone>
+  <skin name="default">
+   <slot name="fg_light2" parent="fg_light2" z="0">
+    <display name="_pic/fg_bkg_light2_045" type="image">
+     <transform x="-82" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_light2_043" type="image">
+     <transform x="-82" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_light2_041" type="image">
+     <transform x="-82.5" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_light2_039" type="image">
+     <transform x="-82.5" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_light2_037" type="image">
+     <transform x="-82.5" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_light2_035" type="image">
+     <transform x="-82.5" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_light2_033" type="image">
+     <transform x="-81" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_light2_031" type="image">
+     <transform x="-76" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_light2_029" type="image">
+     <transform x="-74.5" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_light2_027" type="image">
+     <transform x="-78" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_light2_025" type="image">
+     <transform x="-80.5" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_light2_023" type="image">
+     <transform x="-81" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_light2_021" type="image">
+     <transform x="-80.5" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_light2_019" type="image">
+     <transform x="-74.5" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_light2_017" type="image">
+     <transform x="-76" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_light2_015" type="image">
+     <transform x="-82" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_light2_013" type="image">
+     <transform x="-83" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_light2_011" type="image">
+     <transform x="-82" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_light2_009" type="image">
+     <transform x="-82.5" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_light2_007" type="image">
+     <transform x="-81.5" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_light2_005" type="image">
+     <transform x="-82.5" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_light2_003" type="image">
+     <transform x="-83" y="-58.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_pic/fg_bkg_light2_001" type="image">
+     <transform x="-84" y="-58.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="fg_bkg_light2" fadeInTime="0" duration="45" scale="1" loop="0" autoTween="1" tweenEasing="NaN">
+   <timeline name="fg_light2" scale="1" offset="0">
+    <frame z="0" tweenEasing="NaN" duration="2">
+     <transform x="364" y="-1008" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" tweenEasing="NaN" duration="2">
+     <transform x="368" y="-1008" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" tweenEasing="NaN" duration="2">
+     <transform x="370" y="-1008" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" tweenEasing="NaN" duration="2">
+     <transform x="370" y="-1008" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" tweenEasing="NaN" duration="2">
+     <transform x="370" y="-1008" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" tweenEasing="NaN" duration="2">
+     <transform x="366" y="-1008" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" tweenEasing="NaN" duration="2">
+     <transform x="368" y="-1008" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="7" tweenEasing="NaN" duration="2">
+     <transform x="384" y="-1008" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="8" tweenEasing="NaN" duration="2">
+     <transform x="386" y="-1008" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="9" tweenEasing="NaN" duration="2">
+     <transform x="368" y="-1008" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="10" tweenEasing="NaN" duration="2">
+     <transform x="362" y="-1008" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="11" tweenEasing="NaN" duration="2">
+     <transform x="364" y="-1008" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="12" tweenEasing="NaN" duration="2">
+     <transform x="362" y="-1008" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="13" tweenEasing="NaN" duration="2">
+     <transform x="386" y="-1008" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="14" tweenEasing="NaN" duration="2">
+     <transform x="384" y="-1008" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="15" tweenEasing="NaN" duration="2">
+     <transform x="368" y="-1008" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="16" tweenEasing="NaN" duration="2">
+     <transform x="368" y="-1008" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="17" tweenEasing="NaN" duration="2">
+     <transform x="372" y="-1008" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="18" tweenEasing="NaN" duration="2">
+     <transform x="370" y="-1008" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="19" tweenEasing="NaN" duration="2">
+     <transform x="366" y="-1008" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="20" tweenEasing="NaN" duration="2">
+     <transform x="358" y="-1008" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="21" tweenEasing="NaN" duration="2">
+     <transform x="352" y="-1010" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="22" tweenEasing="NaN" duration="1">
+     <transform x="352" y="-1010" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

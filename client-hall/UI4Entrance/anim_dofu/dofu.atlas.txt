@@ -1,0 +1,41 @@
+
+dofu.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 2
+  size: 209, 205
+  orig: 209, 205
+  offset: 0, 0
+  index: -1
+cracker
+  rotate: false
+  xy: 411, 14
+  size: 52, 70
+  orig: 52, 70
+  offset: 0, 0
+  index: -1
+ff
+  rotate: false
+  xy: 411, 86
+  size: 162, 121
+  orig: 162, 121
+  offset: 0, 0
+  index: -1
+fu
+  rotate: false
+  xy: 213, 14
+  size: 196, 193
+  orig: 196, 193
+  offset: 0, 0
+  index: -1
+ribbon
+  rotate: false
+  xy: 575, 91
+  size: 95, 116
+  orig: 95, 116
+  offset: 0, 0
+  index: -1

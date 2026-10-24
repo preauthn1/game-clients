@@ -1,0 +1,55 @@
+
+hundred.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 32
+  size: 209, 205
+  orig: 209, 205
+  offset: 0, 0
+  index: -1
+c
+  rotate: false
+  xy: 725, 163
+  size: 95, 74
+  orig: 95, 74
+  offset: 0, 0
+  index: -1
+card
+  rotate: false
+  xy: 213, 86
+  size: 149, 151
+  orig: 149, 151
+  offset: 0, 0
+  index: -1
+d
+  rotate: false
+  xy: 633, 148
+  size: 90, 89
+  orig: 90, 89
+  offset: 0, 0
+  index: -1
+f1
+  rotate: false
+  xy: 364, 114
+  size: 141, 123
+  orig: 141, 123
+  offset: 0, 0
+  index: -1
+f2
+  rotate: false
+  xy: 2, 2
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+r
+  rotate: false
+  xy: 507, 116
+  size: 124, 121
+  orig: 124, 121
+  offset: 0, 0
+  index: -1

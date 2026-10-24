@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><PSDUI>
+<psdSize><width>1334</width><height>750</height></psdSize>
+<layers>
+<Layer><type>Normal</type><name>1_6</name><image>
+<name>1_6</name>
+<imageSource>Custom</imageSource>
+<imageType>Image</imageType>
+<position><x>519.5</x><y>182.5</y></position><size><width>231</width><height>207</height></size></image>
+</Layer>
+<Layer><type>Normal</type><name>百家乐_7</name><image>
+<name>百家乐_7</name>
+<imageSource>Custom</imageSource>
+<imageType>Image</imageType>
+<position><x>509</x><y>90</y></position><size><width>164</width><height>60</height></size></image>
+</Layer></layers>
+</PSDUI>

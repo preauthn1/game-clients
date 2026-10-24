@@ -1,0 +1,111 @@
+﻿@model  IEnumerable<GameVer>
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>GameVer</title>
+    <script src="https://example.invalid/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    @* <script src="https://example.invalid/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link href="https://example.invalid/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />*@
+    @* <script src="https://example.invalid/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>*@
+    <link rel="stylesheet" href="https://example.invalid/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://example.invalid/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://example.invalid/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <style>
+        .site-header {
+            background-color: rgba(0, 0, 0, .85);
+            -webkit-backdrop-filter: saturate(180%) blur(20px);
+            backdrop-filter: saturate(180%) blur(20px);
+        }
+
+            .site-header a {
+                color: #999;
+                transition: ease-in-out color .15s;
+            }
+
+                .site-header a:hover {
+                    color: #fff;
+                    text-decoration: none;
+                }
+    </style>
+</head>
+<body>
+    <nav class="site-header sticky-top py-1">
+        <div class="container d-flex flex-column flex-md-row justify-content-between">
+            <a class="py-2" href="#">
+                <svg xmlns="http://example.invalid/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
+            </a>
+            @Html.ActionLink("路由表管理", "Index", "Home", null, new { @class = "py-2 d-none d-md-inline-block" })
+            @Html.ActionLink("打包清單", "BuildList", "GameVer", null, new { @class = "py-2 d-none d-md-inline-block" })
+            @Html.ActionLink("遊戲版本管理", "Index", "GameVer", null, new { @class = "py-2 d-none d-md-inline-block" })
+        </div>
+    </nav>
+    @if (TempData["ErrorMsg"] != null)
+    {
+        <div class="alert alert-danger" role="alert" id="alert">
+           @TempData["ErrorMsg"]
+        </div>
+       <script>
+           $("#alert").fadeTo(2000, 500).slideUp(500, function () {
+               $("#success-alert").slideUp(500);
+           });
+
+       </script>
+    }
+   
+    <div class="container" style="width:1400px; max-width:1600px;">
+        <br />
+        <h2 align="center">遊戲版本管理 </h2><br />
+      
+        <br />
+        <div id="result">
+            <div class="table - responsive">
+                <table class="table table-striped table-sm">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>遊戲簡稱</th>
+                            <th>平台</th>
+                            <th>版本號</th>
+                            <th>修改時間</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (GameVer gv in Model)
+                        {
+                        <tr>
+                         <td>@Html.ActionLink("Edit", "Update", new
+                        {
+                            g = gv.Game,
+                            p = gv.Platform,                            
+                        })</td>
+                         <td>@gv.Game</td> 
+                         <td>@gv.Platform</td>
+                         <td>@gv.Ver</td>
+                         <td>@gv.UpdateAt.ToString("yyyy/MM/dd HH:mm")</td>
+                        
+                         <td>@Html.ActionLink("加入打包", "BuildGame", new
+                                {
+                                    g = gv.Game,
+                                    p = gv.Platform,    
+                                    v = gv.Ver                        
+                                })
+                            </td>
+                         </tr>
+                        }
+
+                    </tbody>
+                    
+                </table>
+            </div>
+        </div>
+        </div>
+</body>
+</html>
+

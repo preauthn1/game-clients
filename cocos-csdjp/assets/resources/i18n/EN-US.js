@@ -1,0 +1,100 @@
+'use strict';
+
+if (! window.i18n) {
+    window.i18n={};
+}
+
+if (! window.i18n.languages) {
+    window.i18n.languages={};
+}
+
+window.i18n.languages['EN-US']={
+    // write your key value pairs here
+    "label_text" : {
+        "小贴士" : "Tip：",
+        "自动成功" : "Auto is on，It will auto bet after this.",
+        "结算信息" : "Result",
+        "资料错误" : "Data Error",
+        "玩家资料错误" : "Player Data Error",
+        "玩家验证资料错误" : "Player Certification Error",
+        "游戏资讯错误" : "Game Data Error",
+        "正在连接服务器" : "Server Connecting",
+        "登入中" : "Login",
+        "确认资料中" : "Data Confirm",
+        "载入中" : "Loading",
+        "游戏载入中" : "Game Launch",
+        "等待游戏开始" : "Waiting For Game Start",
+        "正在尝试重新连接" : "Reconnect To The Server",
+        "当前不能下注" : "You can't bet now",
+        "当前下注倍数" : "Current Bet ####",
+        "请前往充值" : "You need to have #### coins to bet,please go to purchase coins.",
+        "携带金额不足" : "You don't have enough credits,please go to purchase credits.",
+        "携带金额不足请先充值" : "",
+        "前往充值后再来" : "You need to have #### coins to bet,please go to purchase coins.",
+        "退还押注成功" : "Return bet success",
+        "下注类型错误" : "Bet type error",
+        "请等待新一局游戏开始" : "Please waiting for a new game",
+        "押注失败" : "Insufficient Coins",
+        "金币不足" : "Insufficient Coins",
+        "总注数超过上限" : "Maximum Bet Limit",
+        "非下注階段":"Not betting phase",
+        "身上金币低于入场金额" : "not enouph chip, you will return to lobby.",
+        "您已经开启自动下注" : "Auto bet on",
+        "您已经取消自动下注" : "Auto bet off",
+        "开" : "on",
+        "关" : "off",
+        "最低投注" : "Min bets",
+        "最高投注" : "Max bets",
+        "亿" : "M",
+        "万" : "K",
+        "庄家不能下注" : "Banker Can't bet",
+        "你确定要上庄吗" : "你确定要上庄吗?",
+        "上庄最少需要金币" : "(上庄最少需要金币####)",
+        "与服务器连接断开,正在尝试重新连接..." : "Reconnect To The Server ...",
+		"您的账号在别处登录,您已被强制下线." : "Some one login your account,You have been logged out.",	
+		"服务器错误." : "Server Error",
+        // slot
+        "HistoryTitle":"History",
+        "HistoryFind0":"Today",
+        "HistoryFind1":"Last 7 days",
+        "HistoryFind2":"Last 30 days",
+        "HistoryFind3":"Custom",
+        "HistoryDate":"Date",
+        "HistoryOrder":"Order",
+        "HistoryStack":"Stack",
+        "HistoryReturns":"Returns",
+        "HistoryStart":"Start Date",
+        "HistoryEnd":"End Date",
+        "HistoryPage":"Page ####",
+        "chipTitle":"Coin Value",
+        // 游戏用
+        //symbol desc
+        "symbol_desc_p1":"",
+        "symbol_desc_p2":"",
+        "symbol_desc_p3":"",
+        "symbol_desc_p4":"",
+        "symbol_desc_p5":"",
+        "symbol_desc_p6":"",
+        "symbol_desc_p7":"",
+        "symbol_desc_p8":"",
+        "symbol_desc_p9":"",
+        "symbol_desc_p10":"",
+        "symbol_desc_p11":"",
+        "symbol_desc_s1":"3 or more scatter symbols on adjacent reels, starting with the leftmost reel, award PENTA DRAGONS FEATURE",
+        "symbol_desc_w1":"Substitutes for any symbol except {s1}. Only appears on reels 2,3 and 4.",
+        "symbol_desc_w2":"Substitutes for any symbol except {s1}. Only appears on reels 2,3 and 4.",
+        "symbol_desc_w3":"Substitutes for any symbol except {s1}. Only appears on reels 2,3 and 4.",
+        "symbol_desc_w4":"Substitutes for any symbol except {s1}. Only appears on reels 2,3 and 4.",
+        "symbol_desc_w5":"Substitutes for any symbol except {s1}. Only appears on reels 2,3 and 4.",
+        "symbol_desc_w6":"Substitutes for any symbol except {s1}. Only appears on reels 2,3 and 4.",
+        // paytable
+        "paytable3_0":"Wild substitutes for any symbol except {s1}.Only appears on reels 2,3,and 4.",
+        "paytable3_1":"3 or More Scatter symbols on adjacent reels,starting with the leftmost reel, award FEATURE GAME.",
+        "paytable4_0":"Feature can be triggered again during the free spin. Number of freatures remaining is represented by the number of {left} collected total bet is the same as game that triggered the feature. Return to player for all 5 feature is essentially the same.",
+        "paytable5_0":"Jackpot feature can be won at random during any bought game.\nWhen the jackpot feature is triggered 12 coin will appear.\nClicking a coin will reveal the symbol of an available jackpot.\nWhen 3 matching symbols have been revealed, the corresponding jackpot will be awarded and the feature ends.\nJackpot values are proportional to bet per spin.",
+        "paytable6_0":"There are 243 ways to win. All wins pay in any position from left to right on adjacent reels, beginning with the leftmost reel. Only the highest win per bet way is paid. Malfunction voids all pays and plays Total Bet = Bet x 50",
+        "paytable7_0":"Click the button to start your game. When reel spining , click again to fast stop.",
+        "paytable7_1":"Click the button to start auto spin.",
+        "paytable7_2":"Click the button to active TURBO SPIN.",
+       }
+};

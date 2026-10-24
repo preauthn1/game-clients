@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>百人牛牛</title>
+
+    <!--http://example.invalid/en/mobile/mobifying/-->
+    <meta name="viewport"
+          content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1"/>
+
+    <!--https://example.invalid/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- force webkit on 360 -->
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+    <!-- force edge on IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- force full screen on some browser -->
+    <meta name="full-screen" content="yes"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+
+    <!-- force screen orientation on some browser -->
+    <meta name="screen-orientation" content="landscape"/>
+    <meta name="x5-orientation" content="landscape">
+
+    <!--fix fireball/issues/3568 -->
+    <!--<meta name="browsermode" content="application">-->
+    <meta name="x5-page-mode" content="app">
+
+    <!--<link rel="apple-touch-icon" href=".png" />-->
+    <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
+
+    <!--<link rel="stylesheet" type="text/css" href="style-mobile.css"/>-->
+    <style>html {
+        -ms-touch-action: none;
+    }
+
+    body, canvas, div {
+        display: block;
+        outline: none;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        -khtml-user-select: none;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    /* Remove spin of input type number */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        /* display: none; <- Crashes Chrome on hover */
+        -webkit-appearance: none;
+        margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+    }
+
+    body {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        border: 0;
+        margin: 0;
+
+        cursor: default;
+        color: #888;
+        background-color: #333;
+
+        text-align: center;
+        font-family: Helvetica, Verdana, Arial, sans-serif;
+
+        display: flex;
+        flex-direction: column;
+
+        /* fix bug: https://example.invalid/cocos-creator/2d-tasks/issues/791 */
+        /* overflow cannot be applied in Cocos2dGameContainer, 
+        otherwise child elements will be hidden when Cocos2dGameContainer rotated 90 deg */
+        overflow: hidden;
+    }
+
+    #Cocos2dGameContainer {
+        position: absolute;
+        margin: 0;
+        left: 0px;
+        top: 0px;
+
+        display: -webkit-box;
+        -webkit-box-orient: horizontal;
+        -webkit-box-align: center;
+        -webkit-box-pack: center;
+    }
+
+    canvas {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    a:link, a:visited {
+        color: #666;
+    }
+
+    a:active, a:hover {
+        color: #666;
+    }
+
+    p.header {
+        font-size: small;
+    }
+
+    p.footer {
+        font-size: x-small;
+    }
+
+    #splash {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #171717 url("data:image/png;base64,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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwObZtu3/AfQm9P5/dlpcAAAAAElFTkSuQmCC") no-repeat center;
+        background-size: 100%;
+    }
+
+    .progress-bar {
+        position: absolute;
+        left: 27.5%;
+        top: 80%;
+        height: 3px;
+        padding: 2px;
+        width: 45%;
+        border-radius: 7px;
+        box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+    }
+
+    .progress-bar span {
+        display: block;
+        height: 100%;
+        border-radius: 3px;
+        transition: width .4s ease-in-out;
+        background-color: #3dc5de;
+    }
+
+    .stripes span {
+        background-size: 30px 30px;
+        background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+        transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+        transparent 75%, transparent);
+
+        animation: animate-stripes 1s linear infinite;
+    }
+
+    @keyframes animate-stripes {
+        0% {
+            background-position: 0 0;
+        }
+        100% {
+            background-position: 60px 0;
+        }
+    }
+    </style>
+    <link rel="icon" href="favicon.ico"/>
+</head>
+<body>
+<canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
+<div id="splash">
+    <!--
+    <div class="progress-bar stripes">
+      <span style="width: 0%"></span>
+    </div>
+    -->
+</div>
+
+<script src="src/settings.js" charset="utf-8"></script>
+
+<script src="main.js" charset="utf-8"></script>
+
+<script type="text/javascript">
+    (function () {
+        // open web debugger console
+        if (typeof VConsole !== 'undefined') {
+            window.vConsole=new VConsole();
+        }
+
+        var splash=document.getElementById('splash');
+        splash.style.display='block';
+
+        var cocos2d=document.createElement('script');
+        cocos2d.async=true;
+        cocos2d.src=window._CCSettings.debug ? 'cocos2d-js.js' : 'cocos2d-js-min.js';
+
+        var engineLoaded=function () {
+            document.body.removeChild(cocos2d);
+            cocos2d.removeEventListener('load', engineLoaded, false);
+            window.boot();
+        };
+        cocos2d.addEventListener('load', engineLoaded, false);
+        document.body.appendChild(cocos2d);
+    })();
+</script>
+</body>
+</html>

@@ -1,0 +1,235 @@
+{
+"skeleton": { "hash": "StGwjHnQIExdNGTMSfk7/EwpjSU", "spine": "3.6.53", "width": 126, "height": 132, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "blur", "parent": "root", "length": 55.79, "rotation": 92.14, "x": -2.02, "y": -25.8 },
+	{ "name": "straw", "parent": "root", "length": 51.58, "rotation": 90.58, "x": -0.98, "y": -28.93 },
+	{ "name": "shadow", "parent": "straw", "length": 55.27, "rotation": 1.58, "x": -14.07, "y": 0.14 }
+],
+"slots": [
+	{ "name": "shadow", "bone": "shadow", "attachment": "shadow" },
+	{ "name": "straw", "bone": "straw", "attachment": "straw" },
+	{ "name": "blur", "bone": "blur", "attachment": "blur" }
+],
+"skins": {
+	"default": {
+		"blur": {
+			"blur": { "x": 26.03, "y": -2.56, "rotation": -92.14, "width": 126, "height": 132 }
+		},
+		"shadow": {
+			"shadow": { "x": 41.75, "y": -2.12, "rotation": -92.16, "width": 126, "height": 109 }
+		},
+		"straw": {
+			"straw": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -17.37, -59.38, -16.18, 57.62, 83.81, 56.61, 82.63, -60.39 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 117,
+				"height": 100
+			}
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"slots": {
+			"blur": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": "shadow" }
+				]
+			},
+			"straw": {
+				"attachment": [
+					{ "time": 0, "name": "straw" }
+				]
+			}
+		},
+		"bones": {
+			"shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"straw": {
+					"straw": [
+						{ "time": 0 }
+					]
+				}
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"spin": {
+		"slots": {
+			"blur": {
+				"attachment": [
+					{ "time": 0, "name": "blur" }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"straw": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"straw": {
+					"straw": [
+						{ "time": 0 }
+					]
+				}
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"stop": {
+		"slots": {
+			"blur": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": "shadow" }
+				]
+			},
+			"straw": {
+				"attachment": [
+					{ "time": 0, "name": "straw" }
+				]
+			}
+		},
+		"bones": {
+			"shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"straw": {
+					"straw": [
+						{ "time": 0 }
+					]
+				}
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"win": {
+		"slots": {
+			"blur": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1, "name": null }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": "shadow" },
+					{ "time": 0.3333, "name": "shadow" },
+					{ "time": 1, "name": "shadow" }
+				]
+			},
+			"straw": {
+				"attachment": [
+					{ "time": 0, "name": "straw" },
+					{ "time": 1, "name": "straw" }
+				]
+			}
+		},
+		"bones": {
+			"straw": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.3333, "x": 1.382, "y": 0.914 },
+					{ "time": 0.5, "x": 0.973, "y": 1.138 },
+					{ "time": 0.6667, "x": 1.114, "y": 1.006 },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"straw": {
+					"straw": [
+						{ "time": 0, "curve": "stepped" },
+						{ "time": 1 }
+					]
+				}
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 1 }
+		]
+	}
+}
+}

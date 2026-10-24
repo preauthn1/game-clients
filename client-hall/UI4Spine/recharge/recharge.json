@@ -1,0 +1,189 @@
+{
+"skeleton": { "hash": "Zh9ldENSz00CWFPORFBgS8A31Ns", "spine": "3.6.53", "width": 280, "height": 146, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "SHOP", "parent": "root", "length": 37.52, "rotation": 86.27, "x": 48.85, "y": 35.14 },
+	{ "name": "cart", "parent": "root", "length": 44.79, "rotation": 91.56, "x": -49.64, "y": -9.63 },
+	{ "name": "cart2", "parent": "cart", "length": 46.39, "rotation": -2.86, "x": -2.63, "y": 1.07 },
+	{ "name": "coin01", "parent": "root", "length": 39.15, "rotation": 86.42, "x": 34.61, "y": -18.59 },
+	{ "name": "flash", "parent": "root", "length": 31.43, "rotation": 85.54, "x": 96.88, "y": 36.36 },
+	{ "name": "flash2", "parent": "root", "length": 29.33, "rotation": 87.61, "x": -16.27, "y": 15.19 },
+	{ "name": "money", "parent": "root", "length": 31.79, "rotation": 87.06, "x": -103.36, "y": -25.51 }
+],
+"slots": [
+	{ "name": "money", "bone": "money", "attachment": "money" },
+	{ "name": "cart", "bone": "cart", "attachment": "cart" },
+	{ "name": "cart_00", "bone": "cart2", "blend": "additive" },
+	{ "name": "coin01", "bone": "coin01", "attachment": "coin01" },
+	{ "name": "flash2", "bone": "flash2", "attachment": "flash2", "blend": "additive" },
+	{ "name": "SHOP", "bone": "SHOP", "attachment": "SHOP" },
+	{ "name": "flash", "bone": "flash", "attachment": "flash", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"SHOP": {
+			"SHOP": { "x": 5, "y": 4.53, "rotation": -86.27, "width": 132, "height": 40 }
+		},
+		"cart": {
+			"cart": { "x": 15.08, "y": 19.3, "rotation": -91.56, "width": 162, "height": 123 }
+		},
+		"cart_00": {
+			"cart_00": { "x": 16.4, "y": 20.4, "scaleX": 1.926, "scaleY": 1.926, "rotation": -87.62, "width": 81, "height": 62 },
+			"cart_02": { "x": 16.4, "y": 20.4, "scaleX": 1.926, "scaleY": 1.926, "rotation": -87.62, "width": 81, "height": 62 },
+			"cart_04": { "x": 16.4, "y": 20.4, "scaleX": 1.926, "scaleY": 1.926, "rotation": -87.62, "width": 81, "height": 62 },
+			"cart_06": { "x": 16.4, "y": 20.4, "scaleX": 1.926, "scaleY": 1.926, "rotation": -87.62, "width": 81, "height": 62 },
+			"cart_08": { "x": 16.4, "y": 20.4, "scaleX": 1.926, "scaleY": 1.926, "rotation": -87.62, "width": 81, "height": 62 },
+			"cart_10": { "x": 16.4, "y": 20.4, "scaleX": 1.926, "scaleY": 1.926, "rotation": -87.62, "width": 81, "height": 62 },
+			"cart_12": { "x": 16.4, "y": 20.4, "scaleX": 1.926, "scaleY": 1.926, "rotation": -87.62, "width": 81, "height": 62 },
+			"cart_14": { "x": 16.4, "y": 20.4, "scaleX": 1.926, "scaleY": 1.926, "rotation": -87.62, "width": 81, "height": 62 }
+		},
+		"coin01": {
+			"coin01": { "x": 39.4, "y": 10.93, "rotation": -86.42, "width": 207, "height": 128 }
+		},
+		"flash": {
+			"flash": { "x": 0.42, "y": 8.28, "rotation": -85.54, "width": 82, "height": 96 }
+		},
+		"flash2": {
+			"flash2": { "x": 1.18, "y": 1.13, "rotation": -87.61, "width": 156, "height": 146 }
+		},
+		"money": {
+			"money": { "x": 8.18, "y": 4.9, "rotation": -87.06, "width": 67, "height": 57 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"SHOP": {
+				"attachment": [
+					{ "time": 0, "name": "SHOP" }
+				]
+			},
+			"cart": {
+				"attachment": [
+					{ "time": 0, "name": "cart" }
+				]
+			},
+			"cart_00": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3333, "name": "cart_00" },
+					{ "time": 0.4, "name": "cart_02" },
+					{ "time": 0.4667, "name": "cart_04" },
+					{ "time": 0.5333, "name": "cart_06" },
+					{ "time": 0.6, "name": "cart_08" },
+					{ "time": 0.6667, "name": "cart_10" },
+					{ "time": 0.7333, "name": "cart_12" },
+					{ "time": 0.8, "name": "cart_14" },
+					{ "time": 0.8667, "name": null }
+				]
+			},
+			"coin01": {
+				"attachment": [
+					{ "time": 0, "name": "coin01" }
+				]
+			},
+			"flash": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffeb" },
+					{ "time": 1.8667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "flash" }
+				]
+			},
+			"flash2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" },
+					{ "time": 0.7667, "color": "fffffff8" },
+					{ "time": 1.3333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "flash2" }
+				]
+			},
+			"money": {
+				"attachment": [
+					{ "time": 0, "name": "money" }
+				]
+			}
+		},
+		"bones": {
+			"money": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1, "x": 1.096, "y": 1.077 },
+					{ "time": 2.6667, "x": 1, "y": 1 }
+				]
+			},
+			"flash2": {
+				"rotate": [
+					{ "time": 0.2, "angle": 0 },
+					{ "time": 1.1667, "angle": -33.4 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.612, "y": 0.612 },
+					{ "time": 0.6, "x": 1, "y": 1 },
+					{ "time": 1.0667, "x": 0.3, "y": 0.3 },
+					{ "time": 2.6667, "x": 0.612, "y": 0.612 }
+				]
+			},
+			"flash": {
+				"rotate": [
+					{ "time": 0.8333, "angle": 0 },
+					{ "time": 1.8, "angle": -98.95 }
+				],
+				"scale": [
+					{ "time": 0.8333, "x": 0.604, "y": 0.604 },
+					{ "time": 1.3333, "x": 1.637, "y": 1.155 },
+					{ "time": 1.7667, "x": 0, "y": 0 }
+				]
+			},
+			"coin01": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1, "x": 0.29, "y": 4.64 },
+					{ "time": 2.6667, "x": 0, "y": 0 }
+				]
+			},
+			"cart": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1, "x": 1.066, "y": 1.066 },
+					{ "time": 2.6667, "x": 1, "y": 1 }
+				]
+			},
+			"SHOP": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 },
+					{ "time": 1.8333, "x": 1.1, "y": 1.1 },
+					{ "time": 2.6667, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6667, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 2.6667 }
+		]
+	}
+}
+}

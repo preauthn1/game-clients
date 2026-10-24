@@ -1,0 +1,11 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/Fish4/Sprite/effects/Coin/CoinAtlas.tpsheet
+- Assets/FishArcade/Sprite/effects/Coin/CoinAtlas.tpsheet
+textureFileNames:
+- Assets/Fish4/Sprite/effects/Coin/CoinAtlas.png
+- Assets/FishArcade/Sprite/effects/Coin/CoinAtlas.png
+normalmapFileNames:
+- 
+- 

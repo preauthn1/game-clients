@@ -1,0 +1,160 @@
+
+sp_g2.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+g01
+  rotate: false
+  xy: 253, 26
+  size: 230, 223
+  orig: 230, 223
+  offset: 0, 0
+  index: -1
+g02
+  rotate: false
+  xy: 1284, 570
+  size: 203, 198
+  orig: 203, 198
+  offset: 0, 0
+  index: -1
+icon_01_bonus
+  rotate: false
+  xy: 1489, 614
+  size: 170, 154
+  orig: 170, 154
+  offset: 0, 0
+  index: -1
+light_C_01
+  rotate: true
+  xy: 2, 509
+  size: 256, 252
+  orig: 256, 252
+  offset: 0, 0
+  index: -1
+light_C_03
+  rotate: false
+  xy: 259, 770
+  size: 256, 252
+  orig: 256, 252
+  offset: 0, 0
+  index: -1
+light_C_05
+  rotate: true
+  xy: 2, 251
+  size: 256, 252
+  orig: 256, 252
+  offset: 0, 0
+  index: -1
+light_C_07
+  rotate: false
+  xy: 517, 770
+  size: 256, 252
+  orig: 256, 252
+  offset: 0, 0
+  index: -1
+light_C_09
+  rotate: false
+  xy: 775, 770
+  size: 256, 252
+  orig: 256, 252
+  offset: 0, 0
+  index: -1
+light_C_11
+  rotate: false
+  xy: 1033, 770
+  size: 256, 252
+  orig: 256, 252
+  offset: 0, 0
+  index: -1
+light_C_13
+  rotate: false
+  xy: 1291, 770
+  size: 256, 252
+  orig: 256, 252
+  offset: 0, 0
+  index: -1
+light_C_15
+  rotate: false
+  xy: 1549, 770
+  size: 256, 252
+  orig: 256, 252
+  offset: 0, 0
+  index: -1
+light_C_17
+  rotate: true
+  xy: 256, 509
+  size: 256, 252
+  orig: 256, 252
+  offset: 0, 0
+  index: -1
+light_C_19
+  rotate: true
+  xy: 256, 251
+  size: 256, 252
+  orig: 256, 252
+  offset: 0, 0
+  index: -1
+light_C_21
+  rotate: false
+  xy: 510, 516
+  size: 256, 252
+  orig: 256, 252
+  offset: 0, 0
+  index: -1
+light_C_23
+  rotate: false
+  xy: 510, 262
+  size: 256, 252
+  orig: 256, 252
+  offset: 0, 0
+  index: -1
+light_C_25
+  rotate: false
+  xy: 768, 516
+  size: 256, 252
+  orig: 256, 252
+  offset: 0, 0
+  index: -1
+light_C_27
+  rotate: false
+  xy: 768, 262
+  size: 256, 252
+  orig: 256, 252
+  offset: 0, 0
+  index: -1
+light_C_29
+  rotate: false
+  xy: 1026, 516
+  size: 256, 252
+  orig: 256, 252
+  offset: 0, 0
+  index: -1
+ray
+  rotate: true
+  xy: 2, 2
+  size: 247, 249
+  orig: 247, 249
+  offset: 0, 0
+  index: -1
+ring
+  rotate: false
+  xy: 2, 767
+  size: 255, 255
+  orig: 255, 255
+  offset: 0, 0
+  index: -1
+symbol_b_g2
+  rotate: false
+  xy: 1026, 286
+  size: 220, 228
+  orig: 220, 228
+  offset: 0, 0
+  index: -1
+tallyRingYellow
+  rotate: false
+  xy: 1807, 787
+  size: 235, 235
+  orig: 235, 235
+  offset: 0, 0
+  index: -1

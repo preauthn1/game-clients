@@ -1,0 +1,62 @@
+
+bowl_jgyf.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bowl
+  rotate: false
+  xy: 431, 141
+  size: 215, 110
+  orig: 215, 110
+  offset: 0, 0
+  index: -1
+lid1
+  rotate: false
+  xy: 224, 116
+  size: 205, 135
+  orig: 205, 135
+  offset: 0, 0
+  index: -1
+lid1_b
+  rotate: false
+  xy: 648, 137
+  size: 200, 114
+  orig: 200, 114
+  offset: 0, 0
+  index: -1
+lid2
+  rotate: false
+  xy: 2, 106
+  size: 220, 145
+  orig: 220, 145
+  offset: 0, 0
+  index: -1
+m1
+  rotate: false
+  xy: 2, 2
+  size: 200, 25
+  orig: 200, 25
+  offset: 0, 0
+  index: -1
+m2
+  rotate: false
+  xy: 643, 95
+  size: 200, 40
+  orig: 200, 40
+  offset: 0, 0
+  index: -1
+m3
+  rotate: false
+  xy: 431, 84
+  size: 210, 55
+  orig: 210, 55
+  offset: 0, 0
+  index: -1
+m4
+  rotate: false
+  xy: 2, 29
+  size: 205, 75
+  orig: 205, 75
+  offset: 0, 0
+  index: -1

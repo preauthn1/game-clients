@@ -1,0 +1,1 @@
+{"__type__":"controller","name":"Crab","layer":{"Base Layer":{"defaultState":"appear","state":[{"name":"appear","motion":"Crab_move"}]}},"clip":["Crab_move"]}

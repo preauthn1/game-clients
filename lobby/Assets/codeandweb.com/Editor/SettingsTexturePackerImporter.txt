@@ -1,0 +1,8 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/Slot88/UI_slot88/slot88.tpsheet
+textureFileNames:
+- Assets/Slot88/UI_slot88/slot88.png
+normalmapFileNames:
+- 

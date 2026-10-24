@@ -1,0 +1,12 @@
+{
+  "name": "Roulette3D",
+  "uuid": "c132d214-47fa-40b5-886b-1207bf0d92dd",
+  "version": "3.6.2",
+  "creator": {
+    "version": "3.6.2"
+  },
+  "dependencies": {
+    "long": "^5.2.1",
+    "protobufjs": "^7.2.0"
+  }
+}

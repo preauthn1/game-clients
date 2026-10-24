@@ -1,0 +1,76 @@
+
+chest.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chest
+  rotate: false
+  xy: 2, 114
+  size: 156, 133
+  orig: 156, 133
+  offset: 0, 0
+  index: -1
+coin01
+  rotate: false
+  xy: 124, 88
+  size: 28, 24
+  orig: 28, 24
+  offset: 0, 0
+  index: -1
+coin02
+  rotate: false
+  xy: 392, 218
+  size: 31, 29
+  orig: 31, 29
+  offset: 0, 0
+  index: -1
+coin03
+  rotate: false
+  xy: 83, 42
+  size: 30, 24
+  orig: 30, 24
+  offset: 0, 0
+  index: -1
+coin04
+  rotate: false
+  xy: 291, 155
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+coin05
+  rotate: false
+  xy: 2, 2
+  size: 50, 29
+  orig: 50, 29
+  offset: 0, 0
+  index: -1
+coin06
+  rotate: false
+  xy: 83, 68
+  size: 39, 44
+  orig: 39, 44
+  offset: 0, 0
+  index: -1
+coin_box
+  rotate: false
+  xy: 291, 197
+  size: 99, 50
+  orig: 99, 50
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 2, 33
+  size: 79, 79
+  orig: 79, 79
+  offset: 0, 0
+  index: -1
+light_temp
+  rotate: false
+  xy: 160, 121
+  size: 129, 126
+  orig: 129, 126
+  offset: 0, 0
+  index: -1

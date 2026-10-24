@@ -1,0 +1,45 @@
+未完成的部分
+ 多國語言
+ 音效
+ 動畫.特效
+ 文字要換圖字
+ UIMainGame 文字要換圖字
+ UILightning 前景動畫
+ UISymbolDetail 介面.特效.文字要換圖字
+ UIJackpotMoney 介面.特效.文字要換圖字
+ UIBigWin 特效.文字要換圖字
+ UICutscene (進Lightning)
+ UIPayTable 文字要換圖字.多國語言
+
+完成的部分
+--介面
+ UIFreeSpin
+ UILightning
+ UIPayTable 排版
+ UIChip下注額介面
+ UISetting設定介面
+ UIHistory歷史介面
+ UIMessage訊息介面
+
+-- 功能
+ near win判斷
+ 熊貓中獎動畫
+ 熊貓切lightning game動畫
+ 盤面中獎表演
+ goldball觸發表演
+ lightning game 鎖輪功能
+ lightning game 計算得分功能
+ UISetting設定介面
+ UIHistory歷史介面
+ UIMessage訊息介面
+ UIChip下注額介面
+
+--特效.動畫
+ moneybag_board
+ nw
+ respin_board
+ scroll
+ win_board
+ npc_panda
+ symbol
+ win

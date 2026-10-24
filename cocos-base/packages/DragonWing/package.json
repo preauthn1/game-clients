@@ -1,0 +1,13 @@
+{
+  "name": "dragonbonexmljson",
+  "version": "0.0.1",
+  "description": "DragonBone XML to JSON",
+  "author": "Cocos Creator",
+  "main": "main.js",
+  "scene-script": "dragonbonexmljson.js",
+  "main-menu": {
+    "i18n:MAIN_MENU.package.title/Dragon XML to JSON": {
+      "message": "dragonbonexmljson:transfrome"
+    }
+  }
+}

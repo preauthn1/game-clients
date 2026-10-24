@@ -1,0 +1,62 @@
+
+sp_p4.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coin
+  rotate: false
+  xy: 474, 143
+  size: 366, 366
+  orig: 366, 366
+  offset: 0, 0
+  index: -1
+fin01
+  rotate: false
+  xy: 1494, 379
+  size: 111, 130
+  orig: 111, 130
+  offset: 0, 0
+  index: -1
+fin02
+  rotate: false
+  xy: 154, 56
+  size: 128, 96
+  orig: 128, 96
+  offset: 0, 0
+  index: -1
+fish
+  rotate: false
+  xy: 2, 154
+  size: 470, 355
+  orig: 470, 355
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 842, 143
+  size: 366, 366
+  orig: 366, 366
+  offset: 0, 0
+  index: -1
+symbol_b_p4
+  rotate: false
+  xy: 2, 2
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+water01
+  rotate: false
+  xy: 1210, 213
+  size: 282, 296
+  orig: 282, 296
+  offset: 0, 0
+  index: -1
+water02
+  rotate: true
+  xy: 1494, 265
+  size: 112, 87
+  orig: 112, 87
+  offset: 0, 0
+  index: -1

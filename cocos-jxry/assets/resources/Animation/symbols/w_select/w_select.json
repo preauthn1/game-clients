@@ -1,0 +1,101 @@
+{
+"skeleton": { "hash": "Tz5TUukHufOHY84PzAwtju0TsUU", "spine": "3.6.53", "width": 214, "height": 383, "images": "./image/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "w_select", "parent": "root", "length": 117.02, "rotation": 89.02, "x": -2, "y": -29 },
+	{ "name": "flame", "parent": "w_select", "length": 129.97, "rotation": -0.12, "x": -13.54, "y": -2.6 }
+],
+"slots": [
+	{ "name": "flame_00", "bone": "flame", "attachment": "flame_29" },
+	{ "name": "w_select", "bone": "w_select", "attachment": "w_select" }
+],
+"skins": {
+	"default": {
+		"flame_00": {
+			"flame_00": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_01": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_02": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_03": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_04": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_05": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_06": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_07": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_08": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_09": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_10": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_11": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_12": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_13": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_14": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_15": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_16": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_17": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_18": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_19": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_20": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_21": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_22": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_23": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_24": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_25": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_26": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_27": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_28": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 },
+			"flame_29": { "x": 132.84, "y": 2.55, "rotation": -88.9, "width": 214, "height": 383 }
+		},
+		"w_select": {
+			"w_select": { "x": 25.93, "y": -1.66, "rotation": -89.02, "width": 180, "height": 181 }
+		}
+	}
+},
+"animations": {
+	"entrance": {
+		"slots": {
+			"flame_00": {
+				"attachment": [
+					{ "time": 0, "name": "flame_00" },
+					{ "time": 0.0333, "name": "flame_01" },
+					{ "time": 0.0667, "name": "flame_02" },
+					{ "time": 0.1, "name": "flame_03" },
+					{ "time": 0.1333, "name": "flame_04" },
+					{ "time": 0.1667, "name": "flame_05" },
+					{ "time": 0.2, "name": "flame_06" },
+					{ "time": 0.2333, "name": "flame_07" },
+					{ "time": 0.2667, "name": "flame_08" },
+					{ "time": 0.3, "name": "flame_09" },
+					{ "time": 0.3333, "name": "flame_10" },
+					{ "time": 0.3667, "name": "flame_11" },
+					{ "time": 0.4, "name": "flame_12" },
+					{ "time": 0.4333, "name": "flame_13" },
+					{ "time": 0.4667, "name": "flame_14" },
+					{ "time": 0.5, "name": "flame_15" },
+					{ "time": 0.5333, "name": "flame_16" },
+					{ "time": 0.5667, "name": "flame_17" },
+					{ "time": 0.6, "name": "flame_18" },
+					{ "time": 0.6333, "name": "flame_19" },
+					{ "time": 0.6667, "name": "flame_20" },
+					{ "time": 0.7, "name": "flame_21" },
+					{ "time": 0.7333, "name": "flame_22" },
+					{ "time": 0.7667, "name": "flame_23" },
+					{ "time": 0.8, "name": "flame_24" },
+					{ "time": 0.8333, "name": "flame_25" },
+					{ "time": 0.8667, "name": "flame_26" },
+					{ "time": 0.9, "name": "flame_27" },
+					{ "time": 0.9333, "name": "flame_28" },
+					{ "time": 0.9667, "name": "flame_29" }
+				]
+			},
+			"w_select": {
+				"attachment": [
+					{ "time": 0, "name": "w_select" },
+					{ "time": 0.4333, "name": "w_select" },
+					{ "time": 0.9667, "name": "w_select" }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

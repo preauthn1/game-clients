@@ -1,0 +1,125 @@
+
+sw.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+superwin
+  rotate: false
+  xy: 2, 2
+  size: 779, 422
+  orig: 779, 422
+  offset: 0, 0
+  index: -1
+superwin_02
+  rotate: false
+  xy: 783, 252
+  size: 177, 85
+  orig: 177, 85
+  offset: 0, 0
+  index: -1
+superwin_04
+  rotate: false
+  xy: 962, 339
+  size: 177, 85
+  orig: 177, 85
+  offset: 0, 0
+  index: -1
+superwin_06
+  rotate: false
+  xy: 783, 165
+  size: 177, 85
+  orig: 177, 85
+  offset: 0, 0
+  index: -1
+superwin_08
+  rotate: false
+  xy: 962, 252
+  size: 177, 85
+  orig: 177, 85
+  offset: 0, 0
+  index: -1
+superwin_10
+  rotate: false
+  xy: 1141, 339
+  size: 177, 85
+  orig: 177, 85
+  offset: 0, 0
+  index: -1
+superwin_12
+  rotate: false
+  xy: 783, 78
+  size: 177, 85
+  orig: 177, 85
+  offset: 0, 0
+  index: -1
+superwin_14
+  rotate: false
+  xy: 962, 165
+  size: 177, 85
+  orig: 177, 85
+  offset: 0, 0
+  index: -1
+superwin_16
+  rotate: false
+  xy: 1141, 252
+  size: 177, 85
+  orig: 177, 85
+  offset: 0, 0
+  index: -1
+superwin_18
+  rotate: false
+  xy: 1320, 339
+  size: 177, 85
+  orig: 177, 85
+  offset: 0, 0
+  index: -1
+superwin_20
+  rotate: false
+  xy: 962, 78
+  size: 177, 85
+  orig: 177, 85
+  offset: 0, 0
+  index: -1
+superwin_30
+  rotate: false
+  xy: 783, 339
+  size: 177, 85
+  orig: 177, 85
+  offset: 0, 0
+  index: -1
+superwin_00
+  rotate: false
+  xy: 783, 339
+  size: 177, 85
+  orig: 177, 85
+  offset: 0, 0
+  index: -1
+superwin_22
+  rotate: false
+  xy: 783, 339
+  size: 177, 85
+  orig: 177, 85
+  offset: 0, 0
+  index: -1
+superwin_24
+  rotate: false
+  xy: 783, 339
+  size: 177, 85
+  orig: 177, 85
+  offset: 0, 0
+  index: -1
+superwin_26
+  rotate: false
+  xy: 783, 339
+  size: 177, 85
+  orig: 177, 85
+  offset: 0, 0
+  index: -1
+superwin_28
+  rotate: false
+  xy: 783, 339
+  size: 177, 85
+  orig: 177, 85
+  offset: 0, 0
+  index: -1

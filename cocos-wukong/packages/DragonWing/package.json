@@ -1,0 +1,19 @@
+{
+  "name": "dragonbonexmljson",
+  "version": "0.0.1",
+  "description": "DragonBone XML to JSON",
+  "author": "Cocos Creator",
+  "main": "main.js",
+  "scene-script": "dragonbonexmljson.js",
+  "main-menu": {
+    "i18n:MAIN_MENU.package.title/Dragon XML to JSON": {
+      "message": "dragonbonexmljson:transfrome"
+    },
+    "i18n:MAIN_MENU.package.title/輸出場上DragonBone動畫列表": {
+      "message": "dragonbonexmljson:listScene"
+    },
+    "i18n:MAIN_MENU.package.title/輸出素材庫中DragonBone的動畫列表": {
+      "message": "dragonbonexmljson:listAssets"
+    }
+  }
+}

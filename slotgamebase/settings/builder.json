@@ -1,0 +1,80 @@
+{
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "packageName": "org.p8team.slotaceapp",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "appBundle": false,
+  "baidugame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "testappid",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "encryptJs": true,
+  "excludeScenes": [
+    "a998400a-ab82-4112-a78c-81b14b12296d",
+    "bcc35de9-da9b-47d5-a865-a285da52bb44",
+    "90c4da69-77d7-4577-b713-8627d1d7552a",
+    "aeb164e7-9a8b-4d92-9cd3-742f5cb786b4",
+    "94b34740-9657-4a3b-aec3-667cf7063585",
+    "4f5dcc3c-f645-414c-8e90-3a266ab3b7d0",
+    "21fcd765-2cd7-4b76-b8e2-5e2bb4cfbb5a",
+    "e6b041bd-6d87-4900-bf95-3dabbfc05cae",
+    "e82b996f-96fc-434d-851f-bcf2212cafaf",
+    "a163d989-0a04-4583-8f1d-3f28ad35558a",
+    "ab62eb53-45ca-4ca9-9b2c-12bcacfe1796",
+    "681c63f5-3bee-41eb-9210-1e21296320ac",
+    "ba520943-dc07-4683-9ef5-64e16212132f",
+    "e3ec1538-7471-476a-b363-525224b0af8a",
+    "c52a0264-b26a-4b69-8cda-8d7422878cb6",
+    "5550aae7-7d7b-4790-aa90-c30057d5030b",
+    "ee5ed345-c4ef-4bf2-8c86-ff9a791262bf",
+    "54a62938-a042-4eb9-a7b6-89b750362562",
+    "c302fb26-75fb-40dd-adad-ca951d7a0492"
+  ],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": false,
+  "mergeStartScene": true,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.p8team.slotaceapp",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "startScene": "606a6b7a-a6bc-4c61-a662-2c7adee4b200",
+  "title": "SlotAce",
+  "webOrientation": "portrait",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "aeec072a-133e-4a",
+  "zipCompressJs": true,
+  "android": {
+    "packageName": "org.cocos2d.demo"
+  },
+  "ios": {
+    "packageName": "org.cocos2d.demo"
+  },
+  "mac": {
+    "packageName": "org.cocos2d.demo"
+  },
+  "win32": {}
+}

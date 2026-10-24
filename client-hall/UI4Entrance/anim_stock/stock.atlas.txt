@@ -1,0 +1,48 @@
+
+stock.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a
+  rotate: false
+  xy: 213, 2
+  size: 114, 85
+  orig: 114, 85
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 49
+  size: 209, 205
+  orig: 209, 205
+  offset: 0, 0
+  index: -1
+chip
+  rotate: true
+  xy: 549, 175
+  size: 79, 111
+  orig: 79, 111
+  offset: 0, 0
+  index: -1
+coin
+  rotate: false
+  xy: 372, 175
+  size: 175, 79
+  orig: 175, 79
+  offset: 0, 0
+  index: -1
+earth
+  rotate: false
+  xy: 213, 89
+  size: 157, 165
+  orig: 157, 165
+  offset: 0, 0
+  index: -1
+f
+  rotate: false
+  xy: 372, 78
+  size: 152, 95
+  orig: 152, 95
+  offset: 0, 0
+  index: -1

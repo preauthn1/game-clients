@@ -1,0 +1,27 @@
+
+sp_p3_jgyf.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base
+  rotate: false
+  xy: 2, 2
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+blur
+  rotate: false
+  xy: 116, 2
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+sp3
+  rotate: false
+  xy: 230, 2
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1

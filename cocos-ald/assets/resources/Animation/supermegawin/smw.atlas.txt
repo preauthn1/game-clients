@@ -1,0 +1,41 @@
+
+smw.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 2, 878
+  size: 1178, 217
+  orig: 1178, 217
+  offset: 0, 0
+  index: -1
+02
+  rotate: false
+  xy: 2, 659
+  size: 1178, 217
+  orig: 1178, 217
+  offset: 0, 0
+  index: -1
+03
+  rotate: false
+  xy: 2, 440
+  size: 1178, 217
+  orig: 1178, 217
+  offset: 0, 0
+  index: -1
+04
+  rotate: false
+  xy: 2, 221
+  size: 1178, 217
+  orig: 1178, 217
+  offset: 0, 0
+  index: -1
+smw
+  rotate: false
+  xy: 2, 2
+  size: 1178, 217
+  orig: 1178, 217
+  offset: 0, 0
+  index: -1

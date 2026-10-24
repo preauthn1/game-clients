@@ -1,0 +1,41 @@
+
+stealcow.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 2
+  size: 209, 205
+  orig: 209, 205
+  offset: 0, 0
+  index: -1
+card
+  rotate: false
+  xy: 769, 89
+  size: 141, 118
+  orig: 141, 118
+  offset: 0, 0
+  index: -1
+coin
+  rotate: false
+  xy: 213, 65
+  size: 190, 142
+  orig: 190, 142
+  offset: 0, 0
+  index: -1
+ff
+  rotate: false
+  xy: 568, 117
+  size: 199, 90
+  orig: 199, 90
+  offset: 0, 0
+  index: -1
+ox
+  rotate: false
+  xy: 405, 48
+  size: 161, 159
+  orig: 161, 159
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,62 @@
+
+sp_p4.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+berries
+  rotate: false
+  xy: 2, 2
+  size: 116, 45
+  orig: 116, 45
+  offset: 0, 0
+  index: -1
+blur
+  rotate: false
+  xy: 2, 111
+  size: 147, 133
+  orig: 147, 133
+  offset: 0, 0
+  index: -1
+caramel
+  rotate: false
+  xy: 488, 208
+  size: 22, 36
+  orig: 22, 36
+  offset: 0, 0
+  index: -1
+cookies01
+  rotate: false
+  xy: 392, 188
+  size: 53, 56
+  orig: 53, 56
+  offset: 0, 0
+  index: -1
+cookies02
+  rotate: false
+  xy: 447, 180
+  size: 39, 64
+  orig: 39, 64
+  offset: 0, 0
+  index: -1
+plate
+  rotate: false
+  xy: 2, 49
+  size: 130, 60
+  orig: 130, 60
+  offset: 0, 0
+  index: -1
+pudding
+  rotate: false
+  xy: 301, 160
+  size: 89, 84
+  orig: 89, 84
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 151, 132
+  size: 148, 112
+  orig: 148, 112
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,11 @@
+{
+  "name": "badminton",
+  "uuid": "97f5ed9c-0b91-4e3c-be7b-41f3ccaa8c40",
+  "version": "3.6.2",
+  "creator": {
+    "version": "3.6.2"
+  },
+  "dependencies": {
+    "long": "^5.2.1"
+  }
+}

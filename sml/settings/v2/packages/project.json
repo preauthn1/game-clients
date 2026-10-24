@@ -1,0 +1,15 @@
+{
+  "general": {
+    "designResolution": {
+      "width": 1170,
+      "height": 2532,
+      "fitWidth": false,
+      "fitHeight": true
+    }
+  },
+  "fbx": {
+    "material": {
+      "smart": true
+    }
+  }
+}

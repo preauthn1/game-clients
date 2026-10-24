@@ -1,0 +1,104 @@
+
+recharge.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SHOP
+  rotate: false
+  xy: 533, 188
+  size: 132, 40
+  orig: 132, 40
+  offset: 0, 0
+  index: -1
+cart
+  rotate: false
+  xy: 211, 105
+  size: 162, 123
+  orig: 162, 123
+  offset: 0, 0
+  index: -1
+cart_00
+  rotate: false
+  xy: 533, 124
+  size: 81, 62
+  orig: 81, 62
+  offset: 0, 0
+  index: -1
+cart_02
+  rotate: false
+  xy: 667, 166
+  size: 81, 62
+  orig: 81, 62
+  offset: 0, 0
+  index: -1
+cart_04
+  rotate: false
+  xy: 750, 166
+  size: 81, 62
+  orig: 81, 62
+  offset: 0, 0
+  index: -1
+cart_06
+  rotate: false
+  xy: 833, 166
+  size: 81, 62
+  orig: 81, 62
+  offset: 0, 0
+  index: -1
+cart_08
+  rotate: false
+  xy: 916, 166
+  size: 81, 62
+  orig: 81, 62
+  offset: 0, 0
+  index: -1
+cart_10
+  rotate: false
+  xy: 533, 60
+  size: 81, 62
+  orig: 81, 62
+  offset: 0, 0
+  index: -1
+cart_12
+  rotate: false
+  xy: 169, 36
+  size: 81, 62
+  orig: 81, 62
+  offset: 0, 0
+  index: -1
+cart_14
+  rotate: false
+  xy: 86, 36
+  size: 81, 62
+  orig: 81, 62
+  offset: 0, 0
+  index: -1
+coin01
+  rotate: false
+  xy: 2, 100
+  size: 207, 128
+  orig: 207, 128
+  offset: 0, 0
+  index: -1
+flash
+  rotate: false
+  xy: 2, 2
+  size: 82, 96
+  orig: 82, 96
+  offset: 0, 0
+  index: -1
+flash2
+  rotate: false
+  xy: 375, 82
+  size: 156, 146
+  orig: 156, 146
+  offset: 0, 0
+  index: -1
+money
+  rotate: false
+  xy: 252, 46
+  size: 67, 57
+  orig: 67, 57
+  offset: 0, 0
+  index: -1

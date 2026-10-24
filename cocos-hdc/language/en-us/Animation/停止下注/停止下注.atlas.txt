@@ -1,0 +1,20 @@
+
+停止下注.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di_da
+  rotate: false
+  xy: 2, 95
+  size: 1742, 133
+  orig: 1742, 133
+  offset: 0, 0
+  index: -1
+wenzi
+  rotate: false
+  xy: 2, 2
+  size: 478, 91
+  orig: 478, 91
+  offset: 0, 0
+  index: -1

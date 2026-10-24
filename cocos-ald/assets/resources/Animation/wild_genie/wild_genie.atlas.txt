@@ -1,0 +1,237 @@
+
+wild_genie.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Smoke Gen 10_06
+  rotate: false
+  xy: 160, 734
+  size: 238, 285
+  orig: 238, 285
+  offset: 0, 0
+  index: -1
+Smoke Gen 10_10
+  rotate: false
+  xy: 400, 734
+  size: 238, 285
+  orig: 238, 285
+  offset: 0, 0
+  index: -1
+Smoke Gen 10_14
+  rotate: false
+  xy: 640, 734
+  size: 238, 285
+  orig: 238, 285
+  offset: 0, 0
+  index: -1
+Smoke Gen 10_18
+  rotate: false
+  xy: 880, 734
+  size: 238, 285
+  orig: 238, 285
+  offset: 0, 0
+  index: -1
+Smoke Gen 10_22
+  rotate: false
+  xy: 1120, 734
+  size: 238, 285
+  orig: 238, 285
+  offset: 0, 0
+  index: -1
+Smoke Gen 10_26
+  rotate: false
+  xy: 1360, 734
+  size: 238, 285
+  orig: 238, 285
+  offset: 0, 0
+  index: -1
+Smoke Gen 10_30
+  rotate: false
+  xy: 1600, 734
+  size: 238, 285
+  orig: 238, 285
+  offset: 0, 0
+  index: -1
+Smoke Gen 10_34
+  rotate: false
+  xy: 2, 2
+  size: 238, 285
+  orig: 238, 285
+  offset: 0, 0
+  index: -1
+Smoke Gen 10_38
+  rotate: false
+  xy: 175, 447
+  size: 238, 285
+  orig: 238, 285
+  offset: 0, 0
+  index: -1
+Smoke Gen 10_42
+  rotate: false
+  xy: 415, 447
+  size: 238, 285
+  orig: 238, 285
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 242, 27
+  size: 154, 260
+  orig: 154, 260
+  offset: 0, 0
+  index: -1
+cloude
+  rotate: false
+  xy: 2, 596
+  size: 156, 423
+  orig: 156, 423
+  offset: 0, 0
+  index: -1
+cloude01
+  rotate: false
+  xy: 1922, 539
+  size: 64, 59
+  orig: 64, 59
+  offset: 0, 0
+  index: -1
+eye00
+  rotate: false
+  xy: 160, 722
+  size: 12, 10
+  orig: 12, 10
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 1201, 250
+  size: 148, 136
+  orig: 148, 136
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 1922, 600
+  size: 112, 89
+  orig: 112, 89
+  offset: 0, 0
+  index: -1
+lamp
+  rotate: false
+  xy: 1351, 328
+  size: 75, 58
+  orig: 75, 58
+  offset: 0, 0
+  index: -1
+smoke_07
+  rotate: true
+  xy: 2, 289
+  size: 305, 171
+  orig: 305, 171
+  offset: 0, 0
+  index: -1
+smoke_11
+  rotate: true
+  xy: 1840, 714
+  size: 305, 171
+  orig: 305, 171
+  offset: 0, 0
+  index: -1
+smoke_16
+  rotate: false
+  xy: 655, 561
+  size: 305, 171
+  orig: 305, 171
+  offset: 0, 0
+  index: -1
+smoke_20
+  rotate: false
+  xy: 962, 561
+  size: 305, 171
+  orig: 305, 171
+  offset: 0, 0
+  index: -1
+smoke_25
+  rotate: false
+  xy: 1269, 561
+  size: 305, 171
+  orig: 305, 171
+  offset: 0, 0
+  index: -1
+smoke_27
+  rotate: false
+  xy: 655, 388
+  size: 305, 171
+  orig: 305, 171
+  offset: 0, 0
+  index: -1
+smoke_31
+  rotate: false
+  xy: 962, 388
+  size: 305, 171
+  orig: 305, 171
+  offset: 0, 0
+  index: -1
+smoke_36
+  rotate: false
+  xy: 1269, 388
+  size: 305, 171
+  orig: 305, 171
+  offset: 0, 0
+  index: -1
+smoke_40
+  rotate: true
+  xy: 1576, 427
+  size: 305, 171
+  orig: 305, 171
+  offset: 0, 0
+  index: -1
+smoke_45
+  rotate: true
+  xy: 1749, 407
+  size: 305, 171
+  orig: 305, 171
+  offset: 0, 0
+  index: -1
+smoke_47
+  rotate: true
+  xy: 414, 140
+  size: 305, 171
+  orig: 305, 171
+  offset: 0, 0
+  index: -1
+smoke_52
+  rotate: false
+  xy: 587, 215
+  size: 305, 171
+  orig: 305, 171
+  offset: 0, 0
+  index: -1
+smoke_55
+  rotate: false
+  xy: 894, 215
+  size: 305, 171
+  orig: 305, 171
+  offset: 0, 0
+  index: -1
+spriinkle01
+  rotate: true
+  xy: 175, 289
+  size: 156, 237
+  orig: 156, 237
+  offset: 0, 0
+  index: -1
+spriinkle02
+  rotate: true
+  xy: 587, 143
+  size: 70, 93
+  orig: 70, 93
+  offset: 0, 0
+  index: -1
+sprinkle
+  rotate: false
+  xy: 2013, 983
+  size: 30, 36
+  orig: 30, 36
+  offset: 0, 0
+  index: -1

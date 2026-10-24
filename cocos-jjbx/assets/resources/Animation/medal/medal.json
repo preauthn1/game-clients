@@ -1,0 +1,106 @@
+{
+"skeleton": { "hash": "AgbdMu3+LdU5BYwibaEh7g75pv0", "spine": "3.6.53", "width": 743, "height": 401, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "medal", "parent": "root", "length": 131.18, "rotation": 91.55, "x": -0.64, "y": -57.85 },
+	{ "name": "bust", "parent": "medal", "length": 134.13, "rotation": -3.75, "x": -15.9, "y": 10.25, "scaleX": 1.7, "scaleY": 1.7 },
+	{ "name": "ribbon", "parent": "medal", "length": 74.47, "rotation": -3.59, "x": 25.92, "y": 8.16 }
+],
+"slots": [
+	{ "name": "ribbon", "bone": "ribbon", "attachment": "ribbon" },
+	{ "name": "medal", "bone": "medal", "attachment": "medal" },
+	{ "name": "bust_01", "bone": "bust", "color": "ffd371ff", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"bust_01": {
+			"bust_11": { "x": 60.78, "y": 2.34, "width": 428, "height": 388 },
+			"bust_13": { "x": 60.78, "y": 2.34, "width": 428, "height": 388 },
+			"bust_15": { "x": 60.78, "y": 2.34, "width": 428, "height": 388 },
+			"bust_17": { "x": 60.78, "y": 2.34, "width": 428, "height": 388 },
+			"bust_19": { "x": 60.78, "y": 2.34, "width": 428, "height": 388 },
+			"bust_21": { "x": 60.78, "y": 2.34, "width": 428, "height": 388 },
+			"bust_23": { "x": 60.78, "y": 2.34, "width": 428, "height": 388 }
+		},
+		"medal": {
+			"medal": { "x": 76.24, "y": -0.62, "rotation": -91.55, "width": 400, "height": 401 }
+		},
+		"ribbon": {
+			"ribbon": { "x": 8.81, "y": -7.61, "rotation": -87.95, "width": 743, "height": 191 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"bust_01": {
+				"color": [
+					{ "time": 0, "color": "ffd371ff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffd371ff" },
+					{ "time": 0.5667, "color": "ffd27100" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": "bust_11" },
+					{ "time": 0.2333, "name": "bust_13" },
+					{ "time": 0.2667, "name": "bust_15" },
+					{ "time": 0.3, "name": "bust_17" },
+					{ "time": 0.3333, "name": "bust_19" },
+					{ "time": 0.3667, "name": "bust_21" },
+					{ "time": 0.4, "name": "bust_23" },
+					{ "time": 0.4333, "name": null },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"medal": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "medal" },
+					{ "time": 1.3333, "name": "medal" }
+				]
+			},
+			"ribbon": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "ribbon" },
+					{ "time": 1.3333, "name": "ribbon" }
+				]
+			}
+		},
+		"bones": {
+			"medal": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 },
+					{ "time": 0.1667, "x": 0.9, "y": 0.9 },
+					{ "time": 0.2667, "x": 1.1, "y": 1.1 },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			},
+			"ribbon": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 0.364 },
+					{ "time": 0.3333, "x": 1.136, "y": 1.11 },
+					{ "time": 0.5667, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 1.3333 }
+		]
+	}
+}
+}

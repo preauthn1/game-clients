@@ -1,0 +1,68 @@
+﻿@model  GameVer
+@{
+    ViewBag.Title = "Update";
+    Layout = null;
+}
+
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Webslesson Tutorial</title>
+    <script src="https://example.invalid/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://example.invalid/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://example.invalid/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://example.invalid/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container" style="width:1400px; max-width:1600px;">
+        <br />
+        <form class="needs-validation" action="@Url.Action("Update")" method="post" data-toggle="validator">
+            
+
+            <div class="form-row">
+                <div class="col-md-2 mb-1">
+                    Platform
+                </div>
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="form-control" id="validationPlatform" name="Platform" placeholder="Platform" value="@Model.Platform" readonly="readonly" required>
+                    <div class="valid-tooltip">
+                        Looks good!
+                    </div>
+                </div>
+               
+            </div>
+            <div class="form-row">
+                <div class="col-md-2 mb-1">
+                    Game
+                </div>
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="form-control" id="validationGame" placeholder="Game" name="Game" value="@Model.Game" readonly="readonly" required>
+                    <div class="valid-tooltip">
+                        Looks good!
+                    </div>
+                </div>
+              
+            </div>
+
+            <div class="form-row">
+                <div class="col-md-2 mb-1">
+                    Ver
+                </div>
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="form-control" id="validationVer" placeholder="Ver" name="Ver" value="@Model.Ver" required>
+                    <div class="valid-tooltip">
+                        Looks good!
+                    </div>
+                </div>
+              
+            </div>
+            
+            <a class="btn btn-danger" href="@Url.Action("Index")">取消</a>
+            <button class="btn btn-primary" type="submit">修改</button>
+        </form>
+    </div>
+</body>
+</html>
+

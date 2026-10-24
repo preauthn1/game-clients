@@ -1,0 +1,192 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/example.invalid/Example/SpriteSheet/sprites.tpsheet
+- Assets/Game/bjl/UI/POT/Cast.tpsheet
+- Assets/Game/bjl/UI/POT/Game_UI.tpsheet
+- Assets/Game/bjl/UI/POT/GameLayer.tpsheet
+- Assets/Game/bjl/UI/POT/poker.tpsheet
+- Assets/Game/bjl/UI/POT/VIP.tpsheet
+- Assets/Game/brnn/UI/POT/Card.tpsheet
+- Assets/Game/brnn/UI/POT/Cast.tpsheet
+- Assets/Game/brnn/UI/POT/GameLayer.tpsheet
+- Assets/Game/brnn/UI/POT/GameLayerBG.tpsheet
+- Assets/Game/brnn/UI/POT/VIP.tpsheet
+- Assets/Game/hhdz/UI/POT/CardType.tpsheet
+- Assets/Game/hhdz/UI/POT/Cast.tpsheet
+- Assets/Game/hhdz/UI/POT/ChartLayer.tpsheet
+- Assets/Game/hhdz/UI/POT/GameLayer.tpsheet
+- Assets/Game/hhdz/UI/POT/HeadFrame.tpsheet
+- Assets/Game/hhdz/UI/POT/poker.tpsheet
+- Assets/Game/hhnn/UI/POT/Card.tpsheet
+- Assets/Game/hhnn/UI/POT/CardType.tpsheet
+- Assets/Game/hhnn/UI/POT/Cast.tpsheet
+- Assets/Game/hhnn/UI/POT/ChartLayer.tpsheet
+- Assets/Game/hhnn/UI/POT/GameLayer.tpsheet
+- Assets/Game/hhnn/UI/POT/Image.tpsheet
+- Assets/Game/hhnn/UI/POT/Image_bg.tpsheet
+- Assets/Game/hhnn/UI/POT/qipai.tpsheet
+- Assets/Game/lhd/UI/POT/Cast.tpsheet
+- Assets/Game/lhd/UI/POT/effect.tpsheet
+- Assets/Game/lhd/UI/POT/GameLayer.tpsheet
+- Assets/Game/lhd/UI/POT/image.tpsheet
+- Assets/Game/lhd/UI/POT/VIP.tpsheet
+- Assets/Hall/UI/Game_UI/Game_UI.tpsheet
+- Assets/Hall/UI/MoneyPool/MoneyPool.tpsheet
+- Assets/Hall/UI/UIBank/UIBank.tpsheet
+- Assets/Hall/UI/UICommon/UICommon.tpsheet
+- Assets/Hall/UI/UICommon/UIVipFrame.tpsheet
+- Assets/Hall/UI/UIExchange/UIExchange.tpsheet
+- Assets/Hall/UI/UIGameClass/GameName.tpsheet
+- Assets/Hall/UI/UIGameClass/UIGameClass.tpsheet
+- Assets/Hall/UI/UIHall/UIHall.tpsheet
+- Assets/Hall/UI/UIHall/UIHall_Account.tpsheet
+- Assets/Hall/UI/UIHall/UIHall_GameName.tpsheet
+- Assets/Hall/UI/UIHall/UIHall_Notification.tpsheet
+- Assets/Hall/UI/UIHall_Activity_0/UIHall_Activity_0.tpsheet
+- Assets/Hall/UI/UIHall_Activity_1/UIHall_Activity_1.tpsheet
+- Assets/Hall/UI/UIHall_Activity_2/UIHall_Activity_2.tpsheet
+- Assets/Hall/UI/UIHall_Activity_3/UIHall_Activity_3.tpsheet
+- Assets/Hall/UI/UIHelp/UIHelp.tpsheet
+- Assets/Hall/UI/UILB/pot/setting.tpsheet
+- Assets/Hall/UI/UILoading/UILoading.tpsheet
+- Assets/Hall/UI/UILogin/UILogin.tpsheet
+- Assets/Hall/UI/UIMail/UIMail.tpsheet
+- Assets/Hall/UI/UIPromo/UIPromo.tpsheet
+- Assets/Hall/UI/UIPromo/UIPromo_LB.tpsheet
+- Assets/Hall/UI/UIPromo/UIPromo_QM.tpsheet
+- Assets/Hall/UI/UIPromo/UIPromo_WXD.tpsheet
+- Assets/Hall/UI/UIProxy/UIProxy_0.tpsheet
+- Assets/Hall/UI/UIProxy/UIProxy_1.tpsheet
+- Assets/Hall/UI/UIRecharge/UIRecharge.tpsheet
+- Assets/Hall/UI/UIRecharge_IOS/UIRecharge_IOS.tpsheet
+- Assets/Hall/UI/UISetting/UISetting.tpsheet
+- Assets/Hall/UI/UIUpdateGame/UIUpdateGame.tpsheet
+- Assets/Hall/UI/UIUserInfo/UIUserInfo.tpsheet
+textureFileNames:
+- Assets/example.invalid/Example/SpriteSheet/sprites.png
+- Assets/Game/bjl/UI/POT/Cast.png
+- Assets/Game/bjl/UI/POT/Game_UI.png
+- Assets/Game/bjl/UI/POT/GameLayer.png
+- Assets/Game/bjl/UI/POT/poker.png
+- Assets/Game/bjl/UI/POT/VIP.png
+- Assets/Game/brnn/UI/POT/Card.png
+- Assets/Game/brnn/UI/POT/Cast.png
+- Assets/Game/brnn/UI/POT/GameLayer.png
+- Assets/Game/brnn/UI/POT/GameLayerBG.png
+- Assets/Game/brnn/UI/POT/VIP.png
+- Assets/Game/hhdz/UI/POT/CardType.png
+- Assets/Game/hhdz/UI/POT/Cast.png
+- Assets/Game/hhdz/UI/POT/ChartLayer.png
+- Assets/Game/hhdz/UI/POT/GameLayer.png
+- Assets/Game/hhdz/UI/POT/HeadFrame.png
+- Assets/Game/hhdz/UI/POT/poker.png
+- Assets/Game/hhnn/UI/POT/Card.png
+- Assets/Game/hhnn/UI/POT/CardType.png
+- Assets/Game/hhnn/UI/POT/Cast.png
+- Assets/Game/hhnn/UI/POT/ChartLayer.png
+- Assets/Game/hhnn/UI/POT/GameLayer.png
+- Assets/Game/hhnn/UI/POT/Image.png
+- Assets/Game/hhnn/UI/POT/Image_bg.png
+- Assets/Game/hhnn/UI/POT/qipai.png
+- Assets/Game/lhd/UI/POT/Cast.png
+- Assets/Game/lhd/UI/POT/effect.png
+- Assets/Game/lhd/UI/POT/GameLayer.png
+- Assets/Game/lhd/UI/POT/image.png
+- Assets/Game/lhd/UI/POT/VIP.png
+- Assets/Hall/UI/Game_UI/Game_UI.png
+- Assets/Hall/UI/MoneyPool/MoneyPool.png
+- Assets/Hall/UI/UIBank/UIBank.png
+- Assets/Hall/UI/UICommon/UICommon.png
+- Assets/Hall/UI/UICommon/UIVipFrame.png
+- Assets/Hall/UI/UIExchange/UIExchange.png
+- Assets/Hall/UI/UIGameClass/GameName.png
+- Assets/Hall/UI/UIGameClass/UIGameClass.png
+- Assets/Hall/UI/UIHall/UIHall.png
+- Assets/Hall/UI/UIHall/UIHall_Account.png
+- Assets/Hall/UI/UIHall/UIHall_GameName.png
+- Assets/Hall/UI/UIHall/UIHall_Notification.png
+- Assets/Hall/UI/UIHall_Activity_0/UIHall_Activity_0.png
+- Assets/Hall/UI/UIHall_Activity_1/UIHall_Activity_1.png
+- Assets/Hall/UI/UIHall_Activity_2/UIHall_Activity_2.png
+- Assets/Hall/UI/UIHall_Activity_3/UIHall_Activity_3.png
+- Assets/Hall/UI/UIHelp/UIHelp.png
+- Assets/Hall/UI/UILB/pot/setting.png
+- Assets/Hall/UI/UILoading/UILoading.png
+- Assets/Hall/UI/UILogin/UILogin.png
+- Assets/Hall/UI/UIMail/UIMail.png
+- Assets/Hall/UI/UIPromo/UIPromo.png
+- Assets/Hall/UI/UIPromo/UIPromo_LB.png
+- Assets/Hall/UI/UIPromo/UIPromo_QM.png
+- Assets/Hall/UI/UIPromo/UIPromo_WXD.png
+- Assets/Hall/UI/UIProxy/UIProxy_0.png
+- Assets/Hall/UI/UIProxy/UIProxy_1.png
+- Assets/Hall/UI/UIRecharge/UIRecharge.png
+- Assets/Hall/UI/UIRecharge_IOS/UIRecharge_IOS.png
+- Assets/Hall/UI/UISetting/UISetting.png
+- Assets/Hall/UI/UIUpdateGame/UIUpdateGame.png
+- Assets/Hall/UI/UIUserInfo/UIUserInfo.png
+normalmapFileNames:
+- Assets/example.invalid/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+enableDebugOutput: 0

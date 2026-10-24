@@ -1,0 +1,560 @@
+{
+  "sprite_bet": {
+    "spr": "font_01_amwsz",
+    "atlas": "font_01_amwsz",
+    "name": "font_01_amwsz",
+    "dir": "Langs"
+  },
+  "sprite_faceid_7": {
+    "spr": "sprite_7",
+    "atlas": "sprite_7",
+    "name": "sprite_7",
+    "dir": "UIUserphoto"
+  },
+  "sprite_card_2_6": {
+    "spr": "sprite_card__2_6",
+    "atlas": "sprite_card__2_6",
+    "name": "sprite_card__2_6",
+    "dir": "Cards"
+  },
+  "sprite_chip_7_t": {
+    "spr": "TableJetton_7",
+    "atlas": "TableJetton_7",
+    "name": "TableJetton_7",
+    "dir": "Jetton"
+  },
+  "sprite_faceid_10": {
+    "spr": "sprite_10",
+    "atlas": "sprite_10",
+    "name": "sprite_10",
+    "dir": "UIUserphoto"
+  },
+  "sprite_faceid_1": {
+    "spr": "sprite_1",
+    "atlas": "sprite_1",
+    "name": "sprite_1",
+    "dir": "UIUserphoto"
+  },
+  "sprite_card_2_14": {
+    "spr": "sprite_card__2_14",
+    "atlas": "sprite_card__2_14",
+    "name": "sprite_card__2_14",
+    "dir": "Cards"
+  },
+  "sprite_faceid_9": {
+    "spr": "sprite_9",
+    "atlas": "sprite_9",
+    "name": "sprite_9",
+    "dir": "UIUserphoto"
+  },
+  "sprite_card_3_9": {
+    "spr": "sprite_card__3_9",
+    "atlas": "sprite_card__3_9",
+    "name": "sprite_card__3_9",
+    "dir": "Cards"
+  },
+  "sprite_card_1_10": {
+    "spr": "sprite_card__1_10",
+    "atlas": "sprite_card__1_10",
+    "name": "sprite_card__1_10",
+    "dir": "Cards"
+  },
+  "sprite_card_0_7": {
+    "spr": "sprite_card__0_7",
+    "atlas": "sprite_card__0_7",
+    "name": "sprite_card__0_7",
+    "dir": "Cards"
+  },
+  "sprite_card_1_11": {
+    "spr": "sprite_card__1_11",
+    "atlas": "sprite_card__1_11",
+    "name": "sprite_card__1_11",
+    "dir": "Cards"
+  },
+  "sprite_card_1_2": {
+    "spr": "sprite_card__1_2",
+    "atlas": "sprite_card__1_2",
+    "name": "sprite_card__1_2",
+    "dir": "Cards"
+  },
+  "sprite_card_0_14": {
+    "spr": "sprite_card__0_14",
+    "atlas": "sprite_card__0_14",
+    "name": "sprite_card__0_14",
+    "dir": "Cards"
+  },
+  "sprite_faceid_4": {
+    "spr": "sprite_4",
+    "atlas": "sprite_4",
+    "name": "sprite_4",
+    "dir": "UIUserphoto"
+  },
+  "sprite_card_2_4": {
+    "spr": "sprite_card__2_4",
+    "atlas": "sprite_card__2_4",
+    "name": "sprite_card__2_4",
+    "dir": "Cards"
+  },
+  "sprite_card_1_6": {
+    "spr": "sprite_card__1_6",
+    "atlas": "sprite_card__1_6",
+    "name": "sprite_card__1_6",
+    "dir": "Cards"
+  },
+  "sprite_faceid_12": {
+    "spr": "sprite_12",
+    "atlas": "sprite_12",
+    "name": "sprite_12",
+    "dir": "UIUserphoto"
+  },
+  "sprite_chip_3_t": {
+    "spr": "TableJetton_3",
+    "atlas": "TableJetton_3",
+    "name": "TableJetton_3",
+    "dir": "Jetton"
+  },
+  "sprite_card_2_3": {
+    "spr": "sprite_card__2_3",
+    "atlas": "sprite_card__2_3",
+    "name": "sprite_card__2_3",
+    "dir": "Cards"
+  },
+  "sprite_card_2_2": {
+    "spr": "sprite_card__2_2",
+    "atlas": "sprite_card__2_2",
+    "name": "sprite_card__2_2",
+    "dir": "Cards"
+  },
+  "sprite_action_0": {
+    "spr": "sing_04_amwsz",
+    "atlas": "sing_04_amwsz",
+    "name": "sing_04_amwsz",
+    "dir": "Langs"
+  },
+  "sprite_chip_2_t": {
+    "spr": "TableJetton_2",
+    "atlas": "TableJetton_2",
+    "name": "TableJetton_2",
+    "dir": "Jetton"
+  },
+  "sprite_card_0_2": {
+    "spr": "sprite_card__0_2",
+    "atlas": "sprite_card__0_2",
+    "name": "sprite_card__0_2",
+    "dir": "Cards"
+  },
+  "sprite_card_0_10": {
+    "spr": "sprite_card__0_10",
+    "atlas": "sprite_card__0_10",
+    "name": "sprite_card__0_10",
+    "dir": "Cards"
+  },
+  "sprite_card_1_8": {
+    "spr": "sprite_card__1_8",
+    "atlas": "sprite_card__1_8",
+    "name": "sprite_card__1_8",
+    "dir": "Cards"
+  },
+  "sprite_card_3_5": {
+    "spr": "sprite_card__3_5",
+    "atlas": "sprite_card__3_5",
+    "name": "sprite_card__3_5",
+    "dir": "Cards"
+  },
+  "sprite_choose": {
+    "spr": "font_02_amwsz",
+    "atlas": "font_02_amwsz",
+    "name": "font_02_amwsz",
+    "dir": "Langs"
+  },
+  "sprite_card_3_14": {
+    "spr": "sprite_card__3_14",
+    "atlas": "sprite_card__3_14",
+    "name": "sprite_card__3_14",
+    "dir": "Cards"
+  },
+  "sprite_chip_6_t": {
+    "spr": "TableJetton_6",
+    "atlas": "TableJetton_6",
+    "name": "TableJetton_6",
+    "dir": "Jetton"
+  },
+  "sprite_card_1_3": {
+    "spr": "sprite_card__1_3",
+    "atlas": "sprite_card__1_3",
+    "name": "sprite_card__1_3",
+    "dir": "Cards"
+  },
+  "sprite_card_0_9": {
+    "spr": "sprite_card__0_9",
+    "atlas": "sprite_card__0_9",
+    "name": "sprite_card__0_9",
+    "dir": "Cards"
+  },
+  "sprite_card_1_13": {
+    "spr": "sprite_card__1_13",
+    "atlas": "sprite_card__1_13",
+    "name": "sprite_card__1_13",
+    "dir": "Cards"
+  },
+  "sprite_card_0_6": {
+    "spr": "sprite_card__0_6",
+    "atlas": "sprite_card__0_6",
+    "name": "sprite_card__0_6",
+    "dir": "Cards"
+  },
+  "sprite_card_0_8": {
+    "spr": "sprite_card__0_8",
+    "atlas": "sprite_card__0_8",
+    "name": "sprite_card__0_8",
+    "dir": "Cards"
+  },
+  "sprite_pattern_-1": {
+    "spr": "font_03_amwsz",
+    "atlas": "font_03_amwsz",
+    "name": "font_03_amwsz",
+    "dir": "Langs"
+  },
+  "sprite_faceid_8": {
+    "spr": "sprite_8",
+    "atlas": "sprite_8",
+    "name": "sprite_8",
+    "dir": "UIUserphoto"
+  },
+  "sprite_card_1_12": {
+    "spr": "sprite_card__1_12",
+    "atlas": "sprite_card__1_12",
+    "name": "sprite_card__1_12",
+    "dir": "Cards"
+  },
+  "sprite_card_3_3": {
+    "spr": "sprite_card__3_3",
+    "atlas": "sprite_card__3_3",
+    "name": "sprite_card__3_3",
+    "dir": "Cards"
+  },
+  "sprite_card_0_5": {
+    "spr": "sprite_card__0_5",
+    "atlas": "sprite_card__0_5",
+    "name": "sprite_card__0_5",
+    "dir": "Cards"
+  },
+  "sprite_card_0_3": {
+    "spr": "sprite_card__0_3",
+    "atlas": "sprite_card__0_3",
+    "name": "sprite_card__0_3",
+    "dir": "Cards"
+  },
+  "sprite_card_0_4": {
+    "spr": "sprite_card__0_4",
+    "atlas": "sprite_card__0_4",
+    "name": "sprite_card__0_4",
+    "dir": "Cards"
+  },
+  "sprite_chip_6": {
+    "spr": "chip_6",
+    "atlas": "chip_6",
+    "name": "chip_6",
+    "dir": "Jetton"
+  },
+  "sprite_faceid_5": {
+    "spr": "sprite_5",
+    "atlas": "sprite_5",
+    "name": "sprite_5",
+    "dir": "UIUserphoto"
+  },
+  "sprite_card_3_2": {
+    "spr": "sprite_card__3_2",
+    "atlas": "sprite_card__3_2",
+    "name": "sprite_card__3_2",
+    "dir": "Cards"
+  },
+  "sprite_pattern_1": {
+    "spr": "font_04_amwsz",
+    "atlas": "font_04_amwsz",
+    "name": "font_04_amwsz",
+    "dir": "Langs"
+  },
+  "sprite_faceid_3": {
+    "spr": "sprite_3",
+    "atlas": "sprite_3",
+    "name": "sprite_3",
+    "dir": "UIUserphoto"
+  },
+  "sprite_chip_4_t": {
+    "spr": "TableJetton_4",
+    "atlas": "TableJetton_4",
+    "name": "TableJetton_4",
+    "dir": "Jetton"
+  },
+  "sprite_card_2_7": {
+    "spr": "sprite_card__2_7",
+    "atlas": "sprite_card__2_7",
+    "name": "sprite_card__2_7",
+    "dir": "Cards"
+  },
+  "sprite_card_3_6": {
+    "spr": "sprite_card__3_6",
+    "atlas": "sprite_card__3_6",
+    "name": "sprite_card__3_6",
+    "dir": "Cards"
+  },
+  "sprite_pattern_2": {
+    "spr": "font_05_amwsz",
+    "atlas": "font_05_amwsz",
+    "name": "font_05_amwsz",
+    "dir": "Langs"
+  },
+  "sprite_chip_7": {
+    "spr": "chip_7",
+    "atlas": "chip_7",
+    "name": "chip_7",
+    "dir": "Jetton"
+  },
+  "sprite_card_2_8": {
+    "spr": "sprite_card__2_8",
+    "atlas": "sprite_card__2_8",
+    "name": "sprite_card__2_8",
+    "dir": "Cards"
+  },
+  "sprite_card_2_11": {
+    "spr": "sprite_card__2_11",
+    "atlas": "sprite_card__2_11",
+    "name": "sprite_card__2_11",
+    "dir": "Cards"
+  },
+  "sprite_card_1_5": {
+    "spr": "sprite_card__1_5",
+    "atlas": "sprite_card__1_5",
+    "name": "sprite_card__1_5",
+    "dir": "Cards"
+  },
+  "sprite_chip_5_t": {
+    "spr": "TableJetton_5",
+    "atlas": "TableJetton_5",
+    "name": "TableJetton_5",
+    "dir": "Jetton"
+  },
+  "sprite_card_3_4": {
+    "spr": "sprite_card__3_4",
+    "atlas": "sprite_card__3_4",
+    "name": "sprite_card__3_4",
+    "dir": "Cards"
+  },
+  "sprite_chip_8": {
+    "spr": "chip_8",
+    "atlas": "chip_8",
+    "name": "chip_8",
+    "dir": "Jetton"
+  },
+  "sprite_faceid_13": {
+    "spr": "sprite_13",
+    "atlas": "sprite_13",
+    "name": "sprite_13",
+    "dir": "UIUserphoto"
+  },
+  "sprite_chip_1": {
+    "spr": "chip_1",
+    "atlas": "chip_1",
+    "name": "chip_1",
+    "dir": "Jetton"
+  },
+  "sprite_card_3_7": {
+    "spr": "sprite_card__3_7",
+    "atlas": "sprite_card__3_7",
+    "name": "sprite_card__3_7",
+    "dir": "Cards"
+  },
+  "sprite_card_2_13": {
+    "spr": "sprite_card__2_13",
+    "atlas": "sprite_card__2_13",
+    "name": "sprite_card__2_13",
+    "dir": "Cards"
+  },
+  "sprite_card_1_7": {
+    "spr": "sprite_card__1_7",
+    "atlas": "sprite_card__1_7",
+    "name": "sprite_card__1_7",
+    "dir": "Cards"
+  },
+  "sprite_card_3_13": {
+    "spr": "sprite_card__3_13",
+    "atlas": "sprite_card__3_13",
+    "name": "sprite_card__3_13",
+    "dir": "Cards"
+  },
+  "sprite_card_1_14": {
+    "spr": "sprite_card__1_14",
+    "atlas": "sprite_card__1_14",
+    "name": "sprite_card__1_14",
+    "dir": "Cards"
+  },
+  "sprite_chip_5": {
+    "spr": "chip_5",
+    "atlas": "chip_5",
+    "name": "chip_5",
+    "dir": "Jetton"
+  },
+  "sprite_chip_2": {
+    "spr": "chip_2",
+    "atlas": "chip_2",
+    "name": "chip_2",
+    "dir": "Jetton"
+  },
+  "sprite_card_2_10": {
+    "spr": "sprite_card__2_10",
+    "atlas": "sprite_card__2_10",
+    "name": "sprite_card__2_10",
+    "dir": "Cards"
+  },
+  "sprite_card_3_11": {
+    "spr": "sprite_card__3_11",
+    "atlas": "sprite_card__3_11",
+    "name": "sprite_card__3_11",
+    "dir": "Cards"
+  },
+  "sprite_chip_4": {
+    "spr": "chip_4",
+    "atlas": "chip_4",
+    "name": "chip_4",
+    "dir": "Jetton"
+  },
+  "sprite_card_7_0": {
+    "spr": "sprite_card__7_0",
+    "atlas": "sprite_card__7_0",
+    "name": "sprite_card__7_0",
+    "dir": "Cards"
+  },
+  "sprite_faceid_2": {
+    "spr": "sprite_2",
+    "atlas": "sprite_2",
+    "name": "sprite_2",
+    "dir": "UIUserphoto"
+  },
+  "sprite_card_0_11": {
+    "spr": "sprite_card__0_11",
+    "atlas": "sprite_card__0_11",
+    "name": "sprite_card__0_11",
+    "dir": "Cards"
+  },
+  "sprite_card_0_12": {
+    "spr": "sprite_card__0_12",
+    "atlas": "sprite_card__0_12",
+    "name": "sprite_card__0_12",
+    "dir": "Cards"
+  },
+  "sprite_chip_1_t": {
+    "spr": "TableJetton_1",
+    "atlas": "TableJetton_1",
+    "name": "TableJetton_1",
+    "dir": "Jetton"
+  },
+  "sprite_card_3_8": {
+    "spr": "sprite_card__3_8",
+    "atlas": "sprite_card__3_8",
+    "name": "sprite_card__3_8",
+    "dir": "Cards"
+  },
+  "sprite_card_1_9": {
+    "spr": "sprite_card__1_9",
+    "atlas": "sprite_card__1_9",
+    "name": "sprite_card__1_9",
+    "dir": "Cards"
+  },
+  "sprite_faceid_6": {
+    "spr": "sprite_6",
+    "atlas": "sprite_6",
+    "name": "sprite_6",
+    "dir": "UIUserphoto"
+  },
+  "sprite_pattern_0": {
+    "spr": "font_11_amwsz",
+    "atlas": "font_11_amwsz",
+    "name": "font_11_amwsz",
+    "dir": "Langs"
+  },
+  "sprite_chip_8_t": {
+    "spr": "TableJetton_8",
+    "atlas": "TableJetton_8",
+    "name": "TableJetton_8",
+    "dir": "Jetton"
+  },
+  "sprite_faceid_15": {
+    "spr": "sprite_15",
+    "atlas": "sprite_15",
+    "name": "sprite_15",
+    "dir": "UIUserphoto"
+  },
+  "sprite_chip_3": {
+    "spr": "chip_3",
+    "atlas": "chip_3",
+    "name": "chip_3",
+    "dir": "Jetton"
+  },
+  "sprite_card_0_13": {
+    "spr": "sprite_card__0_13",
+    "atlas": "sprite_card__0_13",
+    "name": "sprite_card__0_13",
+    "dir": "Cards"
+  },
+  "sprite_faceid_16": {
+    "spr": "sprite_16",
+    "atlas": "sprite_16",
+    "name": "sprite_16",
+    "dir": "UIUserphoto"
+  },
+  "sprite_card_2_5": {
+    "spr": "sprite_card__2_5",
+    "atlas": "sprite_card__2_5",
+    "name": "sprite_card__2_5",
+    "dir": "Cards"
+  },
+  "sprite_card_1_4": {
+    "spr": "sprite_card__1_4",
+    "atlas": "sprite_card__1_4",
+    "name": "sprite_card__1_4",
+    "dir": "Cards"
+  },
+  "sprite_faceid_11": {
+    "spr": "sprite_11",
+    "atlas": "sprite_11",
+    "name": "sprite_11",
+    "dir": "UIUserphoto"
+  },
+  "sprite_card_2_9": {
+    "spr": "sprite_card__2_9",
+    "atlas": "sprite_card__2_9",
+    "name": "sprite_card__2_9",
+    "dir": "Cards"
+  },
+  "sprite_action_1": {
+    "spr": "sing_03_amwsz",
+    "atlas": "sing_03_amwsz",
+    "name": "sing_03_amwsz",
+    "dir": "Langs"
+  },
+  "sprite_card_3_10": {
+    "spr": "sprite_card__3_10",
+    "atlas": "sprite_card__3_10",
+    "name": "sprite_card__3_10",
+    "dir": "Cards"
+  },
+  "sprite_card_2_12": {
+    "spr": "sprite_card__2_12",
+    "atlas": "sprite_card__2_12",
+    "name": "sprite_card__2_12",
+    "dir": "Cards"
+  },
+  "sprite_faceid_14": {
+    "spr": "sprite_14",
+    "atlas": "sprite_14",
+    "name": "sprite_14",
+    "dir": "UIUserphoto"
+  },
+  "sprite_card_3_12": {
+    "spr": "sprite_card__3_12",
+    "atlas": "sprite_card__3_12",
+    "name": "sprite_card__3_12",
+    "dir": "Cards"
+  }
+}

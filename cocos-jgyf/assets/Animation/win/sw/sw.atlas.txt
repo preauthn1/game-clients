@@ -1,0 +1,48 @@
+
+sw.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+s01
+  rotate: false
+  xy: 883, 60
+  size: 59, 78
+  orig: 59, 78
+  offset: 0, 0
+  index: -1
+s02
+  rotate: false
+  xy: 720, 60
+  size: 161, 78
+  orig: 161, 78
+  offset: 0, 0
+  index: -1
+s03
+  rotate: false
+  xy: 720, 140
+  size: 166, 76
+  orig: 166, 76
+  offset: 0, 0
+  index: -1
+s04
+  rotate: false
+  xy: 888, 140
+  size: 118, 76
+  orig: 118, 76
+  offset: 0, 0
+  index: -1
+s05
+  rotate: true
+  xy: 720, 5
+  size: 53, 76
+  orig: 53, 76
+  offset: 0, 0
+  index: -1
+super
+  rotate: false
+  xy: 2, 2
+  size: 716, 214
+  orig: 716, 214
+  offset: 0, 0
+  index: -1

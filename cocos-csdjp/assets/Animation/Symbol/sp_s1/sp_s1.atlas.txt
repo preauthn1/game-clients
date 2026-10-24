@@ -1,0 +1,90 @@
+
+sp_s1.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blur
+  rotate: false
+  xy: 2, 186
+  size: 182, 182
+  orig: 182, 182
+  offset: 0, 0
+  index: -1
+k01
+  rotate: false
+  xy: 2, 2
+  size: 182, 182
+  orig: 182, 182
+  offset: 0, 0
+  index: -1
+k02
+  rotate: false
+  xy: 186, 186
+  size: 182, 182
+  orig: 182, 182
+  offset: 0, 0
+  index: -1
+k03
+  rotate: false
+  xy: 186, 2
+  size: 182, 182
+  orig: 182, 182
+  offset: 0, 0
+  index: -1
+k04
+  rotate: false
+  xy: 370, 186
+  size: 182, 182
+  orig: 182, 182
+  offset: 0, 0
+  index: -1
+k05
+  rotate: false
+  xy: 370, 2
+  size: 182, 182
+  orig: 182, 182
+  offset: 0, 0
+  index: -1
+k06
+  rotate: false
+  xy: 554, 186
+  size: 182, 182
+  orig: 182, 182
+  offset: 0, 0
+  index: -1
+k07
+  rotate: false
+  xy: 554, 2
+  size: 182, 182
+  orig: 182, 182
+  offset: 0, 0
+  index: -1
+k08
+  rotate: false
+  xy: 738, 186
+  size: 182, 182
+  orig: 182, 182
+  offset: 0, 0
+  index: -1
+k09
+  rotate: false
+  xy: 738, 2
+  size: 182, 182
+  orig: 182, 182
+  offset: 0, 0
+  index: -1
+k10
+  rotate: false
+  xy: 922, 186
+  size: 182, 182
+  orig: 182, 182
+  offset: 0, 0
+  index: -1
+sp_s1
+  rotate: false
+  xy: 922, 2
+  size: 182, 182
+  orig: 182, 182
+  offset: 0, 0
+  index: -1

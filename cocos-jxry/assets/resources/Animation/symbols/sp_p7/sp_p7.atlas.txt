@@ -1,0 +1,69 @@
+
+sp_p7.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bell
+  rotate: true
+  xy: 2, 2
+  size: 192, 380
+  orig: 192, 380
+  offset: 0, 0
+  index: -1
+mask 3_00000
+  rotate: false
+  xy: 2, 196
+  size: 380, 329
+  orig: 380, 329
+  offset: 0, 0
+  index: -1
+mask 3_00001
+  rotate: false
+  xy: 419, 564
+  size: 380, 329
+  orig: 380, 329
+  offset: 0, 0
+  index: -1
+mask 3_00002
+  rotate: false
+  xy: 801, 564
+  size: 380, 329
+  orig: 380, 329
+  offset: 0, 0
+  index: -1
+mask 3_00003
+  rotate: false
+  xy: 1183, 564
+  size: 380, 329
+  orig: 380, 329
+  offset: 0, 0
+  index: -1
+mask 3_00004
+  rotate: false
+  xy: 1565, 564
+  size: 380, 329
+  orig: 380, 329
+  offset: 0, 0
+  index: -1
+mask 3_00005
+  rotate: false
+  xy: 419, 233
+  size: 380, 329
+  orig: 380, 329
+  offset: 0, 0
+  index: -1
+symbol_b_p7
+  rotate: false
+  xy: 801, 412
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+text
+  rotate: false
+  xy: 2, 527
+  size: 415, 366
+  orig: 415, 366
+  offset: 0, 0
+  index: -1

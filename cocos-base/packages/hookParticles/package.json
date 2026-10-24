@@ -1,0 +1,13 @@
+{
+  "name": "hookparticles",
+  "version": "0.0.1",
+  "description": "自動掛載粒子檔",
+  "author": "Cocos Creator",
+  "main": "main.js",
+  "scene-script": "hookParticles.js",
+  "main-menu": {
+    "i18n:MAIN_MENU.package.title/粒子特效載入": {
+      "message": "hookparticles:particles"
+    }
+  }
+}

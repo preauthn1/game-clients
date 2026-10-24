@@ -1,0 +1,20 @@
+{
+  "general": {
+    "designResolution": {
+      "width": 2532,
+      "height": 1170,
+      "fitHeight": false,
+      "fitWidth": true
+    }
+  },
+  "script": {
+    "useDefineForClassFields": true,
+    "allowDeclareFields": true,
+    "loose": true
+  },
+  "physics": {
+    "collisionMatrix": {
+      "0": 0
+    }
+  }
+}

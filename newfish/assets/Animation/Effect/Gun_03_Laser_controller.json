@@ -1,0 +1,1 @@
+{"__type__":"controller","name":"Gun_03_Laser","layer":{"Base Layer":{"defaultState":"Gun_03_Laser_Move","state":[{"name":"Gun_03_Laser_Move","motion":"Gun_03_Laser_Move"}]}},"clip":["Gun_03_Laser_Move"]}

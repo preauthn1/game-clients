@@ -1,0 +1,83 @@
+
+sp_p3.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blur
+  rotate: false
+  xy: 171, 103
+  size: 143, 151
+  orig: 143, 151
+  offset: 0, 0
+  index: -1
+shine
+  rotate: false
+  xy: 2, 87
+  size: 167, 167
+  orig: 167, 167
+  offset: 0, 0
+  index: -1
+sp_p3
+  rotate: false
+  xy: 316, 118
+  size: 146, 136
+  orig: 146, 136
+  offset: 0, 0
+  index: -1
+symbol_p3_00
+  rotate: false
+  xy: 87, 2
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+symbol_p3_02
+  rotate: false
+  xy: 464, 171
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+symbol_p3_04
+  rotate: false
+  xy: 549, 171
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+symbol_p3_06
+  rotate: false
+  xy: 634, 171
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+symbol_p3_08
+  rotate: false
+  xy: 719, 171
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+symbol_p3_10
+  rotate: false
+  xy: 804, 171
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+symbol_p3_12
+  rotate: false
+  xy: 889, 171
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+symbol_p3_14
+  rotate: false
+  xy: 2, 2
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1

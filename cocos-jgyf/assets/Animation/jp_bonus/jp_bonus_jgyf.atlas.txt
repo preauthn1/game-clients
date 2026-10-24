@@ -1,0 +1,202 @@
+
+jp_bonus_jgyf.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c01
+  rotate: false
+  xy: 2, 798
+  size: 252, 223
+  orig: 252, 223
+  offset: 0, 0
+  index: -1
+c02
+  rotate: false
+  xy: 2, 573
+  size: 252, 223
+  orig: 252, 223
+  offset: 0, 0
+  index: -1
+c03
+  rotate: false
+  xy: 256, 798
+  size: 252, 223
+  orig: 252, 223
+  offset: 0, 0
+  index: -1
+c04
+  rotate: false
+  xy: 2, 348
+  size: 252, 223
+  orig: 252, 223
+  offset: 0, 0
+  index: -1
+c05
+  rotate: false
+  xy: 256, 573
+  size: 252, 223
+  orig: 252, 223
+  offset: 0, 0
+  index: -1
+c06
+  rotate: false
+  xy: 510, 798
+  size: 252, 223
+  orig: 252, 223
+  offset: 0, 0
+  index: -1
+c07
+  rotate: false
+  xy: 2, 123
+  size: 252, 223
+  orig: 252, 223
+  offset: 0, 0
+  index: -1
+c08
+  rotate: false
+  xy: 256, 348
+  size: 252, 223
+  orig: 252, 223
+  offset: 0, 0
+  index: -1
+c09
+  rotate: false
+  xy: 510, 573
+  size: 252, 223
+  orig: 252, 223
+  offset: 0, 0
+  index: -1
+c10
+  rotate: false
+  xy: 764, 798
+  size: 252, 223
+  orig: 252, 223
+  offset: 0, 0
+  index: -1
+c11
+  rotate: false
+  xy: 256, 123
+  size: 252, 223
+  orig: 252, 223
+  offset: 0, 0
+  index: -1
+c12
+  rotate: false
+  xy: 510, 348
+  size: 252, 223
+  orig: 252, 223
+  offset: 0, 0
+  index: -1
+c13
+  rotate: false
+  xy: 764, 573
+  size: 252, 223
+  orig: 252, 223
+  offset: 0, 0
+  index: -1
+c14
+  rotate: false
+  xy: 1018, 798
+  size: 252, 223
+  orig: 252, 223
+  offset: 0, 0
+  index: -1
+c15
+  rotate: false
+  xy: 510, 123
+  size: 252, 223
+  orig: 252, 223
+  offset: 0, 0
+  index: -1
+c16
+  rotate: false
+  xy: 764, 348
+  size: 252, 223
+  orig: 252, 223
+  offset: 0, 0
+  index: -1
+c17
+  rotate: false
+  xy: 1018, 573
+  size: 252, 223
+  orig: 252, 223
+  offset: 0, 0
+  index: -1
+coin
+  rotate: false
+  xy: 764, 206
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+icon_02_jpot
+  rotate: false
+  xy: 1018, 431
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+icon_03_jpot
+  rotate: false
+  xy: 1272, 739
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+icon_04_jpot
+  rotate: false
+  xy: 1414, 881
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+icon_05_jpot
+  rotate: false
+  xy: 1272, 597
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+light_ring
+  rotate: false
+  xy: 1272, 881
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+s01
+  rotate: true
+  xy: 764, 134
+  size: 70, 102
+  orig: 70, 102
+  offset: 0, 0
+  index: -1
+s02
+  rotate: false
+  xy: 1556, 889
+  size: 133, 132
+  orig: 133, 132
+  offset: 0, 0
+  index: -1
+s03
+  rotate: false
+  xy: 1414, 744
+  size: 134, 135
+  orig: 134, 135
+  offset: 0, 0
+  index: -1
+s04
+  rotate: true
+  xy: 2, 2
+  size: 119, 124
+  orig: 119, 124
+  offset: 0, 0
+  index: -1
+s05
+  rotate: false
+  xy: 906, 247
+  size: 102, 99
+  orig: 102, 99
+  offset: 0, 0
+  index: -1

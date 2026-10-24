@@ -1,0 +1,209 @@
+
+bonus_coin.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+00
+  rotate: true
+  xy: 379, 332
+  size: 163, 165
+  orig: 163, 165
+  offset: 0, 0
+  index: -1
+01
+  rotate: true
+  xy: 366, 172
+  size: 158, 165
+  orig: 158, 165
+  offset: 0, 0
+  index: -1
+02
+  rotate: true
+  xy: 2, 2
+  size: 126, 165
+  orig: 126, 165
+  offset: 0, 0
+  index: -1
+03
+  rotate: true
+  xy: 1364, 255
+  size: 73, 165
+  orig: 73, 165
+  offset: 0, 0
+  index: -1
+04
+  rotate: true
+  xy: 1531, 309
+  size: 19, 165
+  orig: 19, 165
+  offset: 0, 0
+  index: -1
+05
+  rotate: true
+  xy: 1364, 180
+  size: 73, 165
+  orig: 73, 165
+  offset: 0, 0
+  index: -1
+06
+  rotate: false
+  xy: 238, 176
+  size: 126, 165
+  orig: 126, 165
+  offset: 0, 0
+  index: -1
+07
+  rotate: true
+  xy: 533, 172
+  size: 158, 165
+  orig: 158, 165
+  offset: 0, 0
+  index: -1
+base_blue
+  rotate: false
+  xy: 713, 330
+  size: 165, 165
+  orig: 165, 165
+  offset: 0, 0
+  index: -1
+base_green
+  rotate: false
+  xy: 880, 330
+  size: 165, 165
+  orig: 165, 165
+  offset: 0, 0
+  index: -1
+base_purp
+  rotate: false
+  xy: 1047, 330
+  size: 165, 165
+  orig: 165, 165
+  offset: 0, 0
+  index: -1
+base_red
+  rotate: false
+  xy: 1214, 330
+  size: 165, 165
+  orig: 165, 165
+  offset: 0, 0
+  index: -1
+blur01
+  rotate: false
+  xy: 1381, 330
+  size: 163, 165
+  orig: 163, 165
+  offset: 0, 0
+  index: -1
+blur02
+  rotate: false
+  xy: 1201, 165
+  size: 161, 163
+  orig: 161, 163
+  offset: 0, 0
+  index: -1
+blur03
+  rotate: false
+  xy: 1546, 330
+  size: 163, 165
+  orig: 163, 165
+  offset: 0, 0
+  index: -1
+c00
+  rotate: false
+  xy: 1711, 330
+  size: 163, 165
+  orig: 163, 165
+  offset: 0, 0
+  index: -1
+c02
+  rotate: false
+  xy: 1876, 330
+  size: 163, 165
+  orig: 163, 165
+  offset: 0, 0
+  index: -1
+c03
+  rotate: true
+  xy: 700, 165
+  size: 163, 165
+  orig: 163, 165
+  offset: 0, 0
+  index: -1
+c04
+  rotate: true
+  xy: 867, 165
+  size: 163, 165
+  orig: 163, 165
+  offset: 0, 0
+  index: -1
+c05
+  rotate: true
+  xy: 546, 332
+  size: 163, 165
+  orig: 163, 165
+  offset: 0, 0
+  index: -1
+coin_bw
+  rotate: true
+  xy: 1034, 165
+  size: 163, 165
+  orig: 163, 165
+  offset: 0, 0
+  index: -1
+fish
+  rotate: true
+  xy: 2, 130
+  size: 200, 140
+  orig: 200, 140
+  offset: 0, 0
+  index: -1
+flower
+  rotate: true
+  xy: 196, 343
+  size: 152, 181
+  orig: 152, 181
+  offset: 0, 0
+  index: -1
+men
+  rotate: false
+  xy: 144, 148
+  size: 92, 182
+  orig: 92, 182
+  offset: 0, 0
+  index: -1
+text_blue
+  rotate: true
+  xy: 169, 26
+  size: 120, 53
+  orig: 120, 53
+  offset: 0, 0
+  index: -1
+text_green
+  rotate: false
+  xy: 1531, 253
+  size: 122, 54
+  orig: 122, 54
+  offset: 0, 0
+  index: -1
+text_purp
+  rotate: false
+  xy: 1531, 198
+  size: 122, 53
+  orig: 122, 53
+  offset: 0, 0
+  index: -1
+text_red
+  rotate: true
+  xy: 1655, 189
+  size: 118, 53
+  orig: 118, 53
+  offset: 0, 0
+  index: -1
+turt
+  rotate: false
+  xy: 2, 332
+  size: 192, 163
+  orig: 192, 163
+  offset: 0, 0
+  index: -1

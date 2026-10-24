@@ -1,0 +1,27 @@
+
+sp_p1_jgyf.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base
+  rotate: false
+  xy: 2, 2
+  size: 114, 114
+  orig: 114, 114
+  offset: 0, 0
+  index: -1
+blur
+  rotate: false
+  xy: 118, 2
+  size: 114, 114
+  orig: 114, 114
+  offset: 0, 0
+  index: -1
+sp1
+  rotate: false
+  xy: 234, 6
+  size: 113, 110
+  orig: 113, 110
+  offset: 0, 0
+  index: -1

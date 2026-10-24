@@ -1,0 +1,152 @@
+{
+    "sprite_chip_8_t": {
+      "spr": "TableJetton_8",
+      "atlas": "TableJetton_8",
+      "name": "TableJetton_8",
+      "dir": "Jetton"
+    },
+    "sprite_color_1": {
+      "spr": "sign_01_hljbp",
+      "atlas": "hljbp",
+      "name": "hljbp",
+      "dir": ""
+    },
+    "sprite_chip_1": {
+      "spr": "chip_1",
+      "atlas": "chip_1",
+      "name": "chip_1",
+      "dir": "Jetton"
+    },
+    "sprite_chip_6_t": {
+      "spr": "TableJetton_6",
+      "atlas": "TableJetton_6",
+      "name": "TableJetton_6",
+      "dir": "Jetton"
+    },
+    "sprite_chip_6": {
+      "spr": "chip_6",
+      "atlas": "chip_6",
+      "name": "chip_6",
+      "dir": "Jetton"
+    },
+    "sprite_chip_5": {
+      "spr": "chip_5",
+      "atlas": "chip_5",
+      "name": "chip_5",
+      "dir": "Jetton"
+    },
+    "sprite_chip_5_t": {
+      "spr": "TableJetton_5",
+      "atlas": "TableJetton_5",
+      "name": "TableJetton_5",
+      "dir": "Jetton"
+    },
+    "sprite_chip_7": {
+      "spr": "chip_7",
+      "atlas": "chip_7",
+      "name": "chip_7",
+      "dir": "Jetton"
+    },
+    "sprite_chip_8": {
+      "spr": "chip_8",
+      "atlas": "chip_8",
+      "name": "chip_8",
+      "dir": "Jetton"
+    },
+    "sprite_color_5": {
+      "spr": "sign_05_hljbp",
+      "atlas": "hljbp",
+      "name": "hljbp",
+      "dir": ""
+    },
+    "sprite_color_6": {
+      "spr": "sign_06_hljbp",
+      "atlas": "hljbp",
+      "name": "hljbp",
+      "dir": ""
+    },
+    "sprite_chip_4": {
+      "spr": "chip_4",
+      "atlas": "chip_4",
+      "name": "chip_4",
+      "dir": "Jetton"
+    },
+    "sprite_color_2": {
+      "spr": "sign_02_hljbp",
+      "atlas": "hljbp",
+      "name": "hljbp",
+      "dir": ""
+    },
+    "sprite_chip_1_t": {
+      "spr": "TableJetton_1",
+      "atlas": "TableJetton_1",
+      "name": "TableJetton_1",
+      "dir": "Jetton"
+    },
+    "sprite_chip_4_t": {
+      "spr": "TableJetton_4",
+      "atlas": "TableJetton_4",
+      "name": "TableJetton_4",
+      "dir": "Jetton"
+    },
+    "sprite_chip_3_t": {
+      "spr": "TableJetton_3",
+      "atlas": "TableJetton_3",
+      "name": "TableJetton_3",
+      "dir": "Jetton"
+    },
+    "sprite_settlement": {
+      "spr": "font_06_hljbp",
+      "atlas": "font_06_hljbp",
+      "name": "font_06_hljbp",
+      "dir": "Word"
+    },
+    "sprite_chip_7_t": {
+      "spr": "TableJetton_7",
+      "atlas": "TableJetton_7",
+      "name": "TableJetton_7",
+      "dir": "Jetton"
+    },
+    "sprite_color_3": {
+      "spr": "sign_03_hljbp",
+      "atlas": "hljbp",
+      "name": "hljbp",
+      "dir": ""
+    },
+    "sprite_color_4": {
+      "spr": "sign_04_hljbp",
+      "atlas": "hljbp",
+      "name": "hljbp",
+      "dir": ""
+    },
+    "sprite_color_7": {
+      "spr": "sign_07_hljbp",
+      "atlas": "hljbp",
+      "name": "hljbp",
+      "dir": ""
+    },
+    "sprite_color_8": {
+      "spr": "sign_08_hljbp",
+      "atlas": "hljbp",
+      "name": "hljbp",
+      "dir": ""
+    },
+    "sprite_chip_2_t": {
+      "spr": "TableJetton_2",
+      "atlas": "TableJetton_2",
+      "name": "TableJetton_2",
+      "dir": "Jetton"
+    },
+    "sprite_chip_2": {
+      "spr": "chip_2",
+      "atlas": "chip_2",
+      "name": "chip_2",
+      "dir": "Jetton"
+    },
+    "sprite_chip_3": {
+      "spr": "chip_3",
+      "atlas": "chip_3",
+      "name": "chip_3",
+      "dir": "Jetton"
+    }
+  }

@@ -1,0 +1,326 @@
+Node Path,DragonBone's Armature,Animation,trouble,State,Detail
+,,,,,
+D:\Game2020\H5Only\Slot88\wukong\assets\Animation\fire_mountain_change_bg\fire_moutain_change_bg_ske.json,_mov/fire_mountain_change_bg_back_01_mov,fire_mountain_change_bg_back_01,,,-F
+,_mov/fire_mountain_change_bg_back_02_mov,fire_mountain_change_bg_back_02,,,-eH
+,_mov/fire_mountain_change_bg_back_03_mov,fire_mountain_change_bg_back_03,,,-s
+,fire_mountain_change_bg_back_mov,fire_mountain_change_bg_back,,,-sI - 
+,fire_mountain_change_bg_front_mov,fire_mountain_change_bg_front,,,-e
+,,,,,
+D:\Game2020\H5Only\Slot88\wukong\assets\Animation\gourd_character\gourd_character_ske.json,_gourd_character/_mov/gourd_wukon_lose_mov,gourd_wukon_lose,,,-ŭVYۥk
+,_gourd_character/_mov/gourd_wukon_waiting_mov,gourd_wukon_waiting,,,-ŭV
+,_gourd_character/_mov/gourd_wukon_win_mov,gourd_wukon_win,,,-ŭVùY
+,_gourd_character/gourd_in_mov,gourd_in,,,-ťLӪȨ ñUĪ
+,_gourd_character/gourd_waiting_mov,gourd_waiting,,,-ŭV
+,_gourd_character/gourd_wukon_suckin01_lose_mov,gourd_wukon_suckin01_lose,,,-ũq
+,_gourd_character/gourd_wukon_suckin01_mov,gourd_wukon_suckin01,,,-ŵĪl
+,_gourd_character/gourd_wukon_suckin01_win_mov,gourd_wukon_suckin01_win,,,-űqVVùY
+,_gourd_character/gourd_wukon_suckin02_lose_mov,gourd_wukon_suckin02_lose,,,-űqVa_Vùq
+,_gourd_character/gourd_wukon_suckin02_mov,gourd_wukon_suckin02,,,-ŧl᧤a
+,_gourd_character/gourd_wukon_suckin02_up_mov,gourd_wukon_suckin02_up,,,-űqa_ V
+,_gourd_character/gourd_wukon_suckin02_win_mov,gourd_wukon_suckin02_win,,,-űqa_VùY
+,,,,,
+D:\Game2020\H5Only\Slot88\wukong\assets\Animation\ng_bg\ng_bg_ske.json,_mov/bg_city_0001_mov,bg_city_0001,,,Vkwʪ] - e
+,_mov/bg_city_0002_mov,bg_city_0002,,,Vkwʪ - 
+,_mov/bg_city_0003_mov,bg_city_0003,,,Vkwʪ - ̻
+,_mov/bg_city_0004_mov,bg_city_0004,,,Vkʪ - 
+,_mov/bg_river_0002_mov,bg_river_0002,,,VkwʪeY
+,_mov/bg_river_0003_mov,bg_river_0003,,,Vkwʪs
+,_mov/bg_wild_0001_mov,bg_wild_0001,,,VkwʪP - e
+,_mov/bg_wild_0002_mov,bg_wild_0002,,,VkwʪM襨 - 
+,_mov/bg_wild_0003_mov,bg_wild_0003,,,VkwʪM誺 - 
+,ng_bg_city_back_mov,bg_city_back,,,VkwʪU
+,ng_bg_city_front_mov,bg_city_front,,,VkwʪUe]
+,ng_bg_river_back_mov,ng_bg_river_back,,,Vkwʪey
+,ng_bg_wild_back_mov,ng_bg_wild_back,,,VkwʪI
+,ng_bg_wild_front_mov,ng_bg_wild_front,,,Vkwʪe
+,,,,,
+D:\Game2020\H5Only\Slot88\wukong\assets\Animation\jac\jac_ske.json,_jac/_mov/jac_bg01_mov,jac_bg01,,,hh - Ŧ⥨
+,_jac/_mov/jac_bg02_mov,jac_bg02,,,hh - ⥨
+,_jac/_mov/jac_bg03_mov,jac_bg03,,,hh - ⥨
+,_jac/_mov/jac_bg04_mov,jac_bg04,,,hh - Ŧt׽u
+,_jac/_mov/jac_wukon_waiting_mov,jac_wukon_waiting,,,Ž񶳭
+,_jac/jac_bg_mov,jac_bg,,,hh - X
+,_jac/jac_word_mov,jac_word,,,Bonus Game
+,,jac_word_out,,,Bonus Game - r˰hh
+,_jac/jac_wukon_mov,jac_wukon_in,,,ŤJ - 񶳭
+,,jac_wukon_out,,,Ž񶳭 - 
+,,,,,
+D:\Game2020\H5Only\Slot88\wukong\assets\Animation\ng_character_monk\ng_character_monk_ske.json,_monk/_mov/monk_see_waiting_mirror_mov,monk_see_waiting_mirror,,,bR-kϦV
+,_monk/_mov/monk_see_waiting_mov,monk_see_waiting,,,bR
+,_monk/_mov/monk_spell_cloud_lose_waiting_mov,monk_spell_cloud_lose_waiting,,,b
+,_monk/_mov/monk_waiting_mov,monk_waiting,,,bR
+,_monk/monk_action_mov,monk_action,,,b
+,_monk/monk_spell_cloud_lose_mov,monk_spell_cloud_lose,,,b궳
+,_monk/monk_spell_cloud_win_mov,monk_spell_cloud_win,,,b궳\
+,_monk/monk_spell_dragon_mov,monk_spell_dragon,,,bs
+,,monk_spell_dragon_right_loop,,,bs-ݥkW
+,,monk_spell_dragon_left_loop,,,bs-ݥW
+,_monk/monk_spell_nonwu_lose_mov,monk_spell_nonwu_lose,,,b^ba
+,,monk_spell_nonwu_lose_loop,,,b^ba - L
+,_monk/monk_spell_nonwu_mov,monk_spell_nonwu,,,bʫݥkW
+,_monk/monk_spell_nonwu_win_mov,monk_spell_nonwu_win,,,bݥkWVY
+,,monk_spell_nonwu_win_loop,,,bݦVY - L
+,_monk/monk_stop_mov,monk_stop,,,bʤ
+,_monk/monk_tired_mov,monk_tired,,,bh¨
+,_monk/monk_walk_mov,monk_walk,,,b
+,,,,,
+D:\Game2020\H5Only\Slot88\wukong\assets\Animation\ng_character_pig\ng_character_pig_ske.json,_pig/_mov/pig_see_waiting_mirror_mov,pig_see_waiting_mirror,,,Kٯw-V
+,_pig/_mov/pig_see_waiting_mov,pig_see_waiting,,,Kٯw-Vk
+,_pig/_mov/pig_spell_cloud_lose_waiting_mov,pig_spell_cloud_lose_waiting,,,K٨
+,_pig/_mov/pig_waiting_mov,pig_waiting,YȸӤj ݰ,,Kٯw
+,_pig/pig_action_mov,pig_action,,,K٨@B
+,_pig/pig_spell_cloud_lose_mov,pig_spell_cloud_lose,,,Kٳ궳
+,_pig/pig_spell_cloud_win_mov,pig_spell_cloud_win,,,Kٳ궳\
+,_pig/pig_spell_dragon_mov,pig_spell_dragon,,,Kٰʯw
+,,pig_spell_dragon_right_loop,,,KVk
+,,pig_spell_dragon_left_loop,,,KV
+,_pig/pig_spell_nonwu_lose_mov,pig_spell_nonwu_lose,,,Kٽ
+,,pig_spell_nonwu_lose_loop,,,Kٽ٬
+,_pig/pig_spell_nonwu_mov,pig_spell_nonwu,,,KٵuݦVkW
+,_pig/pig_spell_nonwu_win_mov,pig_spell_nonwu_win,,,KٵuqkWVY
+,,pig_spell_nonwu_win_loop,,,K٬ݵY
+,_pig/pig_stop_mov,pig_stop,,,K٨۰U
+,_pig/pig_tired_mov,pig_tired,,,Kٯh¨
+,_pig/pig_walk_mov,pig_walk,,,K٨
+,,,,,
+D:\Game2020\H5Only\Slot88\wukong\assets\Animation\vs_change\vs_change_ske.json,_vs_change/_mov/thunder_b_mov,thunder_b,,,p
+,_vs_change/_mov/thunder_s_mov,thunder_s,,,py
+,_vs_change/vs_change_cow_mov,vs_change_cow,,,p VS]
+,_vs_change/vs_change_gold_mov,vs_change_gold,,,p VS
+,_vs_change/vs_change_silver_mov,vs_change_silver,,,p VSȨ
+,,,,,
+D:\Game2020\H5Only\Slot88\wukong\assets\Animation\ng_character_sanzo\ng_character_sanzo_ske.json,_sanzo/_mov/sanzo_see_waiting_mirror_mov,sanzo_see_waiting_mirror,,,TRߦV
+,_sanzo/_mov/sanzo_see_waiting_mov,sanzo_see_waiting,,,TRߦVk
+,_sanzo/_mov/sanzo_spell_cloud_lose_waiting_mov,sanzo_spell_cloud_lose_waiting,,,Tè
+,_sanzo/_mov/sanzo_waiting_mov,sanzo_waiting,,,TR
+,_sanzo/sanzo_action_mov,sanzo_action,,,TêQ
+,_sanzo/sanzo_spell_cloud_lose_mov,sanzo_spell_cloud_lose,,,Tó궳
+,_sanzo/sanzo_spell_cloud_win_mov,sanzo_spell_cloud_win,,,Tó궳\
+,_sanzo/sanzo_spell_dragon_mov,sanzo_spell_dragon,,,TèR
+,,sanzo_spell_dragon_right_loop,,,TVk
+,,sanzo_spell_dragon_left_loop,,,TV
+,_sanzo/sanzo_spell_nonwu_lose_mov,sanzo_spell_nonwu_lose,,,Tç˦ba
+,,sanzo_spell_nonwu_lose_lose,,,Tç˦ba-Il
+,_sanzo/sanzo_spell_nonwu_mov,sanzo_spell_nonwu,,,TðU}BݦVk
+,_sanzo/sanzo_spell_nonwu_win_mov,sanzo_spell_nonwu_win,,,TñqݥkVY
+,,sanzo_spell_nonwu_win_loop,,,TìY-Il
+,_sanzo/sanzo_stop_mov,sanzo_stop,,,Tèʰ
+,_sanzo/sanzo_tired_mov,sanzo_tired,,,Tïh¨
+,_sanzo/sanzo_walk_mov,sanzo_walk,,,Tè
+,,,,,
+D:\Game2020\H5Only\Slot88\wukong\assets\Animation\fire_moutain_character\fire_moutain_character_ske.json,_fire_mountain_character/_mov/fan_dust_mov,fan_dust,,,Q@@Fl
+,_fire_mountain_character/_mov/gold_snatch_waiting_mov,gold_snatch_waiting,,,KDbA
+,_fire_mountain_character/_mov/gold_snatch_win_mov,gold_snatch_win,,,KD
+,_fire_mountain_character/_mov/wukon_fan_lose_waiting_mov,wukon_fan_lose_waiting,,,ŪݿΤ
+,_fire_mountain_character/_mov/wukon_fan_waiting_mov,wukon_fan_waiting,,,Ů۪ݿ
+,_fire_mountain_character/_mov/wukon_fan_win_waiting_mov,wukon_fan_win_waiting,,,Ů۪ݿY
+,_fire_mountain_character/_mov/wukon_snatch_lose_mov,wukon_snatch_lose,,,Ÿ˦
+,_fire_mountain_character/_mov/wukon_snatch_lose_star_mov,wukon_snatch_lose_star,,,źѬP
+,_fire_mountain_character/_mov/wukon_snatch_waiting_mov,wukon_snatch_waiting,,,Ž-ưʡ
+,_fire_mountain_character/fire_mountain_change_wukon_mov,fire_mountain_change_wukon,,,Ž-ưʡ
+,_fire_mountain_character/fire_mountain_fan_lose_mov,fire_mountain_fan_lose,,,ŪݿΤ a
+,_fire_mountain_character/fire_mountain_fan_mov,fire_mountain_fan,,,ŪݿΤOTUỷ
+,_fire_mountain_character/fire_mountain_fan_win_mov,fire_mountain_fan_win,,,Ů۪ݿqVVù
+,_fire_mountain_character/fire_mountain_snatch_lose_mov,fire_mountain_snatch_lose,,,ťϧL(L?)
+,_fire_mountain_character/fire_mountain_snatch_mov,fire_mountain_snatch,,,KDۮŤJ
+,_fire_mountain_character/fire_mountain_snatch_win_mov,fire_mountain_snatch_win,,,ŷmݿNKD筸
+,,,,,
+D:\Game2020\H5Only\Slot88\wukong\assets\Animation\ng_character_wukon\bg_character_wukon_ske.json,_cloud/_mov/spell_cloud_winfly_white_mov,spell_cloud_win01fly_white,J,,o涳J
+,_cloud/spell_cloud_lose_mov,spell_cloud_lose,,,o涳J᭸
+,_cloud/spell_cloud_win_loop_mov,spell_cloud_win_loop,,,o涳L()
+,_cloud/spell_cloud_win_mov,spell_cloud_win,,,o涳Jᰱ
+,_cloud/spell_cloud_winfly_mov,spell_cloud_winfly,,,o涳qRVĦVY
+,_wukon/_mov/wukon_see_waiting_morrir_mov,wukon_see_waiting_mirror,,,ŮTάݦVW
+,_wukon/_mov/wukon_see_waiting_mov,wukon_see_waiting,,,ŮTάݦVkW
+,_wukon/_mov/wukon_spell_cloud_lose_waiting_mov,wukon_spell_cloud_lose_waiting,,,Ŵ۪Tέw۳
+,_wukon/_mov/wukon_spell_cloud_win_waiting_mov,wukon_spell_cloud_win_waiting,,,Ŧ۪TΤY-}B
+,_wukon/wukon_action_mov,wukon_action,,,Ŧ۪TΨF@BU
+,_wukon/wukon_spell_cloud_lose_mov,wukon_spell_cloud_lose,,,ų궳A񶳳QϡBŭwa
+,_wukon/wukon_spell_cloud_win_mov,wukon_spell_cloud_win,,,ų궳B񶳤Y
+,,wukon_spell_cloud_winfly,,,Ž񶳭Vù
+,_wukon/wukon_spell_dragon_mov,wukon_spell_dragon,,,ŤB
+,,wukon_spell_dragon_right_loop,,,ŬݦVkW
+,,wukon_spell_dragon_left_loop,,,ŬݦVW
+,_wukon/wukon_spell_nonwu_lose_mov,wukon_spell_nonwu_lose,,,Ů۪TΧ˦ba
+,,wukon_spell_nonwu_lose_loop,,,Ů۪TΧbaW
+,_wukon/wukon_spell_nonwu_mov,wukon_spell_nonwu,,,ŤBVkW
+,_wukon/wukon_spell_nonwu_win_mov,wukon_spell_nonwu_win,,,Ŧ۪TΤY-
+,,wukon_spell_nonwu_win_loop,,,Ŧ۪TΤY-۷L
+,_wukon/wukon_stop_mov,wukon_stop,,,ŤB
+,_wukon/wukon_tired_mov,wukon_tired,,,ůh¦樫
+,_wukon/wukon_waiting_mov,wukon_waiting,,,R
+,_wukon/wukon_walk_mov,wukon_walk,,,Ũ
+,,,,,
+D:\Game2020\H5Only\Slot88\wukong\assets\Animation\big_chance\big_chance_ske.json,_big_chance/_mov/bb_word_bomb_mov,bb_word_bomb,,,BigChanceBQ
+,_big_chance/_mov/fire_loop_mov,fire_loop,,,WLoop
+,_big_chance/_mov/sbb_light_down_mov,sbb_light_down,,,XӰ{GG{
+,_big_chance/_mov/sbb_light_mov,sbb_light,,,@Ӱ{GG{
+,_big_chance/_mov/sbb_light_up_mov,sbb_light_up,,,XӰ{GG{
+,_big_chance/_mov/sbb_word_a_mov,sbb_word_a,,,ar@
+,_big_chance/_mov/sbb_word_b_mov,sbb_word_b,,,br@
+,_big_chance/_mov/sbb_word_c_mov,sbb_word_c,,,cr@
+,_big_chance/_mov/sbb_word_e_mov,sbb_word_e,,,er@
+,_big_chance/_mov/sbb_word_g_mov,sbb_word_g,,,gr@
+,_big_chance/_mov/sbb_word_i_mov,sbb_word_i,,,ir@
+,_big_chance/_mov/sbb_word_mov,sbb_word,,,WBigChange CӦr@ ٱa{
+,_big_chance/_mov/sbb_word_h_mov,unnamed,,,hr@
+,_big_chance/_mov/sbb_word_n_mov,sbb_word_n,,,nr@
+,_big_chance/_mov/sbb_word_super_mov,sbb_word_super,,,W r@
+,_big_chance/_mov/stone_b_01_mov,stone_b_01,,,sQ Q@ - פP
+,_big_chance/_mov/stone_b_02_mov,stone_b_02,,,sQ Q@ - פP
+,_big_chance/_mov/stone_b_03_mov,stone_b_03,,,sQ Q@ - פP
+,_big_chance/_mov/stone_b_all_mov,stone_b_all,,,sQܦhY loop
+,_big_chance/_mov/stone_s_01_mov,stone_s_01,,,sQ @@ - פP
+,_big_chance/_mov/stone_s_02_mov,stone_s_02,,,sQ @@ - פP
+,_big_chance/_mov/stone_s_all_mov,stone_s_all,,,sQܦh loop
+,_big_chance/_mov/volcano_eruption_one_mov,volcano_eruption_one,,,s+W+Q+QY loop
+,_big_chance/_mov/volcano_shake_mov,volcano_shake,,,uݨ줣|ʪsK
+,_big_chance/_mov/volcano_waiting_one_loop_mov,volcano_waiting_one_loop,,,sxˤl
+,_big_chance/_mov/volcano_waiting_one_mov,volcano_waiting_one,,,s Q!!
+,_big_chance/_mov/wukon_end_mov,wukon_end,,,Ž񶳭F
+,_big_chance/_mov/wukon_see_mov,wukon_see,,,Ž񶳻
+,_big_chance/_mov/wukon_ya_mov,wukon_ya,,,ŽYeah
+,_big_chance/big_chance_in_mov,big_chance_in,,,ŭLӤSLh TӤswwX{
+,_big_chance/big_chance_word_mov,big_chance_word,,,sQo ټQXBigChance
+,_big_chance/big_chance_word_super_mov,big_chance_word_super,,,sQo QXBigChance SQXWBigChance
+,_big_chance/big_chance_wukon_mov,big_chance_wukon_in,,,űqkJݦVYY
+,,big_chance_wukon_waiting,,,Ž񶳦V - S
+,,big_chance_wukon_see,,,Ž񶳦V - S ⻷
+,,big_chance_wukon_ya,,,Ž񶳦V - VYY
+,,big_chance_wukon_end,,,Ž񶳩䭸
+,_big_chance/volcano_mov,volcano_stop,,,Tys
+,,volcano_waiting_0,,,sGnQ
+,,volcano_waiting_1,,,sGnQ
+,,volcano_waiting_2,,,ksGnQ
+,,volcano_eruption_0,,,sQo
+,,volcano_eruption_1,,,sQo
+,,volcano_eruption_2,,,ksQo
+,,,,,
+D:\Game2020\H5Only\Slot88\wukong\assets\Animation\bonus\bonus_ske.json,_bonus/_mov/bg_paper_blue_mov,bg_paper_blue,,,@Ŧ⪫Ƹ
+,_bonus/_mov/bg_paper_green_mov,bg_paper_green,,,@⪫Ƹ
+,_bonus/_mov/bg_paper_pink_mov,bg_paper_pink,,,@⪫Ƹ
+,_bonus/_mov/bg_paper_purple_mov,bg_paper_purple,,,@⪫Ƹ
+,_bonus/_mov/bg_paper_yellow_mov,bg_paper_yellow,,,@⪫Ƹ
+,_bonus/_mov/bonus_end_number_00_mov,bonus_end_number_00,,,vl½ܦƦr
+,_bonus/_mov/bonus_end_number_01_mov,bonus_end_number_01,,,vl½ܦƦr
+,_bonus/_mov/bonus_end_number_02_mov,bonus_end_number_02,,,vl½ܦƦr
+,_bonus/_mov/bonus_end_number_03_mov,bonus_end_number_03,,,vl½ܦƦr
+,_bonus/_mov/bonus_end_number_04_mov,bonus_end_number_04,,,vl½ܦƦr
+,_bonus/_mov/bonus_end_number_05_mov,bonus_end_number_04,,,vl½ܦƦr
+,_bonus/_mov/bonus_end_number_06_mov,bonus_end_number_06,,,vl½ܦƦr
+,_bonus/_mov/bonus_end_number_07_mov,bonus_end_number_07,,,vl½ܦƦr
+,_bonus/_mov/bonus_end_number_08_mov,bonus_end_number_08,,,vl½ܦƦr
+,_bonus/_mov/bonus_end_number_09_mov,bonus_end_number_09,,,vl½ܦƦr
+,_bonus/_mov/bonus_end_number_mov,bonus_end_number,,,vl½ܦƦr - |
+,_bonus/_mov/bonus_symbol_bar_scale_mov,bonus_symbol_bar_scale,,,użлx
+,_bonus/_mov/bonus_word_b_mov,bonus_word_b,,,vl½ܦB
+,_bonus/_mov/bonus_word_c01_mov,bonus_word_c01,,,TwT
+,_bonus/_mov/bonus_word_c02_mov,bonus_word_c02,,,Tww
+,_bonus/_mov/bonus_word_exclamation_mov,bonus_word_exclamation,,,Ӫĸ
+,_bonus/_mov/bonus_word_n_mov,bonus_word_n,,,vl½ܦN
+,_bonus/_mov/bonus_word_o_mov,bonus_word_o,,,vl½ܦO
+,_bonus/_mov/bonus_word_s_mov,bonus_word_s,,,vl½ܦS
+,_bonus/_mov/bonus_word_star_mov,bonus_word_star,,,uֳtloop
+,_bonus/_mov/bonus_word_u_mov,bonus_word_u,,,vl½ܦU
+,_bonus/_mov/bonus_wukon_move_mov,bonus_wukon_move,,,Ž񶳦ҩxߦVe VY-S
+,_bonus/_mov/bonus_wukon_win_mov,bonus_wukon_win,,,Ž񶳦ҩxߦVe
+,_bonus/_mov/bonus_wukon_winloop_mov,bonus_wukon_winloop,,,Ž񶳦ҴxߦVegw
+,_bonus/bonus_bg_mov,bonus_bg,,,@mƸ
+,_bonus/bonus_bgword_mov,bonus_bgword,,,BonusTw!! r CӦrqvļ½
+,_bonus/bonus_end_mov,bonus_end,,,Get #### Medals Ʀr| ƦrΤ@qvl½
+,_bonus/bonus_symbol_mov,bonus_symbol_bar,,,o涳ۯużлx лxٸ@U
+,,bonus_symbol_bar_loop,,,o涳ۯużлxư
+,,bonus_symbol_red7,,,o涳۬7лx
+,,bonus_symbol_red7_loop,,,o涳۬7лxư 7лxaBbW
+,,bonus_symbol_blue7,,,o涳7лx
+,,bonus_symbol_blue7_loop,,,o涳7лxư 7лxaBbW
+,_bonus/bonus_wukon_mov,bonus_wukon,,,Ž񶳥kG{xߦVe
+,,bonus_wukon_winloop,,,Ž xߦVe B
+,,,,,
+D:\Game2020\H5Only\Slot88\wukong\assets\Animation\ng_spell\ng_spell_ske.json,_spell_bird/_mov/spell_bird_black_mov,spell_bird_black,,,®îʯͻHGb_zI
+,_spell_bird/_mov/spell_bird_blue_mov,spell_bird_blue,,,ŮʯͻHGb_zI
+,_spell_bird/_mov/spell_bird_green_mov,spell_bird_green,,,񮰰ʯͻHGb_zI
+,_spell_bird/_mov/spell_bird_red_mov,spell_bird_red,,,ʯͻHGb_zI
+,_spell_bird/_mov/spell_bird_white_mov,spell_bird_white,,,ծʯͻHGb_zI
+,_spell_bird/_mov/spell_bird_yellow_mov,spell_bird_yellow,,,ʯͻHGb_zI
+,_spell_bird/spell_bird_in_mov,spell_bird_in,,,ñq䭸i
+,_spell_bird/spell_bird_out_mov,spell_bird_out,,,ô»譸
+,_spell_bun_peach/_mov/spell_smoke_mov,spell_smoke,,,@pϮ_X_0.5
+,_spell_bun_peach/spell_bun_mov,spell_bun_in,,,@}ϫX{]l
+,,spell_bun_loop,,,]ljpYloop
+,,spell_bun_out,,,]lYp
+,_spell_bun_peach/spell_peach_mov,spell_peach_in,,,@}ϫX{l
+,,spell_peach_loop,,,ljpYloop
+,,spell_peach_out,,,lYp
+,_spell_dragon/_mov/spell_dragon_black_mov,spell_dragon_back_black,,,sVk
+,_spell_dragon/_mov/spell_dragon_blue_mov,spell_dragon_back_blue,,,sVk
+,_spell_dragon/_mov/spell_dragon_front_black_mov,spell_dragon_front_black,,,sڦVk}e
+,_spell_dragon/_mov/spell_dragon_front_blue_mov,spell_dragon_front_blue,,,sڦVk}e
+,_spell_dragon/_mov/spell_dragon_front_green_mov,spell_dragon_front_green,,,sڦVk}e
+,_spell_dragon/_mov/spell_dragon_front_white_mov,spell_dragon_front_white,,,sڦVk}e
+,_spell_dragon/_mov/spell_dragon_green_mov,spell_dragon_back_green,,,sVk
+,_spell_dragon/_mov/spell_dragon_white_mov,spell_dragon_back_white,,,sVk
+,_spell_dragon/spell_dragon_back_mov,spell_dragon_back,,,skWܦW(?)
+,_spell_dragon/spell_dragon_front_mov,spell_dragon_front,,,sڦVk}e
+,_spell_dragonfly/_mov/dragonfly_blue_mov,dragonfly_blue,,,Żf
+,_spell_dragonfly/_mov/dragonfly_red_mov,dragonfly_red,,,f(!?)
+,_spell_dragonfly/spell_dragonfly_blue_mov,spell_dragonfly_blue_in,,,TŻf
+,,spell_dragonfly_blue_loop,,,B
+,,spell_dragonfly_blue_out,,,
+,_spell_dragonfly/spell_dragonfly_red_mov,spell_dragonfly_red_in,,,Tf
+,,spell_dragonfly_red_loop,,,B
+,,spell_dragonfly_red_out,,,
+,_spell_god/_mov/god_mov,god,,,ճTѥPH񶳺}B
+,_spell_god/spell_god_mov,spell_god_in,,,ճTѥPH񶳶i
+,,spell_god_out,,,ճTѥPH񶳩B^YY}
+,_spell_mouse/spell_mouse_brown_mov,spell_mouse_brown,,,ĦѹikXh GV۸gLƪ
+,_spell_mouse/spell_mouse_white_mov,spell_mouse_white,,,զѹikXh GV۸gLƪ
+,_spell_nonwu/_mov/nonwu_black_light_mov,nonwu_black_light,,,¥(²y)
+,_spell_nonwu/_mov/nonwu_light_mov,nonwu_light,,,ե(ղy)
+,_spell_nonwu/_mov/nonwu_mov,nonwu,,,l/M|½
+,_spell_nonwu/spell_nonwu_mov,spell_nonwu_in,,,@}շϫ ઺ȪOX{ WlӻPM|Ϯ
+,,spell_nonwu_win,,,M|Pxե
+,,spell_nonwu_lose,,,lӵPx¥
+,_spell_ufo/_mov/ufo_mov,ufo,,,կB}B
+,_spell_ufo/spell_ufo_mov,spell_ufo_in,,,կBqi
+,,spell_ufo_out,,,կB
+,,,,,
+D:\Game2020\H5Only\Slot88\wukong\assets\Animation\vs_character\vs_character_ske.json,_vs_character/_mov/vs_cow_effect_mov,vs_cow_effect,,,¦Qq驹h
+,_vs_character/_mov/vs_cow_waiting_mov,vs_cow_waiting,,,ֶjGl|jM
+,_vs_character/_mov/vs_gold_effect_mov,vs_gold_effect,,,⪺y
+,_vs_character/_mov/vs_gold_waiting_mov,vs_gold_waiting,,,KD
+,_vs_character/_mov/vs_normal_effect_mirror_mov,vs_normal_effect_mirror,,,I ϦV
+,_vs_character/_mov/vs_normal_effect_mov,vs_normal_effect,,,I
+,_vs_character/_mov/vs_silver_waiting_mov,vs_silver_waiting,,,ȨMob
+,_vs_character/_mov/vs_wukon_effect_mov,vs_wukon_effect,,,ťS
+,_vs_character/_mov/vs_wukon_waiting_mov,vs_wukon_waiting,,,ūҵob
+,_vs_character/_mov/wukon_win_bg_mov,wukon_win_bg,,,LPI(ӧQI
+,_vs_character/_mov/wukon_win_loop_mov,wukon_win_loop,,,ŤY
+,_vs_character/_mov/wukon_win_mov,wukon_win,,,ųӧQIY
+,_vs_character/cow_vs_wukon_behit_lose_mov,cow_vs_wukon_behit_lose,,,ųQ֬ (vs_cow_effect + vs_cow_waiting + vs_wukon_waiting)
+,,cow_vs_wukon_behit_lose_up,,,űq˦aAS_
+,_vs_character/cow_vs_wukon_behit_mov,cow_vs_wukon_behit,,,ųQF
+,_vs_character/cow_vs_wukon_hit_mov,cow_vs_wukon_hit,,,ŧ
+,_vs_character/cow_vs_wukon_hitwin_mov,cow_vs_wukon_hitwin,,,Ťj(զ) ֭ˤU
+,,cow_vs_wukon_hitwin_up,,,ˤU֤S_
+,_vs_character/cow_vs_wukon_waiting_mov,cow_vs_wukon_waiting,,,ֻPŹ
+,_vs_character/cow_vs_wukon_win_mov,cow_vs_wukon_win,,,֭ˤU ਭY ӧQIHJ
+,_vs_character/gold_vs_wukon_behit_lose_mov,gold_vs_wukon_behit_lose,,,ųQKD
+,,gold_vs_wukon_behit_lose_up,,,ŤS_Ӱ
+,_vs_character/gold_vs_wukon_behit_mov,gold_vs_wukon_behit,,,ųQKD
+,_vs_character/gold_vs_wukon_hit_mov,gold_vs_wukon_hit,,,ťKD
+,_vs_character/gold_vs_wukon_hitwin_mov,gold_vs_wukon_hitwin,,,ŤjKD
+,,gold_vs_wukon_hitwin_up,,,KD_Ӱ
+,_vs_character/gold_vs_wukon_waiting_mov,gold_vs_wukon_waiting,,,ŸKD
+,_vs_character/gold_vs_wukon_win_mov,gold_vs_wukon_win,,,KDQ VYY t§IHJ
+,_vs_character/silver_vs_wukon_behit_lose_mov,silver_vs_wukon_behit_lose,,,ųQȨ
+,,silver_vs_wukon_behit_lose_up,,,ŤS_ӤF
+,_vs_character/_mov/vs_silver_effect_mov,unnamed,,,pĪG
+,_vs_character/silver_vs_wukon_behit_mov,silver_vs_wukon_behit,,,ųQȨ
+,_vs_character/silver_vs_wukon_hit_mov,silver_vs_wukon_hit,,,Ȩ
+,_vs_character/silver_vs_wukon_hitwin_mov,silver_vs_wukon_hitwin,,,Ťj˻Ȩ
+,,silver_vs_wukon_hitwin_up,,,ȨS_Ӱ
+,_vs_character/silver_vs_wukon_waiting_mov,silver_vs_wukon_waiting,,,ŸȨ
+,_vs_character/silver_vs_wukon_win_mov,silver_vs_wukon_win,,,Ȩ˦aᮩਭVYY ӧQIHJ
+,_vs_character/wukon_vs_lose_mov,wukon_vs_lose,,,EOU ˦baW
+,,wukon_vs_lose_loop,,,EOU ˦baW YWP

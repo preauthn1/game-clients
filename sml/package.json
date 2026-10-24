@@ -1,0 +1,11 @@
+{
+  "name": "football",
+  "uuid": "90077106-5acb-4969-b913-724bb2dbbb06",
+  "version": "3.6.2",
+  "creator": {
+    "version": "3.6.2"
+  },
+  "dependencies": {
+    "long": "^5.2.1"
+  }
+}

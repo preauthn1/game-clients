@@ -1,0 +1,48 @@
+
+bw.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 100, 52
+  size: 47, 55
+  orig: 47, 55
+  offset: 0, 0
+  index: -1
+02
+  rotate: false
+  xy: 2, 52
+  size: 96, 55
+  orig: 96, 55
+  offset: 0, 0
+  index: -1
+03
+  rotate: false
+  xy: 311, 193
+  size: 84, 57
+  orig: 84, 57
+  offset: 0, 0
+  index: -1
+04
+  rotate: true
+  xy: 2, 2
+  size: 48, 57
+  orig: 48, 57
+  offset: 0, 0
+  index: -1
+05
+  rotate: false
+  xy: 311, 134
+  size: 34, 57
+  orig: 34, 57
+  offset: 0, 0
+  index: -1
+bw
+  rotate: false
+  xy: 2, 109
+  size: 307, 141
+  orig: 307, 141
+  offset: 0, 0
+  index: -1

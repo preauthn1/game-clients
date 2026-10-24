@@ -1,0 +1,111 @@
+
+sp_p2.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bitmoney
+  rotate: false
+  xy: 1706, 378
+  size: 119, 99
+  orig: 119, 99
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 729, 179
+  size: 309, 298
+  orig: 309, 298
+  offset: 0, 0
+  index: -1
+coin
+  rotate: false
+  xy: 2, 111
+  size: 366, 366
+  orig: 366, 366
+  offset: 0, 0
+  index: -1
+eyelid
+  rotate: false
+  xy: 2, 15
+  size: 206, 94
+  orig: 206, 94
+  offset: 0, 0
+  index: -1
+hand
+  rotate: true
+  xy: 1521, 404
+  size: 73, 183
+  orig: 73, 183
+  offset: 0, 0
+  index: -1
+leg
+  rotate: false
+  xy: 210, 2
+  size: 123, 107
+  orig: 123, 107
+  offset: 0, 0
+  index: -1
+money01
+  rotate: false
+  xy: 1040, 275
+  size: 154, 202
+  orig: 154, 202
+  offset: 0, 0
+  index: -1
+money02
+  rotate: true
+  xy: 1931, 394
+  size: 83, 94
+  orig: 83, 94
+  offset: 0, 0
+  index: -1
+money03
+  rotate: true
+  xy: 1040, 180
+  size: 93, 127
+  orig: 93, 127
+  offset: 0, 0
+  index: -1
+money04
+  rotate: true
+  xy: 1827, 384
+  size: 93, 102
+  orig: 93, 102
+  offset: 0, 0
+  index: -1
+rightleg
+  rotate: true
+  xy: 1348, 355
+  size: 122, 171
+  orig: 122, 171
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 370, 152
+  size: 357, 325
+  orig: 357, 325
+  offset: 0, 0
+  index: -1
+shadow02
+  rotate: true
+  xy: 1196, 264
+  size: 61, 111
+  orig: 61, 111
+  offset: 0, 0
+  index: -1
+shadow03
+  rotate: true
+  xy: 1521, 341
+  size: 61, 90
+  orig: 61, 90
+  offset: 0, 0
+  index: -1
+symbol_b_p2
+  rotate: false
+  xy: 1196, 327
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1

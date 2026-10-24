@@ -1,0 +1,62 @@
+
+money_man_csdjp.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 705, 118
+  size: 512, 852
+  orig: 512, 852
+  offset: 0, 0
+  index: -1
+gold
+  rotate: true
+  xy: 1718, 535
+  size: 435, 198
+  orig: 435, 198
+  offset: 0, 0
+  index: -1
+gold_glow
+  rotate: false
+  xy: 1219, 623
+  size: 497, 347
+  orig: 497, 347
+  offset: 0, 0
+  index: -1
+l_arm
+  rotate: false
+  xy: 1219, 269
+  size: 356, 352
+  orig: 356, 352
+  offset: 0, 0
+  index: -1
+l_hand
+  rotate: true
+  xy: 1407, 2
+  size: 190, 175
+  orig: 190, 175
+  offset: 0, 0
+  index: -1
+r_arm
+  rotate: false
+  xy: 1577, 194
+  size: 346, 339
+  orig: 346, 339
+  offset: 0, 0
+  index: -1
+r_hand
+  rotate: true
+  xy: 1219, 59
+  size: 208, 186
+  orig: 208, 186
+  offset: 0, 0
+  index: -1
+shine
+  rotate: true
+  xy: 2, 60
+  size: 910, 701
+  orig: 910, 701
+  offset: 0, 0
+  index: -1

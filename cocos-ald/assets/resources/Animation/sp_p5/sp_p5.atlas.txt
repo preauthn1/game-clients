@@ -1,0 +1,83 @@
+
+sp_p5.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blur
+  rotate: true
+  xy: 302, 142
+  size: 110, 142
+  orig: 110, 142
+  offset: 0, 0
+  index: -1
+shine
+  rotate: false
+  xy: 2, 87
+  size: 158, 165
+  orig: 158, 165
+  offset: 0, 0
+  index: -1
+sp_p5
+  rotate: false
+  xy: 162, 125
+  size: 138, 127
+  orig: 138, 127
+  offset: 0, 0
+  index: -1
+symbol_p5_00
+  rotate: false
+  xy: 446, 169
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+symbol_p5_02
+  rotate: false
+  xy: 531, 169
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+symbol_p5_04
+  rotate: false
+  xy: 616, 169
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+symbol_p5_06
+  rotate: false
+  xy: 701, 169
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+symbol_p5_08
+  rotate: false
+  xy: 786, 169
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+symbol_p5_10
+  rotate: false
+  xy: 871, 169
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+symbol_p5_12
+  rotate: false
+  xy: 87, 2
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+symbol_p5_14
+  rotate: false
+  xy: 2, 2
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1

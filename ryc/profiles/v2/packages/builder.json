@@ -1,0 +1,200 @@
+{
+  "log": {
+    "level": 4
+  },
+  "common": {
+    "polyfills": {
+      "asyncFunctions": true
+    },
+    "buildPath": "project://build",
+    "outputName": "android",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "android",
+    "startScene": "d323ffcb-5662-4490-bb54-ab7c4a7e9c67",
+    "replaceSplashScreen": false,
+    "scenes": [
+      {
+        "url": "db://assets/scene/lobby.scene",
+        "uuid": "a319711a-a47c-4edd-aac4-e2dd947b614d",
+        "inBundle": false
+      }
+    ],
+    "name": "RYC"
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1686278250943": {
+        "type": "build",
+        "id": "1686278250943",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2023-6-9 14:26:03 Build success in 26699 ms!",
+        "options": {
+          "name": "RYC",
+          "platform": "android",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "replaceSplashScreen": false,
+          "startScene": "d323ffcb-5662-4490-bb54-ab7c4a7e9c67",
+          "outputName": "android-001",
+          "scenes": [
+            {
+              "url": "db://assets/scene/about1.scene",
+              "uuid": "ef02faf0-a7ea-4f99-8418-ffd05f182411",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene/about2.scene",
+              "uuid": "27335a21-b77f-409b-8a9f-17e31ffe02ef",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene/about3.scene",
+              "uuid": "ecfa5538-e650-4c7b-8371-6158f088b0b8",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene/about4.scene",
+              "uuid": "e866a780-92a3-46cc-a4ae-053843fd2ea3",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene/about5.scene",
+              "uuid": "6c8fde56-cdcb-41cb-a565-47060e9b6675",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene/about6.scene",
+              "uuid": "b8ab687b-62be-44f5-9c93-a8d7624fc6db",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene/about7.scene",
+              "uuid": "0958e82f-3040-40fa-824e-c54627a2f884",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene/about8.scene",
+              "uuid": "e336ff72-eac9-4e1e-bb21-06e888aa153c",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene/about9.scene",
+              "uuid": "d018d74c-da52-4708-ae75-24e3614eacda",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene/arcade.scene",
+              "uuid": "0006646d-dbe4-45dc-ad09-03d444ffd9cd",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene/fishing.scene",
+              "uuid": "aa724f17-bc11-462c-bad8-493b95489c96",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene/game.scene",
+              "uuid": "a319711a-a47c-4edd-aac4-e2dd947b614d",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene/live.scene",
+              "uuid": "843d5ae6-4493-4c8e-9ed3-a0d3f1ea1f00",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene/lobby.scene",
+              "uuid": "d323ffcb-5662-4490-bb54-ab7c4a7e9c67",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene/nft.scene",
+              "uuid": "a9d8a40f-ddce-4b6c-91e8-8ff50e0c7b84",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene/poker.scene",
+              "uuid": "7de408c1-f1b3-48a3-818f-b066890ee5cb",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene/slot.scene",
+              "uuid": "cb2b30a8-657a-49e5-8f5d-c81a01b7c3ef",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene/vip.scene",
+              "uuid": "264570c7-470d-462e-b159-c67389b1a3b8",
+              "inBundle": false
+            }
+          ],
+          "android": [],
+          "buildStageGroup": {
+            "build": [
+              "make"
+            ]
+          },
+          "packages": {
+            "android": {
+              "packageName": "com.rycoffline.android01",
+              "orientation": {
+                "portrait": true,
+                "upsideDown": false,
+                "landscapeRight": false,
+                "landscapeLeft": false
+              },
+              "apiLevel": 28,
+              "appABIs": [
+                "arm64-v8a"
+              ],
+              "useDebugKeystore": true,
+              "keystorePath": "",
+              "keystorePassword": "",
+              "keystoreAlias": "",
+              "keystoreAliasPassword": "",
+              "appBundle": false,
+              "androidInstant": false,
+              "remoteUrl": "",
+              "sdkPath": "",
+              "ndkPath": "",
+              "renderBackEnd": {
+                "vulkan": false,
+                "gles3": true,
+                "gles2": true
+              },
+              "swappy": false,
+              "__version__": "1.0.1"
+            },
+            "cocos-service": {
+              "configID": "b870f5",
+              "services": [],
+              "__version__": "3.0.4"
+            },
+            "native": {
+              "encrypted": false,
+              "xxteaKey": "abqSPBw29EPokaYf",
+              "compressZip": false,
+              "JobSystem": "none",
+              "__version__": "1.0.2"
+            }
+          },
+          "__version__": "1.3.3"
+        },
+        "time": "2023-6-9 14:25",
+        "dirty": false
+      }
+    }
+  }
+}

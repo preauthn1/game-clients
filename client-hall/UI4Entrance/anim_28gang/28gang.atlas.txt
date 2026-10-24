@@ -1,0 +1,83 @@
+
+28gang.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 34
+  size: 209, 205
+  orig: 209, 205
+  offset: 0, 0
+  index: -1
+coin
+  rotate: true
+  xy: 213, 56
+  size: 53, 93
+  orig: 53, 93
+  offset: 0, 0
+  index: -1
+dice
+  rotate: false
+  xy: 424, 187
+  size: 66, 52
+  orig: 66, 52
+  offset: 0, 0
+  index: -1
+f1
+  rotate: false
+  xy: 268, 2
+  size: 21, 20
+  orig: 21, 20
+  offset: 0, 0
+  index: -1
+f2
+  rotate: false
+  xy: 35, 11
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+f3
+  rotate: false
+  xy: 268, 24
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+f4
+  rotate: false
+  xy: 2, 2
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+p
+  rotate: false
+  xy: 213, 2
+  size: 53, 52
+  orig: 53, 52
+  offset: 0, 0
+  index: -1
+t01
+  rotate: false
+  xy: 213, 111
+  size: 106, 128
+  orig: 106, 128
+  offset: 0, 0
+  index: -1
+t02
+  rotate: false
+  xy: 321, 115
+  size: 101, 124
+  orig: 101, 124
+  offset: 0, 0
+  index: -1
+t03
+  rotate: false
+  xy: 424, 125
+  size: 50, 60
+  orig: 50, 60
+  offset: 0, 0
+  index: -1

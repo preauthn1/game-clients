@@ -1,0 +1,1 @@
+{"__type__":"controller","name":"Weapon_Light","layer":{"Base Layer":{"defaultState":"Weapon_Light_Move","state":[{"name":"Weapon_Light_Move","motion":"Weapon_Light_Move"}]}},"clip":["Weapon_Light_Move"]}

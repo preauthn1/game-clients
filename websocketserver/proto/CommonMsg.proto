@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+package netproto;
+
+message RetMessage{
+	int32 Code = 1;
+	string Message = 2;
+};
+message RPCInfo{
+	string ConnID = 1;
+	int32 QueueID = 2;
+	string IPAddress = 3;
+	int32 UserID = 4;
+	string Cer = 5;
+	int32 RouteServerID = 6;
+	string ExtendInfo = 7;
+	string ConnToken = 8;
+};
+message TipMessage{
+	string Message=1;
+	int32 MsgType=2;
+	int32 Param=3;
+};
+
+message HeartBeatConfig{
+	int32 BeatInterval=1;
+	int32 ConnLoseTimeSpan=2;
+};
+
+message IPReport{
+	string IPAddress=1;	
+};
+
+message ConnTokenMessage{
+    string token=1;
+}

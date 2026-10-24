@@ -1,0 +1,69 @@
+
+banker_open.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card1
+  rotate: false
+  xy: 887, 384
+  size: 135, 126
+  orig: 135, 126
+  offset: 0, 0
+  index: -1
+card2
+  rotate: false
+  xy: 887, 256
+  size: 135, 126
+  orig: 135, 126
+  offset: 0, 0
+  index: -1
+chip
+  rotate: false
+  xy: 2, 2
+  size: 112, 113
+  orig: 112, 113
+  offset: 0, 0
+  index: -1
+point purple
+  rotate: false
+  xy: 273, 241
+  size: 228, 146
+  orig: 228, 146
+  offset: 0, 0
+  index: -1
+point yellow
+  rotate: false
+  xy: 273, 87
+  size: 200, 152
+  orig: 200, 152
+  offset: 0, 0
+  index: -1
+ray
+  rotate: false
+  xy: 2, 117
+  size: 269, 270
+  orig: 269, 270
+  offset: 0, 0
+  index: -1
+ribb
+  rotate: false
+  xy: 2, 389
+  size: 618, 121
+  orig: 618, 121
+  offset: 0, 0
+  index: -1
+text
+  rotate: false
+  xy: 622, 352
+  size: 263, 78
+  orig: 263, 78
+  offset: 0, 0
+  index: -1
+text_light
+  rotate: false
+  xy: 622, 432
+  size: 263, 78
+  orig: 263, 78
+  offset: 0, 0
+  index: -1

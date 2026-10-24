@@ -1,0 +1,14 @@
+{
+  "splash-setting": {
+    "clearColor": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "totalTime": 2000,
+    "displayWatermark": false,
+    "displayRatio": 1,
+    "url": "project://assets/resources/artSources/splash.png"
+  }
+}

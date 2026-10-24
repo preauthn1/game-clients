@@ -1,0 +1,12 @@
+{
+  "name": "xlhd-new",
+  "uuid": "63c5ae43-bd1d-41a1-9f3a-4dbc54c4cc07",
+  "version": "3.6.2",
+  "creator": {
+    "version": "3.6.2"
+  },
+  "dependencies": {
+    "long": "^5.2.1",
+    "protobufjs": "^7.2.0"
+  }
+}

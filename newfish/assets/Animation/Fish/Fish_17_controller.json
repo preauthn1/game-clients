@@ -1,0 +1,1 @@
+{"__type__":"controller","name":"Fish_17","layer":{"Base Layer":{"defaultState":"move","state":[{"name":"move","motion":"Fish_17_move"},{"name":"death","motion":"Fish_17_death"}]}},"clip":["Fish_17_move","Fish_17_death"]}

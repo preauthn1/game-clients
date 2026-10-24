@@ -1,0 +1,38 @@
+http://example.invalid/?p=348
+pod install
+
+
+Close project
+Do pod deintegrate
+Delete - Podfile.lock, Pods,.xcworkspace in project directory
+Do sudo gem install cocoapods
+Do pod install
+
+
+sudo gem list cocoapods
+Then specify the you want to delete (for me was 1.8.4):
+
+sudo gem uninstall cocoapods -v 1.8.4
+
+
+Enable Objective-C Exceptions 为YES
+
+C language gnu12
+
+
+
+#ifdef __OBJC__
+    #import "HSTXHeader.h"
+    #import "HSTXController.h"
+    #import "HSTXCustomCollectionAndTable.h"
+    #import "MJRefresh.h"
+    #import "UIImageView+WebCache.h"
+    #import "MJExtension.h"
+    #import "HSTXALLCell.h"
+    #import "Masonry.h"
+    #import "SVProgressHUD.h"
+    #import "MBProgressHUD.h"
+    #import "HSTXRequest.h"
+    #import "HSTXCatagor.h"
+#endif
+

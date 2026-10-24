@@ -1,0 +1,69 @@
+
+medal.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bust_11
+  rotate: false
+  xy: 2, 42
+  size: 428, 388
+  orig: 428, 388
+  offset: 0, 0
+  index: -1
+bust_13
+  rotate: true
+  xy: 432, 392
+  size: 428, 388
+  orig: 428, 388
+  offset: 0, 0
+  index: -1
+bust_15
+  rotate: false
+  xy: 432, 2
+  size: 428, 388
+  orig: 428, 388
+  offset: 0, 0
+  index: -1
+bust_17
+  rotate: false
+  xy: 822, 625
+  size: 428, 388
+  orig: 428, 388
+  offset: 0, 0
+  index: -1
+bust_19
+  rotate: false
+  xy: 1252, 625
+  size: 428, 388
+  orig: 428, 388
+  offset: 0, 0
+  index: -1
+bust_21
+  rotate: false
+  xy: 862, 235
+  size: 428, 388
+  orig: 428, 388
+  offset: 0, 0
+  index: -1
+bust_23
+  rotate: false
+  xy: 2, 432
+  size: 428, 388
+  orig: 428, 388
+  offset: 0, 0
+  index: -1
+medal
+  rotate: false
+  xy: 1292, 222
+  size: 400, 401
+  orig: 400, 401
+  offset: 0, 0
+  index: -1
+ribbon
+  rotate: false
+  xy: 2, 822
+  size: 743, 191
+  orig: 743, 191
+  offset: 0, 0
+  index: -1

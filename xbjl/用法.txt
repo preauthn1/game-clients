@@ -1,0 +1,27 @@
+// game help
+let UIGameHelpPrefab = cc.find("Test/UIGameHelp", this.node.parent)
+let UIGameHelp = require("UIGameHelp")
+UIGameHelp.Init(UIGameHelpPrefab)
+
+// 遊戲設定介面
+let UISetGamePrefab = cc.find("Test/UISetGame", this.node.parent)
+let UISetGame = require("UISetGame")
+UISetGame.Init(UISetGamePrefab)
+
+// top menu
+let UIGameTopMenuPrefab = cc.find("Test/UIGameTopMenu", this.node.parent)
+let UIGameTopMenu = require("UIGameTopMenu")
+UIGameTopMenu.Init(UIGameTopMenuPrefab, 
+	// help_callback
+	function(){
+		UIGameHelp.Show()
+	},
+	// set_callback
+	function(){
+		UISetGame.Show()
+	},
+	// exit_callback
+	function(){
+
+	},                        
+)

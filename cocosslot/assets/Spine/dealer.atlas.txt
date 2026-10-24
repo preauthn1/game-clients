@@ -1,0 +1,160 @@
+
+dealer.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bang
+  rotate: false
+  xy: 813, 145
+  size: 33, 54
+  orig: 33, 54
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 120
+  size: 166, 134
+  orig: 166, 134
+  offset: 0, 0
+  index: -1
+cloud
+  rotate: false
+  xy: 680, 125
+  size: 80, 70
+  orig: 80, 70
+  offset: 0, 0
+  index: -1
+eye_shut
+  rotate: true
+  xy: 653, 121
+  size: 40, 20
+  orig: 40, 20
+  offset: 0, 0
+  index: -1
+face0
+  rotate: true
+  xy: 310, 164
+  size: 90, 136
+  orig: 90, 136
+  offset: 0, 0
+  index: -1
+face01
+  rotate: true
+  xy: 170, 164
+  size: 90, 138
+  orig: 90, 138
+  offset: 0, 0
+  index: -1
+face02
+  rotate: true
+  xy: 2, 27
+  size: 91, 147
+  orig: 91, 147
+  offset: 0, 0
+  index: -1
+face03
+  rotate: true
+  xy: 448, 164
+  size: 90, 136
+  orig: 90, 136
+  offset: 0, 0
+  index: -1
+hand01
+  rotate: false
+  xy: 571, 91
+  size: 80, 70
+  orig: 80, 70
+  offset: 0, 0
+  index: -1
+hand02
+  rotate: false
+  xy: 269, 127
+  size: 92, 35
+  orig: 92, 35
+  offset: 0, 0
+  index: -1
+hand03
+  rotate: false
+  xy: 170, 123
+  size: 97, 39
+  orig: 97, 39
+  offset: 0, 0
+  index: -1
+hand04
+  rotate: false
+  xy: 531, 91
+  size: 38, 71
+  orig: 38, 71
+  offset: 0, 0
+  index: -1
+hand05
+  rotate: true
+  xy: 363, 109
+  size: 53, 84
+  orig: 53, 84
+  offset: 0, 0
+  index: -1
+hand06
+  rotate: true
+  xy: 901, 188
+  size: 66, 90
+  orig: 66, 90
+  offset: 0, 0
+  index: -1
+hand07
+  rotate: true
+  xy: 789, 201
+  size: 53, 110
+  orig: 53, 110
+  offset: 0, 0
+  index: -1
+hand08
+  rotate: true
+  xy: 680, 197
+  size: 57, 107
+  orig: 57, 107
+  offset: 0, 0
+  index: -1
+hand09
+  rotate: false
+  xy: 586, 163
+  size: 92, 91
+  orig: 92, 91
+  offset: 0, 0
+  index: -1
+heart
+  rotate: true
+  xy: 762, 140
+  size: 55, 49
+  orig: 55, 49
+  offset: 0, 0
+  index: -1
+m1
+  rotate: false
+  xy: 2, 2
+  size: 36, 23
+  orig: 36, 23
+  offset: 0, 0
+  index: -1
+m2
+  rotate: false
+  xy: 40, 6
+  size: 30, 19
+  orig: 30, 19
+  offset: 0, 0
+  index: -1
+m3
+  rotate: false
+  xy: 993, 235
+  size: 29, 19
+  orig: 29, 19
+  offset: 0, 0
+  index: -1
+rain
+  rotate: false
+  xy: 449, 92
+  size: 80, 70
+  orig: 80, 70
+  offset: 0, 0
+  index: -1

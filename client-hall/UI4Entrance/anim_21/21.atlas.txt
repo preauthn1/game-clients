@@ -1,0 +1,62 @@
+
+21.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: true
+  xy: 2, 44
+  size: 209, 205
+  orig: 209, 205
+  offset: 0, 0
+  index: -1
+c01
+  rotate: false
+  xy: 373, 119
+  size: 134, 134
+  orig: 134, 134
+  offset: 0, 0
+  index: -1
+card
+  rotate: false
+  xy: 209, 72
+  size: 162, 181
+  orig: 162, 181
+  offset: 0, 0
+  index: -1
+chip
+  rotate: true
+  xy: 209, 6
+  size: 64, 70
+  orig: 64, 70
+  offset: 0, 0
+  index: -1
+crown
+  rotate: false
+  xy: 281, 15
+  size: 79, 55
+  orig: 79, 55
+  offset: 0, 0
+  index: -1
+f1
+  rotate: false
+  xy: 73, 15
+  size: 26, 27
+  orig: 26, 27
+  offset: 0, 0
+  index: -1
+f2
+  rotate: false
+  xy: 44, 15
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+f4
+  rotate: false
+  xy: 2, 2
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1

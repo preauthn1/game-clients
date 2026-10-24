@@ -1,0 +1,289 @@
+{
+"skeleton": { "hash": "zKPcXofuHSq43wGR1kF1Big93G4", "spine": "3.6.53", "width": 145, "height": 135, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "waffle", "parent": "root", "length": 43.32, "rotation": 90, "x": -1.8, "y": -36.83 },
+	{ "name": "icecream", "parent": "waffle", "length": 49.7, "rotation": -5.1, "x": 40.66, "y": -19.45 },
+	{ "name": "berry", "parent": "icecream", "length": 22.58, "rotation": 1.74, "x": -3.27, "y": 31.66 },
+	{ "name": "blur", "parent": "root", "length": 56.58, "rotation": 90, "x": -4.9, "y": -30.64 },
+	{ "name": "orange", "parent": "waffle", "length": 12.01, "rotation": -6.34, "x": 58.79, "y": 19.01 },
+	{ "name": "shadow", "parent": "waffle", "length": 33.59, "x": -17.24, "y": -1.33 }
+],
+"slots": [
+	{ "name": "shadow", "bone": "shadow", "attachment": "shadow" },
+	{ "name": "waffle", "bone": "waffle", "attachment": "waffle" },
+	{ "name": "orange", "bone": "orange", "attachment": "orange" },
+	{ "name": "icecream", "bone": "icecream", "attachment": "icecream" },
+	{ "name": "berry", "bone": "berry", "attachment": "berry" },
+	{ "name": "blur", "bone": "blur", "attachment": "blur" }
+],
+"skins": {
+	"default": {
+		"berry": {
+			"berry": { "x": 4.76, "y": -17.76, "rotation": -86.63, "width": 92, "height": 91 }
+		},
+		"blur": {
+			"blur": { "x": 34.74, "y": -6.23, "rotation": -90, "width": 143, "height": 135 }
+		},
+		"icecream": {
+			"icecream": { "x": 6.4, "y": 4.4, "rotation": -84.9, "width": 106, "height": 108 }
+		},
+		"orange": {
+			"orange": { "x": 4.25, "y": -5.2, "rotation": -83.66, "width": 68, "height": 30 }
+		},
+		"shadow": {
+			"shadow": { "x": 54.17, "y": 0.19, "rotation": -90, "width": 143, "height": 127 }
+		},
+		"waffle": {
+			"waffle": { "x": 23.43, "y": -1.13, "rotation": -90, "width": 135, "height": 86 }
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"slots": {
+			"berry": {
+				"attachment": [
+					{ "time": 0, "name": "berry" }
+				]
+			},
+			"blur": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"icecream": {
+				"attachment": [
+					{ "time": 0, "name": "icecream" }
+				]
+			},
+			"orange": {
+				"attachment": [
+					{ "time": 0, "name": "orange" }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": "shadow" }
+				]
+			},
+			"waffle": {
+				"attachment": [
+					{ "time": 0, "name": "waffle" }
+				]
+			}
+		},
+		"bones": {
+			"berry": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"spin": {
+		"slots": {
+			"berry": {
+				"attachment": [
+					{ "time": 0, "name": "berry" }
+				]
+			},
+			"blur": {
+				"attachment": [
+					{ "time": 0, "name": "blur" }
+				]
+			},
+			"icecream": {
+				"attachment": [
+					{ "time": 0, "name": "icecream" }
+				]
+			},
+			"orange": {
+				"attachment": [
+					{ "time": 0, "name": "orange" }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": "shadow" }
+				]
+			},
+			"waffle": {
+				"attachment": [
+					{ "time": 0, "name": "waffle" }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"stop": {
+		"slots": {
+			"berry": {
+				"attachment": [
+					{ "time": 0, "name": "berry" }
+				]
+			},
+			"blur": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"icecream": {
+				"attachment": [
+					{ "time": 0, "name": "icecream" }
+				]
+			},
+			"orange": {
+				"attachment": [
+					{ "time": 0, "name": "orange" }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": "shadow" }
+				]
+			},
+			"waffle": {
+				"attachment": [
+					{ "time": 0, "name": "waffle" }
+				]
+			}
+		},
+		"bones": {
+			"berry": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"win": {
+		"slots": {
+			"berry": {
+				"attachment": [
+					{ "time": 0, "name": "berry" },
+					{ "time": 0.5, "name": "berry" },
+					{ "time": 1, "name": "berry" }
+				]
+			},
+			"blur": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5, "name": null },
+					{ "time": 1, "name": null }
+				]
+			},
+			"icecream": {
+				"attachment": [
+					{ "time": 0, "name": "icecream" },
+					{ "time": 0.5, "name": "icecream" },
+					{ "time": 1, "name": "icecream" }
+				]
+			},
+			"orange": {
+				"attachment": [
+					{ "time": 0, "name": "orange" },
+					{ "time": 0.5, "name": "orange" },
+					{ "time": 1, "name": "orange" }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": "shadow" },
+					{ "time": 0.5, "name": "shadow" },
+					{ "time": 1, "name": "shadow" }
+				]
+			},
+			"waffle": {
+				"attachment": [
+					{ "time": 0, "name": "waffle" },
+					{ "time": 0.5, "name": "waffle" },
+					{ "time": 1, "name": "waffle" }
+				]
+			}
+		},
+		"bones": {
+			"waffle": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.3333, "x": 1.176, "y": 1 },
+					{ "time": 0.5, "x": 1.037, "y": 1.121 },
+					{ "time": 0.6667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"berry": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"icecream": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.3333, "x": 1.209, "y": 1 },
+					{ "time": 0.5, "x": 0.991, "y": 1.057 },
+					{ "time": 0.6667, "x": 1.086, "y": 1.057 },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"orange": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0 },
+					{ "time": 0.6667, "angle": -13.84 },
+					{ "time": 0.8333, "angle": 5.64 },
+					{ "time": 1, "angle": 0 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.5 },
+			{ "time": 1 }
+		]
+	}
+}
+}

@@ -1,0 +1,1 @@
+{"__type__":"controller","name":"Dragon","layer":{"Base Layer":{"defaultState":"null","state":[{"name":"appear","motion":"Dragon_move"},{"name":"death","motion":"Dragon_death"},{"name":"null","motion":"Dragon_null"}]}},"clip":["Dragon_move","Dragon_death","Dragon_null"]}

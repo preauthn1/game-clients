@@ -1,0 +1,27 @@
+
+dragon_win.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dragon
+  rotate: false
+  xy: 2, 2
+  size: 729, 353
+  orig: 729, 353
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 733, 27
+  size: 328, 328
+  orig: 328, 328
+  offset: 0, 0
+  index: -1
+pearl
+  rotate: false
+  xy: 1063, 163
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1

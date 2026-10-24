@@ -1,0 +1,41 @@
+
+drum.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+drum
+  rotate: false
+  xy: 2, 182
+  size: 334, 315
+  orig: 334, 315
+  offset: 0, 0
+  index: -1
+l_shadow
+  rotate: true
+  xy: 338, 302
+  size: 195, 64
+  orig: 195, 64
+  offset: 0, 0
+  index: -1
+l_stickl
+  rotate: false
+  xy: 93, 136
+  size: 210, 44
+  orig: 210, 44
+  offset: 0, 0
+  index: -1
+r_shadow
+  rotate: false
+  xy: 2, 2
+  size: 89, 178
+  orig: 89, 178
+  offset: 0, 0
+  index: -1
+r_stick
+  rotate: false
+  xy: 404, 326
+  size: 74, 171
+  orig: 74, 171
+  offset: 0, 0
+  index: -1

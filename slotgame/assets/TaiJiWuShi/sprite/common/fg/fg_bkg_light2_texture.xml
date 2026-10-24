@@ -1,0 +1,25 @@
+<TextureAtlas name="fg_bkg_light2" imagePath="fg_bkg_light2.png">
+ <SubTexture name="_pic/fg_bkg_light2_045" x="839" y="118" width="164" height="116"/>
+ <SubTexture name="_pic/fg_bkg_light2_043" x="332" y="236" width="164" height="116"/>
+ <SubTexture name="_pic/fg_bkg_light2_041" x="506" y="0" width="165" height="116"/>
+ <SubTexture name="_pic/fg_bkg_light2_039" x="673" y="0" width="165" height="116"/>
+ <SubTexture name="_pic/fg_bkg_light2_037" x="505" y="118" width="165" height="116"/>
+ <SubTexture name="_pic/fg_bkg_light2_035" x="672" y="118" width="165" height="116"/>
+ <SubTexture name="_pic/fg_bkg_light2_033" x="827" y="236" width="162" height="116"/>
+ <SubTexture name="_pic/fg_bkg_light2_031" x="638" y="354" width="152" height="116"/>
+ <SubTexture name="_pic/fg_bkg_light2_029" x="792" y="354" width="149" height="116"/>
+ <SubTexture name="_pic/fg_bkg_light2_027" x="326" y="354" width="156" height="116"/>
+ <SubTexture name="_pic/fg_bkg_light2_025" x="163" y="237" width="161" height="116"/>
+ <SubTexture name="_pic/fg_bkg_light2_023" x="663" y="236" width="162" height="116"/>
+ <SubTexture name="_pic/fg_bkg_light2_021" x="0" y="237" width="161" height="116"/>
+ <SubTexture name="_pic/fg_bkg_light2_019" x="0" y="355" width="149" height="116"/>
+ <SubTexture name="_pic/fg_bkg_light2_017" x="484" y="354" width="152" height="116"/>
+ <SubTexture name="_pic/fg_bkg_light2_015" x="166" y="119" width="164" height="116"/>
+ <SubTexture name="_pic/fg_bkg_light2_013" x="338" y="0" width="166" height="116"/>
+ <SubTexture name="_pic/fg_bkg_light2_011" x="0" y="119" width="164" height="116"/>
+ <SubTexture name="_pic/fg_bkg_light2_009" x="840" y="0" width="165" height="116"/>
+ <SubTexture name="_pic/fg_bkg_light2_007" x="498" y="236" width="163" height="116"/>
+ <SubTexture name="_pic/fg_bkg_light2_005" x="338" y="118" width="165" height="116"/>
+ <SubTexture name="_pic/fg_bkg_light2_003" x="170" y="0" width="166" height="117"/>
+ <SubTexture name="_pic/fg_bkg_light2_001" x="0" y="0" width="168" height="117"/>
+</TextureAtlas>

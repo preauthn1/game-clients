@@ -1,0 +1,48 @@
+
+mw.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: true
+  xy: 2, 2
+  size: 45, 75
+  orig: 45, 75
+  offset: 0, 0
+  index: -1
+02
+  rotate: false
+  xy: 591, 85
+  size: 136, 77
+  orig: 136, 77
+  offset: 0, 0
+  index: -1
+03
+  rotate: false
+  xy: 591, 164
+  size: 150, 78
+  orig: 150, 78
+  offset: 0, 0
+  index: -1
+04
+  rotate: false
+  xy: 743, 165
+  size: 106, 77
+  orig: 106, 77
+  offset: 0, 0
+  index: -1
+05
+  rotate: false
+  xy: 851, 167
+  size: 59, 75
+  orig: 59, 75
+  offset: 0, 0
+  index: -1
+mega
+  rotate: false
+  xy: 2, 49
+  size: 587, 193
+  orig: 587, 193
+  offset: 0, 0
+  index: -1

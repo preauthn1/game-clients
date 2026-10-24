@@ -1,0 +1,97 @@
+
+player_win.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+D
+  rotate: false
+  xy: 452, 2
+  size: 331, 162
+  orig: 331, 162
+  offset: 0, 0
+  index: -1
+board
+  rotate: false
+  xy: 2, 122
+  size: 448, 229
+  orig: 448, 229
+  offset: 0, 0
+  index: -1
+jewel
+  rotate: false
+  xy: 344, 37
+  size: 71, 83
+  orig: 71, 83
+  offset: 0, 0
+  index: -1
+l1
+  rotate: false
+  xy: 697, 227
+  size: 77, 49
+  orig: 77, 49
+  offset: 0, 0
+  index: -1
+l2
+  rotate: false
+  xy: 697, 278
+  size: 153, 60
+  orig: 153, 60
+  offset: 0, 0
+  index: -1
+l3
+  rotate: false
+  xy: 719, 340
+  size: 204, 61
+  orig: 204, 61
+  offset: 0, 0
+  index: -1
+l4
+  rotate: true
+  xy: 967, 843
+  size: 154, 49
+  orig: 154, 49
+  offset: 0, 0
+  index: -1
+l5
+  rotate: true
+  xy: 967, 747
+  size: 94, 49
+  orig: 94, 49
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 2, 353
+  size: 715, 644
+  orig: 715, 644
+  offset: 0, 0
+  index: -1
+rib
+  rotate: false
+  xy: 452, 166
+  size: 243, 185
+  orig: 243, 185
+  offset: 0, 0
+  index: -1
+text
+  rotate: false
+  xy: 2, 22
+  size: 340, 98
+  orig: 340, 98
+  offset: 0, 0
+  index: -1
+wing_l
+  rotate: false
+  xy: 719, 701
+  size: 246, 296
+  orig: 246, 296
+  offset: 0, 0
+  index: -1
+wing_r
+  rotate: false
+  xy: 719, 403
+  size: 246, 296
+  orig: 246, 296
+  offset: 0, 0
+  index: -1

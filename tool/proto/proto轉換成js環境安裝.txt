@@ -1,0 +1,23 @@
+1.安裝npm
+https://example.invalid/dist/v12.13.1/node-v12.13.1-x64.msi
+
+2.重開機
+
+3.查看板號 看安裝是否正確
+npm -v
+
+4.安装protobufjs到全局
+npm install -g protobufjs
+
+5.在.proto檔案中
+package 改成該檔案名稱 如 package HallMsg; 若不改不同檔案使用同一個會有問題
+
+
+6.proto轉換成js檔案
+pbjs -t static-module -w commonjs -o GameMsg_HHDZ.js GameMsg_HHDN.proto
+
+7.在轉出的.js中
+mark掉
+//var $protobuf = require("protobufjs/minimal");
+加上
+var $protobuf = protobuf;

@@ -1,0 +1,55 @@
+
+bw.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 747, 784
+  size: 62, 47
+  orig: 62, 47
+  offset: 0, 0
+  index: -1
+02
+  rotate: false
+  xy: 2, 2
+  size: 105, 48
+  orig: 105, 48
+  offset: 0, 0
+  index: -1
+03
+  rotate: false
+  xy: 747, 833
+  size: 112, 49
+  orig: 112, 49
+  offset: 0, 0
+  index: -1
+04
+  rotate: false
+  xy: 247, 122
+  size: 90, 49
+  orig: 90, 49
+  offset: 0, 0
+  index: -1
+05
+  rotate: false
+  xy: 861, 836
+  size: 63, 46
+  orig: 63, 46
+  offset: 0, 0
+  index: -1
+big
+  rotate: false
+  xy: 2, 52
+  size: 243, 119
+  orig: 243, 119
+  offset: 0, 0
+  index: -1
+gold_light
+  rotate: false
+  xy: 2, 173
+  size: 743, 709
+  orig: 743, 709
+  offset: 0, 0
+  index: -1

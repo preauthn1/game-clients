@@ -1,0 +1,23 @@
+ð汾unity 汾5.3.3f1ps汾cs6 64λ
+
+v1.0.2
+2017.02.06
+1.񲼾(GridLayoutGroup)ĵ
+2.ӻ(Slider)ĵ
+
+v1.0.1
+2017.01.22
+1.޸ĵpsdʱxmlýṹimages㼶ΪlayeruguiɴӦ޸
+2.ӾŹĵʱborderֵԶоŹͼ
+3.бScrollRectĵɣɶֻ̬,ֵ֧к͵Уݲ֧grid
+
+v1.0.0
+2017.01.12
+1.ıĵ
+2.̬ıͼƬıĵ
+3.ͼƬĵ
+4.Źɣʱ޷psֶͼ
+5.RawImageĵ
+6.ԳͼƬаĵ
+7.ͼƬĵ
+8.ťؼĵ

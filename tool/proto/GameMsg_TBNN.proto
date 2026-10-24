@@ -1,0 +1,347 @@
+syntax = "proto3";
+
+package tbnn;
+
+
+message TBNN_GameStep {
+     int32 Step = 1;
+};
+message TBNN_UserBaseScore {
+     int32 BaseScore = 1;
+};
+message TBNN_NotifyUserBaseScore {
+     int32 UserID = 1;
+     int32 BaseScore = 2;
+};
+message TBNN_NotifyGameBaseScore {
+    repeated TBNN_NotifyUserBaseScore GameBet = 1;
+};
+message TBNN_GameSetting {
+     int32 BaseScoreTimeout = 1;
+     int32 CardGroupTimeout = 2;
+     int32 BaseScore = 3;
+     int32 TableNo = 4;
+     int32 GameID = 5;
+     int32 ReadyTimeout = 6;
+    repeated int32 BaseScoreTimes = 7;
+};
+message TBNN_NotifyUserCardGroup {
+     int32 UserID = 1;
+};
+message TBNN_UserBetRet {
+     int32 UserID = 1;
+     int32 NiuNiuRet = 2;
+     int32 UserBetTimes = 3;
+     int32 NiuNiuBetTimes = 4;
+     int32 NiuNiuNumber = 5;
+     int64 WinLose = 6;
+    repeated PokerCard CardGroup = 7;
+};
+message TBNN_GameRet {
+    repeated TBNN_UserBetRet UserRet = 1;
+};
+message TBNN_GameScene {
+     int32 GameStep = 1;
+     UserPoker UserPoker = 2;
+     TBNN_NotifyGameBaseScore GameBaseScore = 3;
+     int32 ElapsedSeconds = 5;
+     TBNN_GameRet GameRet = 6;
+    repeated int32 FinishedGroupUsers = 7;
+    repeated int32 BetTimes = 8;
+};
+message TBNN_UserBetInfo {
+    repeated int32 BetTimes = 1;
+};
+
+
+message TestGameChat {
+     string Message = 1;
+};
+
+message TestGameScore {
+     int32 Score = 1;
+};
+
+message TestGameEnd {};
+
+message UserEnter {
+     GameUser User = 1;
+};
+
+message UserLeave {
+     GameUser User = 1;
+};
+
+message UserStateChange {
+     GameUser User = 1;
+};
+
+message GameUser {
+     int32 UserID = 1;
+     string NickName = 2;
+     int32 Sex = 3;
+     int32 FaceID = 4;
+     int64 Score = 5;
+     int32 WinCount = 6;
+     int32 LoseCount = 7;
+     int32 DrawCount = 8;
+     int32 StateValue = 9;
+     int32 TableNo = 10;
+     int32 SeatNo = 11;
+     int32 LastWinLose = 12;
+};
+
+message GamePoker {
+    repeated UserPoker Poker = 1;
+};
+
+message UserPoker {
+     int32 UserID = 1;
+     int32 SeatNo = 2;
+    repeated PokerCard Cards = 3;
+};
+
+message PokerCard {
+     int32 Color = 1;
+     int32 CardNumber = 2;
+};
+message UserActionCommited {
+     string ActionName = 1;
+};
+message AllUserActionCommited {
+     string ActionName = 1;
+};
+message LookOnUserNotify {
+    repeated int32 UserID = 1;
+};
+message UserLuckScore {
+     int32 UserID = 1;
+     int64 Score = 2;
+};
+message UserLuckScoreRet {
+     int32 UserID = 1;
+     string Value = 2;
+};
+
+message GameBeginCountDown {
+     int32 Time = 1;
+};
+
+message SuperToolAddChangeLog {
+     int32 GameID = 1;
+     int32 TableNo = 3;
+     int32 Type = 4;
+     string Result = 5;
+     string Operator = 6;
+}
+
+message SuperToolAddAssignReward {
+     int32 GameID = 1;
+     int32 FlagID = 2;
+     int32 TableNo = 3;
+     string Result = 4;
+     string Operator = 5;
+    repeated SuperToolAddAssignRewardDetail DetailList = 6;
+}
+
+message SuperToolGetAssignRewardDetail {
+     int32 GameID = 1;
+     int32 FlagID = 2;
+     int32 TableNo = 3;
+}
+
+message SuperToolAddAssignRewardDetail {
+     int32 Idx = 1;
+     string Description = 2;
+     string Reward = 3;
+     int32 Status = 4;
+}
+
+message SuperToolAssignRewardDetail {
+     int32 LogID = 1;
+     int32 Idx = 2;
+     string Description = 3;
+     string Reward = 4;
+     int32 Status = 5;
+}
+
+message SuperToolGetVipUserRequest {
+     int32 GameID = 1;
+}
+
+message SuperToolVipUserDataList {
+    repeated SuperToolVipUserData DataList = 1;
+}
+
+message SuperToolVipUserData {
+     int32 UserID = 1;
+     int64 AssignAmount = 2;
+     int32 AssignRate = 3;
+     int64 CompleteAmount = 4;
+     int32 Complete = 5;
+     int32 Status = 6;
+     int32 TotalAll = 7;
+     int32 TotalUserWinLose = 8;
+     int32 TodayUserWinLose = 9;
+}
+
+message SuperToolFishGetSystemRewardDetail {
+    repeated FishSystemRewardDataList FishRewardList = 1;
+}
+
+message FishSystemRewardDataList {
+     int32 FishID = 1;
+     int64 Amount = 2;
+     int64 FinishAmount = 3;
+     int32 Rate = 4;
+     int32 Status = 5;
+}
+
+message SuperToolFishGetVIPUserRewardDetail {
+    repeated FishVIPUserRewardDataList FishVIPUserList = 1;
+}
+
+message FishVIPUserRewardDataList {
+     int32 UserID = 1;
+     int64 AssignAmount = 2;
+     int32 Rate = 3;
+     int64 FinishAmount = 4;
+     int32 Status = 5;
+     int64 SumAssignAmount = 6;
+}
+
+message SuperToolFishUpdSystemRewardDetail {
+     int32 FlagID = 1;
+    repeated SuperToolFishUpdSystemRewardDataList FishRewardList = 2;
+}
+
+message SuperToolFishUpdSystemRewardDataList {
+     int32 FishID = 1;
+     int64 FinishAmount = 2;
+}
+
+message SuperToolfishUpdVIPUserRewardDetail {
+     int32 GameID = 1;
+    repeated SuperToolFishUpdVIPUserRewardDataList FishUserRewardList = 2;
+}
+
+message SuperToolFishUpdVIPUserRewardDataList {
+     int32 UserID = 1;
+     int64 FinishAmount = 2;
+}
+
+message SuperToolZjhVipUserDataList {
+    repeated SuperToolZjhVipUserData DataList = 1;
+}
+
+message SuperToolZjhVipUserData {
+     int32 UserID = 1;
+     int64 NextType = 2;
+     int64 NextWinLose = 3;
+     int64 NextWinLoseNum = 4;
+     int64 Finish = 5;
+     int64 FinishNextWinLoseNum = 6;
+     int32 NextTable = 7;
+     int32 Status = 8;
+     int64 TodaySumcharge = 9;
+     int64 TodaySumConvert = 10;
+     int64 TodayUserWinLose = 11;
+}
+
+message SuperToolZjhUpdVipUserData {
+     int32 UserID = 1;
+     int64 Finish = 2;
+     int64 FinishNextWinLoseNum = 3;
+     int32 NextTable = 4;
+     int64 NextType = 5;
+}
+
+message FishSysPoolData {
+     int32 FlagID = 1;
+     int64 SumBetMoney = 2;
+     int64 SumBullet = 3;
+     int64 SysSumWinLoss = 4;
+     int64 AfterAdjustSyspoolWinLoss = 5;  //系統水池贏錢抽水後水池
+     int64 PoolAmount = 6;                 //調控水池
+}
+
+message FishPlayerPoolDetail {
+     int32 FlagID = 1;
+    repeated FishPlayerPoolDetailList FishRewardList = 2;
+}
+
+message FishPlayerPoolDetailList {
+     int32 UserID = 1;
+     int64 HitMoney = 2;
+     int64 SpendMoney = 3;
+}
+
+message FindFishBeginnerOfferByUserID {
+     int32 UserID = 1;
+     int32 NewPlayerAdjustSyspool = 2;
+}
+
+message FishBeginnerOfferDetail {
+    repeated FishBeginnerOffer NewPlayerList = 1;
+     int32 NewPlayerAdjustSyspool = 2;
+}
+
+message FishBeginnerOffer {
+     int32 UserID = 1;
+     int32 Bullet = 2;
+     int32 Score = 3;
+     int32 Status = 4;
+}
+
+message Cd21SysPoolData {
+     int32 FlagID = 1;
+     int64 SumBetMoney = 2;
+     int64 SumBetCount = 3;
+     int64 PoolAmount = 4;
+}
+
+message UserJackpotToBox {
+     int32 UserID = 1;
+     int64 UpdateAmount = 2;
+}
+
+// jackpot資料
+message JackpotData {
+     int32 GameID = 1;             // GameID
+     int32 FlagID = 2;             // FlagID
+     int32 TableNo = 3;            // 桌子編號
+     int64 Contribution = 4;       // 玩家貢獻值
+     int64 TotalContribution = 5;  // 總貢獻值
+     int64 AwardTotal = 6;         // 已發送獎金總和
+     int32 Level = 7;              // Jackpot層級
+     int64 JackpotPool = 8;        // 彩金池
+}
+
+// jackpot資料
+message JackpotAllData {
+    repeated JackpotData AllData = 1;  // 各池異動值
+}
+
+// 要求 水線控制遊戲輸贏結果
+message SuperTool_Msg_GetSysPoolWinLose {
+     int32 GameID = 1;          // 遊戲編號
+     int32 FlagID = 2;          // 房間編號
+};
+
+// 回傳 水線控制遊戲輸贏結果
+message SuperTool_Msg_GetSysPoolWinLoseRet {
+     int32 GameID = 1;          // 遊戲編號
+     int32 FlagID = 2;          // 房間編號
+     int64 PoolAmount = 3;      // 水線
+     int64 WinLine = 4;         // 贏錢線
+	 string WinLoseData = 5;    // 遊戲輸贏結果
+};
+
+// 更新 水線控制遊戲輸贏結果
+message SuperTool_Msg_UpdateSysPoolWinLose {
+     int32 GameID = 1;          // 遊戲編號
+     int32 FlagID = 2;          // 房間編號
+     int64 PoolAmount = 3;      // 水線
+     int64 WinLine = 4;         // 贏錢線
+	 string WinLoseData = 5;    // 遊戲輸贏結果
+};

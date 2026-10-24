@@ -1,0 +1,146 @@
+
+start_end_bet.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+board01
+  rotate: false
+  xy: 2, 105
+  size: 731, 141
+  orig: 731, 141
+  offset: 0, 0
+  index: -1
+e_b2
+  rotate: false
+  xy: 2, 248
+  size: 731, 262
+  orig: 731, 262
+  offset: 0, 0
+  index: -1
+e_chip
+  rotate: false
+  xy: 1715, 258
+  size: 122, 108
+  orig: 122, 108
+  offset: 0, 0
+  index: -1
+e_flash
+  rotate: false
+  xy: 2, 46
+  size: 361, 57
+  orig: 361, 57
+  offset: 0, 0
+  index: -1
+flash
+  rotate: false
+  xy: 2, 46
+  size: 361, 57
+  orig: 361, 57
+  offset: 0, 0
+  index: -1
+e_money
+  rotate: false
+  xy: 1868, 399
+  size: 120, 111
+  orig: 120, 111
+  offset: 0, 0
+  index: -1
+e_text
+  rotate: false
+  xy: 735, 93
+  size: 316, 82
+  orig: 316, 82
+  offset: 0, 0
+  index: -1
+money
+  rotate: false
+  xy: 1398, 368
+  size: 468, 142
+  orig: 468, 142
+  offset: 0, 0
+  index: -1
+ray1
+  rotate: false
+  xy: 1067, 184
+  size: 329, 326
+  orig: 329, 326
+  offset: 0, 0
+  index: -1
+ray2
+  rotate: false
+  xy: 735, 177
+  size: 330, 333
+  orig: 330, 333
+  offset: 0, 0
+  index: -1
+spark01
+  rotate: true
+  xy: 1715, 121
+  size: 135, 57
+  orig: 135, 57
+  offset: 0, 0
+  index: -1
+spark02
+  rotate: true
+  xy: 1715, 121
+  size: 135, 57
+  orig: 135, 57
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 1398, 133
+  size: 315, 233
+  orig: 315, 233
+  offset: 0, 0
+  index: -1
+t01
+  rotate: false
+  xy: 1990, 470
+  size: 37, 40
+  orig: 37, 40
+  offset: 0, 0
+  index: -1
+t02
+  rotate: false
+  xy: 679, 63
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+t03
+  rotate: false
+  xy: 2, 2
+  size: 81, 42
+  orig: 81, 42
+  offset: 0, 0
+  index: -1
+t04
+  rotate: false
+  xy: 85, 2
+  size: 80, 42
+  orig: 80, 42
+  offset: 0, 0
+  index: -1
+t05
+  rotate: false
+  xy: 167, 2
+  size: 59, 42
+  orig: 59, 42
+  offset: 0, 0
+  index: -1
+t06
+  rotate: false
+  xy: 228, 2
+  size: 28, 42
+  orig: 28, 42
+  offset: 0, 0
+  index: -1
+text
+  rotate: false
+  xy: 365, 21
+  size: 312, 82
+  orig: 312, 82
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,48 @@
+
+redblackcow.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+b
+  rotate: false
+  xy: 605, 93
+  size: 119, 114
+  orig: 119, 114
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 2
+  size: 209, 205
+  orig: 209, 205
+  offset: 0, 0
+  index: -1
+cc
+  rotate: false
+  xy: 213, 67
+  size: 202, 140
+  orig: 202, 140
+  offset: 0, 0
+  index: -1
+ff
+  rotate: false
+  xy: 417, 115
+  size: 186, 92
+  orig: 186, 92
+  offset: 0, 0
+  index: -1
+fx
+  rotate: false
+  xy: 847, 101
+  size: 89, 106
+  orig: 89, 106
+  offset: 0, 0
+  index: -1
+r
+  rotate: false
+  xy: 726, 94
+  size: 119, 113
+  orig: 119, 113
+  offset: 0, 0
+  index: -1

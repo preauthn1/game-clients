@@ -1,0 +1,244 @@
+
+恭喜中彩.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+010003
+  rotate: false
+  xy: 599, 1385
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+010004
+  rotate: false
+  xy: 801, 1385
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+010005
+  rotate: false
+  xy: 1003, 1385
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+010006
+  rotate: false
+  xy: 1205, 1385
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+010007
+  rotate: false
+  xy: 1407, 1385
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+010008
+  rotate: false
+  xy: 1609, 1385
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+010009
+  rotate: false
+  xy: 102, 532
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+010010
+  rotate: false
+  xy: 1811, 1385
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+010011
+  rotate: false
+  xy: 2, 330
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+010012
+  rotate: false
+  xy: 2, 128
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+010013
+  rotate: false
+  xy: 204, 330
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+010014
+  rotate: false
+  xy: 204, 128
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+010015
+  rotate: false
+  xy: 330, 1143
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+010016
+  rotate: false
+  xy: 270, 941
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+010017
+  rotate: false
+  xy: 300, 739
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+010018
+  rotate: false
+  xy: 304, 537
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+010019
+  rotate: false
+  xy: 406, 335
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+010020
+  rotate: false
+  xy: 406, 133
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+010021
+  rotate: false
+  xy: 472, 941
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+010022
+  rotate: false
+  xy: 532, 1143
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+beijing
+  rotate: false
+  xy: 2, 1587
+  size: 1922, 441
+  orig: 1922, 441
+  offset: 0, 0
+  index: -1
+jinbi
+  rotate: false
+  xy: 2, 532
+  size: 47, 45
+  orig: 47, 45
+  offset: 0, 0
+  index: -1
+jinbiheji1
+  rotate: true
+  xy: 270, 1159
+  size: 88, 52
+  orig: 88, 52
+  offset: 0, 0
+  index: -1
+jinbiheji2
+  rotate: true
+  xy: 147, 6
+  size: 120, 143
+  orig: 120, 143
+  offset: 0, 0
+  index: -1
+kaijianghao
+  rotate: true
+  xy: 1926, 1588
+  size: 440, 98
+  orig: 440, 98
+  offset: 0, 0
+  index: -1
+suixie01
+  rotate: true
+  xy: 2, 2
+  size: 124, 143
+  orig: 124, 143
+  offset: 0, 0
+  index: -1
+suixie03
+  rotate: true
+  xy: 102, 734
+  size: 201, 196
+  orig: 201, 196
+  offset: 0, 0
+  index: -1
+suixie04
+  rotate: false
+  xy: 506, 560
+  size: 154, 187
+  orig: 154, 187
+  offset: 0, 0
+  index: -1
+suixie05
+  rotate: false
+  xy: 2, 937
+  size: 266, 310
+  orig: 266, 310
+  offset: 0, 0
+  index: -1
+wenzi
+  rotate: true
+  xy: 2, 579
+  size: 356, 98
+  orig: 356, 98
+  offset: 0, 0
+  index: -1
+xingguang1
+  rotate: false
+  xy: 502, 749
+  size: 173, 190
+  orig: 173, 190
+  offset: 0, 0
+  index: -1
+xingxing
+  rotate: false
+  xy: 734, 1237
+  size: 159, 146
+  orig: 159, 146
+  offset: 0, 0
+  index: -1
+xingxing_guang
+  rotate: false
+  xy: 330, 1345
+  size: 267, 240
+  orig: 267, 240
+  offset: 0, 0
+  index: -1
+yuan
+  rotate: false
+  xy: 2, 1249
+  size: 326, 336
+  orig: 326, 336
+  offset: 0, 0
+  index: -1

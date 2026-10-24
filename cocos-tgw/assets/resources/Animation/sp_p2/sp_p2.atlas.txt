@@ -1,0 +1,27 @@
+
+sp_p2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blur
+  rotate: false
+  xy: 2, 113
+  size: 126, 132
+  orig: 126, 132
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 126, 109
+  orig: 126, 109
+  offset: 0, 0
+  index: -1
+straw
+  rotate: false
+  xy: 130, 145
+  size: 117, 100
+  orig: 117, 100
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,48 @@
+
+flower.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 39
+  size: 209, 205
+  orig: 209, 205
+  offset: 0, 0
+  index: -1
+card
+  rotate: false
+  xy: 382, 121
+  size: 117, 123
+  orig: 117, 123
+  offset: 0, 0
+  index: -1
+chip
+  rotate: false
+  xy: 382, 32
+  size: 91, 87
+  orig: 91, 87
+  offset: 0, 0
+  index: -1
+f
+  rotate: false
+  xy: 475, 85
+  size: 35, 34
+  orig: 35, 34
+  offset: 0, 0
+  index: -1
+f01
+  rotate: false
+  xy: 213, 2
+  size: 158, 96
+  orig: 158, 96
+  offset: 0, 0
+  index: -1
+flower
+  rotate: false
+  xy: 213, 100
+  size: 167, 144
+  orig: 167, 144
+  offset: 0, 0
+  index: -1

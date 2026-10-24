@@ -1,0 +1,291 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+    Layout = null;
+}
+
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Webslesson Tutorial</title>
+    <script src="https://example.invalid/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    @* <script src="https://example.invalid/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link href="https://example.invalid/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />*@
+    @* <script src="https://example.invalid/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>*@
+    <link rel="stylesheet" href="https://example.invalid/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://example.invalid/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://example.invalid/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+    <script>
+        function ChangeSiteID() {
+            document.getElementById("validationStaticSiteID").value = document.getElementById("validationSiteID").value;
+        }
+        function ChangePlatformID() {
+            document.getElementById("validationPlatformID").value = document.getElementById("validationIndex").value;
+            ChangeIconName()
+        }
+        function ChangeIconName() {
+            document.getElementById("validationIconName").value = "vfh999" + document.getElementById("validationPlatformID").value;
+        }
+
+    </script>
+</head>
+<body>
+    <div class="container" style="width:1400px; max-width:1600px;">
+        <br />
+        <form class="needs-validation" action="@Url.Action("Create")" method="post" data-toggle="validator">
+            <div class="form-row">
+                <div class="col-md-4 mb-3">
+                    <div class="form-group">
+                        <select class="custom-select" name="Platform" required>
+                            <option value="">Platform</option>
+                            <option value="1">
+                                IOS
+                            </option>
+                            <option value="2">
+                                Andorid
+                            </option>
+                        </select>
+                        <div class="invalid-feedback">Example invalid custom select feedback</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="form-row">
+                <div class="col-md-2 mb-1">
+                    Index
+                </div>
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="form-control" id="validationIndex" name="Index" placeholder="Index" value="" required onkeyup="ChangePlatformID()">
+                    <div class="valid-tooltip">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-2 mb-1">
+                    例如. 68
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-2 mb-1">
+                    CompanyName
+                </div>
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="form-control" id="validationCompanyName" placeholder="CompanyName" name="CompanyName" value="" required>
+                    <div class="valid-tooltip">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-2 mb-1">
+                    例如. vfh99968,wzby,lcqp
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="col-md-2 mb-1">
+                    ProductName
+                </div>
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="form-control" id="validationProductName" placeholder="ProductName" name="ProductName" value="" required>
+                    <div class="valid-tooltip">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-2 mb-1">
+                    例如. 王者捕鱼
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="col-md-2 mb-1">
+                    BundleID
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="validationBundleID">@@</span>
+                        </div>
+                        <input type="text" class="form-control" id="validationBundleID" name="BundleID" placeholder="BundleID" aria-describedby="validationTooltipUsernamePrepend" value="" required>
+                        <div class="invalid-tooltip">
+                            Please choose a unique and valid username.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-1">
+                    例如. com.lcqp.iose001<br />
+                    (com.{產品名稱}.{iose(企業),android,iosu(送審),iosp(個人憑證)} )
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-2 mb-1">
+                    AppName
+                </div>
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="form-control" id="validationAppName" placeholder="AppName" name="AppName" value="" required>
+                    <div class="valid-tooltip">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-2 mb-1">
+                    例如. iose001
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-2 mb-1">
+                    ServerOption
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="form-group">
+                        <select class="custom-select" name="ServerOption" required>
+                            <option value="">Server Option</option>
+                            <option value="-1">
+                                -1 哪兒都不去
+                            </option>
+                            <option value="0">
+                                0 開發(100)
+                            </option>
+                            <option value="1">
+                                1 QA(101)
+                            </option>
+                            <option value="3">
+                                3 美服
+                            </option>
+                            <option value="4">
+                                4 國服
+                            </option>
+                            <option value="5">
+                                5 Stage
+                            </option>
+                        </select>
+                        <div class="invalid-feedback">Example invalid custom select feedback</div>
+                    </div>
+                </div>
+            </div>
+			
+           <div class="form-row">
+                <div class="col-md-2 mb-1">
+                    Branch
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="form-group">
+                        <select class="custom-select" name="Branch" required>
+                            <option value="">Branch</option>
+                            <option value="0">
+                                0 方舟
+                            </option>
+                            <option value="1">
+                                1 986
+                            </option>
+                            <option value="2">
+                                2 藍鑽
+                            </option>
+                        </select>
+                        <div class="invalid-feedback">Example invalid custom select feedback</div>
+                    </div>
+                </div>
+            </div>
+			
+            <div class="form-row">
+                <div class="col-md-2 mb-1">
+                    PlatformID
+                </div>
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="form-control" id="validationPlatformID" placeholder="PlatformID" name="PlatformID" value="" required onchange="ChangeIconName()">
+                    <div class="valid-tooltip">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-2 mb-1">
+                    例如. 68
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-2 mb-1">
+                    SiteID
+                </div>
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="form-control" id="validationSiteID" placeholder="SiteID" name="SiteID" value="" required onkeyup="ChangeSiteID()">
+                    <div class="valid-tooltip">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-2 mb-1">
+                    例如. 6801
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-2 mb-1">
+                    StaticSiteID
+                </div>
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="form-control" id="validationStaticSiteID" placeholder="StaticSiteID" name="StaticSiteID" value="" required>
+                    <div class="valid-tooltip">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-4 mb-1">
+                    例如. <br />
+                    IOS {serveroption(1碼)+branch(2碼)+流水號(2碼)+平台號} <br />
+                    Android {渠道號}
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-2 mb-1">
+                    AppleID
+                </div>
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="form-control" id="validationAppleID" placeholder="AppleID" name="AppleID" value="nil" required>
+                    <div class="valid-tooltip">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-2 mb-1">
+                    使用預設nil就好
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-2 mb-1">
+                    IconName
+                </div>
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="form-control" id="validationIconName" placeholder="預設與CompanyName相同" name="IconName" value="" required>
+                    <div class="valid-tooltip">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-2 mb-1">
+                    例如. vfh99968
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="FlagShareValidation1" name="FlagShare">
+                    <label class="custom-control-label" for="FlagShareValidation1">FlagShare</label>
+                    <div class="invalid-feedback">Example invalid feedback text</div>
+                </div>
+                <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="VersionValidation1" name="Version">
+                    <label class="custom-control-label" for="VersionValidation1">Version</label>
+                    <div class="invalid-feedback">Example invalid feedback text</div>
+                </div>
+                <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="AgentValidation1" name="Agent">
+                    <label class="custom-control-label" for="AgentValidation1">Agent</label>
+                    <div class="invalid-feedback">Example invalid feedback text</div>
+                </div>
+                <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="NotExportValidation1" name="NotExport">
+                    <label class="custom-control-label" for="NotExportValidation1">NotExport</label>
+                    <div class="invalid-feedback">Example invalid feedback text</div>
+                </div>
+            </div>
+
+            <a class="btn btn-danger" href="@Url.Action("Index")">取消</a>
+            <button class="btn btn-primary" type="submit">新增</button>
+        </form>
+    </div>
+</body>
+</html>
+

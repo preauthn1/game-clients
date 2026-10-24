@@ -1,0 +1,104 @@
+
+sp_p3.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bao01
+  rotate: true
+  xy: 159, 23
+  size: 54, 51
+  orig: 54, 51
+  offset: 0, 0
+  index: -1
+bao02
+  rotate: false
+  xy: 2, 9
+  size: 56, 68
+  orig: 56, 68
+  offset: 0, 0
+  index: -1
+bao03
+  rotate: false
+  xy: 60, 14
+  size: 97, 63
+  orig: 97, 63
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 2, 79
+  size: 430, 318
+  orig: 430, 318
+  offset: 0, 0
+  index: -1
+coin
+  rotate: false
+  xy: 322, 143
+  size: 366, 366
+  orig: 366, 366
+  offset: 0, 0
+  index: -1
+eye01
+  rotate: true
+  xy: 212, 43
+  size: 34, 32
+  orig: 34, 32
+  offset: 0, 0
+  index: -1
+eye02
+  rotate: true
+  xy: 212, 12
+  size: 29, 24
+  orig: 29, 24
+  offset: 0, 0
+  index: -1
+leg01
+  rotate: true
+  xy: 522, 28
+  size: 113, 90
+  orig: 113, 90
+  offset: 0, 0
+  index: -1
+leg02
+  rotate: true
+  xy: 434, 24
+  size: 117, 86
+  orig: 117, 86
+  offset: 0, 0
+  index: -1
+leg03
+  rotate: false
+  xy: 614, 47
+  size: 142, 94
+  orig: 142, 94
+  offset: 0, 0
+  index: -1
+nose
+  rotate: true
+  xy: 910, 71
+  size: 81, 92
+  orig: 81, 92
+  offset: 0, 0
+  index: -1
+ribbon
+  rotate: false
+  xy: 322, 3
+  size: 110, 138
+  orig: 110, 138
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 690, 154
+  size: 355, 251
+  orig: 355, 251
+  offset: 0, 0
+  index: -1
+symbol_b_p3
+  rotate: false
+  xy: 758, 2
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1

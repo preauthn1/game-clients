@@ -1,0 +1,48 @@
+
+dragon_tiger.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 2
+  size: 209, 205
+  orig: 209, 205
+  offset: 0, 0
+  index: -1
+card
+  rotate: false
+  xy: 572, 103
+  size: 94, 104
+  orig: 94, 104
+  offset: 0, 0
+  index: -1
+chip
+  rotate: false
+  xy: 213, 102
+  size: 209, 105
+  orig: 209, 105
+  offset: 0, 0
+  index: -1
+dragon
+  rotate: true
+  xy: 424, 75
+  size: 132, 146
+  orig: 132, 146
+  offset: 0, 0
+  index: -1
+ff
+  rotate: false
+  xy: 213, 3
+  size: 176, 97
+  orig: 176, 97
+  offset: 0, 0
+  index: -1
+tiger
+  rotate: false
+  xy: 668, 124
+  size: 102, 83
+  orig: 102, 83
+  offset: 0, 0
+  index: -1

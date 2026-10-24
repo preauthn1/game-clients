@@ -1,0 +1,545 @@
+<dragonBones name="fg_bkg_ani" frameRate="30" version="2.3">
+ <armature name="fg_bkg_ani_mov">
+  <bone name="fg_bkg">
+   <transform x="360" y="-1029" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="fg_lantern_l_4">
+   <transform x="46.5" y="-1048" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="fg_lantern_l_3">
+   <transform x="47" y="-1090" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="fg_lantern_l_2">
+   <transform x="47" y="-1124" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="fg_lantern_l_1">
+   <transform x="46.5" y="-1158" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="fg_lantern_r_4">
+   <transform x="702.5" y="-1048" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <bone name="fg_lantern_r_3">
+   <transform x="702" y="-1090" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <bone name="fg_lantern_r_2">
+   <transform x="702" y="-1124" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <bone name="fg_lantern_r_1">
+   <transform x="702.5" y="-1158" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="fg_bkg" parent="fg_bkg" z="0">
+    <display name="_pic/fg_bkg" type="image">
+     <transform x="-360" y="-251" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="fg_lantern_l_4" parent="fg_lantern_l_4" z="1">
+    <display name="_gra/fg_bkg_lantern_001" type="image">
+     <transform x="-18.5" y="-25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_004" type="image">
+     <transform x="-19" y="-26" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_007" type="image">
+     <transform x="-19" y="-26" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_010" type="image">
+     <transform x="-19" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_013" type="image">
+     <transform x="-19" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_016" type="image">
+     <transform x="-19.5" y="-25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_019" type="image">
+     <transform x="-19" y="-25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_022" type="image">
+     <transform x="-19" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_025" type="image">
+     <transform x="-19" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_028" type="image">
+     <transform x="-19" y="-25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_031" type="image">
+     <transform x="-19.5" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_034" type="image">
+     <transform x="-19.5" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_037" type="image">
+     <transform x="-19" y="-26" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_040" type="image">
+     <transform x="-19" y="-26" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_043" type="image">
+     <transform x="-19" y="-26" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_046" type="image">
+     <transform x="-18.5" y="-25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_049" type="image">
+     <transform x="-18.5" y="-26" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_052" type="image">
+     <transform x="-19" y="-26" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_055" type="image">
+     <transform x="-19" y="-26" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_058" type="image">
+     <transform x="-19.5" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_061" type="image">
+     <transform x="-19" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_064" type="image">
+     <transform x="-19.5" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_067" type="image">
+     <transform x="-19.5" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_070" type="image">
+     <transform x="-19.5" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_073" type="image">
+     <transform x="-19.5" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_076" type="image">
+     <transform x="-19" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_079" type="image">
+     <transform x="-19.5" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_082" type="image">
+     <transform x="-19" y="-26" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_085" type="image">
+     <transform x="-19" y="-26" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_088" type="image">
+     <transform x="-19" y="-26" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="fg_lantern_l_3" parent="fg_lantern_l_3" z="2">
+    <display name="_gra/fg_bkg_lantern_l_only" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="17.5" pY="15"/>
+    </display>
+   </slot>
+   <slot name="fg_lantern_l_2" parent="fg_lantern_l_2" z="3">
+    <display name="_gra/fg_bkg_lantern_l_only" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="17.5" pY="15"/>
+    </display>
+   </slot>
+   <slot name="fg_lantern_l_1" parent="fg_lantern_l_1" z="4">
+    <display name="_gra/fg_bkg_lantern_l_only" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="17.5" pY="15"/>
+    </display>
+   </slot>
+   <slot name="fg_lantern_r_4" parent="fg_lantern_r_4" z="5">
+    <display name="_gra/fg_bkg_lantern_001" type="image">
+     <transform x="-18.5" y="-25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_004" type="image">
+     <transform x="-19" y="-26" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_007" type="image">
+     <transform x="-19" y="-26" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_010" type="image">
+     <transform x="-19" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_013" type="image">
+     <transform x="-19" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_016" type="image">
+     <transform x="-19.5" y="-25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_019" type="image">
+     <transform x="-19" y="-25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_022" type="image">
+     <transform x="-19" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_025" type="image">
+     <transform x="-19" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_028" type="image">
+     <transform x="-19" y="-25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_031" type="image">
+     <transform x="-19.5" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_034" type="image">
+     <transform x="-19.5" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_037" type="image">
+     <transform x="-19" y="-26" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_040" type="image">
+     <transform x="-19" y="-26" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_043" type="image">
+     <transform x="-19" y="-26" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_046" type="image">
+     <transform x="-18.5" y="-25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_049" type="image">
+     <transform x="-18.5" y="-26" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_052" type="image">
+     <transform x="-19" y="-26" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_055" type="image">
+     <transform x="-19" y="-26" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_058" type="image">
+     <transform x="-19.5" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_061" type="image">
+     <transform x="-19" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_064" type="image">
+     <transform x="-19.5" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_067" type="image">
+     <transform x="-19.5" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_070" type="image">
+     <transform x="-19.5" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_073" type="image">
+     <transform x="-19.5" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_076" type="image">
+     <transform x="-19" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_079" type="image">
+     <transform x="-19.5" y="-25.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_082" type="image">
+     <transform x="-19" y="-26" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_085" type="image">
+     <transform x="-19" y="-26" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="_gra/fg_bkg_lantern_088" type="image">
+     <transform x="-19" y="-26" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="fg_lantern_r_3" parent="fg_lantern_r_3" z="6">
+    <display name="_gra/fg_bkg_lantern_l_only" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="17.5" pY="15"/>
+    </display>
+   </slot>
+   <slot name="fg_lantern_r_2" parent="fg_lantern_r_2" z="7">
+    <display name="_gra/fg_bkg_lantern_l_only" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="17.5" pY="15"/>
+    </display>
+   </slot>
+   <slot name="fg_lantern_r_1" parent="fg_lantern_r_1" z="8">
+    <display name="_gra/fg_bkg_lantern_l_only" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="17.5" pY="15"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="fg_bkg_ani" fadeInTime="0" duration="90" scale="1" loop="0" autoTween="1" tweenEasing="NaN">
+   <timeline name="fg_bkg" scale="1" offset="0">
+    <frame z="0" tweenEasing="NaN" duration="90">
+     <transform x="360" y="-1029" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="fg_lantern_l_4" scale="1" offset="0">
+    <frame z="1" tweenEasing="NaN" duration="3">
+     <transform x="46.5" y="-1048" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="1" tweenEasing="NaN" duration="3">
+     <transform x="45" y="-1048" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="2" tweenEasing="NaN" duration="3">
+     <transform x="45" y="-1048" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="3" tweenEasing="NaN" duration="3">
+     <transform x="44" y="-1048.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="4" tweenEasing="NaN" duration="3">
+     <transform x="43" y="-1048.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="5" tweenEasing="NaN" duration="3">
+     <transform x="42.5" y="-1049" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="6" tweenEasing="NaN" duration="3">
+     <transform x="42" y="-1049" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="7" tweenEasing="NaN" duration="3">
+     <transform x="41" y="-1049.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="8" tweenEasing="NaN" duration="3">
+     <transform x="41" y="-1049.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="9" tweenEasing="NaN" duration="3">
+     <transform x="42" y="-1049" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="10" tweenEasing="NaN" duration="3">
+     <transform x="42.5" y="-1048.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="11" tweenEasing="NaN" duration="3">
+     <transform x="43.5" y="-1048.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="12" tweenEasing="NaN" duration="3">
+     <transform x="44" y="-1048" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="13" tweenEasing="NaN" duration="3">
+     <transform x="45" y="-1048" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="14" tweenEasing="NaN" duration="3">
+     <transform x="45" y="-1048" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="15" tweenEasing="NaN" duration="3">
+     <transform x="46.5" y="-1048" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="16" tweenEasing="NaN" duration="3">
+     <transform x="47.5" y="-1048" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="17" tweenEasing="NaN" duration="3">
+     <transform x="48" y="-1048" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="18" tweenEasing="NaN" duration="3">
+     <transform x="49" y="-1048" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="19" tweenEasing="NaN" duration="3">
+     <transform x="49.5" y="-1048.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="20" tweenEasing="NaN" duration="3">
+     <transform x="50" y="-1048.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="21" tweenEasing="NaN" duration="3">
+     <transform x="50.5" y="-1048.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="22" tweenEasing="NaN" duration="3">
+     <transform x="51.5" y="-1049.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="23" tweenEasing="NaN" duration="3">
+     <transform x="51.5" y="-1049.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="24" tweenEasing="NaN" duration="3">
+     <transform x="50.5" y="-1048.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="25" tweenEasing="NaN" duration="3">
+     <transform x="50" y="-1048.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="26" tweenEasing="NaN" duration="3">
+     <transform x="49.5" y="-1048.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="27" tweenEasing="NaN" duration="3">
+     <transform x="49" y="-1048" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="28" tweenEasing="NaN" duration="3">
+     <transform x="48" y="-1048" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="29" tweenEasing="NaN" duration="3">
+     <transform x="47" y="-1048" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="fg_lantern_l_3" scale="1" offset="0">
+    <frame z="2" tweenEasing="0" duration="21">
+     <transform x="47" y="-1090" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="23">
+     <transform x="42.5" y="-1090" skX="15" skY="15" scX="1" scY="1" pX="0.05" pY="0.05"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="22">
+     <transform x="47" y="-1090" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="23">
+     <transform x="49" y="-1090" skX="-15" skY="-15" scX="1" scY="1" pX="-0.05" pY="0"/>
+    </frame>
+    <frame z="2" duration="1">
+     <transform x="47" y="-1090" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="fg_lantern_l_2" scale="1" offset="0">
+    <frame z="3" tweenEasing="0" duration="21">
+     <transform x="47" y="-1124" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="23">
+     <transform x="44" y="-1124" skX="12" skY="12" scX="1.000015" scY="1.000015" pX="0.05" pY="0.05"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="22">
+     <transform x="47" y="-1124" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="23">
+     <transform x="50" y="-1124" skX="-12" skY="-12" scX="1.000015" scY="1.000015" pX="0.05" pY="0"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="47" y="-1124" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="fg_lantern_l_1" scale="1" offset="0">
+    <frame z="4" tweenEasing="0" duration="21">
+     <transform x="46.5" y="-1158" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="23">
+     <transform x="45" y="-1158" skX="10" skY="10" scX="1.000015" scY="1.000015" pX="0" pY="0.05"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="22">
+     <transform x="47.5" y="-1158" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="23">
+     <transform x="49.5" y="-1158.5" skX="-10" skY="-10" scX="1.000015" scY="1.000015" pX="0.05" pY="0"/>
+    </frame>
+    <frame z="4" duration="1">
+     <transform x="46.5" y="-1158" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="fg_lantern_r_4" scale="1" offset="0">
+    <frame z="5" tweenEasing="NaN" duration="3">
+     <transform x="702.5" y="-1048" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="1" tweenEasing="NaN" duration="3">
+     <transform x="704" y="-1048" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="2" tweenEasing="NaN" duration="3">
+     <transform x="704" y="-1048" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="3" tweenEasing="NaN" duration="3">
+     <transform x="705" y="-1048.5" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="4" tweenEasing="NaN" duration="3">
+     <transform x="706" y="-1048.5" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="5" tweenEasing="NaN" duration="3">
+     <transform x="706.5" y="-1049" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="6" tweenEasing="NaN" duration="3">
+     <transform x="707" y="-1049" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="7" tweenEasing="NaN" duration="3">
+     <transform x="708" y="-1049.5" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="8" tweenEasing="NaN" duration="3">
+     <transform x="708" y="-1049.5" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="9" tweenEasing="NaN" duration="3">
+     <transform x="707" y="-1049" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="10" tweenEasing="NaN" duration="3">
+     <transform x="706.5" y="-1048.5" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="11" tweenEasing="NaN" duration="3">
+     <transform x="705.5" y="-1048.5" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="12" tweenEasing="NaN" duration="3">
+     <transform x="705" y="-1048" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="13" tweenEasing="NaN" duration="3">
+     <transform x="704" y="-1048" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="14" tweenEasing="NaN" duration="3">
+     <transform x="704" y="-1048" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="15" tweenEasing="NaN" duration="3">
+     <transform x="702.5" y="-1048" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="16" tweenEasing="NaN" duration="3">
+     <transform x="701.5" y="-1048" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="17" tweenEasing="NaN" duration="3">
+     <transform x="701" y="-1048" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="18" tweenEasing="NaN" duration="3">
+     <transform x="700" y="-1048" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="19" tweenEasing="NaN" duration="3">
+     <transform x="699.5" y="-1048.5" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="20" tweenEasing="NaN" duration="3">
+     <transform x="699" y="-1048.5" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="21" tweenEasing="NaN" duration="3">
+     <transform x="698.5" y="-1048.5" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="22" tweenEasing="NaN" duration="3">
+     <transform x="697.5" y="-1049.5" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="23" tweenEasing="NaN" duration="3">
+     <transform x="697.5" y="-1049.5" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="24" tweenEasing="NaN" duration="3">
+     <transform x="698.5" y="-1048.5" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="25" tweenEasing="NaN" duration="3">
+     <transform x="699" y="-1048.5" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="26" tweenEasing="NaN" duration="3">
+     <transform x="699.5" y="-1048.5" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="27" tweenEasing="NaN" duration="3">
+     <transform x="700" y="-1048" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="28" tweenEasing="NaN" duration="3">
+     <transform x="701" y="-1048" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" displayIndex="29" tweenEasing="NaN" duration="3">
+     <transform x="702" y="-1048" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="fg_lantern_r_3" scale="1" offset="0">
+    <frame z="6" tweenEasing="0" duration="21">
+     <transform x="702" y="-1090" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" tweenEasing="0" duration="23">
+     <transform x="706.5" y="-1090" skX="-15" skY="-15" scX="-1" scY="1" pX="0" pY="0.05"/>
+    </frame>
+    <frame z="6" tweenEasing="0" duration="22">
+     <transform x="702" y="-1090" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" tweenEasing="0" duration="23">
+     <transform x="700" y="-1090" skX="15" skY="15" scX="-1" scY="1" pX="0.05" pY="0"/>
+    </frame>
+    <frame z="6" duration="1">
+     <transform x="702" y="-1090" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="fg_lantern_r_2" scale="1" offset="0">
+    <frame z="7" tweenEasing="0" duration="21">
+     <transform x="702" y="-1124" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" tweenEasing="0" duration="23">
+     <transform x="705" y="-1124" skX="-12" skY="-12" scX="-1.000015" scY="1.000015" pX="0.05" pY="0.05"/>
+    </frame>
+    <frame z="7" tweenEasing="0" duration="22">
+     <transform x="702" y="-1124" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" tweenEasing="0" duration="23">
+     <transform x="699" y="-1124" skX="12" skY="12" scX="-1.000015" scY="1.000015" pX="0.05" pY="-0.05"/>
+    </frame>
+    <frame z="7" duration="1">
+     <transform x="702" y="-1124" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="fg_lantern_r_1" scale="1" offset="0">
+    <frame z="8" tweenEasing="0" duration="21">
+     <transform x="702.5" y="-1158" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" tweenEasing="0" duration="23">
+     <transform x="704" y="-1158" skX="-10" skY="-10" scX="-1.000015" scY="1.000015" pX="0" pY="0.05"/>
+    </frame>
+    <frame z="8" tweenEasing="0" duration="22">
+     <transform x="701.5" y="-1158" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" tweenEasing="0" duration="23">
+     <transform x="699.5" y="-1158.5" skX="10" skY="10" scX="-1.000015" scY="1.000015" pX="0.05" pY="0"/>
+    </frame>
+    <frame z="8" duration="1">
+     <transform x="702.5" y="-1158" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

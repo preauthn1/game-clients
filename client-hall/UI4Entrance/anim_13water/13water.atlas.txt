@@ -1,0 +1,104 @@
+
+13water.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 38
+  size: 209, 205
+  orig: 209, 205
+  offset: 0, 0
+  index: -1
+c1
+  rotate: false
+  xy: 213, 2
+  size: 88, 83
+  orig: 88, 83
+  offset: 0, 0
+  index: -1
+c2
+  rotate: false
+  xy: 303, 11
+  size: 83, 74
+  orig: 83, 74
+  offset: 0, 0
+  index: -1
+c3
+  rotate: true
+  xy: 388, 8
+  size: 77, 68
+  orig: 77, 68
+  offset: 0, 0
+  index: -1
+card01
+  rotate: false
+  xy: 417, 107
+  size: 123, 136
+  orig: 123, 136
+  offset: 0, 0
+  index: -1
+card02
+  rotate: false
+  xy: 666, 113
+  size: 104, 130
+  orig: 104, 130
+  offset: 0, 0
+  index: -1
+card03
+  rotate: false
+  xy: 878, 127
+  size: 78, 116
+  orig: 78, 116
+  offset: 0, 0
+  index: -1
+card04
+  rotate: false
+  xy: 772, 113
+  size: 104, 130
+  orig: 104, 130
+  offset: 0, 0
+  index: -1
+card05
+  rotate: false
+  xy: 542, 107
+  size: 122, 136
+  orig: 122, 136
+  offset: 0, 0
+  index: -1
+f01
+  rotate: false
+  xy: 36, 10
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+f02
+  rotate: false
+  xy: 2, 4
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+f03
+  rotate: false
+  xy: 958, 162
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+f04
+  rotate: false
+  xy: 958, 196
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+s
+  rotate: false
+  xy: 213, 87
+  size: 202, 156
+  orig: 202, 156
+  offset: 0, 0
+  index: -1

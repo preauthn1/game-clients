@@ -1,0 +1,25 @@
+<color=#ff0000>Game Rule</color>
+This game is played with 1 52-card deck,The dealer gives each player three cards and himself three cards. The player may examine his own cards. The dealer's cards are dealt face down.
+The dealer needs a queen high or better to qualify.
+If the dealer does not qualify then the player will win even money on the Ante bet and the Play bet will push.
+If the dealer qualifies, then the player's hand will be compared to the dealer's hand, the higher hand wins.
+If the player has the higher poker hand then the Ante and Play will both pay even money.
+If the dealer has the higher poker hand then the Ante and Play will both lose.
+If the player and dealer tie then the Ante and Play bets will push.
+If the player made the Ante bet and has a straight or higher then the player will receive an Ante Bonus, regardless of the value of the dealer's hand.
+The Pairplus bet will pay entirely based on the poker value of the player's hand
+
+<color=#ff0000>Hands Order</color>
+A ＞ K ＞ Q ＞ J ＞ 10 ＞ 9 ＞ 8 ＞ 7 ＞ 6 ＞ 5 ＞ 4 ＞ 3 ＞ 2
+
+<color=#ff0000>Pay Table</color>
+【Pair】x1
+【Flush】x 4
+【Straight】x6
+【3 of a kind】x30
+【Straight Flush】x40
+
+<color=#ff0000>Special Bonus</color>
+【Straight】x1
+【3 of a kind】x4
+【Straight Flush】x5

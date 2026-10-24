@@ -1,0 +1,55 @@
+{
+  "common": {
+    "buildPath": "project://build",
+    "outputName": "android",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "android",
+    "startScene": "d323ffcb-5662-4490-bb54-ab7c4a7e9c67",
+    "buildStageGroup": {
+      "build": [
+        "make"
+      ]
+    },
+    "replaceSplashScreen": false,
+    "scenes": [
+      {
+        "url": "db://assets/scene/lobby.scene",
+        "uuid": "a319711a-a47c-4edd-aac4-e2dd947b614d",
+        "inBundle": false
+      }
+    ],
+    "name": "RYC"
+  },
+  "options": {
+    "android": {
+      "packageName": "com.rycoffline.android01",
+      "orientation": {
+        "portrait": true,
+        "upsideDown": false,
+        "landscapeRight": false,
+        "landscapeLeft": false
+      },
+      "apiLevel": 28,
+      "appABIs": [
+        "arm64-v8a"
+      ],
+      "useDebugKeystore": true,
+      "keystorePath": "",
+      "keystorePassword": "",
+      "keystoreAlias": "",
+      "keystoreAliasPassword": "",
+      "appBundle": false,
+      "androidInstant": false,
+      "remoteUrl": "",
+      "sdkPath": "",
+      "ndkPath": "",
+      "renderBackEnd": {
+        "vulkan": false,
+        "gles3": true,
+        "gles2": true
+      },
+      "swappy": false,
+      "__version__": "1.0.1"
+    }
+  }
+}
