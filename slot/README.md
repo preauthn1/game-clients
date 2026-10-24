@@ -1,24 +1,13 @@
 # slot
 
-原始路径：`slot`　|　文件：**35**　|　主语言：Lua 30, JSON 1
+原始路径：`slot`　|　文件：**34**　|　主语言：Lua 30, JSON 1
 
 ## 目录构成
 
 ```
+LuaScript/  — 30
 Animation/bonus_coin/  — 2
-README.md/  — 1
-README.md.meta/  — 1
-UI/規格.txt/  — 1
-LuaScript/MScrollChoose.lua/  — 1
-LuaScript/UIBetRate.lua/  — 1
-LuaScript/UIPayTable.lua/  — 1
-LuaScript/GameData.lua/  — 1
-LuaScript/UIJackpot.lua/  — 1
-LuaScript/UISetting.lua/  — 1
-LuaScript/UIJackpotPool.lua/  — 1
-LuaScript/GameGlobal.lua/  — 1
-LuaScript/Game_Slot.lua/  — 1
-LuaScript/UIFreeSpin.lua/  — 1
+UI/  — 1
 ```
 
 ## 关键文件

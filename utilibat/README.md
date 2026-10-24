@@ -1,21 +1,10 @@
 # utilibat
 
-原始路径：`utilibat`　|　文件：**11**　|　主语言：—
+原始路径：`utilibat`　|　文件：**10**　|　主语言：—
 
 ## 目录构成
 
 ```
-ab.bat/  — 1
-README.md/  — 1
-git_clone_game.bat/  — 1
-rename.bat/  — 1
-git_clone_hall.bat/  — 1
-Start_PullAllGame.bat/  — 1
-autodeleteAssetBundle.bat/  — 1
-Git_pull_Reset_game.bat/  — 1
-autohotupdate.bat/  — 1
-git_start.bat/  — 1
-git_clone_arkgame.bat/  — 1
 ```
 
 ## 主要文件
@@ -26,8 +15,8 @@ git_clone_arkgame.bat/  — 1
 - `ab.bat`
 - `autohotupdate.bat`
 - `git_clone_arkgame.bat`
-- `README.md`
 - `autodeleteAssetBundle.bat`
+- `git_clone_hall.bat`
 
 ## 说明
 

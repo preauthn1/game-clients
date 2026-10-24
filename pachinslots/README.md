@@ -1,6 +1,6 @@
 # pachinslots
 
-原始路径：`pachinslots`　|　文件：**122**　|　主语言：JavaScript 79, JSON 36, TypeScript 1
+原始路径：`pachinslots`　|　文件：**121**　|　主语言：JavaScript 79, JSON 36, TypeScript 1
 
 ## 目录构成
 
@@ -9,16 +9,8 @@ assets/Script/  — 58
 assets/Animation/  — 26
 packages/i18n/  — 22
 packages/animformjson/  — 4
+settings/  — 4
 assets/resources/  — 3
-jsconfig.json/  — 1
-README.md/  — 1
-tsconfig.json/  — 1
-creator.d.ts/  — 1
-project.json/  — 1
-settings/i18n.json/  — 1
-settings/builder.json/  — 1
-settings/services.json/  — 1
-settings/project.json/  — 1
 ```
 
 ## 关键文件

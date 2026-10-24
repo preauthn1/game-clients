@@ -1,6 +1,6 @@
 # sml
 
-原始路径：`sml`　|　文件：**57**　|　主语言：TypeScript 47, JSON 9
+原始路径：`sml`　|　文件：**56**　|　主语言：TypeScript 47, JSON 9
 
 ## 目录构成
 
@@ -9,11 +9,7 @@ assets/scripts/  — 41
 settings/v2/  — 5
 assets/framework/  — 3
 assets/resources/  — 3
-package.json/  — 1
-README.md/  — 1
-tsconfig.json/  — 1
-package-lock.json/  — 1
-.creator/default-meta.json/  — 1
+.creator/  — 1
 ```
 
 ## 关键文件

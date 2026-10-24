@@ -1,11 +1,12 @@
 # client-hall
 
-原始路径：`client-hall`　|　文件：**222**　|　主语言：Lua 143, JSON 35, C# 7
+原始路径：`client-hall`　|　文件：**221**　|　主语言：Lua 143, JSON 35, C# 7
 
 ## 目录构成
 
 ```
 LuaScript/Tools/  — 61
+LuaScript/  — 44
 LuaScript/Service/  — 16
 LuaScript/Com/  — 14
 Scripts/UI/  — 7
@@ -18,7 +19,6 @@ UI4Spine/cellphone/  — 2
 UI4Spine/fish_rm02/  — 2
 UI4Spine/fish_rm01/  — 2
 UI4Spine/cellnotext/  — 2
-UI4Spine/recharge/  — 2
 ```
 
 ## 主要文件

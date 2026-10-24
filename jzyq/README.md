@@ -1,6 +1,6 @@
 # jzyq
 
-原始路径：`jzyq`　|　文件：**64**　|　主语言：TypeScript 50, JSON 9
+原始路径：`jzyq`　|　文件：**63**　|　主语言：TypeScript 50, JSON 9
 
 ## 目录构成
 
@@ -8,14 +8,9 @@
 assets/scripts/  — 47
 settings/v2/  — 5
 assets/resources/  — 3
+Proto/  — 2
 assets/Protobuf/  — 2
-package.json/  — 1
-README.md/  — 1
-tsconfig.json/  — 1
-package-lock.json/  — 1
-Proto/GameMsg_JZYQ.proto/  — 1
-Proto/Game_JZYQ.proto/  — 1
-.creator/default-meta.json/  — 1
+.creator/  — 1
 ```
 
 ## 关键文件

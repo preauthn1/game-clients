@@ -1,6 +1,6 @@
 # fruitchop
 
-原始路径：`fruitchop`　|　文件：**101**　|　主语言：JavaScript 80, JSON 12, CSS 2
+原始路径：`fruitchop`　|　文件：**100**　|　主语言：JavaScript 80, JSON 12, CSS 2
 
 ## 目录构成
 
@@ -8,17 +8,11 @@
 assets/Script/  — 57
 packages/i18n/  — 22
 packages/animformjson/  — 4
+settings/  — 4
 assets/resources/  — 3
 packages/language/  — 3
 build-templates/web-mobile/  — 2
-jsconfig.json/  — 1
-README.md/  — 1
-tsconfig.json/  — 1
-creator.d.ts/  — 1
-project.json/  — 1
 assets/UI/  — 1
-settings/i18n.json/  — 1
-settings/builder.json/  — 1
 ```
 
 ## 关键文件

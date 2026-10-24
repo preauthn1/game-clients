@@ -1,24 +1,14 @@
 # by
 
-原始路径：`by`　|　文件：**30**　|　主语言：Lua 22, C# 5
+原始路径：`by`　|　文件：**29**　|　主语言：Lua 22, C# 5
 
 ## 目录构成
 
 ```
+LuaScript/  — 16
 LuaScript/Fish/  — 6
+Scripts/  — 3
 Scripts/Editor/  — 2
-README.md/  — 1
-部劓SortingLayer佽隴.txt/  — 1
-README.md.meta/  — 1
-Scripts/Shadow.cs/  — 1
-Scripts/TestFishSpeed.cs/  — 1
-Scripts/AutoScreenScale.cs/  — 1
-LuaScript/CoinCreator.lua/  — 1
-LuaScript/ByConfig.lua/  — 1
-LuaScript/Player2D.lua/  — 1
-LuaScript/UIGun.lua/  — 1
-LuaScript/UILoading.lua/  — 1
-LuaScript/UIMenu.lua/  — 1
 ```
 
 ## 关键文件

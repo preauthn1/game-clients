@@ -1,6 +1,6 @@
 # newfish
 
-原始路径：`newfish`　|　文件：**62**　|　主语言：JSON 37, JavaScript 21, TypeScript 1
+原始路径：`newfish`　|　文件：**61**　|　主语言：JSON 37, JavaScript 21, TypeScript 1
 
 ## 目录构成
 
@@ -10,15 +10,9 @@ assets/Script/  — 14
 packages/animformjson/  — 4
 packages/prefab-creator/  — 4
 build-templates/web-mobile/  — 3
+assets/  — 2
 assets/Sprite/  — 2
-jsconfig.json/  — 1
-README.md/  — 1
-creator.d.ts/  — 1
-project.json/  — 1
-assets/PathController (1).json/  — 1
-assets/GameLayer.json/  — 1
-settings/services.json/  — 1
-settings/project.json/  — 1
+settings/  — 2
 ```
 
 ## 关键文件

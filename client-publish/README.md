@@ -1,18 +1,11 @@
 # client-publish
 
-原始路径：`client-publish`　|　文件：**8**　|　主语言：C# 7
+原始路径：`client-publish`　|　文件：**7**　|　主语言：C# 7
 
 ## 目录构成
 
 ```
-README.md/  — 1
-CustomDefine.cs/  — 1
-PlatformRouteController.cs/  — 1
-Editor/ReleaseScript.cs/  — 1
-Editor/BuildWindow.cs/  — 1
-Editor/GitCommit.cs/  — 1
-Editor/GitCommitMenu.cs/  — 1
-Editor/AppBuildScript.cs/  — 1
+Editor/  — 5
 ```
 
 ## 主要文件
@@ -24,7 +17,6 @@ Editor/AppBuildScript.cs/  — 1
 - `Editor/GitCommit.cs`
 - `Editor/GitCommitMenu.cs`
 - `CustomDefine.cs`
-- `README.md`
 
 ## 说明
 

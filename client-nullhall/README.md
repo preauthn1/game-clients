@@ -1,6 +1,6 @@
 # client-nullhall
 
-原始路径：`client-nullhall`　|　文件：**751**　|　主语言：C# 395, Lua 150, JSON 43
+原始路径：`client-nullhall`　|　文件：**750**　|　主语言：C# 395, Lua 150, JSON 43
 
 ## 目录构成
 
@@ -9,15 +9,11 @@ Assets/Hall/  — 331
 Assets/Plugins/  — 203
 Assets/FrameWork/  — 198
 Assets/PlayServicesResolver/  — 7
+Assets/  — 4
 Assets/Editor/  — 2
 Assets/FX/  — 2
 Assets/codeandweb.com/  — 2
-README.md/  — 1
-Assets/RuntimeDebug.cs/  — 1
-Assets/RuntimeStats.cs/  — 1
-Assets/ServerIP.cs/  — 1
-Assets/LogConsole.cs/  — 1
-ProjectSettings/ProjectVersion.txt/  — 1
+ProjectSettings/  — 1
 ```
 
 ## 关键文件

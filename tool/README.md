@@ -1,24 +1,24 @@
 # tool
 
-原始路径：`tool`　|　文件：**109**　|　主语言：JavaScript 42, C# 11, HTML 4
+原始路径：`tool`　|　文件：**108**　|　主语言：JavaScript 42, C# 11, HTML 4
 
 ## 目录构成
 
 ```
+plist2fnt/  — 25
+proto/  — 25
+build_bat/  — 13
+indrx.js/  — 6
+slot88/  — 6
 animformjson/unity/  — 5
 animformjson/packages/  — 4
 prefab-creator/packages/  — 4
 prefab-creator/unity/  — 3
+Slot88_templates/  — 3
+test/  — 2
 nodeJS and npm/壓縮專案內圖片用/  — 2
-md5.js/  — 1
-README.md/  — 1
-npm壓縮圖片.bat/  — 1
-index.html/  — 1
-ToJavaScript.cs/  — 1
-cocos底層修改.txt/  — 1
-LuaToJavaScript.cs/  — 1
+HotUpdate/  — 2
 ExoprtUISpritePrefabToJson/unity/  — 1
-plist2fnt/plist2json.bat/  — 1
 ```
 
 ## 关键文件

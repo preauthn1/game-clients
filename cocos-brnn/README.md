@@ -1,6 +1,6 @@
 # cocos-brnn
 
-原始路径：`cocos-brnn`　|　文件：**97**　|　主语言：JavaScript 75, JSON 15, TypeScript 1
+原始路径：`cocos-brnn`　|　文件：**96**　|　主语言：JavaScript 75, JSON 15, TypeScript 1
 
 ## 目录构成
 
@@ -10,15 +10,8 @@ assets/resources/  — 8
 packages/animformjson/  — 4
 packages/prefab-creator/  — 4
 build-templates/web-mobile/  — 3
-jsconfig.json/  — 1
-README.md/  — 1
-creator.d.ts/  — 1
-npm壓縮圖片.bat/  — 1
-用法.txt/  — 1
-project.json/  — 1
-assets/GameLayer.json/  — 1
-settings/builder.json/  — 1
-settings/services.json/  — 1
+settings/  — 3
+assets/  — 1
 ```
 
 ## 关键文件

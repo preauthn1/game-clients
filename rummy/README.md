@@ -1,6 +1,6 @@
 # rummy
 
-原始路径：`rummy`　|　文件：**88**　|　主语言：JavaScript 68, JSON 12, TypeScript 1
+原始路径：`rummy`　|　文件：**87**　|　主语言：JavaScript 68, JSON 12, TypeScript 1
 
 ## 目录构成
 
@@ -8,17 +8,11 @@
 assets/Script/  — 45
 packages/i18n/  — 22
 packages/animformjson/  — 4
+settings/  — 4
 assets/resources/  — 3
 packages/language/  — 3
 assets/Animation/  — 2
-jsconfig.json/  — 1
-README.md/  — 1
-creator.d.ts/  — 1
-project.json/  — 1
 assets/UI/  — 1
-settings/i18n.json/  — 1
-settings/builder.json/  — 1
-settings/services.json/  — 1
 ```
 
 ## 关键文件

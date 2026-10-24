@@ -1,6 +1,6 @@
 # cocos-csdjp
 
-原始路径：`cocos-csdjp`　|　文件：**195**　|　主语言：JavaScript 112, JSON 36, HTML 3
+原始路径：`cocos-csdjp`　|　文件：**194**　|　主语言：JavaScript 112, JSON 36, HTML 3
 
 ## 目录构成
 
@@ -9,16 +9,16 @@ assets/Script/  — 75
 assets/Animation/  — 40
 packages/i18n/  — 22
 packages/pngquant-master/  — 13
+build_bat/  — 8
 packages/animformjson/  — 4
 packages/prefab-creator/  — 4
 build-templates/web-mobile/  — 4
+settings/  — 4
 assets/resources/  — 3
 packages/setBlenders/  — 3
 packages/language/  — 3
 language/en-us/  — 2
 language/zh-cn/  — 2
-jsconfig.json/  — 1
-README.md/  — 1
 ```
 
 ## 关键文件

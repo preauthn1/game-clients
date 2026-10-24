@@ -1,6 +1,6 @@
 # cjlhlp
 
-原始路径：`cjlhlp`　|　文件：**62**　|　主语言：TypeScript 53, JSON 8
+原始路径：`cjlhlp`　|　文件：**61**　|　主语言：TypeScript 53, JSON 8
 
 ## 目录构成
 
@@ -8,10 +8,6 @@
 assets/scripts/  — 50
 settings/v2/  — 5
 assets/resources/  — 3
-package.json/  — 1
-README.md/  — 1
-tsconfig.json/  — 1
-package-lock.json/  — 1
 ```
 
 ## 关键文件

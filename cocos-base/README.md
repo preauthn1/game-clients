@@ -1,6 +1,6 @@
 # cocos-base
 
-原始路径：`cocos-base`　|　文件：**132**　|　主语言：JavaScript 93, JSON 19, HTML 3
+原始路径：`cocos-base`　|　文件：**131**　|　主语言：JavaScript 93, JSON 19, HTML 3
 
 ## 目录构成
 
@@ -16,9 +16,9 @@ build-templates/web-mobile/  — 4
 packages/setBlenders/  — 3
 packages/language/  — 3
 packages/hookParticles/  — 3
-jsconfig.json/  — 1
-README.md/  — 1
-creator.d.ts/  — 1
+build_bat/  — 3
+settings/  — 3
+logo/  — 1
 ```
 
 ## 关键文件

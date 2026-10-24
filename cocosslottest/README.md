@@ -1,21 +1,15 @@
 # cocosslottest
 
-原始路径：`cocosslottest`　|　文件：**15**　|　主语言：JSON 6, JavaScript 4, C# 2
+原始路径：`cocosslottest`　|　文件：**14**　|　主语言：JSON 6, JavaScript 4, C# 2
 
 ## 目录构成
 
 ```
 packages/prefab-creator/  — 4
 unity/Editor/  — 2
-jsconfig.json/  — 1
-README.md/  — 1
-环境.txt/  — 1
-creator.d.ts/  — 1
-project.json/  — 1
-assets/GameLayer.json/  — 1
+settings/  — 2
+assets/  — 1
 assets/Script/  — 1
-settings/services.json/  — 1
-settings/project.json/  — 1
 ```
 
 ## 关键文件
@@ -31,8 +25,8 @@ settings/project.json/  — 1
 - `packages/prefab-creator/prefab-creator.js`
 - `unity/Editor/ExoprtUISpritePrefabToJson.cs`
 - `packages/prefab-creator/panel/index.js`
-- `README.md`
 - `assets/Script/SetZIndex.js`
+- `settings/project.json`
 
 ## 说明
 

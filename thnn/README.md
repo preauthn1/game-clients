@@ -1,6 +1,6 @@
 # thnn
 
-原始路径：`thnn`　|　文件：**71**　|　主语言：JavaScript 50, JSON 16, TypeScript 1
+原始路径：`thnn`　|　文件：**70**　|　主语言：JavaScript 50, JSON 16, TypeScript 1
 
 ## 目录构成
 
@@ -10,13 +10,7 @@ assets/resources/  — 10
 packages/animformjson/  — 4
 packages/prefab-creator/  — 4
 build-templates/web-mobile/  — 3
-jsconfig.json/  — 1
-README.md/  — 1
-creator.d.ts/  — 1
-npm壓縮圖片.bat/  — 1
-project.json/  — 1
-settings/services.json/  — 1
-settings/project.json/  — 1
+settings/  — 2
 ```
 
 ## 关键文件

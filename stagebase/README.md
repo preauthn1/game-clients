@@ -1,6 +1,6 @@
 # stagebase
 
-原始路径：`stagebase`　|　文件：**553**　|　主语言：C# 436, Lua 59, XML 14
+原始路径：`stagebase`　|　文件：**552**　|　主语言：C# 436, Lua 59, XML 14
 
 ## 目录构成
 
@@ -8,11 +8,8 @@
 Assets/FrameWork/  — 356
 Assets/Plugins/  — 123
 Assets/Hall/  — 69
-README.md/  — 1
-Assets/RuntimeDebug.cs/  — 1
-Assets/RuntimeStats.cs/  — 1
-Assets/Test.cs/  — 1
-ProjectSettings/ProjectVersion.txt/  — 1
+Assets/  — 3
+ProjectSettings/  — 1
 ```
 
 ## 关键文件

@@ -1,6 +1,6 @@
 # slotgame
 
-原始路径：`slotgame`　|　文件：**217**　|　主语言：JavaScript 150, JSON 48, XML 10
+原始路径：`slotgame`　|　文件：**216**　|　主语言：JavaScript 150, JSON 48, XML 10
 
 ## 目录构成
 
@@ -12,13 +12,13 @@ assets/PantherMoon/  — 21
 node_modules/aes-js/  — 14
 assets/Lobby/  — 12
 node_modules/tween.js/  — 4
+assets/  — 4
 assets/Login/  — 4
 assets/GodOfWarM/  — 3
+settings/  — 3
 assets/Loading/  — 2
-jsconfig.json/  — 1
-README.md/  — 1
-creator.d.ts/  — 1
-project.json/  — 1
+assets/BonusBear/  — 1
+assets/GreatBlue/  — 1
 ```
 
 ## 关键文件

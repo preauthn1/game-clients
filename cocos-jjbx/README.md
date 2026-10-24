@@ -1,6 +1,6 @@
 # cocos-jjbx
 
-原始路径：`cocos-jjbx`　|　文件：**222**　|　主语言：JavaScript 119, JSON 46, HTML 3
+原始路径：`cocos-jjbx`　|　文件：**221**　|　主语言：JavaScript 119, JSON 46, HTML 3
 
 ## 目录构成
 
@@ -9,16 +9,16 @@ assets/Script/  — 82
 assets/resources/  — 62
 packages/i18n/  — 22
 packages/pngquant-master/  — 13
+build_bat/  — 9
 packages/animformjson/  — 4
 packages/prefab-creator/  — 4
 build-templates/web-mobile/  — 4
+settings/  — 4
 packages/setBlenders/  — 3
 packages/language/  — 3
 language/en-us/  — 2
 language/zh-cn/  — 2
-jsconfig.json/  — 1
-README.md/  — 1
-creator.d.ts/  — 1
+assets/  — 1
 ```
 
 ## 关键文件

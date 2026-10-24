@@ -1,6 +1,6 @@
 # cocos-xlhd
 
-原始路径：`cocos-xlhd`　|　文件：**142**　|　主语言：JavaScript 93, JSON 25, HTML 5
+原始路径：`cocos-xlhd`　|　文件：**141**　|　主语言：JavaScript 93, JSON 25, HTML 5
 
 ## 目录构成
 
@@ -14,11 +14,11 @@ packages/script-creator/  — 4
 packages/prefab-creator/  — 4
 packages/export-prefab/  — 4
 build-templates/web-mobile/  — 4
+settings/  — 4
 language/en-us/  — 4
 language/zh-cn/  — 4
 packages/language/  — 3
-jsconfig.json/  — 1
-README.md/  — 1
+build_bat/  — 3
 ```
 
 ## 关键文件

@@ -1,6 +1,6 @@
 # cocos-hdc
 
-原始路径：`cocos-hdc`　|　文件：**179**　|　主语言：JavaScript 92, JSON 42, CSS 2
+原始路径：`cocos-hdc`　|　文件：**178**　|　主语言：JavaScript 92, JSON 42, CSS 2
 
 ## 目录构成
 
@@ -14,11 +14,10 @@ packages/pngquant-master/  — 13
 packages/animformjson/  — 4
 packages/prefab-creator/  — 4
 build-templates/web-mobile/  — 4
+settings/  — 4
 packages/language/  — 3
-jsconfig.json/  — 1
-README.md/  — 1
-creator.d.ts/  — 1
-npm壓縮圖片.bat/  — 1
+build_bat/  — 3
+assets/  — 2
 ```
 
 ## 关键文件

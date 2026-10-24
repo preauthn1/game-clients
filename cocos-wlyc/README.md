@@ -1,6 +1,6 @@
 # cocos-wlyc
 
-原始路径：`cocos-wlyc`　|　文件：**185**　|　主语言：JavaScript 107, JSON 52, HTML 3
+原始路径：`cocos-wlyc`　|　文件：**184**　|　主语言：JavaScript 107, JSON 52, HTML 3
 
 ## 目录构成
 
@@ -9,16 +9,15 @@ assets/Script/  — 72
 assets/Animation/  — 40
 packages/i18n/  — 22
 packages/pngquant-master/  — 13
+build_bat/  — 8
 packages/animformjson/  — 4
 packages/prefab-creator/  — 4
 build-templates/web-mobile/  — 4
+settings/  — 4
 assets/resources/  — 3
 packages/language/  — 3
-jsconfig.json/  — 1
-README.md/  — 1
-creator.d.ts/  — 1
-npm壓縮圖片.bat/  — 1
-用法.txt/  — 1
+assets/  — 1
+logo/  — 1
 ```
 
 ## 关键文件

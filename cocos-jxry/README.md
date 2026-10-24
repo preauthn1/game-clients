@@ -1,6 +1,6 @@
 # cocos-jxry
 
-原始路径：`cocos-jxry`　|　文件：**138**　|　主语言：JavaScript 77, JSON 32, TypeScript 1
+原始路径：`cocos-jxry`　|　文件：**137**　|　主语言：JavaScript 77, JSON 32, TypeScript 1
 
 ## 目录构成
 
@@ -10,15 +10,8 @@ assets/resources/  — 48
 packages/animformjson/  — 4
 packages/prefab-creator/  — 4
 build-templates/web-mobile/  — 3
-jsconfig.json/  — 1
-README.md/  — 1
-creator.d.ts/  — 1
-npm壓縮圖片.bat/  — 1
-用法.txt/  — 1
-project.json/  — 1
-assets/GameLayer.json/  — 1
-settings/services.json/  — 1
-settings/project.json/  — 1
+settings/  — 2
+assets/  — 1
 ```
 
 ## 关键文件

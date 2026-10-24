@@ -1,6 +1,6 @@
 # ddynh-nullhall
 
-原始路径：`ddynh-nullhall`　|　文件：**623**　|　主语言：C# 379, Lua 156, XML 14
+原始路径：`ddynh-nullhall`　|　文件：**622**　|　主语言：C# 379, Lua 156, XML 14
 
 ## 目录构成
 
@@ -9,16 +9,13 @@ Assets/FrameWork/  — 251
 Assets/Hall/  — 161
 Assets/Plugins/  — 157
 Assets/Editor/  — 22
+UtilityBat/  — 8
 Assets/PlayServicesResolver/  — 7
+Assets/  — 6
 Assets/FX/  — 2
 Assets/iOS/  — 2
 Assets/codeandweb.com/  — 2
-README.md/  — 1
-設定.txt/  — 1
-帐号.txt/  — 1
-appkey说明.txt/  — 1
-Assets/RuntimeDebug.cs/  — 1
-Assets/RuntimeStats.cs/  — 1
+ProjectSettings/  — 1
 ```
 
 ## 关键文件

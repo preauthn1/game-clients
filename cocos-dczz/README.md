@@ -1,6 +1,6 @@
 # cocos-dczz
 
-原始路径：`cocos-dczz`　|　文件：**156**　|　主语言：JavaScript 95, JSON 31, CSS 2
+原始路径：`cocos-dczz`　|　文件：**155**　|　主语言：JavaScript 95, JSON 31, CSS 2
 
 ## 目录构成
 
@@ -13,12 +13,11 @@ Language/ZH-CN/  — 9
 packages/animformjson/  — 4
 packages/prefab-creator/  — 4
 build-templates/web-mobile/  — 4
+settings/  — 4
 packages/language/  — 3
 packages/hookParticles/  — 3
-jsconfig.json/  — 1
-README.md/  — 1
-creator.d.ts/  — 1
-npm壓縮圖片.bat/  — 1
+build_bat/  — 3
+assets/  — 1
 ```
 
 ## 关键文件

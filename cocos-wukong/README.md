@@ -1,6 +1,6 @@
 # cocos-wukong
 
-原始路径：`cocos-wukong`　|　文件：**182**　|　主语言：JSON 92, JavaScript 81, TypeScript 1
+原始路径：`cocos-wukong`　|　文件：**181**　|　主语言：JSON 92, JavaScript 81, TypeScript 1
 
 ## 目录构成
 
@@ -10,15 +10,10 @@ assets/Script/  — 57
 packages/i18n/  — 22
 packages/DragonWing/  — 5
 packages/animformjson/  — 4
+settings/  — 4
 assets/resources/  — 3
-jsconfig.json/  — 1
-README.md/  — 1
-tsconfig.json/  — 1
-creator.d.ts/  — 1
-project.json/  — 1
-assets/DBAD_Data.csv/  — 1
-settings/i18n.json/  — 1
-settings/builder.json/  — 1
+assets/  — 1
+參考/  — 1
 ```
 
 ## 关键文件

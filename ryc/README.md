@@ -1,6 +1,6 @@
 # ryc
 
-原始路径：`ryc`　|　文件：**31**　|　主语言：JSON 15, XML 3, TypeScript 3
+原始路径：`ryc`　|　文件：**30**　|　主语言：JSON 15, XML 3, TypeScript 3
 
 ## 目录构成
 
@@ -9,9 +9,6 @@ native/engine/  — 14
 profiles/v2/  — 7
 settings/v2/  — 4
 assets/scripts/  — 3
-package.json/  — 1
-README.md/  — 1
-tsconfig.json/  — 1
 ```
 
 ## 关键文件

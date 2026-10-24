@@ -1,6 +1,6 @@
 # by3d
 
-原始路径：`by3d`　|　文件：**961**　|　主语言：JavaScript 445, JSON 234, TypeScript 19
+原始路径：`by3d`　|　文件：**960**　|　主语言：JavaScript 445, JSON 234, TypeScript 19
 
 ## 目录构成
 
@@ -13,12 +13,11 @@ packages/pngquant-master/  — 13
 assets/resources/  — 5
 packages/animformjson/  — 4
 packages/prefab-creator/  — 4
+settings/  — 4
 packages/language/  — 3
+build_bat/  — 3
 build-templates/web-mobile/  — 3
-jsconfig.json/  — 1
-README.md/  — 1
-creator.d.ts/  — 1
-npm壓縮圖片.bat/  — 1
+plugin-resource/js/  — 1
 ```
 
 ## 关键文件

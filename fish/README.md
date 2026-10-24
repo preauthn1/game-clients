@@ -1,13 +1,12 @@
 # fish
 
-原始路径：`fish`　|　文件：**1258**　|　主语言：C# 1204, HTML 13, JavaScript 11
+原始路径：`fish`　|　文件：**1257**　|　主语言：C# 1204, HTML 13, JavaScript 11
 
 ## 目录构成
 
 ```
 Fish/Assets/  — 1243
 cocostowerdefend/towerdefend1/  — 11
-README.md/  — 1
 Fish/UnityPackageManager/  — 1
 Fish/Packages/  — 1
 Fish/ProjectSettings/  — 1

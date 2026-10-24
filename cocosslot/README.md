@@ -1,23 +1,15 @@
 # cocosslot
 
-原始路径：`cocosslot`　|　文件：**33**　|　主语言：JavaScript 17, JSON 9, TypeScript 4
+原始路径：`cocosslot`　|　文件：**32**　|　主语言：JavaScript 17, JSON 9, TypeScript 4
 
 ## 目录构成
 
 ```
 assets/Script/  — 17
 packages/animformjson/  — 4
+settings/  — 4
 assets/Spine/  — 2
-jsconfig.json/  — 1
-README.md/  — 1
-creator.d.ts/  — 1
-template.json/  — 1
-project.json/  — 1
 assets/resources/  — 1
-settings/builder.panel.json/  — 1
-settings/builder.json/  — 1
-settings/services.json/  — 1
-settings/project.json/  — 1
 ```
 
 ## 关键文件

@@ -1,6 +1,6 @@
 # lobby
 
-原始路径：`lobby`　|　文件：**1183**　|　主语言：C# 1132, HTML 13, JavaScript 9
+原始路径：`lobby`　|　文件：**1182**　|　主语言：C# 1132, HTML 13, JavaScript 9
 
 ## 目录构成
 
@@ -17,8 +17,8 @@ Assets/MobileApp/  — 10
 Assets/Slot88/  — 9
 Assets/Plugins/  — 6
 Assets/common/  — 6
+Assets/  — 5
 Assets/BitmapFontImporter/  — 4
-Assets/codeandweb.com/  — 2
 ```
 
 ## 关键文件

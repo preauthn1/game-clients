@@ -1,24 +1,16 @@
 # cocos-hall
 
-原始路径：`cocos-hall`　|　文件：**42**　|　主语言：JavaScript 23, JSON 10, CSS 2
+原始路径：`cocos-hall`　|　文件：**41**　|　主语言：JavaScript 23, JSON 10, CSS 2
 
 ## 目录构成
 
 ```
 packages/i18n/  — 22
 build-templates/web-mobile/  — 4
+settings/  — 4
 packages/language/  — 3
 assets/Script/  — 2
 assets/resources/  — 2
-jsconfig.json/  — 1
-README.md/  — 1
-tsconfig.json/  — 1
-creator.d.ts/  — 1
-project.json/  — 1
-settings/i18n.json/  — 1
-settings/builder.json/  — 1
-settings/services.json/  — 1
-settings/project.json/  — 1
 ```
 
 ## 关键文件

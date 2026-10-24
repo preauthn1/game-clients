@@ -1,6 +1,6 @@
 # cocos-general
 
-原始路径：`cocos-general`　|　文件：**127**　|　主语言：JavaScript 84, JSON 36, TypeScript 1
+原始路径：`cocos-general`　|　文件：**126**　|　主语言：JavaScript 84, JSON 36, TypeScript 1
 
 ## 目录构成
 
@@ -9,16 +9,8 @@ assets/Script/  — 63
 assets/Animation/  — 26
 packages/i18n/  — 22
 packages/animformjson/  — 4
+settings/  — 4
 assets/resources/  — 3
-jsconfig.json/  — 1
-README.md/  — 1
-tsconfig.json/  — 1
-creator.d.ts/  — 1
-project.json/  — 1
-settings/i18n.json/  — 1
-settings/builder.json/  — 1
-settings/services.json/  — 1
-settings/project.json/  — 1
 ```
 
 ## 关键文件
