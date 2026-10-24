@@ -1,11 +1,26 @@
-Cocos版本
-Creator 3.6.2
+# cjlhlp
 
-使用套件
-====== Cocos Store ======
-i18n
+原始路径：`cjlhlp`　|　收录文件：**62**
 
-====== npm ======
-npm install 自動安裝下列dependencies 套件
-“long”: “^5.2.1”,
-“protobufjs”: “^7.2.0”
+## 语言构成
+
+- TypeScript — 53 个文件（85%）
+- JSON — 8 个文件（12%）
+- Markdown — 1 个文件（1%）
+
+## 目录结构
+
+```
+assets/  (53 个文件)
+settings/  (5 个文件)
+./  (4 个文件)
+```
+
+## 关键文件
+
+- 依赖清单：`package.json`
+
+## 说明
+
+文本源码与配置的静态快照；二进制资源未收录。发布前已按本目录实际内容替换凭据、密钥、内网地址与域名。
+

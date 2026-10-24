@@ -1,12 +1,28 @@
-Cocos版本  
-Creator 3.6.2  
+# jzyq
 
-使用套件  
-====== Cocos Store ======  
-i18n  
-  
-====== npm ======  
-npm install 自動安裝下列dependencies 套件  
-"long": "^5.2.1",  
-"protobufjs": "^7.2.0"  
+原始路径：`jzyq`　|　收录文件：**64**
+
+## 语言构成
+
+- TypeScript — 50 个文件（83%）
+- JSON — 9 个文件（15%）
+- Markdown — 1 个文件（1%）
+
+## 目录结构
+
+```
+assets/  (52 个文件)
+settings/  (5 个文件)
+./  (4 个文件)
+Proto/  (2 个文件)
+.creator/  (1 个文件)
+```
+
+## 关键文件
+
+- 依赖清单：`package.json`
+
+## 说明
+
+文本源码与配置的静态快照；二进制资源未收录。发布前已按本目录实际内容替换凭据、密钥、内网地址与域名。
 

@@ -1,24 +1,30 @@
-# slot88lobby
+# web-lobby
 
-## Project setup
+原始路径：`web-lobby`　|　收录文件：**77**
+
+## 语言构成
+
+- Vue — 34 个文件（49%）
+- JavaScript — 21 个文件（30%）
+- JSON — 10 个文件（14%）
+- CSS — 2 个文件（2%）
+- Markdown — 1 个文件（1%）
+- HTML — 1 个文件（1%）
+
+## 目录结构
+
 ```
-npm install
+src/  (63 个文件)
+./  (13 个文件)
+public/  (1 个文件)
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 关键文件
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- 依赖清单：`package.json`
+- 前端入口：`src/main.js`、`public/index.html`
 
-### Lints and fixes files
-```
-npm run lint
-```
+## 说明
 
-### Customize configuration
-See [Configuration Reference](https://example.invalid/config/).
+文本源码与配置的静态快照；二进制资源未收录。发布前已按本目录实际内容替换凭据、密钥、内网地址与域名。
+
