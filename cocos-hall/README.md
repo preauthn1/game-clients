@@ -1,32 +1,43 @@
 # cocos-hall
 
-原始路径：`cocos-hall`　|　收录文件：**41**
+原始路径：`cocos-hall`　|　文件：**42**　|　主语言：JavaScript 23, JSON 10, CSS 2
 
-## 语言构成
-
-- JavaScript — 23 个文件（58%）
-- JSON — 10 个文件（25%）
-- CSS — 2 个文件（5%）
-- HTML — 2 个文件（5%）
-- TypeScript — 1 个文件（2%）
-- Markdown — 1 个文件（2%）
-
-## 目录结构
+## 目录构成
 
 ```
-packages/  (25 个文件)
-./  (4 个文件)
-assets/  (4 个文件)
-build-templates/  (4 个文件)
-settings/  (4 个文件)
+packages/i18n/  — 22
+build-templates/web-mobile/  — 4
+packages/language/  — 3
+assets/Script/  — 2
+assets/resources/  — 2
+jsconfig.json/  — 1
+README.md/  — 1
+tsconfig.json/  — 1
+creator.d.ts/  — 1
+project.json/  — 1
+settings/i18n.json/  — 1
+settings/builder.json/  — 1
+settings/services.json/  — 1
+settings/project.json/  — 1
 ```
 
 ## 关键文件
 
 - 依赖清单：`packages/i18n/package.json`、`packages/language/package.json`
-- 前端入口：`packages/i18n/main.js`、`packages/language/main.js`、`build-templates/web-mobile/index.html`、`build-templates/web-mobile/main.js`
+- 前端入口：`packages/i18n/main.js`、`packages/language/main.js`、`build-templates/web-mobile/index.html`
+
+## 主要文件
+
+- `build-templates/web-mobile/cocos2d-js-min.js`
+- `creator.d.ts`
+- `assets/Script/hall.js`
+- `assets/Script/md5.js`
+- `build-templates/web-mobile/index.html`
+- `build-templates/web-mobile/main.js`
+- `packages/i18n/README.md`
+- `packages/i18n/runtime-scripts/LanguageData.js`
 
 ## 说明
 
-文本源码与配置的静态快照；二进制资源未收录。发布前已按本目录实际内容替换凭据、密钥、内网地址与域名。
+该工程为平台的一个组件。仅收录文本源码与配置，图片、音频等二进制资源未收录；凭据、密钥、内网地址与域名已按实际内容替换。
 

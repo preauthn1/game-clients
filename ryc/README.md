@@ -1,31 +1,35 @@
 # ryc
 
-原始路径：`ryc`　|　收录文件：**31**
+原始路径：`ryc`　|　文件：**31**　|　主语言：JSON 15, XML 3, TypeScript 3
 
-## 语言构成
-
-- JSON — 15 个文件（60%）
-- XML — 3 个文件（12%）
-- TypeScript — 3 个文件（12%）
-- Java — 2 个文件（8%）
-- Markdown — 1 个文件（4%）
-- C++ — 1 个文件（4%）
-
-## 目录结构
+## 目录构成
 
 ```
-native/  (14 个文件)
-profiles/  (7 个文件)
-settings/  (4 个文件)
-./  (3 个文件)
-assets/  (3 个文件)
+native/engine/  — 14
+profiles/v2/  — 7
+settings/v2/  — 4
+assets/scripts/  — 3
+package.json/  — 1
+README.md/  — 1
+tsconfig.json/  — 1
 ```
 
 ## 关键文件
 
 - 依赖清单：`package.json`
 
+## 主要文件
+
+- `profiles/v2/packages/scene.json`
+- `profiles/v2/packages/builder.json`
+- `native/engine/android/instantapp/src/com/cocos/game/InstantActivity.java`
+- `native/engine/android/app/src/com/cocos/game/AppActivity.java`
+- `native/engine/android/app/build.gradle`
+- `native/engine/android/instantapp/build.gradle`
+- `settings/v2/packages/engine.json`
+- `native/engine/common/CMakeLists.txt`
+
 ## 说明
 
-文本源码与配置的静态快照；二进制资源未收录。发布前已按本目录实际内容替换凭据、密钥、内网地址与域名。
+该工程为平台的一个组件。仅收录文本源码与配置，图片、音频等二进制资源未收录；凭据、密钥、内网地址与域名已按实际内容替换。
 

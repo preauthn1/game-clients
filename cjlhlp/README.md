@@ -1,26 +1,35 @@
 # cjlhlp
 
-原始路径：`cjlhlp`　|　收录文件：**62**
+原始路径：`cjlhlp`　|　文件：**62**　|　主语言：TypeScript 53, JSON 8
 
-## 语言构成
-
-- TypeScript — 53 个文件（85%）
-- JSON — 8 个文件（12%）
-- Markdown — 1 个文件（1%）
-
-## 目录结构
+## 目录构成
 
 ```
-assets/  (53 个文件)
-settings/  (5 个文件)
-./  (4 个文件)
+assets/scripts/  — 50
+settings/v2/  — 5
+assets/resources/  — 3
+package.json/  — 1
+README.md/  — 1
+tsconfig.json/  — 1
+package-lock.json/  — 1
 ```
 
 ## 关键文件
 
 - 依赖清单：`package.json`
 
+## 主要文件
+
+- `assets/scripts/Proto/Msg/gameMsg.ts`
+- `assets/scripts/Proto/Game/GameMsg_Roulette.ts`
+- `assets/scripts/Proto/Msg/gameRoomMsg.ts`
+- `assets/scripts/Game/BetTableHandler.ts`
+- `assets/scripts/Proto/Msg/commonMsg.ts`
+- `assets/scripts/Game/RouletteHandler.ts`
+- `package-lock.json`
+- `assets/scripts/CocosFrameworks/Proto/ProtoTool.ts`
+
 ## 说明
 
-文本源码与配置的静态快照；二进制资源未收录。发布前已按本目录实际内容替换凭据、密钥、内网地址与域名。
+该工程为平台的一个组件。仅收录文本源码与配置，图片、音频等二进制资源未收录；凭据、密钥、内网地址与域名已按实际内容替换。
 

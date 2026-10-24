@@ -1,28 +1,37 @@
 # stagebase
 
-原始路径：`stagebase`　|　收录文件：**552**
+原始路径：`stagebase`　|　文件：**553**　|　主语言：C# 436, Lua 59, XML 14
 
-## 语言构成
-
-- C# — 436 个文件（84%）
-- Lua — 59 个文件（11%）
-- XML — 14 个文件（2%）
-- C++ — 2 个文件（0%）
-- Markdown — 2 个文件（0%）
-
-## 目录结构
+## 目录构成
 
 ```
-Assets/  (551 个文件)
-ProjectSettings/  (1 个文件)
+Assets/FrameWork/  — 356
+Assets/Plugins/  — 123
+Assets/Hall/  — 69
+README.md/  — 1
+Assets/RuntimeDebug.cs/  — 1
+Assets/RuntimeStats.cs/  — 1
+Assets/Test.cs/  — 1
+ProjectSettings/ProjectVersion.txt/  — 1
 ```
 
 ## 关键文件
 
-- 主程序：`Assets/FrameWork/Scripts/Main.cs`
+- 服务端主程序：`Assets/FrameWork/Scripts/Main.cs`
 - Unity 工程：`ProjectSettings/ProjectVersion.txt`
+
+## 主要文件
+
+- `Assets/FrameWork/Anima2D/Anima2D/Scripts/Editor/Triangle/NewLocation.cs`
+- `Assets/FrameWork/Demigiant/DOTween/DOTween.XML`
+- `Assets/FrameWork/Anima2D/Anima2D/Scripts/Editor/Triangle/Mesh.cs`
+- `Assets/FrameWork/XLua/Src/CodeEmit.cs`
+- `Assets/Plugins/Spine/spine-unity/Editor/SpineEditorUtilities.cs`
+- `Assets/FrameWork/XLua/Src/Editor/Generator.cs`
+- `Assets/FrameWork/Demigiant/DemiLib/Core/Editor/DemiEditor.xml`
+- `Assets/FrameWork/XLua/Src/Utils.cs`
 
 ## 说明
 
-文本源码与配置的静态快照；二进制资源未收录。发布前已按本目录实际内容替换凭据、密钥、内网地址与域名。
+该工程为平台的一个组件。仅收录文本源码与配置，图片、音频等二进制资源未收录；凭据、密钥、内网地址与域名已按实际内容替换。
 

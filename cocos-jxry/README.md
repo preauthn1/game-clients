@@ -1,31 +1,43 @@
 # cocos-jxry
 
-原始路径：`cocos-jxry`　|　收录文件：**137**
+原始路径：`cocos-jxry`　|　文件：**138**　|　主语言：JavaScript 77, JSON 32, TypeScript 1
 
-## 语言构成
-
-- JavaScript — 77 个文件（68%）
-- JSON — 32 个文件（28%）
-- TypeScript — 1 个文件（0%）
-- CSS — 1 个文件（0%）
-- HTML — 1 个文件（0%）
-
-## 目录结构
+## 目录构成
 
 ```
-assets/  (119 个文件)
-packages/  (8 个文件)
-./  (5 个文件)
-build-templates/  (3 个文件)
-settings/  (2 个文件)
+assets/Script/  — 70
+assets/resources/  — 48
+packages/animformjson/  — 4
+packages/prefab-creator/  — 4
+build-templates/web-mobile/  — 3
+jsconfig.json/  — 1
+README.md/  — 1
+creator.d.ts/  — 1
+npm壓縮圖片.bat/  — 1
+用法.txt/  — 1
+project.json/  — 1
+assets/GameLayer.json/  — 1
+settings/services.json/  — 1
+settings/project.json/  — 1
 ```
 
 ## 关键文件
 
 - 依赖清单：`packages/animformjson/package.json`、`packages/prefab-creator/package.json`
-- 前端入口：`packages/animformjson/main.js`、`packages/prefab-creator/main.js`、`build-templates/web-mobile/index.html`、`build-templates/web-mobile/main.js`
+- 前端入口：`packages/animformjson/main.js`、`packages/prefab-creator/main.js`、`build-templates/web-mobile/index.html`
+
+## 主要文件
+
+- `creator.d.ts`
+- `assets/Script/Game/Proto/GameMsg_JXRY.js`
+- `assets/Script/Base/Proto/Msg/GameMsg.js`
+- `assets/Script/Base/protobuf.js`
+- `assets/GameLayer.json`
+- `assets/Script/Base/async.js`
+- `assets/Script/Base/Proto/Msg/NotifyServerMsg.js`
+- `assets/Script/Base/Proto/Msg/GameRoomMsg.js`
 
 ## 说明
 
-文本源码与配置的静态快照；二进制资源未收录。发布前已按本目录实际内容替换凭据、密钥、内网地址与域名。
+该工程为平台的一个组件。仅收录文本源码与配置，图片、音频等二进制资源未收录；凭据、密钥、内网地址与域名已按实际内容替换。
 

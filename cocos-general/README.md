@@ -1,23 +1,24 @@
 # cocos-general
 
-原始路径：`cocos-general`　|　收录文件：**126**
+原始路径：`cocos-general`　|　文件：**127**　|　主语言：JavaScript 84, JSON 36, TypeScript 1
 
-## 语言构成
-
-- JavaScript — 84 个文件（67%）
-- JSON — 36 个文件（29%）
-- TypeScript — 1 个文件（0%）
-- Markdown — 1 个文件（0%）
-- CSS — 1 个文件（0%）
-- HTML — 1 个文件（0%）
-
-## 目录结构
+## 目录构成
 
 ```
-assets/  (92 个文件)
-packages/  (26 个文件)
-./  (4 个文件)
-settings/  (4 个文件)
+assets/Script/  — 63
+assets/Animation/  — 26
+packages/i18n/  — 22
+packages/animformjson/  — 4
+assets/resources/  — 3
+jsconfig.json/  — 1
+README.md/  — 1
+tsconfig.json/  — 1
+creator.d.ts/  — 1
+project.json/  — 1
+settings/i18n.json/  — 1
+settings/builder.json/  — 1
+settings/services.json/  — 1
+settings/project.json/  — 1
 ```
 
 ## 关键文件
@@ -25,7 +26,18 @@ settings/  (4 个文件)
 - 依赖清单：`packages/animformjson/package.json`、`packages/i18n/package.json`
 - 前端入口：`packages/animformjson/main.js`、`packages/i18n/main.js`
 
+## 主要文件
+
+- `creator.d.ts`
+- `assets/Script/Base/Proto/Msg/GameMsg.js`
+- `assets/Script/Base/protobuf.js`
+- `assets/Animation/general_01_part1/gen01_part1_ske.json`
+- `assets/Script/Game/Proto/Game_GEN.js`
+- `assets/Script/Base/async.js`
+- `assets/Animation/general_04_part2/general_04_part2_ske.json`
+- `assets/Script/Base/Proto/Msg/NotifyServerMsg.js`
+
 ## 说明
 
-文本源码与配置的静态快照；二进制资源未收录。发布前已按本目录实际内容替换凭据、密钥、内网地址与域名。
+该工程为平台的一个组件。仅收录文本源码与配置，图片、音频等二进制资源未收录；凭据、密钥、内网地址与域名已按实际内容替换。
 
