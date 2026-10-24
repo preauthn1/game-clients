@@ -1,6 +1,8 @@
 # jzyq
 
-原始路径：`jzyq`　|　文件：**63**　|　主语言：TypeScript 50, JSON 9
+> 本目录原始 README 见文末，本节为快照补充信息。
+
+原始路径：`jzyq`　|　文件 **63**　|　主语言：TypeScript 50, JSON 9
 
 ## 目录构成
 
@@ -13,22 +15,19 @@ assets/Protobuf/  — 2
 .creator/  — 1
 ```
 
-## 关键文件
+---
 
-- 依赖清单：`package.json`
+## 原始说明
 
-## 主要文件
+Cocos版本  
+Creator 3.6.2  
 
-- `assets/scripts/Proto/Msg/gameMsg.ts`
-- `assets/scripts/Proto/Msg/gameRoomMsg.ts`
-- `assets/scripts/Proto/Game/GameMsg_JZYQ.ts`
-- `assets/scripts/Proto/Msg/commonMsg.ts`
-- `assets/scripts/Game/GlowHandler.ts`
-- `assets/scripts/Game/MainController.ts`
-- `assets/scripts/Data/GameDataManager.ts`
-- `assets/scripts/Tools/ProtoTool.ts`
-
-## 说明
-
-该工程为平台的一个组件。仅收录文本源码与配置，图片、音频等二进制资源未收录；凭据、密钥、内网地址与域名已按实际内容替换。
+使用套件  
+====== Cocos Store ======  
+i18n  
+  
+====== npm ======  
+npm install 自動安裝下列dependencies 套件  
+"long": "^5.2.1",  
+"protobufjs": "^7.2.0"
 

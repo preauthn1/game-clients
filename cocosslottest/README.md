@@ -1,6 +1,8 @@
 # cocosslottest
 
-原始路径：`cocosslottest`　|　文件：**14**　|　主语言：JSON 6, JavaScript 4, C# 2
+> 本目录原始 README 见文末，本节为快照补充信息。
+
+原始路径：`cocosslottest`　|　文件 **14**　|　主语言：JSON 6, JavaScript 4, C# 2
 
 ## 目录构成
 
@@ -14,21 +16,37 @@ assets/Script/  — 1
 
 ## 关键文件
 
-- 依赖清单：`packages/prefab-creator/package.json`
 - 前端入口：`packages/prefab-creator/main.js`
 
-## 主要文件
+---
 
-- `creator.d.ts`
-- `assets/GameLayer.json`
-- `unity/Editor/ExoprtPrefabToJson.cs`
-- `packages/prefab-creator/prefab-creator.js`
-- `unity/Editor/ExoprtUISpritePrefabToJson.cs`
-- `packages/prefab-creator/panel/index.js`
-- `assets/Script/SetZIndex.js`
-- `settings/project.json`
+## 原始说明
 
-## 说明
+# unity 介面转换成 cocos creator 介面 
 
-该工程为平台的一个组件。仅收录文本源码与配置，图片、音频等二进制资源未收录；凭据、密钥、内网地址与域名已按实际内容替换。
+## 1.unity中将界面生成json档案  
+设定套件：  
+将unity中的Editor和Plugins资料夹复制到unity里  
+  
+使用方式：  
+(1) 先选择要生成json的介面  
+(2) 生成json档案 Cocos -> Export To Jsopn  
+(3) 选择储存路径  
+  
+![image](http://0.0.0.0/client/cocosslottest/raw/master/readmePic/Image%208.png)
+
+## 2.cocos中将json档案生成介面  
+开启面版：  
+点 扩展 -> Prefab生成工具 开启json生成介面面板  
+  
+使用方式：  
+(1) 将场景大小改成 1334 * 750
+(2) 将美术图放到UI资料夹  
+(3) 将字型放到Font资料夹  
+(4) 选择档案路径  
+(5) 指定json档案  
+(6) 生成介面  
+(7) 生成的介面会在prefab资料夹中  
+  
+![image](http://0.0.0.0/client/cocosslottest/raw/master/readmePic/Image%2011.png)
 

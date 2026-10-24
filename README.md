@@ -1,6 +1,6 @@
 # game-clients
 
-63 个工程，12666 个文本文件。每个目录内的 README.md 描述该工程。
+64 个工程，12666 个文本文件。每目录一份 README（结构信息 + 原始说明）。
 
 ## 索引
 
@@ -48,6 +48,7 @@
 | [`cocosslottest`](./cocosslottest) | packages/prefab-creator · unity/Editor · settings | 14 | JSON |
 | [`ddynh-nullhall`](./ddynh-nullhall) | Assets/FrameWork · Assets/Hall · Assets/Plugins | 622 | C# |
 | [`ddynh-publish`](./ddynh-publish) | Editor | 7 | C# |
+| [`document`](./document) | — | 0 | — |
 | [`fish`](./fish) | Fish/Assets · cocostowerdefend/towerdefend1 · Fish/UnityPackageManager | 1257 | C# |
 | [`fisharcade`](./fisharcade) | assets/FishArcade · node_modules/aes-js · build/web-mobile | 178 | JavaScript |
 | [`fruitchop`](./fruitchop) | assets/Script · packages/i18n · packages/animformjson | 100 | JavaScript |
@@ -65,7 +66,7 @@
 | [`stagebase`](./stagebase) | Assets/FrameWork · Assets/Plugins · Assets/Hall | 552 | C# |
 | [`thnn`](./thnn) | assets/Script · assets/resources · packages/animformjson | 70 | JavaScript |
 | [`tool`](./tool) | plist2fnt · proto · build_bat | 108 | JavaScript |
-| [`utilibat`](./utilibat) |  | 10 | — |
+| [`utilibat`](./utilibat) | — | 10 | — |
 | [`web-lobby`](./web-lobby) | src/components · src/pages · src/store | 76 | Vue |
 | [`websocketserver`](./websocketserver) | proto · packages/Google.Protobuf.Tools.3.11.2 · packages/System.Numerics.Vectors.4.4.0 | 128 | XML |
 | [`xbjl`](./xbjl) | assets/Script · packages/i18n · assets/resources | 131 | JavaScript |

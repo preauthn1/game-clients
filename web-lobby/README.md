@@ -1,6 +1,8 @@
 # web-lobby
 
-原始路径：`web-lobby`　|　文件：**76**　|　主语言：Vue 34, JavaScript 21, JSON 10
+> 本目录原始 README 见文末，本节为快照补充信息。
+
+原始路径：`web-lobby`　|　文件 **76**　|　主语言：Vue 34, JavaScript 21, JSON 10
 
 ## 目录构成
 
@@ -17,21 +19,34 @@ public/  — 1
 
 ## 关键文件
 
-- 依赖清单：`package.json`
 - 前端入口：`src/main.js`、`public/index.html`
 
-## 主要文件
+---
 
-- `package-lock.json`
-- `src/assets/css/layout.scss`
-- `src/assets/css/layout.css`
-- `src/assets/css/layout.min.css`
-- `src/components/Lottery2.vue`
-- `src/pages/EventQuest.vue`
-- `src/utilities/mixin/commonMixin.js`
-- `src/pages/Home.vue`
+## 原始说明
 
-## 说明
+# slot88lobby
 
-该工程为平台的一个组件。仅收录文本源码与配置，图片、音频等二进制资源未收录；凭据、密钥、内网地址与域名已按实际内容替换。
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://example.invalid/config/).
 

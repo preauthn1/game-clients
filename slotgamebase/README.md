@@ -1,6 +1,8 @@
 # slotgamebase
 
-原始路径：`slotgamebase`　|　文件：**192**　|　主语言：JavaScript 176, JSON 8, Python 2
+> 本目录原始 README 见文末，本节为快照补充信息。
+
+原始路径：`slotgamebase`　|　文件 **192**　|　主语言：JavaScript 176, JSON 8, Python 2
 
 ## 目录构成
 
@@ -19,22 +21,9 @@ assets/Loading/  — 2
 assets/migration/  — 1
 ```
 
-## 关键文件
+---
 
-- 依赖清单：`node_modules/aes-js/package.json`、`node_modules/tween.js/package.json`
+## 原始说明
 
-## 主要文件
-
-- `creator.d.ts`
-- `assets/Common/Scripts/lib/state.com.js`
-- `node_modules/aes-js/index.js`
-- `assets/BaseView/MyBaseReelManagerView.js`
-- `assets/Common/Scripts/Controller/BaseGameController.js`
-- `assets/BaseView/MyBaseController.js`
-- `assets/BaseView/MyFeverGameManager.js`
-- `assets/Common/Scripts/View/BaseSlotMachineView.js`
-
-## 说明
-
-该工程为平台的一个组件。仅收录文本源码与配置，图片、音频等二进制资源未收录；凭据、密钥、内网地址与域名已按实际内容替换。
+# SlotGameBase
 

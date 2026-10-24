@@ -1,6 +1,8 @@
 # cjlhlp
 
-原始路径：`cjlhlp`　|　文件：**61**　|　主语言：TypeScript 53, JSON 8
+> 本目录原始 README 见文末，本节为快照补充信息。
+
+原始路径：`cjlhlp`　|　文件 **61**　|　主语言：TypeScript 53, JSON 8
 
 ## 目录构成
 
@@ -10,22 +12,19 @@ settings/v2/  — 5
 assets/resources/  — 3
 ```
 
-## 关键文件
+---
 
-- 依赖清单：`package.json`
+## 原始说明
 
-## 主要文件
+Cocos版本
+Creator 3.6.2
 
-- `assets/scripts/Proto/Msg/gameMsg.ts`
-- `assets/scripts/Proto/Game/GameMsg_Roulette.ts`
-- `assets/scripts/Proto/Msg/gameRoomMsg.ts`
-- `assets/scripts/Game/BetTableHandler.ts`
-- `assets/scripts/Proto/Msg/commonMsg.ts`
-- `assets/scripts/Game/RouletteHandler.ts`
-- `package-lock.json`
-- `assets/scripts/CocosFrameworks/Proto/ProtoTool.ts`
+使用套件
+====== Cocos Store ======
+i18n
 
-## 说明
-
-该工程为平台的一个组件。仅收录文本源码与配置，图片、音频等二进制资源未收录；凭据、密钥、内网地址与域名已按实际内容替换。
+====== npm ======
+npm install 自動安裝下列dependencies 套件
+“long”: “^5.2.1”,
+“protobufjs”: “^7.2.0”
 

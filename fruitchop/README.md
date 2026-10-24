@@ -1,6 +1,6 @@
 # fruitchop
 
-原始路径：`fruitchop`　|　文件：**100**　|　主语言：JavaScript 80, JSON 12, CSS 2
+原始路径：`fruitchop`　|　文件 **100**　|　主语言：JavaScript 80, JSON 12, CSS 2
 
 ## 目录构成
 
@@ -17,21 +17,5 @@ assets/UI/  — 1
 
 ## 关键文件
 
-- 依赖清单：`packages/animformjson/package.json`、`packages/i18n/package.json`、`packages/language/package.json`
 - 前端入口：`packages/animformjson/main.js`、`packages/i18n/main.js`、`packages/language/main.js`
-
-## 主要文件
-
-- `creator.d.ts`
-- `assets/Script/Base/Proto/Msg/GameMsg.js`
-- `assets/Script/Base/protobuf.js`
-- `assets/Script/Base/async.js`
-- `assets/Script/Base/Proto/Msg/NotifyServerMsg.js`
-- `assets/Script/Base/Proto/Msg/GameRoomMsg.js`
-- `assets/Script/Game/Proto/GameMsg_INFC.js`
-- `assets/Script/Base/Proto/Msg/CommonMsg.js`
-
-## 说明
-
-该工程为平台的一个组件。仅收录文本源码与配置，图片、音频等二进制资源未收录；凭据、密钥、内网地址与域名已按实际内容替换。
 
